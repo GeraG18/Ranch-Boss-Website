@@ -1,0 +1,14 @@
+{
+    "en":[
+        {
+            "name":"WARRANTY CLAIM",
+            "url":"/warranty-claim"
+        }
+    ],
+    "es":[
+        {
+            "name":"RECLAMACIÓN DE GARANTÍA",
+            "url":"/warranty-claim"
+        }
+    ]
+}

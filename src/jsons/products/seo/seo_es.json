@@ -1,0 +1,32 @@
+{
+    "AVSTBS01": {
+        "name": "Armor-Vault Caja De Camioneta De Servicio",
+        "title": "Armor-Vault Caja De Camioneta De Servicio | Ranch Boss",
+        "description": "",
+        "h1Tag": ""
+    },
+    "ABFBTBNS01": {
+        "name": "Armor-Bed Caja De Camioneta De Plataforma",
+        "title": "Armor-Bed Caja De Camioneta De Plataforma | Ranch Boss",
+        "description": "",
+        "h1Tag": ""
+    },
+    "ADFBTBS01": {
+        "name": "Armor-Deck Caja De Camioneta De Plataforma",
+        "title": "Armor-Deck Caja De Camioneta De Plataforma | Ranch Boss",
+        "description": "",
+        "h1Tag": ""
+    },
+    "ADPFBTBS01": {
+        "name": "Armor-Deck Caja De Camioneta De Plataforma Premium",
+        "title": "Armor-Deck Caja De Camioneta De Plataforma Premium | Ranch Boss",
+        "description": "",
+        "h1Tag": ""
+    },
+    "ACDTBS01": {
+        "name": "Armor-Clad Caja De Camioneta Con Cola De Milano",
+        "title": "Armor-Clad Caja De Camioneta Con Cola De Milano | Ranch Boss",
+        "description": "",
+        "h1Tag": ""
+    }
+}

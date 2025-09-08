@@ -1,0 +1,47 @@
+{
+    "AVSTBS01":{
+        "brochure":"",
+        "dimensionsPdf":"",
+        "dryWeightsPdf": "",
+        "videos":{
+            "action":"",
+            "review":""
+        }
+    },
+    "ABFBTBNS01":{
+        "brochure":"",
+        "dimensionsPdf":"",
+        "dryWeightsPdf": "",
+        "videos":{
+            "action":"",
+            "review":""
+        }
+    },
+    "ADFBTBS01":{
+        "brochure":"",
+        "dimensionsPdf":"",
+        "dryWeightsPdf": "",
+        "videos":{
+            "action":"",
+            "review":""
+        }
+    },
+    "ADPFBTBS01":{
+        "brochure":"",
+        "dimensionsPdf":"",
+        "dryWeightsPdf": "",
+        "videos":{
+            "action":"",
+            "review":""
+        }
+    },
+    "ACDTBS01":{
+        "brochure":"",
+        "dimensionsPdf":"",
+        "dryWeightsPdf": "",
+        "videos":{
+            "action":"",
+            "review":""
+        }
+    }
+}

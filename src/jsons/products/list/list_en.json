@@ -1,0 +1,141 @@
+[
+    {
+        "_comment":"CHECKED FORMAT: DD-MM-AA. LAST-MODIFICATION: 22-03-25",
+        "notes":"The images may not match with the product specs."
+    },
+    {
+        "_comment":"AVSTBS01 ARMOR-VAULT SERVICE TRUCK BED"
+    },
+    {
+        "id":"AVSTBS01",
+        "name":"ARMOR-VAULT SERVICE TRUCK BED",
+        "category":"SERVICE",
+        "subcategory":1,
+        "props":{
+            "type": [
+                "SERVICE"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "SKIRTED"
+            ],
+            "heavyDutyStructure": [
+                "11ga. DIAMOND PLATE STEEL "
+            ]
+        },
+        "image": ""
+    },
+    {
+        "_comment":"ABFBTBNS01 ARMOR-BED FLATBED TRUCK BED"
+    },
+    {
+        "id":"ABFBTBNS01",
+        "name":"ARMOR-BED FLATBED TRUCK BED",
+        "category":"FLATBED",
+        "subcategory":1,
+        "props":{
+            "type": [
+                "FLATBED"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "NON SKIRTED"
+            ],
+            "heavyDutyStructure": [
+                "11ga. DIAMOND PLATE STEEL "
+            ]
+        },
+        "image": ""
+    },
+    {
+        "_comment":"ADFBTBS01 ARMOR-DECK FLATBED TRUCK BED"
+    },
+    {
+        "id":"ADFBTBS01",
+        "name":"ARMOR-DECK FLATBED TRUCK BED",
+        "category":"FLATBED",
+        "subcategory":2,
+        "props":{
+            "type": [
+                "FLATBED"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "SKIRTED"
+            ],
+            "heavyDutyStructure": [
+                "11ga. DIAMOND PLATE STEEL "
+            ]
+        },
+        "image": ""
+    },
+    {
+        "_comment":"ADPFBTBS01 ARMOR-DECK PREMIUM FLATBED TRUCK BED"
+    },
+    {
+        "id":"ADPFBTBS01",
+        "name":"ARMOR-DECK PREMIUM FLATBED TRUCK BED",
+        "category":"FLATBED",
+        "subcategory":1,
+        "props":{
+            "type": [
+                "DOVETAIL"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "SKIRTED"
+            ],
+            "heavyDutyStructure": [
+                "11ga. DIAMOND PLATE STEEL "
+            ]
+        },
+        "image": ""
+    },
+    {
+        "_comment":"ACDTBS01 ARMOR-CLAD FLATBED TRUCK BED"
+    },
+    {
+        "id":"ACDTBS01",
+        "name":"ARMOR-CLAD DOVETAIL TRUCK BED",
+        "category":"DOVETAIL",
+        "subcategory":1,
+        "props":{
+            "type": [
+                "FLATBED"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "NON SKIRTED"
+            ],
+            "heavyDutyStructure": [
+                "11ga. DIAMOND PLATE STEEL "
+            ]
+        },
+        "image": ""
+    }
+]

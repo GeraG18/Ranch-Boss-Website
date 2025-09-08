@@ -1,0 +1,198 @@
+.advanced-marker-example .custom-marker {
+  cursor: pointer;
+  position: relative;
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+  z-index: 5 !important;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.advanced-marker-example .custom-marker .tip {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border: 8px solid var(--estate-green-dark);
+  border-radius: 0;
+  border-bottom-right-radius: 5px;
+  z-index: 5;
+  left: 50%;
+  transform: translateY(22%) translateX(-50%) rotate(45deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.advanced-marker-example .custom-pin {
+  /* border: 1px solid red; */
+  position: relative;
+  /* border: 1px solid #77787b; */
+  height: 34px;
+  width: fit-content;
+  max-width: 34px;
+  padding: 4px;
+  background-color: var(--estate-green-dark);
+  border-radius: 50%;
+  /* z-index: 5; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  /* box-shadow: rgba(240, 90, 34, 0.4) 5px 5px, rgba(240, 90, 34, 0.3) 10px 10px, rgba(240, 90, 34, 0.2) 15px 15px; */
+  transform-origin: bottom;
+  transition:
+    max-width 0.2s ease-in-out,
+    height 0.2s ease-in-out,
+    border-radius 0.2s ease-in-out;
+}
+
+.advanced-marker-example .custom-pin .close-button {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 8px;
+  border: none;
+  box-shadow: none;
+  background: none;
+  color: var(--estate-green-dark);
+  cursor: pointer;
+  z-index: 300;
+}
+
+.advanced-marker-example .custom-pin .image-container {
+  width: 100%;
+  height: 100%;
+  max-width: 25vw;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: inherit;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  z-index: 250 !important;
+  align-items: center;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.advanced-marker-example .custom-pin .image-container .icon {
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.advanced-marker-example .custom-marker.hovered {
+  z-index: 2;
+
+  transform: translateY(-9px);
+}
+.advanced-marker-example .custom-marker.hovered .custom-pin {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.advanced-marker-example
+  .custom-marker.hovered
+  .custom-pin
+  .image-container {
+  opacity: 1;
+  border-radius: inherit;
+}
+
+.advanced-marker-example
+  .custom-marker.hovered
+  .custom-pin
+  .image-container
+  .icon {
+  opacity: 0;
+}
+
+.advanced-marker-example .custom-marker.hovered .tip {
+  transform: translateY(23%) translateX(-50%) rotate(45deg) scale(1.4);
+}
+
+.advanced-marker-example .custom-marker.clicked {
+  /* border: 1px solid orange; */
+  transform: translateY(-9px);
+}
+
+.advanced-marker-example .custom-marker.clicked .custom-pin {
+  background-color: white;
+  width: fit-content;
+  max-width: 650px;
+  height: fit-content;
+  z-index: 200 !important;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 1rem 0rem;
+}
+.advanced-marker-example .custom-marker.clicked .tip {
+  border: 8px solid white;
+}
+
+.advanced-marker-example
+  .custom-marker.clicked
+  .custom-pin
+  .image-container {
+  border-radius: inherit;
+}
+
+.advanced-marker-example
+  .custom-marker.clicked
+  .custom-pin
+  .image-container
+  .icon {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.advanced-marker-example
+  .custom-marker.clicked
+  .custom-pin
+  .details-container {
+  max-width: 380px;
+  opacity: 1;
+  visibility: visible;
+
+  animation: slideInFadeIn 0.7s ease-in-out;
+}
+
+.advanced-marker-example
+  .custom-marker.clicked
+  .custom-pin
+  .close-button {
+  display: flex;
+}
+
+.advanced-marker-example
+  .custom-marker.clicked
+  .custom-pin
+  .details-container
+  .close-button
+  span {
+  font-size: 24px;
+}
+
+.advanced-marker-example .custom-marker.clicked .tip {
+  transform: translateY(23%) translateX(-50%) rotate(45deg) scale(1.4);
+}
+
+@keyframes slideInFadeIn {
+  0% {
+    max-width: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  75% {
+    max-width: 380px;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    max-width: 380px;
+    opacity: 1;
+    visibility: visible;
+  }
+}

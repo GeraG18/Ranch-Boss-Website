@@ -1,0 +1,38 @@
+{
+    "en":[
+        {
+            "id":1,
+            "name":"HORIZON TRAILERS HEADQUARTERS",
+            "address":"KM 38 Carr Ojo de la Yegua, Campo 64B 473, 31646 Chih.",
+            "schedule":"Monday - Friday: 8:00AM - 6:00PM EST",
+            "phoneNumber":"+52 614-980-0499",
+            "url":"https://maps.app.goo.gl/poqv2Xo8G5ZDtYhg8"
+        },
+        {
+            "id":2,
+            "name":"HORIZON TRAILERS LLC",
+            "address":"1163 Horizon Blvd, Socorro, TX 79927, USA.",
+            "schedule":"Monday - Friday: 8:00AM - 6:00PM EST",
+            "phoneNumber":"+1 915-455-8537",
+            "url":"https://maps.app.goo.gl/5qum3yFXSp39VvPz5"
+        }
+    ],
+    "es":[
+        {
+            "id":1,
+            "name":"HORIZON TRAILERS MATRIZ",
+            "address":"KM 38 Carr Ojo de la Yegua, Campo 64B 473, 31646 Chih.",
+            "schedule":"Lunes - Viernes: 8:00AM - 6:00PM EST",
+            "phoneNumber":"+52 614-980-0499",
+            "url":"https://maps.app.goo.gl/poqv2Xo8G5ZDtYhg8"
+        },
+        {
+            "id":2,
+            "name":"HORIZON TRAILERS LLC",
+            "address":"1163 Horizon Blvd, Socorro, TX 79927, E.U.",
+            "schedule":"Lunes - Viernes: 8:00AM - 6:00PM EST",
+            "phoneNumber":"+1 915-455-8537",
+            "url":"https://maps.app.goo.gl/5qum3yFXSp39VvPz5"
+        }
+    ]
+}

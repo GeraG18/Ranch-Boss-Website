@@ -1,0 +1,141 @@
+[
+    {
+        "_comment":"FORMATO COMPROBADO: DD-MM-AA. ÚLTIMA MODIFICACIÓN: 25-03-22",
+        "notes":"Las imágenes pueden no coincidir con las especificaciones del producto."
+    },
+    {
+        "_comment":"AVSTBS01 ARMOR-VAULT CAJA DE CAMIONETA DE SERVICIO"
+    },
+    {
+        "id":"AVSTBS01",
+        "name":"ARMOR-VAULT CAJA DE CAMIONETA DE SERVICIO",
+        "category":"SERVICIO",
+        "subcategory":1,
+        "props":{
+            "type": [
+                "SERVICIO"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "CON FALDÓN"
+            ],
+            "heavyDutyStructure": [
+                "ACERO CON PLACA DE DIAMANTE DE 11GA" 
+            ]
+        },
+        "image": ""
+    },
+    {
+        "_comment":"ABFBTBNS01 ARMOR-BED CAJA DE CAMIONETA DE PLATAFORMA"
+    },
+    {
+        "id":"ABFBTBNS01",
+        "name":"ARMOR-BED CAJA DE CAMIONETA DE PLATAFORMA",
+        "category":"PLATAFORMA",
+        "subcategory":1,
+        "props":{
+            "type": [
+                "PLATAFORMA"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "SIN FALDÓN"
+            ],
+            "heavyDutyStructure": [
+                "ACERO CON PLACA DE DIAMANTE DE 11GA" 
+            ]
+        },
+        "image": ""
+    },
+    {
+        "_comment":"ADFBTBS01 ARMOR-DECK CAJA DE CAMIONETA DE PLATAFORMA"
+    },
+    {
+        "id":"ADFBTBS01",
+        "name":"ARMOR-DECK CAJA DE CAMIONETA DE PLATAFORMA",
+        "category":"PLATAFORMA",
+        "subcategory":2,
+        "props":{
+            "type": [
+                "PLATAFORMA"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "CON FALDÓN"
+            ],
+            "heavyDutyStructure": [
+                "ACERO CON PLACA DE DIAMANTE DE 11GA" 
+            ]
+        },
+        "image": ""
+    },
+    {
+        "_comment":"ADPFBTBS01 ARMOR-DECK CAJA DE CAMIONETA DE PLATAFORMA PREMIUM"
+    },
+    {
+        "id":"ADPFBTBS01",
+        "name":"ARMOR-DECK CAJA DE CAMIONETA DE PLATAFORMA PREMIUM",
+        "category":"PLATAFORMA",
+        "subcategory":1,
+        "props":{
+            "type": [
+                "COLA DE MILANO"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "CON FALDÓN"
+            ],
+            "heavyDutyStructure": [
+                "ACERO CON PLACA DE DIAMANTE DE 11GA" 
+            ]
+        },
+        "image": ""
+    },
+    {
+        "_comment":"ACDTBS01 ARMOR-CLAD CAJA DE CAMIONETA CON COLA DE MILANO"
+    },
+    {
+        "id":"ACDTBS01",
+        "name":"ARMOR-CLAD CAJA DE CAMIONETA CON COLA DE MILANO",
+        "category":"COLA DE MILANO",
+        "subcategory":1,
+        "props":{
+            "type": [
+                "PLATAFORMA"
+            ],
+            "compatibilityOptions": [
+                "FORD", "GMC", "RAM"
+            ],
+            "lengths": [
+                "7'0\"", "8'6\"",  "9'4\"", "11' 4\"" 
+            ],
+            "sides": [
+                "SIN FALDÓN"
+            ],
+            "heavyDutyStructure": [
+                "ACERO CON PLACA DE DIAMANTE DE 11GA" 
+            ]
+        },
+        "image": ""
+    }
+]

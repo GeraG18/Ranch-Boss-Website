@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/app/merchandise/page.js", "src/app/maintenance/page.js", "src/components/icons/rolloff_trailer_shadow_icon.js", "src/i18n/navigation.js", "src/components/home/mainCarousel/main_carousel_slogan.js", "src/components/blog-statistics/statistics_body.js", "src/components/dealers/custom_marker/dealer-marker.js", "src/components/dealers/custom_marker/gallery/gallery.js", "src/components/dealers/custom_marker/listing-details/listing-details.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

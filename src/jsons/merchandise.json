@@ -1,0 +1,742 @@
+{
+    "en":[
+        {
+            "key":"HD-01",
+            "name":"Hoodie Classic Horizon",
+            "description":"Adult’s Unisex Hooded Sweatshirt with Kangaroo Pocket",
+            "imageGallery":["/merchandise/hd-01.png"],
+            "props":{
+                "gender":["unisex"],
+                "size":["S","M", "L", "XL", "2L"],
+                "impression":["Vinyl"],
+                "printingArea":["11 x 2 in", "4x1.5 in", "9x6 in"],
+                "color":[
+                    {
+                        "name":"Black",
+                        "hex":"#000000"
+                    },
+                    {
+                        "name":"Heather Black",
+                        "hex":"#46444e"
+                    },
+                    {
+                        "name":"Heather Grey",
+                        "hex":"#bfbfbf"
+                    }
+                ]
+            },
+            "about": "Since its inception, the team at Horizon Trailers has kept sight on our core values of Excellence, Respect, and Passion. We have seen exponential growth in the efficiency of our designs, in the quality of our product assurance, and in the smiles of satisfaction on our customers’ faces. We continue to focus on providing the most value to our customers by building our products lighter, stronger, and with industry leading appeal. Our implementation of the latest technologies and automation processes empowers us to produce more efficiently, more accurately, and with far less waste. These technologies provide us with interdepartmental visibility of customer orders, parts and configurations, and manufacturing details, allowing our Warranty and Service teams to expedite customer requests and solve them quickly. When it’s time to go to work, you can trust that your Horizon trailer will be there for you, getting the job done right. When the work is done, you may want to just take your trailer for a nice country drive, crank up the radio, shower off to your friends. When you look in those truck mirrors, we want you to see a trailer that you know will follow you anywhere, and never let you down. We’re proud to serve our customers, and we’re excited to see what’s on the horizon! Remember, Every Detail Matters.",
+            "price":39,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        },
+        {
+            "key":"SH-01",
+            "name":"Shirt Men Classic Horizon",
+            "description":"Adult’s Men Shirt",
+            "imageGallery":["/merchandise/sh-01.png"],
+            "props":{
+                "composition":["Black / 65% Cotton 35% Polyester", "White / 100% Cotton", "Oxford / 50% Cotton 50% Polyester"],
+                "size":[32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52],
+                "impression":["Embroidered"],
+                "printingArea":["4x1 in", "2.5x1.5 in"],
+                "color":[
+                    {
+                        "name":"Black",
+                        "hex":"#000000"
+                    },
+                    {
+                        "name":"Oxford",
+                        "hex":"#45434d"
+                    },
+                    {
+                        "name":"White",
+                        "hex":"#ffffff"
+                    }
+                ]
+            },
+            "price":51,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        },
+        {
+            "key":"SH-02",
+            "name":"Shirt Women Classic Horizon",
+            "description":"Adult’s Women Shirt",
+            "imageGallery":["/merchandise/sh-02.png"],
+            "props":{
+                "composition":["Black / 65% Cotton 35% Polyester", "White / 100% Cotton", "Oxford / 50% Cotton 50% Polyester"],
+                "size":["XS", "S", "M", "L", "XL", "2L", "3L", "4L"],
+                "impression":["Embroidered"],
+                "printingArea":["4x1 in", "2.5x1.5 in"],
+                "color":[
+                    {
+                        "name":"Black",
+                        "hex":"#000000"
+                    },
+                    {
+                        "name":"Oxford",
+                        "hex":"#45434d"
+                    },
+                    {
+                        "name":"White",
+                        "hex":"#ffffff"
+                    }
+                ]
+            },
+            "price":51,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        },
+        {
+            "key":"JA-01",
+            "name":"Port Authority Neoprene Full Zip Jacket - Black",
+            "description":"Adult’s Men / Women",
+            "imageGallery":["/merchandise/ja-01.png"],
+            "props":{
+                "gender":["man", "woman"],
+                "size":["XS", "S", "M", "L", "XL", "2L", "3L", "4L"],
+                "impression":["Embroidered"],
+                "printingArea":["4x1 in", "2.5x1.5 in"],
+                "color":[
+                    {
+                        "name":"Black",
+                        "hex":"#000000"
+                    }
+                ]
+            },
+            "price":75,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        },
+        {
+            "key":"CE-01",
+            "name":"Cap Embroidered logo Horizon",
+            "description":"Unisex Label Embroidered Cap, Two Tone or One Tone Snapback Flat, Snapback y Kamel",
+            "imageGallery":["/merchandise/ce-01.png"],
+            "props":{
+    
+                "size":["UNISIZE"],
+                "impression":["Embroidered"],
+                "color":{
+                    "kamel":[
+                        {
+                            "name":"Camouflage Light Grey",
+                            "hex":"#d3d3d3",
+                            "extraHex": "#ffffff"
+                        },
+                        {
+                            "name":"Camouflage Black & Light Grey",
+                            "hex":"#8b8889",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        }
+                    ],
+                    "snapback":[
+                        {
+                            "name":"Dark Grey/Black",
+                            "hex":"#58595b",
+                            "extraHex": "#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Dark Grey/Orange",
+                            "hex":"#58595b",
+                            "extraHex":"#f15a29"
+                        },
+                        {
+                            "name":"Black",
+                            "hex":"#231f20"
+                        }
+                    ],
+                    "snapbackFlat":[
+                        {
+                            "name":"Dark Grey/Black",
+                            "hex":"#58595b",
+                            "extraHex": "#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Black",
+                            "hex":"#231f20"
+                        }
+                    ]
+                }
+            },
+            "price":29,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        },
+        {
+            "key":"CF-01",
+            "name":"Cap High Frequency logo Horizon",
+            "description":"Unisex Label High frequency Cap, Two Tone or One Tone Snapback Flat, Snapback & Kamel",
+            "imageGallery":["/merchandise/cf-01.png"],
+            "props":{
+    
+                "size":["UNISIZE"],
+                "impression":["High Frequency"],
+                "color":{
+                    "kamel":[
+                        {
+                            "name":"Camouflage Light Grey",
+                            "hex":"#d3d3d3",
+                            "extraHex": "#ffffff"
+                        },
+                        {
+                            "name":"Camouflage Black & Light Grey",
+                            "hex":"#8b8889",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        }
+                    ],
+                    "snapback":[
+                        {
+                            "name":"Dark Grey/Black",
+                            "hex":"#58595b",
+                            "extraHex": "#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Dark Grey/Orange",
+                            "hex":"#58595b",
+                            "extraHex":"#f15a29"
+                        },
+                        {
+                            "name":"Black",
+                            "hex":"#231f20"
+                        }
+                    ],
+                    "snapbackFlat":[
+                        {
+                            "name":"Dark Grey/Black",
+                            "hex":"#58595b",
+                            "extraHex": "#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Black",
+                            "hex":"#231f20"
+                        }
+                    ]
+                }
+            },
+            "price":29,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        },
+        {
+            "key":"CL-01",
+            "name":"Cap Leather logo Horizon",
+            "description":"Unisex Label engraved on leather Cap, Two Tone or One Tone Snapback",
+            "imageGallery":["/merchandise/cl-01.png"],
+            "props":{
+    
+                "size":["UNISIZE"],
+                "impression":["Engraved on leather"],
+                "color":{
+                    "kamel":[
+                        {
+                            "name":"Camouflage Light Grey",
+                            "hex":"#d3d3d3",
+                            "extraHex": "#ffffff"
+                        },
+                        {
+                            "name":"Camouflage Black & Light Grey",
+                            "hex":"#8b8889",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        }
+                    ],
+                    "snapback":[
+                        {
+                            "name":"Dark Grey/Black",
+                            "hex":"#58595b",
+                            "extraHex": "#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Dark Grey/Orange",
+                            "hex":"#58595b",
+                            "extraHex":"#f15a29"
+                        },
+                        {
+                            "name":"Black",
+                            "hex":"#231f20"
+                        }
+                    ],
+                    "snapbackFlat":[
+                        {
+                            "name":"Dark Grey/Black",
+                            "hex":"#58595b",
+                            "extraHex": "#000000"
+                        },
+                        {
+                            "name":"Light Grey/Black",
+                            "hex":"#afafaf",
+                            "extraHex":"#000000"
+                        },
+                        {
+                            "name":"Black",
+                            "hex":"#231f20"
+                        }
+                    ]
+                }
+            },
+            "price":29,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        },
+        {
+            "key":"ST-01",
+            "name":"Brochure Stand",
+            "description":"Unisex Label engraved on leather Cap, Two Tone or One Tone Snapback",
+            "imageGallery":["/merchandise/st-01.png"],
+            "props":{
+                "size":["82 in x 22 in x 36 in"],
+                "logo":["Acrylic Logo cut"]
+            },
+            "price":600,
+            "notes":[
+                "*Dealer Advantage: Benefit from an exclusive 'Dealer Price'—just 50% of the real cost. Horizon Trailers will cover the remaining 50%, ensuring you have a stunning brochure stand to prominently feature our brand in your store."
+            ]
+        },
+        {
+            "key":"TS-01",
+            "name":"T-Shirt Horizon Black",
+            "description":"Polo shirt with Dry Fit fabric, black with Horizon trailers logo on the sleeve and chest",
+            "imageGallery":["/merchandise/ts-01.png"],
+            "props": {
+                "gender":["man", "woman"],
+                "size":["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+                "impression":["Embroidered"]
+            },
+            "price":39,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        },
+        {
+            "key":"CUP-01",
+            "name":"Cup Horizon",
+            "imageGallery":["/merchandise/cup-01.png"],
+            "props":{},
+            "price":12,
+            "notes":[
+                "*Dealer Exclusive: Enjoy our products at cost with our special Dealer Price, designed to make it easier than ever to stock up and represent our brand. Partner with us and share in our success!"
+            ]
+        }
+    ],
+    "es": [
+        {
+            "key": "HD-01",
+            "name": "Sudadera con Capucha Clásica Horizon",
+            "description": "Sudadera con capucha unisex para adultos con bolsillo tipo canguro",
+            "imageGallery": ["/merchandise/hd-01.png"],
+            "props": {
+              "gender": ["unisex"],
+              "size": ["S", "M", "L", "XL", "2L"],
+              "impression": ["Vinil"],
+              "printingArea": ["11 x 2 in", "4x1.5 in", "9x6 in"],
+              "color": [
+                {
+                  "name": "Negro",
+                  "hex": "#000000"
+                },
+                {
+                  "name": "Negro Jaspeado",
+                  "hex": "#46444e"
+                },
+                {
+                  "name": "Gris Jaspeado",
+                  "hex": "#bfbfbf"
+                }
+              ]
+            },
+            "about": "Desde sus inicios, el equipo de Horizon Trailers ha mantenido el enfoque en nuestros valores fundamentales de Excelencia, Respeto y Pasión. Hemos visto un crecimiento exponencial en la eficiencia de nuestros diseños, en la calidad de nuestro aseguramiento de productos y en las sonrisas de satisfacción en los rostros de nuestros clientes. Seguimos enfocados en brindar el mayor valor a nuestros clientes construyendo productos más ligeros, más resistentes y con un atractivo líder en la industria. Nuestra implementación de las últimas tecnologías y procesos de automatización nos permite producir de manera más eficiente, precisa y con mucho menos desperdicio. Estas tecnologías nos proporcionan visibilidad interdepartamental de los pedidos de los clientes, piezas y configuraciones, y detalles de fabricación, lo que permite a nuestros equipos de Garantía y Servicio atender las solicitudes rápidamente y resolverlas con eficacia. Cuando llega el momento de trabajar, puedes confiar en que tu remolque Horizon estará ahí para ti, haciendo el trabajo correctamente. Y cuando el trabajo termine, tal vez quieras simplemente salir a dar un paseo por el campo con tu remolque, subir la radio y presumirlo con tus amigos. Cuando mires por los espejos del camión, queremos que veas un remolque que sabes que te seguirá a donde sea, y que nunca te fallará. Estamos orgullosos de servir a nuestros clientes y emocionados por lo que viene en el horizonte. Recuerda, cada detalle importa.",
+            "price": 39,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        },
+        {
+            "key": "SH-01",
+            "name": "Camisa Clásica Horizon para Hombre",
+            "description": "Camisa para hombre, adulto",
+            "imageGallery": ["/merchandise/sh-01.png"],
+            "props": {
+              "composition": [
+                "Negro / 65% Algodón 35% Poliéster",
+                "Blanco / 100% Algodón",
+                "Oxford / 50% Algodón 50% Poliéster"
+              ],
+              "size": [32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52],
+              "impression": ["Bordado"],
+              "printingArea": ["4x1 in", "2.5x1.5 in"],
+              "color": [
+                {
+                  "name": "Negro",
+                  "hex": "#000000"
+                },
+                {
+                  "name": "Oxford",
+                  "hex": "#45434d"
+                },
+                {
+                  "name": "Blanco",
+                  "hex": "#ffffff"
+                }
+              ]
+            },
+            "price": 51,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        },
+        {
+            "key": "SH-02",
+            "name": "Camisa Clásica Horizon para Mujer",
+            "description": "Camisa para mujer, adulto",
+            "imageGallery": ["/merchandise/sh-02.png"],
+            "props": {
+              "composition": [
+                "Negro / 65% Algodón 35% Poliéster",
+                "Blanco / 100% Algodón",
+                "Oxford / 50% Algodón 50% Poliéster"
+              ],
+              "size": ["XS", "S", "M", "L", "XL", "2L", "3L", "4L"],
+              "impression": ["Bordado"],
+              "printingArea": ["4x1 in", "2.5x1.5 in"],
+              "color": [
+                {
+                  "name": "Negro",
+                  "hex": "#000000"
+                },
+                {
+                  "name": "Oxford",
+                  "hex": "#45434d"
+                },
+                {
+                  "name": "Blanco",
+                  "hex": "#ffffff"
+                }
+              ]
+            },
+            "price": 51,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        },
+        {
+            "key": "JA-01",
+            "name": "Chaqueta Neopreno Port Authority con Cierre Completo - Negra",
+            "description": "Adultos Hombre / Mujer",
+            "imageGallery": ["/merchandise/ja-01.png"],
+            "props": {
+              "gender": ["hombre", "mujer"],
+              "size": ["XS", "S", "M", "L", "XL", "2L", "3L", "4L"],
+              "impression": ["Bordado"],
+              "printingArea": ["4x1 in", "2.5x1.5 in"],
+              "color": [
+                {
+                  "name": "Negro",
+                  "hex": "#000000"
+                }
+              ]
+            },
+            "price": 75,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        },
+        {
+            "key": "CE-01",
+            "name": "Gorra con Logo Bordado Horizon",
+            "description": "Etiqueta Unisex Gorra Bordada, Bicolor o Monocromática Snapback Flat, Snapback y Kamel",
+            "imageGallery": ["/merchandise/ce-01.png"],
+            "props": {
+              "size": ["TALLA ÚNICA"],
+              "impression": ["Bordado"],
+              "color": {
+                "kamel": [
+                  {
+                    "name": "Camuflaje Gris Claro",
+                    "hex": "#d3d3d3",
+                    "extraHex": "#ffffff"
+                  },
+                  {
+                    "name": "Camuflaje Negro y Gris Claro",
+                    "hex": "#8b8889",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  }
+                ],
+                "snapback": [
+                  {
+                    "name": "Gris Oscuro/Negro",
+                    "hex": "#58595b",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Oscuro/Naranja",
+                    "hex": "#58595b",
+                    "extraHex": "#f15a29"
+                  },
+                  {
+                    "name": "Negro",
+                    "hex": "#231f20"
+                  }
+                ],
+                "snapbackFlat": [
+                  {
+                    "name": "Gris Oscuro/Negro",
+                    "hex": "#58595b",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Negro",
+                    "hex": "#231f20"
+                  }
+                ]
+              }
+            },
+            "price": 29,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        },
+        {
+            "key": "CF-01",
+            "name": "Gorra con Logo Horizon en Alta Frecuencia",
+            "description": "Etiqueta Unisex Gorra en Alta Frecuencia, Bicolor o Monocromática Snapback Flat, Snapback y Kamel",
+            "imageGallery": ["/merchandise/cf-01.png"],
+            "props": {
+              "size": ["TALLA ÚNICA"],
+              "impression": ["Alta Frecuencia"],
+              "color": {
+                "kamel": [
+                  {
+                    "name": "Camuflaje Gris Claro",
+                    "hex": "#d3d3d3",
+                    "extraHex": "#ffffff"
+                  },
+                  {
+                    "name": "Camuflaje Negro y Gris Claro",
+                    "hex": "#8b8889",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  }
+                ],
+                "snapback": [
+                  {
+                    "name": "Gris Oscuro/Negro",
+                    "hex": "#58595b",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Oscuro/Naranja",
+                    "hex": "#58595b",
+                    "extraHex": "#f15a29"
+                  },
+                  {
+                    "name": "Negro",
+                    "hex": "#231f20"
+                  }
+                ],
+                "snapbackFlat": [
+                  {
+                    "name": "Gris Oscuro/Negro",
+                    "hex": "#58595b",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Negro",
+                    "hex": "#231f20"
+                  }
+                ]
+              }
+            },
+            "price": 29,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        },
+        {
+            "key": "CL-01",
+            "name": "Gorra con Logo Horizon en Cuero",
+            "description": "Etiqueta Unisex grabada sobre cuero, Snapback bicolor o monocromático",
+            "imageGallery": ["/merchandise/cl-01.png"],
+            "props": {
+              "size": ["TALLA ÚNICA"],
+              "impression": ["Grabado sobre cuero"],
+              "color": {
+                "kamel": [
+                  {
+                    "name": "Camuflaje Gris Claro",
+                    "hex": "#d3d3d3",
+                    "extraHex": "#ffffff"
+                  },
+                  {
+                    "name": "Camuflaje Negro y Gris Claro",
+                    "hex": "#8b8889",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  }
+                ],
+                "snapback": [
+                  {
+                    "name": "Gris Oscuro/Negro",
+                    "hex": "#58595b",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Oscuro/Naranja",
+                    "hex": "#58595b",
+                    "extraHex": "#f15a29"
+                  },
+                  {
+                    "name": "Negro",
+                    "hex": "#231f20"
+                  }
+                ],
+                "snapbackFlat": [
+                  {
+                    "name": "Gris Oscuro/Negro",
+                    "hex": "#58595b",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Gris Claro/Negro",
+                    "hex": "#afafaf",
+                    "extraHex": "#000000"
+                  },
+                  {
+                    "name": "Negro",
+                    "hex": "#231f20"
+                  }
+                ]
+              }
+            },
+            "price": 29,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        },
+        {
+            "key": "ST-01",
+            "name": "Soporte para Folletos",
+            "description": "Etiqueta unisex grabada en gorra de cuero, Snapback bicolor o monocromático",
+            "imageGallery": ["/merchandise/st-01.png"],
+            "props": {
+              "size": ["82 in x 22 in x 36 in"],
+              "logo": ["Corte de logotipo en acrílico"]
+            },
+            "price": 600,
+            "notes": [
+              "*Ventaja para distribuidores: Benefíciate de un 'Precio de Distribuidor' exclusivo —solo el 50% del costo real. Horizon Trailers cubrirá el 50% restante, asegurando que tengas un impresionante soporte para folletos para destacar nuestra marca en tu tienda."
+            ]
+        },
+        {
+            "key": "TS-01",
+            "name": "Camiseta Negra Horizon",
+            "description": "Polo con tela Dry Fit, color negro con logotipo de Horizon Trailers en la manga y el pecho",
+            "imageGallery": ["/merchandise/ts-01.png"],
+            "props": {
+              "gender": ["hombre", "mujer"],
+              "size": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+              "impression": ["Bordado"]
+            },
+            "price": 39,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        },
+        {
+            "key": "CUP-01",
+            "name": "Taza Horizon",
+            "imageGallery": ["/merchandise/cup-01.png"],
+            "props": {},
+            "price": 12,
+            "notes": [
+              "*Exclusivo para distribuidores: Disfruta de nuestros productos a precio de costo con nuestro Precio Especial para Distribuidores, diseñado para que sea más fácil que nunca abastecerte y representar nuestra marca. ¡Asóciate con nosotros y comparte nuestro éxito!"
+            ]
+        } 
+    ]
+}
+

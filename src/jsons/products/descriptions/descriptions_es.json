@@ -1,0 +1,910 @@
+{
+    "AVSTBS01": {
+		"descriptions": {
+            "firstBlock": {
+                "description": "Combina durabilidad y versatilidad de almacenamiento con un resistente piso de acero diamantado, múltiples cajas de herramientas integradas y un sistema de iluminación LED avanzado para un rendimiento confiable.",
+                "buttons": [
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Resistencia <span style='color:#fff'>y Estructura</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>Versatilidad de <span style='color:#6897d8'>Almacenamiento</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Iluminación <span style='color:#fff'>y Seguridad</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+                    "title": "Resistencia y Estructura",
+                    "subtitle": "Marco canal 4\", plataforma cal. 11",
+                    "description": "Con marco de canal de 4\" y plataforma diamantada calibre 11, ofrece gran rigidez para tareas exigentes. Soportes reforzados y travesaños a 16\" mejoran la estabilidad. El diseño robusto resiste el uso diario, preserva la integridad estructural y reduce tiempos muertos en obra.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Versatilidad de Almacenamiento",
+                    "subtitle": "Cajas verticales, superiores y bandejas",
+                    "description": "Varias cajas verticales, compartimentos superiores y bandejas de cierre suave mantienen las herramientas ordenadas y protegidas. Amortiguadores a gas y manijas con llave suman seguridad y comodidad, mientras los anillos en D al ras aseguran la carga, mejorando la eficiencia durante la jornada.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Iluminación y Seguridad",
+                    "subtitle": "LEDs ahumados DOT, arnés todo clima",
+                    "description": "LEDs ahumados aprobados por DOT, luces de reversa y posición y arnés todo clima garantizan visibilidad y cumplimiento. Deflectores reflectantes aumentan la seguridad nocturna y el cableado ordenado mejora la fiabilidad y facilita el mantenimiento en entornos exigentes.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+        "standardFeatures": {
+            "especificacionesDeCaja": {
+                "dimensiones": {
+                    "longitudesDisponibles": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "anchosDePlataformaDisponibles": "84\", 94\", 97\""
+                },
+                "acabado": {
+                    "tipoDePintura": "Pintura en polvo",
+                    "preparacion": "Granallado de acero",
+                    "colores": [
+                        {
+                            "name": "Verde Militar",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Bronceado Desértico",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Naranja Llama",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Negro Medianoche",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Amarillo Spectra",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Azul Horizonte",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Verde Lima",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Gris Ceniza",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "Rojo Verdadero",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Blanco Perla",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Gris Nube",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Azul Marino",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "estilo": "Colores de 2 tonos disponibles, chasis / caja de descarga"
+                },
+                "garantia": {
+                    "garantiaEstructural": "3 años de garantía estructural",
+                    "garantiaDePartes": "1 año de garantía de partes"
+                }
+            },
+            "chasis": {
+                "estructura": {
+                    "estructuraPrincipal": "Canal de 4\" (4.50 lbs/ft) Espaciado de 64\"",
+                    "travesaños": "Canal de 3\" (3.50 lbs/ft) Espaciado de 16\"",
+                    "soportesDelanteros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado",
+                    "soportesTraseros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado"
+                }
+            },
+            "caja": {
+                "cama": {
+                    "estructuraDePiso": "Plataforma de acero con placa de diamante de 11ga",
+                    "anchoInternoDeCaja": "50\"",
+                    "pozoDeCuelloDeCisne": "Pozo de cuello de cisne incorporado con tapa de placa de diamante",
+                    "bolaDeEnganche": "Bola de cuello de cisne Buyers de 2,5/16\" (30,000 lbs)",
+                    "enchufe": "Enchufe hembra de 7 vías en el pozo de cuello de cisne",
+                    "anillosDgiratoriosAtornillados": "2 - Anillos en D giratorios galvanizados de montaje empotrado delanteros y traseros"
+                },
+                "lados": {
+                    "estructuraLateral": "Placa de diamante de 11ga",
+                    "cajasDeHerramientasVerticalesDelanteras": "2 - Cajas de herramientas verticales de 36\"H x 27\"W con amortiguador de gas y manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "bandejasExtraibles": "2 - Bandejas de caja de ángulo extraíbles de 5\"H x 6\"W con cierre suave y manija con cerradura",
+                    "cajasDeHerramientasDeAperturaSuperior": "2 - Cajas de herramientas de apertura superior de 48\"L x 19\"W con amortiguador de gas y manija con cerradura",
+                    "cajasDeHerramientasVerticalesTraseras": "2 - Cajas de herramientas verticales de 24\"H x 15\"W con amortiguador de gas y manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "tapaDeCombustible": "Tapa de llenado de combustible con pestillo y tapa",
+                    "faldonesDeGuardabarros": "Faldones de guardabarros de acero con placa de diamante de 11ga para trabajo pesado"
+                },
+                "frente": {
+                    "estructuraDelantera": "Placa de diamante de 11ga",
+                    "rejillaProtectora": "Rejilla protectora de trabajo pesado de tubo cuadrado de 3\" x 3\""
+                },
+                "parteTrasera": {
+                    "estructuraTrasera": "Placa de diamante de 11ga",
+                    "bandejaExtraible": "Bandeja extraíble de 3\"H x 27\"W con cierre suave y manija con cerradura",
+                    "puertaTrasera": "Puerta trasera abatible con pestillo",
+                    "bisagrasDePuertaTrasera": "Bisagras remachadas para trabajo pesado",
+                    "parachoques": "Parachoques de acero con placa de diamante de 11ga para trabajo pesado",
+                    "engancheReceptor": "Receptor / Enganche Buyers de 2,1/2\" listo (24,000 lbs)",
+                    "enchufeDe_7Vias": "Enchufe hembra de 7 vías",
+                    "conectorDe_4Vias": "Conector plano de 4 vías",
+                    "luzDeMatricula": "1 - Luz LED vertical Tecniq aprobada por el DOT para matrícula"
+                }
+            },
+            "electricidadEIluminacion": {
+                "bateriaYCarga": {
+                    "arnesDeCableado": "Arnés de cableado para todo clima"
+                },
+                "iluminacion": {
+                    "lucesDeEspacio": "Luces de bala LED ahumadas Tecniq de 3/4\" aprobadas por el DOT",
+                    "lucesDeRejillaDelantera": "4 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT en la rejilla delantera",
+                    "lucesTraseras": "6 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT",
+                    "lucesDeReversa": "4 - Luces LED ahumadas Tecniq de reversa de 2\" x 6\" aprobadas por el DOT"
+                },
+                "seguridad": {
+                    "reflectores": "Reflectores reflectantes 3M que cumplen con el DOT"
+                }
+            }
+        }
+    },
+    "ABFBTBNS01": {
+		"descriptions": {
+            "firstBlock": {
+                "description": "Ofrece durabilidad y funcionalidad con marco de acero reforzado, práctica bandeja trasera e iluminación avanzada, ideal para trabajo pesado.",
+                "buttons": [
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Base <span style='color:#fff'>de Alta Resistencia</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>Diseño Funcional de <span style='color:#6897d8'>Plataforma</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Iluminación <span style='color:#fff'>y Eléctrica</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+					"title": "Base de Alta Resistencia",
+                    "subtitle": "Canal 4\", plataforma cal. 11",
+                    "description": "El marco de canal de 4\" y plataforma diamantada ofrecen resistencia a largo plazo. Travesaños a 16\" y soportes robustos mejoran la distribución de carga, volviéndolo confiable para arrastre, flotillas de servicio y trabajo de campo en condiciones difíciles.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Diseño Funcional de Plataforma",
+                    "subtitle": "Pozo cuello de ganso, bola, anillos D, bandeja",
+                    "description": "Pozo para cuello de ganso con bola 2-5/16\" y anillos en D al ras aseguran la carga. La bandeja trasera de cierre suave facilita acceso diario a herramientas, mientras el parachoques de acero protege componentes durante maniobras frecuentes en obra.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Iluminación y Eléctrico",
+                    "subtitle": "LEDs ahumados, cableado resistente",
+                    "description": "Iluminación LED ahumada con luces en cabecera, reversa y posición mejora la visibilidad de día y noche. El arnés todo clima resiste lluvia, polvo y vibración, y los deflectores reflectantes aumentan el cumplimiento y la seguridad vial.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+        "standardFeatures": {
+            "especificacionesDeCaja": {
+                "dimensiones": {
+                    "longitudesDisponibles": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "anchosDePlataformaDisponibles": "84\", 94\", 97\""
+                },
+                "acabado": {
+                    "tipoDePintura": "Pintura en polvo",
+                    "preparacion": "Granallado de acero",
+                    "colores": [
+                        {
+                            "name": "Verde Militar",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Bronceado Desértico",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Naranja Llama",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Negro Medianoche",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Amarillo Spectra",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Azul Horizonte",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Verde Lima",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Gris Ceniza",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "Rojo Verdadero",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Blanco Perla",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Gris Nube",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Azul Marino",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "estilo": "Colores de 2 tonos disponibles, chasis / caja de descarga"
+                },
+                "garantia": {
+                    "garantiaEstructural": "3 años de garantía estructural",
+                    "garantiaDePartes": "1 año de garantía de partes"
+                }
+            },
+            "chasis": {
+                "estructura": {
+                    "estructuraPrincipal": "Canal de 4\" (4.50 lbs/ft) Espaciado de 64\"",
+                    "travesaños": "Canal de 3\" (3.50 lbs/ft) Espaciado de 16\"",
+                    "soportesDelanteros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado",
+                    "soportesTraseros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado"
+                }
+            },
+            "caja": {
+                "cama": {
+                    "estructuraDePiso": "Plataforma de acero con placa de diamante de 11ga",
+                    "pozoDeCuelloDeCisne": "Pozo de cuello de cisne incorporado con tapa de placa de diamante",
+                    "bolaDeEnganche": "Bola de cuello de cisne Buyers de 2,5/16\" (30,000 lbs)",
+                    "enchufe": "Enchufe hembra de 7 vías en el pozo de cuello de cisne",
+                    "anillosDgiratoriosAtornillados": "2 - Anillos en D giratorios galvanizados de montaje empotrado delanteros y traseros"
+                },
+                "lados": {
+                    "rielDeRozamiento": "Riel de rozamiento de 2\" x 3/8\"",
+                    "bolsillosParaEstacas": "Bolsillos para estacas de 1,5/8\" x 3,5/8\" (ID) (Espaciados a 24\")",
+                    "bobinas": "Bobinas de tubería de 2\" x 10ga (Espaciadas a 24\")",
+                    "tapaDeCombustible": "Tapa de llenado de combustible con pestillo y tapa"
+                },
+                "frente": {
+                    "escudoDeCabina": "Placa de diamante reforzada de 11ga",
+                    "rejillaProtectora": "Rejilla protectora de trabajo pesado de tubo cuadrado de 3\" x 3\""
+                },
+                "parteTrasera": {
+                    "estructuraTrasera": "Placa de diamante de 11ga",
+                    "bandejaExtraible": "Bandeja extraíble de 3\"H x 27\"W con cierre suave y manija con cerradura",
+                    "parachoques": "Parachoques de acero con placa de diamante de 11ga para trabajo pesado",
+                    "engancheReceptor": "Receptor / Enganche Buyers de 2,1/2\" listo (24,000 lbs)",
+                    "enchufeDe_7Vias": "Enchufe hembra de 7 vías",
+                    "conectorDe_4Vias": "Conector plano de 4 vías",
+                    "luzDeMatricula": "1 - Luz LED vertical Tecniq aprobada por el DOT para matrícula"
+                }
+            },
+            "electricidadEIluminacion": {
+                "bateriaYCarga": {
+                    "arnesDeCableado": "Arnés de cableado para todo clima"
+                },
+                "iluminacion": {
+                    "lucesDeEspacio": "Luces de bala LED ahumadas Tecniq de 3/4\" aprobadas por el DOT",
+                    "lucesDeRejillaDelantera": "4 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT en la rejilla delantera",
+                    "lucesTraseras": "6 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT",
+                    "lucesDeReversa": "4 - Luces LED ahumadas Tecniq de reversa de 2\" x 6\" aprobadas por el DOT"
+                },
+                "seguridad": {
+                    "reflectores": "Reflectores reflectantes 3M que cumplen con el DOT"
+                }
+            }
+        }
+    },
+    "ADFBTBS01": {
+		"descriptions": {
+            "firstBlock": {
+                "description": "Combina construcción robusta, cajas integradas e iluminación avanzada para una plataforma de trabajo versátil y duradera.",
+                "buttons": [
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Construcción <span style='color:#fff'>Reforzada</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>YOUR PERFECT <span style='color:#6897d8'>DUMP TRAILER SOLUTION</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Almacenamiento <span style='color:#fff'>Optimizado</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+					"title": "Construcción Reforzada",
+                    "subtitle": "Escalones, salpicaderas, plataforma cal. 11",
+                    "description": "El marco de canal de 4\" y plataforma calibre 11 brindan resistencia; los escalones laterales y salpicaderas robustas mejoran acceso y protección. Soportes reforzados y travesaños a 16\" mantienen la estabilidad con cargas pesadas y uso constante.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Almacenamiento Optimizado",
+                    "subtitle": "Cajas integradas, bolsillos, rodillos",
+                    "description": "Cajas integradas delanteras y traseras aseguran equipo con manijas con llave. Bolsillos para estacas y rodillos amplían opciones de amarre, soportando cargas variadas y organización eficiente para cuadrillas y contratistas.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Seguridad e Iluminación",
+                    "subtitle": "LEDs ahumados, cinta reflectante",
+                    "description": "LEDs ahumados aprobados por DOT mejoran la visibilidad y la cinta reflectante aumenta la percepción en tráfico y baja luz. El cableado todo clima mantiene operación confiable y facilita el diagnóstico a lo largo del servicio.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+        "standardFeatures": {
+            "especificacionesDeCaja": {
+                "dimensiones": {
+                    "longitudesDisponibles": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "anchosDePlataformaDisponibles": "84\", 94\", 97\""
+                },
+                "acabado": {
+                    "tipoDePintura": "Pintura en polvo",
+                    "preparacion": "Granallado de acero",
+                    "colores": [
+                        {
+                            "name": "Verde Militar",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Bronceado Desértico",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Naranja Llama",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Negro Medianoche",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Amarillo Spectra",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Azul Horizonte",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Verde Lima",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Gris Ceniza",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "Rojo Verdadero",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Blanco Perla",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Gris Nube",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Azul Marino",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "estilo": "Colores de 2 tonos disponibles, chasis / caja de descarga"
+                },
+                "garantia": {
+                    "garantiaEstructural": "3 años de garantía estructural",
+                    "garantiaDePartes": "1 año de garantía de partes"
+                }
+            },
+            "chasis": {
+                "estructura": {
+                    "estructuraPrincipal": "Canal de 4\" (4.50 lbs/ft) Espaciado de 64\"",
+                    "travesaños": "Canal de 3\" (3.50 lbs/ft) Espaciado de 16\"",
+                    "soportesDelanteros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado",
+                    "soportesTraseros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado"
+                }
+            },
+            "caja": {
+                "cama": {
+                    "estructuraDePiso": "Plataforma de acero con placa de diamante de 11ga",
+                    "pozoDeCuelloDeCisne": "Pozo de cuello de cisne incorporado con tapa de placa de diamante",
+                    "bolaDeEnganche": "Bola de cuello de cisne Buyers de 2,5/16\" (30,000 lbs)",
+                    "enchufe": "Enchufe hembra de 7 vías en el pozo de cuello de cisne",
+                    "anillosDgiratoriosAtornillados": "2 - Anillos en D giratorios galvanizados de montaje empotrado delanteros y traseros"
+                },
+                "lados": {
+                    "rielDeRozamiento": "Riel de rozamiento de 2\" x 3/8\"",
+                    "bolsillosParaEstacas": "Bolsillos para estacas de 1,5/8\" x 3,5/8\" (ID) (Espaciados a 24\")",
+                    "bobinas": "Bobinas de tubería de 2\" x 10ga (Espaciadas a 24\")",
+                    "tapaDeCombustible": "Tapa de llenado de combustible con pestillo y tapa",
+                    "pasos": "Pasos laterales delante de los guardabarros",
+                    "estructuraLateral": "Placa de diamante de 10ga",
+                    "cajasDeHerramientasIntegradasDelanteras": "2 - Cajas de herramientas integradas de 14\"H x 17\"W con manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "cajasDeHerramientasIntegradasTraseras": "2 - Cajas de herramientas integradas de 14\"H x 17\"W con manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "faldonesDeGuardabarros": "Faldones de guardabarros de acero con placa de diamante de 11ga para trabajo pesado"
+                },
+                "frente": {
+                    "escudoDeCabina": "Placa de diamante reforzada de 11ga",
+                    "rejillaProtectora": "Rejilla protectora de trabajo pesado de tubo cuadrado de 3\" x 3\""
+                },
+                "parteTrasera": {
+                    "estructuraTrasera": "Placa de diamante de 11ga",
+                    "bandejaExtraible": "Bandeja extraíble de 3\"H x 27\"W con cierre suave y manija con cerradura",
+                    "parachoques": "Parachoques de acero con placa de diamante de 11ga para trabajo pesado",
+                    "engancheReceptor": "Receptor / Enganche Buyers de 2,1/2\" listo (24,000 lbs)",
+                    "enchufeDe_7Vias": "Enchufe hembra de 7 vías",
+                    "conectorDe_4Vias": "Conector plano de 4 vías",
+                    "luzDeMatricula": "1 - Luz LED vertical Tecniq aprobada por el DOT para matrícula"
+                }
+            },
+            "electricidadEIluminacion": {
+                "bateriaYCarga": {
+                    "arnesDeCableado": "Arnés de cableado para todo clima"
+                },
+                "iluminacion": {
+                    "lucesDeEspacio": "Luces de bala LED ahumadas Tecniq de 3/4\" aprobadas por el DOT",
+                    "lucesDeRejillaDelantera": "4 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT en la rejilla delantera",
+                    "lucesTraseras": "6 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT",
+                    "lucesDeReversa": "4 - Luces LED ahumadas Tecniq de reversa de 2\" x 6\" aprobadas por el DOT"
+                },
+                "seguridad": {
+                    "reflectores": "Reflectores reflectantes 3M que cumplen con el DOT"
+                }
+            }
+        }
+    },
+    "ADPFBTBS01": {
+		"descriptions": {
+            "firstBlock": {
+                "description": "Ofrece máxima resistencia, almacenamiento accesible e iluminación confiable para transporte y servicio en campo.",
+                "buttons": [
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Durabilidad <span style='color:#fff'>Estructural</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>Utilidad <span style='color:#6897d8'>Integrada</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Fiabilidad <span style='color:#fff'>Eléctrica</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+                    "title": "Durabilidad Estructural",
+                    "subtitle": "Canal 4\", protector cabina, travesaños",
+                    "description": "El marco de canal de 4\" y plataforma diamantada aportan solidez. Protector de cabina y defensa estructural protegen cabina y carga, mientras travesaños cercanos mejoran la rigidez para ciclos de trabajo exigentes.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Utilidad Integrada",
+                    "subtitle": "Cajas verticales e integradas, escalones, riel",
+                    "description": "Cajas verticales e integradas mantienen equipo ordenado y seguro. Escalones laterales facilitan el acceso y el riel con bolsillos y rodillos amplía la flexibilidad de amarre para diversas tareas y cargas.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Fiabilidad Eléctrica",
+                    "subtitle": "LEDs ahumados, deflectores reflectantes",
+                    "description": "Módulos LED ahumados para cabecera, reversa y posición brindan alta visibilidad. El cableado resistente al clima aumenta la disponibilidad, y los deflectores reflectantes favorecen el cumplimiento y la seguridad en carretera y obra.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+       "standardFeatures": {
+            "especificacionesDeCaja": {
+                "dimensiones": {
+                    "longitudesDisponibles": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "anchosDePlataformaDisponibles": "84\", 94\", 97\""
+                },
+                "acabado": {
+                    "tipoDePintura": "Pintura en polvo",
+                    "preparacion": "Granallado de acero",
+                    "colores": [
+                        {
+                            "name": "Verde Militar",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Bronceado Desértico",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Naranja Llama",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Negro Medianoche",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Amarillo Spectra",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Azul Horizonte",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Verde Lima",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Gris Ceniza",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "Rojo Verdadero",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Blanco Perla",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Gris Nube",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Azul Marino",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "estilo": "Colores de 2 tonos disponibles, chasis / caja de descarga"
+                },
+                "garantia": {
+                    "garantiaEstructural": "3 años de garantía estructural",
+                    "garantiaDePartes": "1 año de garantía de partes"
+                }
+            },
+            "chasis": {
+                "estructura": {
+                    "estructuraPrincipal": "Canal de 4\" (4.50 lbs/ft) Espaciado de 64\"",
+                    "travesaños": "Canal de 3\" (3.50 lbs/ft) 16\" Espaciado",
+                    "soportesDelanteros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado",
+                    "soportesTraseros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado"
+                }
+            },
+            "caja": {
+                "cama": {
+                    "estructuraDePiso": "Plataforma de acero con placa de diamante de 11ga",
+                    "pozoDeCuelloDeCisne": "Pozo de cuello de cisne incorporado con tapa de placa de diamante",
+                    "bolaDeEnganche": "Bola de cuello de cisne Buyers de 2,5/16\" (30,000 lbs)",
+                    "enchufe": "Enchufe hembra de 7 vías en el pozo de cuello de cisne",
+                    "anillosDgiratoriosAtornillados": "2 - Anillos en D giratorios galvanizados de montaje empotrado delanteros y traseros"
+                },
+                "lados": {
+                    "cajasDeHerramientasVerticalesDelanteras": "2 - Cajas de herramientas verticales de 36\"H x 27\"W con amortiguador de gas y manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "rielDeRozamiento": "Riel de rozamiento de 2\" x 3/8\"",
+                    "bolsillosParaEstacas": "Bolsillos para estacas de 1,5/8\" x 3,5/8\" (ID) (Espaciados a 24\")",
+                    "bobinas": "Bobinas de tubería de 2\" x 10ga (Espaciadas a 24\")",
+                    "tapaDeCombustible": "Tapa de llenado de combustible con pestillo y tapa",
+                    "pasos": "Pasos laterales delante de los guardabarros",
+                    "estructuraLateral": "Placa de diamante de 10ga",
+                    "cajasDeHerramientasIntegradasDelanteras": "2 - Cajas de herramientas integradas de 14\"H x 17\"W con manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "cajasDeHerramientasIntegradasTraseras": "2 - Cajas de herramientas integradas de 14\"H x 17\"W con manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "faldonesDeGuardabarros": "Faldones de guardabarros de acero con placa de diamante de 11ga para trabajo pesado"
+                },
+                "frente": {
+                    "escudoDeCabina": "Placa de diamante reforzada de 11ga",
+                    "rejillaProtectora": "Rejilla protectora de trabajo pesado de tubo cuadrado de 3\" x 3\""
+                },
+                "parteTrasera": {
+                    "estructuraTrasera": "Placa de diamante de 11ga",
+                    "bandejaExtraible": "Bandeja extraíble de 3\"H x 27\"W con cierre suave y manija con cerradura",
+                    "parachoques": "Parachoques de acero con placa de diamante de 11ga para trabajo pesado",
+                    "engancheReceptor": "Receptor / Enganche Buyers de 2,1/2\" listo (24,000 lbs)",
+                    "enchufeDe_7Vias": "Enchufe hembra de 7 vías",
+                    "conectorDe_4Vias": "Conector plano de 4 vías",
+                    "luzDeMatricula": "1 - Luz LED vertical Tecniq aprobada por el DOT para matrícula"
+                }
+            },
+            "electricalAndLighting": {
+                "bateriaYCarga": {
+                    "arnesDeCableado": "Arnés de cableado para todo clima"
+                },
+                "iluminacion": {
+                    "lucesDeEspacio": "Luces de bala LED ahumadas Tecniq de 3/4\" aprobadas por el DOT",
+                    "lucesDeRejillaDelantera": "4 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT en la rejilla delantera",
+                    "lucesTraseras": "6 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT",
+                    "lucesDeReversa": "4 - Luces LED ahumadas Tecniq de reversa de 2\" x 6\" aprobadas por el DOT"
+                },
+                "seguridad": {
+                    "reflectores": "Reflectores reflectantes 3M que cumplen con el DOT"
+                }
+            }
+        }
+    },
+    "ACDTBS01": {
+		"descriptions": {
+            "firstBlock": {
+                "description": "Ofrece rendimiento confiable con plataforma diamantada, almacenamiento integrado y sistema eléctrico avanzado para uso profesional.",
+                "buttons": [
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Diseñado <span style='color:#fff'>para Resistencia</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>Utilidad <span style='color:#6897d8'>Práctica</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Seguridad <span style='color:#fff'>y Visibilidad</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+                    "title": "Diseñado para Resistencia",
+                    "subtitle": "Plataforma diamantada, canal cuello de ganso",
+                    "description": "La plataforma diamantada y base de canal de 4\" enfrentan trabajos duros. El canal para cuello de ganso añade funcionalidad de remolque, y la defensa reforzada mejora la sujeción de carga y protección de cabina en entornos exigentes.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Utilidad Práctica",
+                    "subtitle": "Cajas del./tras., escalones, salpicaderas",
+                    "description": "Cajas delanteras y traseras integradas mantienen lo esencial a la mano. Escalones laterales facilitan el ingreso y salpicaderas robustas protegen la cama en espacios reducidos. La distribución favorece flujos eficientes y acceso rápido a herramientas.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Seguridad y Visibilidad",
+                    "subtitle": "LEDs ahumados, deflectores reflectantes",
+                    "description": "LEDs ahumados aprobados por DOT, luces de reversa y posición y arnés todo clima garantizan visibilidad confiable. Los deflectores reflectantes aumentan la percepción alrededor del tránsito y del equipo, apoyando una operación segura día y noche.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+        "standardFeatures": {
+            "especificacionesDeCaja": {
+                "dimensiones": {
+                    "longitudesDisponibles": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "anchosDePlataformaDisponibles": "84\", 94\", 97\""
+                },
+                "acabado": {
+                    "tipoDePintura": "Pintura en polvo",
+                    "preparacion": "Granallado de acero",
+                    "colores": [
+                        {
+                            "name": "Verde Militar",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Bronceado Desértico",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Naranja Llama",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Negro Medianoche",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Amarillo Spectra",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Azul Horizonte",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Verde Lima",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Gris Ceniza",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "Rojo Verdadero",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Blanco Perla",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Gris Nube",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Azul Marino",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "estilo": "Colores de 2 tonos disponibles, chasis / caja de descarga"
+                },
+                "garantia": {
+                    "garantiaEstructural": "3 años de garantía estructural",
+                    "garantiaDePartes": "1 año de garantía de partes"
+                }
+            },
+            "chasis": {
+                "estructura": {
+                    "estructuraPrincipal": "Canal de 4\" (4.50 lbs/ft) Espaciado de 64\"",
+                    "travesaños": "Canal de 3\" (3.50 lbs/ft) Espaciado de 16\"",
+                    "soportesDelanteros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado",
+                    "soportesTraseros": "Soportes de montaje atornillables o soldables de 1/4\" de espesor para trabajo pesado"
+                }
+            },
+            "caja": {
+                "cama": {
+                    "estructuraDePiso": "Plataforma de acero con placa de diamante de 11ga",
+                    "aTravesDe": "Comedero de cuello de cisne",
+                    "bolaDeEnganche": "Bola de cuello de cisne Buyers de 2,5/16\" (30,000 lbs)",
+                    "enchufe": "Enchufe hembra de 7 vías en el pozo de cuello de cisne",
+                    "anillosDgiratoriosAtornillados": "2 - Anillos en D giratorios galvanizados de montaje empotrado delanteros y traseros"
+                },
+                "lados": {
+                    "tapaDeCombustible": "Tapa de llenado de combustible con pestillo y tapa",
+                    "pasos": "Pasos laterales delante de los guardabarros",
+                    "estructuraLateral": "Placa de diamante de 10ga",
+                    "cajasDeHerramientasIntegradasDelanteras": "2 - Cajas de herramientas integradas de 14\"H x 17\"W con manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "cajasDeHerramientasIntegradasTraseras": "2 - Cajas de herramientas integradas de 14\"H x 17\"W con manija de caja de herramientas tipo T con cerradura de cromo negro",
+                    "faldonesDeGuardabarros": "Faldones de guardabarros de acero con placa de diamante de 11ga para trabajo pesado"
+                },
+                "frente": {
+                    "escudoDeCabina": "Placa de diamante reforzada de 11ga",
+                    "rejillaProtectora": "Rejilla protectora de trabajo pesado de tubo cuadrado de 3\" x 3\""
+                },
+                "parteTrasera": {
+                    "estructuraTrasera": "Placa de diamante de 11ga",
+                    "parachoques": "Parachoques de acero con placa de diamante de 11ga para trabajo pesado",
+                    "engancheReceptor": "Receptor / Enganche Buyers de 2,1/2\" listo (24,000 lbs)",
+                    "enchufeDe_7Vias": "Enchufe hembra de 7 vías",
+                    "conectorDe_4Vias": "Conector plano de 4 vías",
+                    "luzDeMatricula": "1 - Luz LED vertical Tecniq aprobada por el DOT para matrícula"
+                }
+            },
+            "electricidadEIluminacion": {
+                "bateriaYCarga": {
+                    "arnesDeCableado": "Arnés de cableado para todo clima"
+                },
+                "iluminacion": {
+                    "lucesDeEspacio": "Luces de bala LED ahumadas Tecniq de 3/4\" aprobadas por el DOT",
+                    "lucesDeRejillaDelantera": "4 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT en la rejilla delantera",
+                    "lucesTraseras": "6 - Luces LED ahumadas Tecniq ST/TL/TN de 2\" x 6\" aprobadas por el DOT",
+                    "lucesDeReversa": "4 - Luces LED ahumadas Tecniq de reversa de 2\" x 6\" aprobadas por el DOT"
+                },
+                "seguridad": {
+                    "reflectores": "Reflectores reflectantes 3M que cumplen con el DOT"
+                }
+            }
+        }
+    }
+}

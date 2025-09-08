@@ -1,0 +1,906 @@
+{
+    "AVSTBS01": {
+        "descriptions": {
+            "firstBlock": {
+                "description": "Combines durability and storage versatility with a strong diamond plate steel deck, multiple integrated toolboxes, and advanced LED lighting for reliable performance.",
+                "buttons": [
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Strength <span style='color:#fff'>and Structure</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>Storage <span style='color:#6897d8'>Versatility</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Lighting <span style='color:#fff'>and Safety</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+                    "title": "Strength and Structure",
+                    "subtitle": "4\" channel frame, 11-ga deck",
+                    "description": "Built on a 4\" channel frame with an 11-gauge diamond plate deck, it delivers outstanding rigidity for demanding tasks. Reinforced brackets and 16\" crossmember spacing enhance stability. The heavy-duty design withstands daily use, preserving structural integrity and minimizing downtime on job sites.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Storage Versatility",
+                    "subtitle": "Upright, top-open boxes",
+                    "description": "Multiple upright toolboxes, top-open compartments, and soft-closing pull-out trays keep tools organized and protected. Gas struts and lockable handles add safety and convenience, while flush D-rings provide secure tie-downs for gear, improving workflow efficiency throughout the day.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Lighting and Safety",
+                    "subtitle": "Smoked DOT LEDs, all-weather harness",
+                    "description": "DOT-approved smoked LEDs, reverse and clearance lights, and an all-weather harness ensure visibility and compliance. Reflective deflectors increase night safety, while clean wiring improves reliability and simplifies maintenance across harsh environments.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+        "standardFeatures": {
+            "bedSpecs": {
+                "dimensions": {
+                    "availableLengths": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "availableDeckWidths": "84\", 94\", 97\""
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [
+                        {
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "style": "2 Tone Colors Available, Chassis / Dump"
+                },
+                "warranty": {
+                    "structuralWarranty": "3 Year Structutal Warranty",
+                    "partsWarranty": "1 Year Parts Warranty"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "4\" Channel (4.50 lbs/ft) 64\" Spacing",
+                    "crossmembers": "3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "frontBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets",
+                    "rearBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets"
+                }
+            },
+            "bed": {
+                "bed": {
+                    "flooringStructure": "11ga. Diamond Plate Steel Deck",
+                    "insideBedWidth": "50\"",
+                    "gooseneckWell": "Built in Gooseneck Well w/ Diamond Plate Lid",
+                    "hitchBall": "2,5/16\" Buyers Gooseneck Ball (30,000 lbs)",
+                    "plugIn": "7-Way Female Plugin In Gooseneck Well",
+                    "boltOnSwivelD-rings": "2 - Flush Mount Galvanized Swivel D-Rings Front & Rear"
+                },
+                "sides": {
+                    "sideStructure": "11ga. Diamond Plate",
+                    "uprightToolboxesInTheFront": "2 - 36\"H x 27\"W Upright Toolboxes w/ Gas Strut & Lockable T-Type Toolbox Handle Black-Chrome",
+                    "pullOutTrays": "2 - 5\"H x 6\"W Angle Box Pull Out Soft-Closing Trays w/ Lockable Handle",
+                    "topOpenToolboxes": "2 - 48\"L x 19\"W Top Open Toolboxes w/ Gas Strut & Lockable Handle",
+                    "uprightToolboxesInTheRear": "2 - 24\"H x 15\"W Upright Toolboxes w/ Gas Strut & Lockable T-Type Toolbox Handle Black-Chrome",
+                    "fuelDoor": "Fuel Filler w/ Door Latch & Cap",
+                    "fenderFlares": "11ga. Heavy Duty Diamond Plate Steel Fender Flares"
+                },
+                "front": {
+                    "frontStructure": "11ga. Diamond Plate",
+                    "headacheRack": "3\" x 3\" Square Tubing Heavy Duty Headache Rack"
+                },
+                "rear": {
+                    "rearStructure": "11ga. Diamond Plate",
+                    "pullOutTray": "3\"H x 27\"W Pull Out Soft-Closing Tray w/ Lockable Handle",
+                    "tailgate": "Fold-Down Tail Gate w/ Latch",
+                    "tailgateHinges": "Heavy Duty Rivet On Hinges",
+                    "bumper": "11ga. Heavy Duty Diamond Plate Steel Bumper",
+                    "receiverHitch": "2,1/2\" Buyers Receiver / Hitch Ready (24,000 lbs)",
+                    "7WayPlug-in": "7-Way Female Plugin",
+                    "4WayPlug-in": "4 - Way Flat Connector",
+                    "licensePlateLight": "1 - Vertical DOT Approved License PlateTecniq LED Light"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "wiringHarness": "All-Weather Wiring Harness"
+                },
+                "lighting": {
+                    "clearenceLights": "3/4\" DOT Approved Tecniq Smoked LED Bullet Lights",
+                    "headRackLights": "4 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights On Head Rack",
+                    "rearLights": "6 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights",
+                    "reverseLights": "4 - 2\" x 6\" DOT Approved Reverse Smoked Tecniq LED Lights"
+                },
+                "safety": {
+                    "deflectors": "3M Dot Compliant Reflective Deflectors"
+                }
+            }
+        }
+    },
+    "ABFBTBNS01": {
+        "descriptions": {
+            "firstBlock": {
+                "description": "Delivers durability and functionality with a reinforced steel frame, practical rear tray, and advanced lighting, ideal for heavy-duty applications.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Heavy-Duty <span style='color:#fff'>Foundation</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>Functional <span style='color:#6897d8'>Bed Design</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Lighting <span style='color:#fff'>and Electrical</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+                    "title": "Heavy-Duty Foundation",
+                    "subtitle": "4\" channel frame, 11-ga deck",
+                    "description": "A reinforced 4\" channel frame and diamond plate deck provide long-term strength. Crossmembers at 16\" and heavy mounting brackets improve load distribution, making it dependable for hauling, service fleets, and field operations in rough conditions.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Functional Bed Design",
+                    "subtitle": "Gooseneck well, hitch ball, D-rings, rear tray",
+                    "description": "A built-in gooseneck well with 2-5/16\" hitch ball and flush D-rings secure loads confidently. The soft-closing rear pull-out tray adds accessibility for everyday tools, while a heavy steel bumper protects components during frequent site maneuvers.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Lighting and Electrical",
+                    "subtitle": "Smoked LEDs, weather-resistant wiring",
+                    "description": "Smoked LED lighting with head rack, reverse, and clearance functions improves visibility day or night. An all-weather harness supports reliability in rain, dust, and vibration, while reflective deflectors enhance compliance and roadside safety.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+        "standardFeatures": {
+            "bedSpecs": {
+                "dimensions": {
+                    "availableLengths": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "availableDeckWidths": "84\", 94\", 97\""
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [
+                        {
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "style": "2 Tone Colors Available, Chassis / Dump"
+                },
+                "warranty": {
+                    "structuralWarranty": "3 Year Structutal Warranty",
+                    "partsWarranty": "1 Year Parts Warranty"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "4\" Channel (4.50 lbs/ft) 64\" Spacing",
+                    "crossmembers": "3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "frontBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets",
+                    "rearBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets"
+                }
+            },
+            "bed": {
+                "bed": {
+                    "flooringStructure": "11ga. Diamond Plate Steel Deck",
+                    "gooseneckWell": "Built in Gooseneck Well w/ Diamond Plate Lid",
+                    "hitchBall": "2,5/16\" Buyers Gooseneck Ball (30,000 lbs)",
+                    "plugIn": "7-Way Female Plugin In Gooseneck Well",
+                    "boltOnSwivelD-rings": "2 - Flush Mount Galvanized Swivel D-Rings Front & Rear"
+                },
+                "sides": {
+                    "rubRail": "2\" x 3/8\" Rub Rail",
+                    "stakePockets": "1,5/8\" x 3,5/8\" (ID) Stake Pockets (Spaced At 24\")",
+                    "spools": "2\" x 10ga. Pipe Spools (Spaced At 24\")",
+                    "fuelDoor": "Fuel Filler w/ Door Latch & Cap"
+                },
+                "front": {
+                    "cabShield": "11ga. Reinforced Diamond Plate",
+                    "headacheRack": "3\" x 3\" Square Tubing Heavy Duty Headache Rack"
+                },
+                "rear": {
+                    "rearStructure": "11ga. Diamond Plate",
+                    "pullOutTray": "3\"H x 27\"W Pull Out Soft-Closing Tray w/ Lockable Handle",
+                    "bumper": "11ga. Heavy Duty Diamond Plate Steel Bumper",
+                    "receiverHitch": "2,1/2\" Buyers Receiver / Hitch Ready (24,000 lbs)",
+                    "7WayPlug-in": "7-Way Female Plugin",
+                    "4WayPlug-in": "4 - Way Flat Connector",
+                    "licensePlateLight": "1 - Vertical DOT Approved License PlateTecniq LED Light"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "wiringHarness": "All-Weather Wiring Harness"
+                },
+                "lighting": {
+                    "clearenceLights": "3/4\" DOT Approved Tecniq Smoked LED Bullet Lights",
+                    "headRackLights": "4 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights On Head Rack",
+                    "rearLights": "6 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights",
+                    "reverseLights": "4 - 2\" x 6\" DOT Approved Reverse Smoked Tecniq LED Lights"
+                },
+                "safety": {
+                    "deflectors": "3M Dot Compliant Reflective Deflectors"
+                }
+            }
+        }
+    },
+    "ADFBTBS01": {
+        "descriptions": {
+            "firstBlock": {
+                "description": "Combines robust construction, integrated toolboxes, and advanced lighting to create a versatile, durable work platform.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Reinforced <span style='color:#fff'>Construction</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>YOUR PERFECT <span style='color:#6897d8'>DUMP TRAILER SOLUTION</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Optimized <span style='color:#fff'>Storage</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+                    "title": "Reinforced Construction",
+                    "subtitle": "Steps, flares, 11-ga deck",
+                    "description": "A 4\" channel frame and 11-gauge deck deliver strength, while side steps and heavy fender flares improve access and protection. Reinforced brackets and 16\" crossmember spacing maintain stability under heavy loads and frequent on-off operations.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Your Optimized Storage",
+                    "subtitle": "Integrated toolboxes, stake pockets, spools",
+                    "description": "Integrated front and rear toolboxes secure essential gear with lockable handles. Stake pockets and pipe spools expand tie-down options, supporting varied cargo and efficient organization for service crews and contractors.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Safety and Illumination",
+                    "subtitle": "Smoked LEDs, reflective tape",
+                    "description": "DOT-approved smoked LEDs enhance visibility, while reflective tape boosts awareness in traffic and low-light conditions. All-weather wiring maintains dependable operation and simplifies troubleshooting over long service intervals.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+        "standardFeatures": {
+            "bedSpecs": {
+                "dimensions": {
+                    "availableLengths": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "availableDeckWidths": "84\", 94\", 97\""
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [
+                        {
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "style": "2 Tone Colors Available, Chassis / Dump"
+                },
+                "warranty": {
+                    "structuralWarranty": "3 Year Structutal Warranty",
+                    "partsWarranty": "1 Year Parts Warranty"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "4\" Channel (4.50 lbs/ft) 64\" Spacing",
+                    "crossmembers": "3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "frontBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets",
+                    "rearBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets"
+                }
+            },
+            "bed": {
+                "bed": {
+                    "flooringStructure": "11ga. Diamond Plate Steel Deck",
+                    "gooseneckWell": "Built in Gooseneck Well w/ Diamond Plate Lid",
+                    "hitchBall": "2,5/16\" Buyers Gooseneck Ball (30,000 lbs)",
+                    "plugIn": "7-Way Female Plugin In Gooseneck Well",
+                    "boltOnSwivelD-rings": "2 - Flush Mount Galvanized Swivel D-Rings Front & Rear"
+                },
+                "sides": {
+                    "rubRail": "2\" x 3/8\" Rub Rail",
+                    "stakePockets":"1,5/8\" x 3,5/8\" (ID) Stake Pockets (Spaced At 24\")",
+                    "spools": "2\" x 10ga. Pipe Spools (Spaced At 24\")",
+                    "fuelDoor": "Fuel Filler w/ Door Latch & Cap",
+                    "steps":"Side Steps In Front Of Fenders",
+                    "sideStructure": "10ga.Diamond Plate",
+                    "integratedToolboxesInTheFront":"2 - 14\"H x 17\"W Integrated Toolboxes w/ Lockable T-Type Toolbox Handle Black-Chrome",
+                    "integratedToolboxesInTheRear": "2 - 14\"H x 17\"W Integrated Toolboxes w/ Lockable T-Type Toolbox Handle Black-Chrome",
+                    "fenderFlares": "11ga. Heavy Duty Diamond Plate Steel Fender Flares"
+                },
+                "front": {
+                    "cabShield": "11ga. Reinforced Diamond Plate",
+                    "headacheRack": "3\" x 3\" Square Tubing Heavy Duty Headache Rack"
+                },
+                "rear": {
+                    "rearStructure": "11ga. Diamond Plate",
+                    "pullOutTray": "3\"H x 27\"W Pull Out Soft-Closing Tray w/ Lockable Handle",
+                    "bumper": "11ga. Heavy Duty Diamond Plate Steel Bumper",
+                    "receiverHitch": "2,1/2\" Buyers Receiver / Hitch Ready (24,000 lbs)",
+                    "7WayPlug-in": "7-Way Female Plugin",
+                    "4WayPlug-in": "4 - Way Flat Connector",
+                    "licensePlateLight": "1 - Vertical DOT Approved License PlateTecniq LED Light"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "wiringHarness": "All-Weather Wiring Harness"
+                },
+                "lighting": {
+                    "clearenceLights": "3/4\" DOT Approved Tecniq Smoked LED Bullet Lights",
+                    "headRackLights": "4 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights On Head Rack",
+                    "rearLights": "6 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights",
+                    "reverseLights": "4 - 2\" x 6\" DOT Approved Reverse Smoked Tecniq LED Lights"
+                },
+                "safety": {
+                    "deflectors": "3M Dot Compliant Reflective Deflectors"
+                }
+            }
+        }
+    },
+    "ADPFBTBS01": {
+        "descriptions": {
+            "firstBlock": {
+                "description": "Offers premium strength, accessible storage, and reliable lighting for professional hauling and field service.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Structural <span style='color:#fff'>Durability</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>Integrated <span style='color:#6897d8'>Utility</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Electrical <span style='color:#fff'>Reliability</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+                    "title": "Structural Durability",
+                    "subtitle": "4\" channel, cab shield, crossmembers",
+                    "description": "The 4\" channel frame and diamond plate deck provide core strength. A reinforced cab shield and headache rack protect the cab and load, while closely spaced crossmembers improve rigidity for demanding duty cycles.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Integrated Utility",
+                    "subtitle": "Upright + integrated boxes, steps, rub rail",
+                    "description": "Upright and integrated toolboxes keep equipment organized and secure. Side steps aid safe access, and a robust rub rail with stake pockets and spools expands tie-down flexibility for diverse tasks and payloads.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Electrical Reliability",
+                    "subtitle": "Smoked LEDs, reflective deflectors",
+                    "description": "Smoked LED modules for head rack, reverse, and clearance lighting deliver strong visibility. Weather-resistant wiring improves uptime, and reflective deflectors support compliance and safety in highway and job-site operations.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+       "standardFeatures": {
+            "bedSpecs": {
+                "dimensions": {
+                    "availableLengths": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "availableDeckWidths": "84\", 94\", 97\""
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [
+                        {
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "style": "2 Tone Colors Available, Chassis / Dump"
+                },
+                "warranty": {
+                    "structuralWarranty": "3 Year Structutal Warranty",
+                    "partsWarranty": "1 Year Parts Warranty"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "4\" Channel (4.50 lbs/ft) 64\" Spacing",
+                    "crossmembers": "3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "frontBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets",
+                    "rearBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets"
+                }
+            },
+            "bed": {
+                "bed": {
+                    "flooringStructure": "11ga. Diamond Plate Steel Deck",
+                    "gooseneckWell": "Built in Gooseneck Well w/ Diamond Plate Lid",
+                    "hitchBall": "2,5/16\" Buyers Gooseneck Ball (30,000 lbs)",
+                    "plugIn": "7-Way Female Plugin In Gooseneck Well",
+                    "boltOnSwivelD-rings": "2 - Flush Mount Galvanized Swivel D-Rings Front & Rear"
+                },
+                "sides": {
+                    "uprightToolboxesInTheFront": "2 - 36\"H x 27\"W Upright Toolboxes w/ Gas Strut & Lockable T-Type Toolbox Handle Black-Chrome",
+                    "rubRail": "2\" x 3/8\" Rub Rail",
+                    "stakePockets":"1,5/8\" x 3,5/8\" (ID) Stake Pockets (Spaced At 24\")",
+                    "spools": "2\" x 10ga. Pipe Spools (Spaced At 24\")",
+                    "fuelDoor": "Fuel Filler w/ Door Latch & Cap",
+                    "steps":"Side Steps In Front Of Fenders",
+                    "sideStructure": "10ga.Diamond Plate",
+                    "integratedToolboxesInTheFront":"2 - 14\"H x 17\"W Integrated Toolboxes w/ Lockable T-Type Toolbox Handle Black-Chrome",
+                    "integratedToolboxesInTheRear": "2 - 14\"H x 17\"W Integrated Toolboxes w/ Lockable T-Type Toolbox Handle Black-Chrome",
+                    "fenderFlares": "11ga. Heavy Duty Diamond Plate Steel Fender Flares"
+                },
+                "front": {
+                    "cabShield": "11ga. Reinforced Diamond Plate",
+                    "headacheRack": "3\" x 3\" Square Tubing Heavy Duty Headache Rack"
+                },
+                "rear": {
+                    "rearStructure": "11ga. Diamond Plate",
+                    "pullOutTray": "3\"H x 27\"W Pull Out Soft-Closing Tray w/ Lockable Handle",
+                    "bumper": "11ga. Heavy Duty Diamond Plate Steel Bumper",
+                    "receiverHitch": "2,1/2\" Buyers Receiver / Hitch Ready (24,000 lbs)",
+                    "7WayPlug-in": "7-Way Female Plugin",
+                    "4WayPlug-in": "4 - Way Flat Connector",
+                    "licensePlateLight": "1 - Vertical DOT Approved License PlateTecniq LED Light"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "wiringHarness": "All-Weather Wiring Harness"
+                },
+                "lighting": {
+                    "clearenceLights": "3/4\" DOT Approved Tecniq Smoked LED Bullet Lights",
+                    "headRackLights": "4 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights On Head Rack",
+                    "rearLights": "6 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights",
+                    "reverseLights": "4 - 2\" x 6\" DOT Approved Reverse Smoked Tecniq LED Lights"
+                },
+                "safety": {
+                    "deflectors": "3M Dot Compliant Reflective Deflectors"
+                }
+            }
+        }
+    },
+    "ACDTBS01": {
+        "descriptions": {
+            "firstBlock": {
+                "description": "Delivers reliable performance with a diamond plate deck, integrated storage, and advanced electrical features for professional use.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Built <span style='color:#fff'>for Strength</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>Practical <span style='color:#6897d8'>Utility</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Safety <span style='color:#fff'>and Visibility</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [
+                {
+                    "title": "Built for Strength",
+                    "subtitle": "Diamond plate deck, gooseneck trough",
+                    "description": "A diamond plate deck and 4\" channel foundation handle tough jobs. The gooseneck trough adds functionality for towing, while a reinforced headache rack improves load security and cab protection in demanding environments.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "Practical Utility",
+                    "subtitle": "Front/rear toolboxes, steps, flares",
+                    "description": "Integrated front and rear toolboxes keep essentials within reach. Side steps ease entry, while heavy fender flares protect the bed in tight worksites. The layout supports efficient workflows and quick access to tools.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "Safety and Visibility",
+                    "subtitle": "Smoked LEDs, reflective deflectors",
+                    "description": "DOT-approved smoked LEDs, reverse and clearance lighting, and an all-weather harness ensure reliable visibility. Reflective deflectors increase awareness around traffic and equipment, supporting safe operation day and night.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ]
+        },
+        "standardFeatures": {
+            "bedSpecs": {
+                "dimensions": {
+                    "availableLengths": "7'0\", 8'6\",  9'4\", 11' 4\"",
+                    "availableDeckWidths": "84\", 94\", 97\""
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [
+                        {
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ],
+                    "style": "2 Tone Colors Available, Chassis / Dump"
+                },
+                "warranty": {
+                    "structuralWarranty": "3 Year Structutal Warranty",
+                    "partsWarranty": "1 Year Parts Warranty"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "4\" Channel (4.50 lbs/ft) 64\" Spacing",
+                    "crossmembers": "3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "frontBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets",
+                    "rearBrackets": "1/4\" Thick Heavy Duty Bolt Or Weld On Mounting Brackets"
+                }
+            },
+            "bed": {
+                "bed": {
+                    "flooringStructure": "11ga. Diamond Plate Steel Deck",
+                    "through": "Gooseneck Trough",
+                    "hitchBall": "2,5/16\" Buyers Gooseneck Ball (30,000 lbs)",
+                    "plugIn": "7-Way Female Plugin In Gooseneck Well",
+                    "boltOnSwivelD-rings": "2 - Flush Mount Galvanized Swivel D-Rings Front & Rear"
+                },
+                "sides": {
+                    "fuelDoor": "Fuel Filler w/ Door Latch & Cap",
+                    "steps": "Side Steps In Front Of Fenders",
+                    "sideStructure": "10ga.Diamond Plate",
+                    "integratedToolboxesInTheFront": "2 - 14\"H x 17\"W Integrated Toolboxes w/ Lockable T-Type Toolbox Handle Black-Chrome",
+                    "integratedToolboxesInTheRear": "2 - 14\"H x 17\"W Integrated Toolboxes w/ Lockable T-Type Toolbox Handle Black-Chrome",
+                    "fenderFlares": "11ga. Heavy Duty Diamond Plate Steel Fender Flares"
+                },
+                "front": {
+                    "cabShield": "11ga.Reinforced Diamond Plate",
+                    "headacheRack": "3\" x 3\" Square Tubing Heavy Duty Headache Rack"
+                },
+                "rear": {
+                    "rearStructure": "11ga. Diamond Plate",
+                    "bumper": "11ga. Heavy Duty Diamond Plate Steel Bumper",
+                    "receiverHitch": "2,1/2\" Buyers Receiver / Hitch Ready (24,000 lbs)",
+                    "7WayPlug-in": "7-Way Female Plugin",
+                    "4WayPlug-in": "4 - Way Flat Connector",
+                    "licensePlateLight": "1 - Vertical DOT Approved License PlateTecniq LED Light"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "wiringHarness": "All-Weather Wiring Harness"
+                },
+                "lighting": {
+                    "clearenceLights": "3/4\" DOT Approved Tecniq Smoked LED Bullet Lights",
+                    "headRackLights": "4 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights On Head Rack",
+                    "rearLights": "6 - 2\" x 6\" DOT Approved ST/TL/TN Smoked Tecniq LED Lights",
+                    "reverseLights": "4 - 2\" x 6\" DOT Approved Reverse Smoked Tecniq LED Lights"
+                },
+                "safety": {
+                    "deflectors": "3M Dot Compliant Reflective Deflectors"
+                }
+            }
+        }
+    }
+}

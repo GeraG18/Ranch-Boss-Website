@@ -1,0 +1,38 @@
+{
+    "en":[
+        {
+            "name":"MAZO",
+            "url":"/financing?financer=mazo"
+        },
+        {
+            "name":"SYNHCRONY",
+            "url":"/financing?financer=synchrony"
+        },
+        {
+            "name":"TRIO CAPITAL",
+            "url":"/financing?financer=trio"
+        },
+        {
+            "name":"SHEFFIELD",
+            "url":"/financing?financer=sheffield"
+        }
+    ],
+    "es":[
+        {
+            "name":"MAZO",
+            "url":"/financing?financer=mazo"
+        },
+        {
+            "name":"SYNHCRONY",
+            "url":"/financing?financer=synchrony"
+        },
+        {
+            "name":"TRIO CAPITAL",
+            "url":"/financing?financer=trio"
+        },
+        {
+            "name":"SHEFFIELD",
+            "url":"/financing?financer=sheffield"
+        }
+    ]
+}

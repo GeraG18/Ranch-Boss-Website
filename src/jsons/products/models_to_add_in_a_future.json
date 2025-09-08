@@ -1,0 +1,2134 @@
+[
+    {
+        "_comment": "mtz equipment bp 7k 79\" [CHECKED 12-04-25]"
+    },
+    {
+        "id": "MTZ1BP12-7K",
+        "name": "MTZ 7K 79\" BP MINI GRAVITY TILT DECK",
+        "category": "EQUIPMENT",
+        "subcategory": "MINI GRAVITY TILT DECK",
+        "props": {
+            "type": [
+                "BUMPER PULL"
+            ],
+            "lengths": [
+                "12'"
+            ],
+            "phLengths": [
+
+            ],
+            "gnLengths": [
+
+            ],
+            "sideHeights": [
+
+            ],
+            "axleCount": [
+                1
+            ],
+            "axleRating": [
+                "7k"
+            ],
+            "cargoCapacity": [
+
+            ],
+            "deck": [
+
+            ],
+            "rear": [
+
+            ],
+            "deckWidth": [
+                "79\""
+            ],
+            "deckHeight": [
+                "15\""
+            ],
+            "gvwr": [
+                "7,000 lbs"
+            ]
+        },
+        "descriptions": {
+            "dimensionsPdf":"",
+            "videos": {
+                "action": "",
+                "review": ""
+            },
+            "diagram": "",
+            "firstBlock": {
+                "description": "The MTZ 7K 83\" BP Gravity Tilt Deck is a compact yet durable equipment trailer designed for easy loading and dependable performance. With a 12' gravity tilt deck, torsion suspension, powder-coated steel frame, and 7,000 lb GVWR, it's ideal for hauling with safety, efficiency, and rugged construction.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>TILT-DECK <span style='color:#fff'>PERFORMANCE</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>HEAVY-DUTY <span style='color:#6897d8'>COMPACT HAULING</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>COMPACT <span style='color:#fff'>EQUIPMENT SOLUTION</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [{
+                    "title": "TILT-DECK PERFORMANCE",
+                    "subtitle": "Gravity-Powered for Smooth Hauls",
+                    "description": "The MTZ 7K 83\" BP features a 12-foot gravity tilt deck, simplifying loading with no ramps required. Built on a 5\" channel steel frame and enhanced with torsion axles, this trailer delivers smooth, dependable transport. Ideal for compact equipment, it's a rugged solution with efficiency and control.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "HEAVY-DUTY COMPACT HAULING",
+                    "subtitle": "Effortless Transport, Rugged Build",
+                    "description": "With a 7,000 lb GVWR and all-steel diamond plate deck, this mini gravity tilt trailer offers serious hauling power. Its torsion suspension and adjustable coupler add stability and flexibility. Durable, easy to maintain, and available in bold color options, it's built for demanding environments.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "COMPACT EQUIPMENT SOLUTION",
+                    "subtitle": "Tilt Deck. Torsion Axles. Tough.",
+                    "description": "Designed for efficiency and control, the MTZ 7K 83\" BP packs power into a small footprint. The gravity tilt system and low 15\" deck height make loading seamless. Paired with LED lighting and a 3-year frame warranty, it's ideal for contractors and equipment professionals alike.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ],
+            "gallery": [
+            ],
+            "scrollGallery": [
+
+            ],
+            "productGallery": [
+            ]
+        },
+        "models": {
+            "src": "",
+            "iosSrc": ""
+        },
+        "standardFeatures": {
+            "highlights": [
+                "5\" Channel (6.70 lbs/ft)",
+                "Weld On Spare Tire Mount",
+                "12' Tilt Deck",
+                "2 - D-Rings In Between Fenders", 
+                "79\" Wide In Between Fenders"
+
+            ],
+            "trailerSpecs": {
+                "dimensions": {
+                    "availableLengths": "12'",
+                    "deckHeight": "79\"",
+                    "deckWidth": "15\""
+                },
+                "weightRating": {
+                    "gawr": "7,000 lbs",
+                    "gvwr": "7,000 lbs"
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [{
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ]
+                },
+                "warranty": {
+                    "axleWarranty": "10 Year Torsion Axle Warranty",
+                    "trailerWarranty": "3 Year Frame / 1 Year Parts Warranty"
+                }
+            },
+            "tongue": {
+                "tongue": {
+                    "type": "5\" Channel (6.70 lbs/ft)",
+                    "length": "60\"",
+                    "spare": "Weld On Spare Tire Mount"
+                },
+                "coupler": {
+                    "standardCoupler": "Adjustable Auto Latch 2-5/16\" BP Coupler (10,000 lbs)"
+                },
+                "jacks": {
+                    "frontJack": "1 Side Wind Drop Jack Leg (7000 lbs)"
+                },
+                "safety": {
+                    "safetyChains": "1/4\" Grade 70 Safety Chain w/Clevis Hook (2 each)"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "5\" Channel (6.70 lbs/ft)"
+                }
+            },
+            "deck": {
+                "bed": {
+                    "flooring": "12ga. Diamond Plate Steel Deck",
+                    "crossmembers": "3\" Channel (3.50 lbs/ft) 12\" Spacing",
+                    "deckHeight": "15\"",
+                    "deckWidth": "79\"",
+                    "dRings":"8 - D-Rings Welded Across Deck",
+                    "tiltDeckLength":"12'",
+                    "tiltDeckFrame":"3\" x 3/16\" Flat Iron",
+                    "tiltAngle": "",
+                    "rear":"Slide In Slots For Board Rear Of Deck"
+                },
+                "sides": {
+                    "sideHeight":"7\"",
+                    "thickness":"7ga.",
+                    "fenders":"14ga. Diamond Plate Steel Fenders",
+                    "rubRail":"2\" x 3/8\" Rub Rail",
+                    "stakePockets":"10 - (ID) Stake Pockets",
+                    "spools": "2\" x 10ga. Pipe Spools In Between Stake Pockets"
+                },
+                "front": {
+                    "latch":"Dual Spring Loaded Latching System"
+                }
+            },
+            "tiltSystem": {
+                "hydraulics": {
+                    "system": "Gravity Up / Down",
+                    "cylinder": "",
+                    "tank": "Large Reservoir",
+                    "valve": "3 Way Valve Control "
+                }
+            },
+            "runningGear": {
+                "tires": {
+                    "type": "Radial Tires",
+                    "size": "ST235/80R16",
+                    "ply": "10",
+                    "rating": "3,520 lbs",
+                    "rims": "16\" Black Mod Wheels"
+                },
+                "suspension": {
+                    "axleType": "7k Electric Brake Auto Adjust Oil Bath Torsion Axles",
+                    "boltPattern": "8 On 6.5\"",
+                    "axleCount": "2",
+                    "suspensionType": "Torsion",
+                    "axleWarranty": "10 Year Torsion Axle Warranty"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "breakawaySystem": "2382 Brightway Group Electric Breakaway Kit",
+                    "wiringHarness": "All-Weather Wiring Harness (7-Way RV)",
+                    "frameWiring": "Double Insulated Wiring Harness"
+                },
+                "lighting": {
+                    "lights": "DOT Approved Tecniq LED Lights"
+                },
+                "safety": {
+                    "reflectiveTape": "3M Dot Compliant Reflective Tape"
+                }
+            }
+        },
+        "options": {
+            "tongue": [{
+                    "code": "MTZ-213",
+                    "image": "",
+                    "name": "Mega Lockable Toolbox",
+                    "price": 312
+                }
+            ],
+            "runningGear": {
+                "tireUpgradeOptions": [{
+                    "code": "501-020",
+                    "name": "2 - ST235/85R16 14 Ply Tires Singles (4,400 lbs)",
+                    "price": 110.5
+                }],
+                "aluminiumWheelsOptions": [{
+                        "code": "501-021",
+                        "name": "2 - Aluminum Rims w/ ST235/80R16 10 Ply Tires (3,520 lbs)",
+                        "price": 481
+                    },
+                    {
+                        "code": "501-022",
+                        "name": "2 - Aluminum Rims w/ ST235/85R16 14 Ply Tires (4,400 lbs)",
+                        "price": 2346.5
+                    }
+                ],
+                "spareTireOptions": [{
+                        "code": "501-103",
+                        "name": "ST235/80R16 10 Ply Tire Single (3,520 lbs)",
+                        "price": 182
+                    },
+                    {
+                        "code": "501-104",
+                        "name": "ST235/85R16 14 Ply Tire Single (4,400 lbs)",
+                        "price": 240.5
+                    },
+                    {
+                        "code": "501-105",
+                        "name": "Aluminum Rims w/ ST235/80R16 10 Ply Tire (3,520 lbs)",
+                        "price": 422.5
+                    },
+                    {
+                        "code": "501-106",
+                        "name": "Aluminum Rims w/ ST235/85R16 14 Ply Tire (4,400 lbs)",
+                        "price": 481
+                    }
+                ]
+            },
+            "finish": [
+                {
+                    "code": "MTZ-815",
+                    "name": "Zinc Primer Undercoat",
+                    "price": 682.5
+                },
+                {
+                    "code": "MTZ-821",
+                    "name": "Side Mount Undercarriage Toolboxes Painted Black ",
+                    "price": 273,
+                    "priceAddon":"perToolbox"
+                }
+            ]
+        }
+    },
+    {
+        "_comment": "ecz equipment bp 14k 83\" [CHECKED 12-04-25]"
+    },
+    {
+        "id": "ECZBP83-14K",
+        "name": "ECZ 14K 83\" BP EQUIPMENT HAULER",
+        "category": "EQUIPMENT",
+        "subcategory": "EQUIPMENT HAULER",
+        "props": {
+            "type": [
+                "BUMPER PULL"
+            ],
+            "lengths": [
+                "18'",
+                "20'",
+                "22'",
+                "24'"
+            ],
+            "phLengths": [
+
+            ],
+            "gnLengths": [
+
+            ],
+            "sideHeights": [
+
+            ],
+            "axleCount": [
+                2
+            ],
+            "axleRating": [
+                "7k"
+            ],
+            "cargoCapacity": [
+
+            ],
+            "deck": [
+
+            ],
+            "rear": [
+
+            ],
+            "deckWidth": [
+                "83\""
+            ],
+            "deckHeight": [
+                "26\""
+            ],
+            "gvwr": [
+                "14,000 lbs"
+            ]
+        },
+        "descriptions": {
+            "dimensionsPdf":"",
+            "videos": {
+                "action": "",
+                "review": ""
+            },
+            "diagram": "",
+            "firstBlock": {
+                "description": "The ECZ 14K 83\" BP Equipment Hauler is built for strength, capacity, and durability. With lengths up to 24', dual 7K axles, removable fenders, and heavy-duty slide-in ramps, it's ideal for transporting machinery. Featuring a powder-coated finish and 14,000 lb GVWR, it's a high-performance trailer for professionals.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>BUILT FOR <span style='color:#fff'>TOUGH LOADS</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>HEAVY-DUTY <span style='color:#6897d8'>EQUIPMENT TRAILER</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>DEPENDABLE <span style='color:#fff'>JOBSITE TRANSPORT</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [{
+                    "title": "BUILT FOR TOUGH LOADS",
+                    "subtitle": "Haul Equipment With Confidence",
+                    "description": "The ECZ 14K Equipment Hauler delivers rugged dependability for job sites and equipment transport. It boasts a 14,000 lb GVWR, spring suspension, and 10-ply radial tires. Its 6\" channel frame, ramp pockets, and heavy-duty slide-in ramps offer durable support and flexibility for diverse hauling demands.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "HEAVY-DUTY EQUIPMENT TRAILER",
+                    "subtitle": "Engineered To Endure Loads",
+                    "description": "With 18'–24' deck length options and a reinforced 83\" wide platform, the ECZ 14K handles big jobs with ease. Spring-loaded drop jack, removable fenders, and dual D-rings enhance utility. Its powder-coated finish resists wear, while the welded-on spare tire mount ensures you're always ready.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "DEPENDABLE JOBSITE TRANSPORT",
+                    "subtitle": "Strength Meets Daily Demands",
+                    "description": "The ECZ 14K is a go-to choice for contractors needing consistent performance. Featuring 2 heavy-duty spring axles, 5'6\" slide-in ramps, and steel stake pockets, this bumper pull trailer is ready for action. From pine deck flooring to LED lighting, every detail is crafted for reliability.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ],
+            "gallery": [
+            ],
+            "scrollGallery": [
+
+            ],
+            "productGallery": [
+            ]
+        },
+        "models": {
+            "src": "",
+            "iosSrc": ""
+        },
+        "standardFeatures": {
+            "highlights": [
+                "6\" Channel (8.20 lbs/ft)",
+                "Weld On Spare Tire Mount",
+                "Front Guard Rail",
+                "Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps",
+                "2 - D-Rings In Between Fenders",
+                "83\" Wide In Between Fenders",
+                "Removable Fenders"
+            ],
+            "trailerSpecs": {
+                "dimensions": {
+                    "availableLengths": "18', 20', 22', 24'",
+                    "deckHeight": "26\"",
+                    "deckWidth": "83\""
+                },
+                "weightRating": {
+                    "gawr": "7,000 lbs",
+                    "gvwr": "14,000 lbs"
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [{
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ]
+                },
+                "warranty": {
+                    "axleWarranty": "5 Year Spring Axle Warranty",
+                    "trailerWarranty": "3 Year Frame / 1 Year Parts Warranty"
+                }
+            },
+            "tongue": {
+                "tongue": {
+                    "type": "6\" Channel (8.20 lbs/ft)",
+                    "length": "50\"",
+                    "spare": "Weld On Spare Tire Mount"
+                },
+                "coupler": {
+                    "standardCoupler": "Adjustable Auto Latch 2-5/16\" BP Coupler (17,000 lbs)"
+                },
+                "jacks": {
+                    "frontJack": "1 Side Wind Spring Loaded Drop Jack Leg (12,000 lbs)"
+                },
+                "safety": {
+                    "safetyChains": "3/8\" Grade 70 Safety Chain w/Clevis Hook (2 each)"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "6\" Channel (8.20 lbs/ft)"
+                }
+            },
+            "deck": {
+                "bed": {
+                    "rearOfDeck":"Straight Deck",
+                    "flooring":"Pine Lumber Floor",
+                    "crossmembers":"3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "deckHeight":"26\"",
+                    "deckWidth":"83\"",
+                    "widthBetweenFenders": "83\"",
+                    "dRings":"2 - D-Rings In Between Deck"
+                },
+                "sides": {
+                    "rubRail": "2\" x 3/8\" Rub Rail",
+                    "stakePockets": "1,5/8\" x 3,5/8\" (ID) Stake Pockets (Spaced At 24\")",
+                    "spools": "2\" x 10ga. Pipe Spools (Spaced At 24\")",
+                    "fenders": "12ga. Removable Diamond Plate Steel Fenders"
+                },
+                "front": {
+                    "guard": "Reinforced 2\" 10ga. Round Tubing"
+                },
+                "rear": {
+                    "ramps": "Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps (7,000 LBS WHEEL RATING EACH ONLY OVER AREA OF 12\" OR MORE)"
+                }
+            },
+            "runningGear": {
+                "tires": {
+                    "type": "Radial Tires",
+                    "size": "ST235/80R16",
+                    "ply": "10",
+                    "rating": "3,520 lbs",
+                    "rims": "16\" Black Mod Wheels"
+                },
+                "suspension": {
+                    "axleType": "7k Electric Brake Auto Adjust EZ Lube Spring Axles",
+                    "boltPattern": "8 On 6.5\"",
+                    "axleCount": "2",
+                    "suspensionType": "Spring",
+                    "axleWarranty": "5 Year Spring Axle Warranty"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "breakawaySystem": "2382 Brightway Group Electric Breakaway Kit",
+                    "wiringHarness": "All-Weather Wiring Harness (7-Way RV)",
+                    "frameWiring": "Double Insulated Wiring Harness"
+                },
+                "lighting": {
+                    "lights": "DOT Approved Tecniq LED Lights"
+                },
+                "safety": {
+                    "reflectiveTape": "3M Dot Compliant Reflective Tape"
+                }
+            }
+        },
+        "options": {
+            "tongue": [{
+                    "code": "ECZ-103",
+                    "image": "",
+                    "name": "12k Ram 2 Speed Jack",
+                    "price": 273
+                },
+                {
+                    "code": "ECZ-105",
+                    "image": "",
+                    "name": "12k Hydraulic Jack",
+                    "price": 1982.5
+                },
+                {
+                    "code": "ECZ-213",
+                    "image": "",
+                    "name": "Mega Lockable Toolbox",
+                    "price": 312
+                }
+            ],
+            "deck": {
+                "deck": [
+                    {
+                        "code": "ECZ-452",
+                        "image": "",
+                        "name": "2' Dovetail w/ Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps",
+                        "price": null
+                    },
+                    {
+                        "code": "ECZ-447",
+                        "image": "",
+                        "name": "2' Dovetail w/ 2 - 24\" x 5' Long Heavy Duty (3\" Channel) w/ 10ga. Mesh Covering Stand Up Ramps",
+                        "price": null
+                    },
+                    {
+                        "code": "ETZ-402",
+                        "image": "",
+                        "name": "12\" Crossmember Spacing",
+                        "price": 15.6,
+                        "priceAddon": "perLinearFt"
+                    },
+                    {
+                        "code": "506-005",
+                        "image": "",
+                        "name": "Full Deck Blackwood \"Classic\" Rubber Infused Lumber",
+                        "price": 37.7,
+                        "priceAddon": "perLinearFt"
+                    },
+                    {
+                        "code": "508-001",
+                        "image": "",
+                        "name": "4 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 84.5
+                    },
+                    {
+                        "code": "508-002",
+                        "image": "",
+                        "name": "6 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 123.5
+                    },
+                    {
+                        "code": "508-003",
+                        "image": "",
+                        "name": "8 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 162.5
+                    },
+                    {
+                        "code": "511-003",
+                        "image": "",
+                        "name": "Rear Stabilizer Swivel Jacks (Slide In Ramps Option Only)",
+                        "price": null
+                    },
+                    {
+                        "code": "ECZ-413",
+                        "image": "",
+                        "name": "Winch Mounting Plate On Deck",
+                        "price": null
+                    }
+                ]
+            },
+            "liftSystem": [{
+                    "code": "509-016",
+                    "image": "",
+                    "name": "Tuff Wireless 2 Button Remote (Hydraulic Jacks)",
+                    "price": 708.5
+                },
+                {
+                    "code": "509-018",
+                    "image": "",
+                    "name": "Tuff Wireless 4 Button Remote (Hydraulic Jacks - Winch)",
+                    "price": 858
+                },
+                {
+                    "code": "504-012",
+                    "image": "",
+                    "name": "13.5k Steel Cable Winchmax Winch",
+                    "price": 1774.5
+                },
+                {
+                    "code": "504-013",
+                    "image": "",
+                    "name": "13.5k Synthetic Rope Winchmax Winch",
+                    "price": 2047.5
+                }
+            ],
+            "runningGear": {
+                "tireUpgradeOptions": [{
+                    "code": "501-002",
+                    "name": "4 - ST235/85R16 14 Ply Tires Singles (4,400 lbs)",
+                    "price": 221
+                }],
+                "aluminiumWheelsOptions": [{
+                        "code": "501-003",
+                        "name": "4 - Aluminum Rims w/ ST235/80R16 10 Ply Tires (3,520 lbs)",
+                        "price": 955.5
+                    },
+                    {
+                        "code": "501-004",
+                        "name": "4 - Aluminum Rims w/ ST235/85R16 14 Ply Tires (4,400 lbs)",
+                        "price": 1176.5
+                    }
+                ],
+                "spareTireOptions": [{
+                        "code": "501-103",
+                        "name": "ST235/80R16 10 Ply Tire Single (3,520 lbs)",
+                        "price": 182
+                    },
+                    {
+                        "code": "501-104",
+                        "name": "ST235/85R16 14 Ply Tire Single (4,400 lbs)",
+                        "price": 240.5
+                    },
+                    {
+                        "code": "501-105",
+                        "name": "Aluminum Rims w/ ST235/80R16 10 Ply Tire (3,520 lbs)",
+                        "price": 422.5
+                    },
+                    {
+                        "code": "501-106",
+                        "name": "Aluminum Rims w/ ST235/85R16 14 Ply Tire (4,400 lbs)",
+                        "price": 481
+                    }
+                ]
+            },
+            "electricalAndLighting": [{
+                "code": "505-001",
+                "name": "10 Watt Solar Panel",
+                "price": 481
+            }],
+            "finish": [{
+                    "code": "ECZ-818",
+                    "name": "18ft Zinc Primer Undercoat",
+                    "price": 1027
+                },
+                {
+                    "code": "ECZ-815",
+                    "name": "20ft & Up Zinc Primer Undercoat",
+                    "price": 1365
+                }
+            ]
+        }
+    },
+    {
+        "_comment": "ecz equipment bp 16k 83\" [CHECKED 12-04-25]"
+    },
+    {
+        "id": "ECZBP83-16K",
+        "name": "ECZ 16K 83\" BP EQUIPMENT HAULER",
+        "category": "EQUIPMENT",
+        "subcategory": "EQUIPMENT HAULER",
+        "props": {
+            "type": [
+                "BUMPER PULL"
+            ],
+            "lengths": [
+                "18'",
+                "20'",
+                "22'",
+                "24'"
+            ],
+            "phLengths": [
+
+            ],
+            "gnLengths": [
+
+            ],
+            "sideHeights": [
+
+            ],
+            "axleCount": [
+                2
+            ],
+            "axleRating": [
+                "8k"
+            ],
+            "cargoCapacity": [
+
+            ],
+            "deck": [
+
+            ],
+            "rear": [
+
+            ],
+            "deckWidth": [
+                "83\""
+            ],
+            "deckHeight": [
+                "26\""
+            ],
+            "gvwr": [
+                "16,000 lbs"
+            ]
+        },
+        "descriptions": {
+            "dimensionsPdf":"",
+            "videos": {
+                "action": "",
+                "review": ""
+            },
+            "diagram": "",
+            "firstBlock": {
+                "description": "The ECZ 16K 83\" BP Equipment Hauler is a rugged bumper pull trailer built to carry heavy machinery with ease. With a 16,000 lb GVWR, 83\" wide deck, dual 8K axles, and heavy-duty ramps, it provides exceptional durability, versatility, and jobsite readiness.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>BUILT TO CARRY <span style='color:#fff'>MORE</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>READY FOR <span style='color:#6897d8'>TOUGH JOBS</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>FUNCTIONAL DESIGN, <span style='color:#fff'>DAILY USE</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [{
+                    "title": "BUILT TO CARRY MORE",
+                    "subtitle": "Strength and space for any load",
+                    "description": "With deck lengths ranging from 18' to 24' and an 83\" wide bed, the ECZ 16K delivers ample space for diverse equipment. Its 6\" channel frame, pine wood floor, and crossmembers spaced at 16\" ensure a strong, stable platform for transporting even the heaviest machinery.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "READY FOR TOUGH JOBS",
+                    "subtitle": "Built with reliability in mind",
+                    "description": "This trailer features dual 8K EZ Lube axles with electric brakes, a spring-loaded drop jack, and 10-ply radial tires for superior load control. The powder-coated finish and steel grit blasting prep add resilience against wear, making it a long-lasting solution for jobsite hauling.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "FUNCTIONAL DESIGN, DAILY USE",
+                    "subtitle": "Utility meets convenience",
+                    "description": "Equipped with heavy-duty 5'6\" slide-in ramps, removable diamond plate fenders, front guard rail, and 2 D-rings, the ECZ 16K is practical and dependable. LED lights, stake pockets, and spare tire mount enhance safety and convenience, making it ideal for daily transport operations.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ],
+            "gallery": [
+            ],
+            "scrollGallery": [
+
+            ],
+            "productGallery": [
+            ]
+        },
+        "models": {
+            "src": "",
+            "iosSrc": ""
+        },
+        "standardFeatures": {
+            "highlights": [
+                "6\" Channel (8.20 lbs/ft)",
+                "Weld On Spare Tire Mount",
+                "Front Guard Rail",
+                "Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps",
+                "2 - D-Rings In Between Fenders",
+                "83\" Wide In Between Fenders",
+                "Removable Fenders"
+            ],
+            "trailerSpecs": {
+                "dimensions": {
+                    "availableLengths": "18', 20', 22', 24'",
+                    "deckHeight": "26\"",
+                    "deckWidth": "83\""
+                },
+                "weightRating": {
+                    "gawr": "8,000 lbs",
+                    "gvwr": "16,000 lbs"
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [{
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ]
+                },
+                "warranty": {
+                    "axleWarranty": "5 Year Spring Axle Warranty",
+                    "trailerWarranty": "3 Year Frame / 1 Year Parts Warranty"
+                }
+            },
+            "tongue": {
+                "tongue": {
+                    "type": "6\" Channel (8.20 lbs/ft)",
+                    "length": "50\"",
+                    "spare": "Weld On Spare Tire Mount"
+                },
+                "coupler": {
+                    "standardCoupler": "Adjustable Auto Latch 2-5/16\" BP Coupler (17,000 lbs)"
+                },
+                "jacks": {
+                    "frontJack": "1 Side Wind Spring Loaded Drop Jack Leg (12,000 lbs)"
+                },
+                "safety": {
+                    "safetyChains": "3/8\" Grade 70 Safety Chain w/Clevis Hook (2 each)"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "6\" Channel (8.20 lbs/ft)"
+                }
+            },
+            "deck": {
+                "bed": {
+                    "rearOfDeck":"Straight Deck",
+                    "flooring":"Pine Lumber Floor",
+                    "crossmembers":"3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "deckHeight":"26\"",
+                    "deckWidth":"83\"",
+                    "widthBetweenFenders": "83\"",
+                    "dRings":"2 - D-Rings In Between Deck"
+                },
+                "sides": {
+                    "rubRail": "2\" x 3/8\" Rub Rail",
+                    "stakePockets": "1,5/8\" x 3,5/8\" (ID) Stake Pockets (Spaced At 24\")",
+                    "spools": "2\" x 10ga. Pipe Spools (Spaced At 24\")",
+                    "fenders": "12ga. Removable Diamond Plate Steel Fenders"
+                },
+                "front": {
+                    "guard": "Reinforced 2\" 10ga. Round Tubing"
+                },
+                "rear": {
+                    "ramps": "Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps (7,000 LBS WHEEL RATING EACH ONLY OVER AREA OF 12\" OR MORE)"
+                }
+            },
+            "runningGear": {
+                "tires": {
+                    "type": "Radial Tires",
+                    "size": "ST235/85R16",
+                    "ply": "14",
+                    "rating": "4,400 lbs",
+                    "rims": "16\" Black Mod Wheels"
+                },
+                "suspension": {
+                    "axleType": "8k Electric Brake Auto Adjust EZ Lube Spring Axles",
+                    "boltPattern": "8 On 6.5\"",
+                    "axleCount": "2",
+                    "suspensionType": "Spring",
+                    "axleWarranty": "5 Year Spring Axle Warranty"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "breakawaySystem": "2382 Brightway Group Electric Breakaway Kit",
+                    "wiringHarness": "All-Weather Wiring Harness (7-Way RV)",
+                    "frameWiring": "Double Insulated Wiring Harness"
+                },
+                "lighting": {
+                    "lights": "DOT Approved Tecniq LED Lights"
+                },
+                "safety": {
+                    "reflectiveTape": "3M Dot Compliant Reflective Tape"
+                }
+            }
+        },
+        "options": {
+            "tongue": [{
+                    "code": "ECZ-103",
+                    "image": "",
+                    "name": "12k Ram 2 Speed Jack",
+                    "price": 273
+                },
+                {
+                    "code": "ECZ-105",
+                    "image": "",
+                    "name": "12k Hydraulic Jack",
+                    "price": 1982.5
+                },
+                {
+                    "code": "ECZ-213",
+                    "image": "",
+                    "name": "Mega Lockable Toolbox",
+                    "price": 312
+                }
+            ],
+            "deck": {
+                "dovetailOptions": [
+                    {
+                        "code": "ECZ-452",
+                        "image": "",
+                        "name": "2' Dovetail w/ Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps",
+                        "price": null
+                    },
+                    {
+                        "code": "ECZ-447",
+                        "image": "",
+                        "name": "2' Dovetail w/ 2 - 24\" x 5' Long Heavy Duty (3\" Channel) w/ 10ga. Mesh Covering Stand Up Ramps",
+                        "price": null
+                    },
+                    {
+                        "code": "ETZ-402",
+                        "image": "",
+                        "name": "12\" Crossmember Spacing",
+                        "price": 15.6,
+                        "priceAddon": "perLinearFt"
+                    },
+                    {
+                        "code": "506-005",
+                        "image": "",
+                        "name": "Full Deck Blackwood \"Classic\" Rubber Infused Lumber",
+                        "price": 37.7,
+                        "priceAddon": "perLinearFt"
+                    },
+                    {
+                        "code": "508-001",
+                        "image": "",
+                        "name": "4 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 84.5
+                    },
+                    {
+                        "code": "508-002",
+                        "image": "",
+                        "name": "6 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 123.5
+                    },
+                    {
+                        "code": "508-003",
+                        "image": "",
+                        "name": "8 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 162.5
+                    },
+                    {
+                        "code": "511-003",
+                        "image": "",
+                        "name": "Rear Stabilizer Swivel Jacks (Slide In Ramps Option Only)",
+                        "price": null
+                    },
+                    {
+                        "code": "ECZ-413",
+                        "image": "",
+                        "name": "Winch Mounting Plate On Deck",
+                        "price": null
+                    }
+                ]
+            },
+            "liftSystem": [{
+                    "code": "509-016",
+                    "image": "",
+                    "name": "Tuff Wireless 2 Button Remote (Hydraulic Jacks)",
+                    "price": 708.5
+                },
+                {
+                    "code": "509-018",
+                    "image": "",
+                    "name": "Tuff Wireless 4 Button Remote (Hydraulic Jacks - Winch)",
+                    "price": 858
+                },
+                {
+                    "code": "504-012",
+                    "image": "",
+                    "name": "13.5k Steel Cable Winchmax Winch",
+                    "price": 1774.5
+                },
+                {
+                    "code": "504-013",
+                    "image": "",
+                    "name": "13.5k Synthetic Rope Winchmax Winch",
+                    "price": 2047.5
+                }
+            ],
+            "runningGear": {
+                "tireUpgradeOptions": [{
+                    "code": "501-005",
+                    "name": "4 - ST235/75R17.5 18 Ply Tires Super Singles (6,005 lbs)",
+                    "price": 819
+                }],
+                "spareTireOptions": [
+                    {
+                        "code": "501-104",
+                        "name": "ST235/85R16 14 Ply Tire Single (4,400 lbs)",
+                        "price": 240.5
+                    },
+                    {
+                        "code": "501-107",
+                        "name": "ST235/75R17.5 18 Ply Tire Super Single (6,005 lbs)",
+                        "price": 318.5
+                    }
+                ]
+            },
+            "electricalAndLighting": [{
+                "code": "505-001",
+                "name": "10 Watt Solar Panel",
+                "price": 481
+            }],
+            "finish": [{
+                    "code": "ECZ-818",
+                    "name": "18ft Zinc Primer Undercoat",
+                    "price": 1027
+                },
+                {
+                    "code": "ECZ-815",
+                    "name": "20ft & Up Zinc Primer Undercoat",
+                    "price": 1365
+                }
+            ]
+        }
+    },
+    {
+        "_comment": "ecz equipment bp 14k 102\" [CHECKED 12-04-25] NEEDS DESCRIPTION"
+    },
+    {
+        "id": "ECZBP102-14K",
+        "name": "ECZ 14K 102\" BP EQUIPMENT HAULER",
+        "category": "EQUIPMENT",
+        "subcategory": "EQUIPMENT HAULER",
+        "props": {
+            "type": [
+                "BUMPER PULL"
+            ],
+            "lengths": [
+                "18'",
+                "20'",
+                "22'",
+                "24'"
+            ],
+            "phLengths": [
+
+            ],
+            "gnLengths": [
+
+            ],
+            "sideHeights": [
+
+            ],
+            "axleCount": [
+                2
+            ],
+            "axleRating": [
+                "7k"
+            ],
+            "cargoCapacity": [
+
+            ],
+            "deck": [
+
+            ],
+            "rear": [
+
+            ],
+            "deckWidth": [
+                "102\""
+            ],
+            "deckHeight": [
+                "26\""
+            ],
+            "gvwr": [
+                "14,000 lbs"
+            ]
+        },
+        "descriptions": {
+            "dimensionsPdf":"",
+            "videos": {
+                "action": "",
+                "review": ""
+            },
+            "diagram": "",
+            "firstBlock": {
+                "description": "The ECZ 14K 102\" BP Equipment Hauler offers maximum loading versatility with its full-width 102\" deck. Built with a 14,000 lb GVWR, spring suspension, and diamond plate drive-over fenders, it's perfect for wide or low-profile machinery. Heavy-duty ramps, tie-down slots, and a powder-coated finish ensure reliable and professional-grade performance.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>BUILT FOR <span style='color:#fff'>TOUGH LOADS</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>HEAVY-DUTY <span style='color:#6897d8'>EQUIPMENT TRAILER</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>DEPENDABLE <span style='color:#fff'>JOBSITE TRANSPORT</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [{
+                    "title": "BUILT FOR TOUGH LOADS",
+                    "subtitle": "Haul Equipment With Confidence",
+                    "description": "The ECZ 14K Equipment Hauler delivers rugged dependability for job sites and equipment transport. It boasts a 14,000 lb GVWR, spring suspension, and 10-ply radial tires. Its 6\" channel frame, ramp pockets, and heavy-duty slide-in ramps offer durable support and flexibility for diverse hauling demands.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "HEAVY-DUTY EQUIPMENT TRAILER",
+                    "subtitle": "Engineered To Endure Loads",
+                    "description": "With 18'–24' deck length options and a reinforced 83\" wide platform, the ECZ 14K handles big jobs with ease. Spring-loaded drop jack, removable fenders, and dual D-rings enhance utility. Its powder-coated finish resists wear, while the welded-on spare tire mount ensures you're always ready.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "DEPENDABLE JOBSITE TRANSPORT",
+                    "subtitle": "Strength Meets Daily Demands",
+                    "description": "The ECZ 14K is a go-to choice for contractors needing consistent performance. Featuring 2 heavy-duty spring axles, 5'6\" slide-in ramps, and steel stake pockets, this bumper pull trailer is ready for action. From pine deck flooring to LED lighting, every detail is crafted for reliability.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ],
+            "gallery": [
+            ],
+            "scrollGallery": [
+
+            ],
+            "productGallery": [
+            ]
+        },
+        "models": {
+            "src": "",
+            "iosSrc": ""
+        },
+        "standardFeatures": {
+            "highlights": [
+                "6\" Channel (8.20 lbs/ft)",
+                "Weld On Spare Tire Mount",
+                "Front Guard Rail",
+                "Outer Deck Frame 3/16\" Diamond Plate",
+                "Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps",
+                "2 - D-Rings In Between Fenders",
+                "83\" Wide In Between Fenders"
+            ],
+            "trailerSpecs": {
+                "dimensions": {
+                    "availableLengths": "18', 20', 22', 24'",
+                    "deckHeight": "26\"",
+                    "deckWidth": "102\""
+                },
+                "weightRating": {
+                    "gawr": "7,000 lbs",
+                    "gvwr": "14,000 lbs"
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [{
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ]
+                },
+                "warranty": {
+                    "axleWarranty": "5 Year Spring Axle Warranty",
+                    "trailerWarranty": "3 Year Frame / 1 Year Parts Warranty"
+                }
+            },
+            "tongue": {
+                "tongue": {
+                    "type": "6\" Channel (8.20 lbs/ft)",
+                    "length": "50\"",
+                    "spare": "Weld On Spare Tire Mount"
+                },
+                "coupler": {
+                    "standardCoupler": "Adjustable Auto Latch 2-5/16\" BP Coupler (17,000 lbs)"
+                },
+                "jacks": {
+                    "frontJack": "1 Side Wind Spring Loaded Drop Jack Leg (12,000 lbs)"
+                },
+                "safety": {
+                    "safetyChains": "3/8\" Grade 70 Safety Chain w/Clevis Hook (2 each)"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "6\" Channel (8.20 lbs/ft)"
+                }
+            },
+            "deck": {
+                "bed": {
+                    "rearOfDeck":"Straight Deck",
+                    "deckFrame":"3/16\" Diamond Plate",
+                    "flooring":"Pine Lumber Floor",
+                    "crossmembers":"3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "deckHeight":"26\"",
+                    "deckWidth":"102\"",
+                    "widthBetweenFenders": "83\"",
+                    "dRings":"2 - D-Rings In Between Deck",
+                    "tieDownSlots":"Slots for Latch On Tie Down Fittings Along Sides Of Deck"
+                },
+                "sides": {
+                    "rubRail": "2\" x 3/8\" Rub Rail",
+                    "stakePockets": "1,5/8\" x 3,5/8\" (ID) Stake Pockets (Spaced At 24\")",
+                    "spools": "2\" x 10ga. Pipe Spools (Spaced At 24\")",
+                    "fenders": "3/16\" Diamond Plate Drive Over Fenders"
+                },
+                "front": {
+                    "guard": "Reinforced 2\" 10ga. Round Tubing"
+                },
+                "rear": {
+                    "ramps": "Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps (7,000 LBS WHEEL RATING EACH ONLY OVER AREA OF 12\" OR MORE)"
+                }
+            },
+            "runningGear": {
+                "tires": {
+                    "type": "Radial Tires",
+                    "size": "ST235/80R16",
+                    "ply": "10",
+                    "rating": "3,520 lbs",
+                    "rims": "16\" Black Mod Wheels"
+                },
+                "suspension": {
+                    "axleType": "7k Electric Brake Auto Adjust EZ Lube Spring Axles",
+                    "boltPattern": "8 On 6.5\"",
+                    "axleCount": "2",
+                    "suspensionType": "Spring",
+                    "axleWarranty": "5 Year Spring Axle Warranty"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "breakawaySystem": "2382 Brightway Group Electric Breakaway Kit",
+                    "wiringHarness": "All-Weather Wiring Harness (7-Way RV)",
+                    "frameWiring": "Double Insulated Wiring Harness"
+                },
+                "lighting": {
+                    "lights": "DOT Approved Tecniq LED Lights"
+                },
+                "safety": {
+                    "reflectiveTape": "3M Dot Compliant Reflective Tape"
+                }
+            }
+        },
+        "options": {
+            "tongue": [{
+                    "code": "ECZ-103",
+                    "image": "",
+                    "name": "12k Ram 2 Speed Jack",
+                    "price": 273
+                },
+                {
+                    "code": "ECZ-105",
+                    "image": "",
+                    "name": "12k Hydraulic Jack",
+                    "price": 1982.5
+                },
+                {
+                    "code": "ECZ-213",
+                    "image": "",
+                    "name": "Mega Lockable Toolbox",
+                    "price": 312
+                }
+            ],
+            "deck": {
+                "dovetailOptions": [
+                    {
+                        "code": "ECZ-452",
+                        "image": "",
+                        "name": "2' Dovetail w/ Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps",
+                        "price": null
+                    },
+                    {
+                        "code": "ECZ-447",
+                        "image": "",
+                        "name": "2' Dovetail w/ 2 - 24\" x 5' Long Heavy Duty (3\" Channel) w/ 10ga. Mesh Covering Stand Up Ramps",
+                        "price": null
+                    },
+                    {
+                        "code": "ETZ-402",
+                        "image": "",
+                        "name": "12\" Crossmember Spacing",
+                        "price": 15.6,
+                        "priceAddon": "perLinearFt"
+                    },
+                    {
+                        "code": "506-005",
+                        "image": "",
+                        "name": "Full Deck Blackwood \"Classic\" Rubber Infused Lumber",
+                        "price": 37.7,
+                        "priceAddon": "perLinearFt"
+                    },
+                    {
+                        "code": "508-001",
+                        "image": "",
+                        "name": "4 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 84.5
+                    },
+                    {
+                        "code": "508-002",
+                        "image": "",
+                        "name": "6 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 123.5
+                    },
+                    {
+                        "code": "508-003",
+                        "image": "",
+                        "name": "8 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 162.5
+                    },
+                    {
+                        "code": "508-009",
+                        "image": "",
+                        "name": "4 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 54.6
+                    },
+                    {
+                        "code": "508-010",
+                        "image": "",
+                        "name": "6 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 84.5
+                    },
+                    {
+                        "code": "508-011",
+                        "image": "",
+                        "name": "8 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 110.5
+                    },
+                    {
+                        "code": "508-012",
+                        "image": "",
+                        "name": "10 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 136.5
+                    },
+                    {
+                        "code": "508-013",
+                        "image": "",
+                        "name": "12 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 162.5
+                    },
+                    {
+                        "code": "511-003",
+                        "image": "",
+                        "name": "Rear Stabilizer Swivel Jacks (Slide In Ramps Option Only)",
+                        "price": null
+                    },
+                    {
+                        "code": "ECZ-413",
+                        "image": "",
+                        "name": "Winch Mounting Plate On Deck",
+                        "price": null
+                    }
+                ]
+            },
+            "liftSystem": [{
+                    "code": "509-016",
+                    "image": "",
+                    "name": "Tuff Wireless 2 Button Remote (Hydraulic Jacks)",
+                    "price": 708.5
+                },
+                {
+                    "code": "509-018",
+                    "image": "",
+                    "name": "Tuff Wireless 4 Button Remote (Hydraulic Jacks - Winch)",
+                    "price": 858
+                },
+                {
+                    "code": "504-012",
+                    "image": "",
+                    "name": "13.5k Steel Cable Winchmax Winch",
+                    "price": 1774.5
+                },
+                {
+                    "code": "504-013",
+                    "image": "",
+                    "name": "13.5k Synthetic Rope Winchmax Winch",
+                    "price": 2047.5
+                }
+            ],
+            "runningGear": {
+                "tireUpgradeOptions": [{
+                    "code": "501-002",
+                    "name": "4 - ST235/85R16 14 Ply Tires Singles (4,400 lbs)",
+                    "price": 221
+                }],
+                "aluminiumWheelsOptions": [{
+                        "code": "501-003",
+                        "name": "4 - Aluminum Rims w/ ST235/80R16 10 Ply Tires (3,520 lbs)",
+                        "price": 955.5
+                    },
+                    {
+                        "code": "501-004",
+                        "name": "4 - Aluminum Rims w/ ST235/85R16 14 Ply Tires (4,400 lbs)",
+                        "price": 1176.5
+                    }
+                ],
+                "spareTireOptions": [{
+                        "code": "501-103",
+                        "name": "ST235/80R16 10 Ply Tire Single (3,520 lbs)",
+                        "price": 182
+                    },
+                    {
+                        "code": "501-104",
+                        "name": "ST235/85R16 14 Ply Tire Single (4,400 lbs)",
+                        "price": 240.5
+                    },
+                    {
+                        "code": "501-105",
+                        "name": "Aluminum Rims w/ ST235/80R16 10 Ply Tire (3,520 lbs)",
+                        "price": 422.5
+                    },
+                    {
+                        "code": "501-106",
+                        "name": "Aluminum Rims w/ ST235/85R16 14 Ply Tire (4,400 lbs)",
+                        "price": 481
+                    }
+                ]
+            },
+            "electricalAndLighting": [{
+                "code": "505-001",
+                "name": "10 Watt Solar Panel",
+                "price": 481
+            }],
+            "finish": [{
+                    "code": "ECZ-818",
+                    "name": "18ft Zinc Primer Undercoat",
+                    "price": 1027
+                },
+                {
+                    "code": "ECZ-815",
+                    "name": "20ft & Up Zinc Primer Undercoat",
+                    "price": 1365
+                }
+            ]
+        }
+    },
+    {
+        "_comment": "ecz equipment bp 16k 102\" [CHECKED 12-04-25] NEEDS DESCRIPTION"
+    },
+    {
+        "id": "ECZBP102-16K",
+        "name": "ECZ 16K 102\" BP EQUIPMENT HAULER",
+        "category": "EQUIPMENT",
+        "subcategory": "EQUIPMENT HAULER",
+        "props": {
+            "type": [
+                "BUMPER PULL"
+            ],
+            "lengths": [
+                "18'",
+                "20'",
+                "22'",
+                "24'"
+            ],
+            "phLengths": [
+
+            ],
+            "gnLengths": [
+
+            ],
+            "sideHeights": [
+
+            ],
+            "axleCount": [
+                2
+            ],
+            "axleRating": [
+                "8k"
+            ],
+            "cargoCapacity": [
+
+            ],
+            "deck": [
+
+            ],
+            "rear": [
+
+            ],
+            "deckWidth": [
+                "102\""
+            ],
+            "deckHeight": [
+                "26\""
+            ],
+            "gvwr": [
+                "16,000 lbs"
+            ]
+        },
+        "descriptions": {
+            "dimensionsPdf":"",
+            "videos": {
+                "action": "",
+                "review": ""
+            },
+            "diagram": "",
+            "firstBlock": {
+                "description": "The ECZ 16K 102\" BP Equipment Hauler combines heavy-duty performance with a full-width deck. Featuring 8K axles, a 16,000 lb GVWR, and 102\" outer deck width, it’s ideal for large or wide equipment. Built for demanding tasks, it includes drive-over fenders, pine flooring, and durable slide-in ramps for secure hauling.",
+                "buttons": [{
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>BUILT FOR <span style='color:#fff'>TOUGH LOADS</span> </span>",
+                        "redirection": "block1",
+                        "imageStyle": {
+                            "right": "-5rem",
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#fff'>HEAVY-DUTY <span style='color:#6897d8'>EQUIPMENT TRAILER</span> </span>",
+                        "redirection": "block2",
+                        "imageStyle": {
+                            "bottom": "-4rem",
+                            "transform": "scale(1.2)"
+                        }
+                    },
+                    {
+                        "image": "",
+                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>DEPENDABLE <span style='color:#fff'>JOBSITE TRANSPORT</span> </span>",
+                        "redirection": "block3",
+                        "imageStyle": {
+                            "bottom": "-2rem",
+                            "right": "-1rem",
+                            "transform": "scale(1.2)"
+                        }
+                    }
+                ]
+            },
+            "secondBlock": [{
+                    "title": "BUILT FOR TOUGH LOADS",
+                    "subtitle": "Haul Equipment With Confidence",
+                    "description": "The ECZ 16K Equipment Hauler delivers rugged dependability for job sites and equipment transport. It boasts a 16,000 lb GVWR, spring suspension, and 10-ply radial tires. Its 6\" channel frame, ramp pockets, and heavy-duty slide-in ramps offer durable support and flexibility for diverse hauling demands.",
+                    "image": "",
+                    "blockId": "block1"
+                },
+                {
+                    "title": "HEAVY-DUTY EQUIPMENT TRAILER",
+                    "subtitle": "Engineered To Endure Loads",
+                    "description": "With 18'–24' deck length options and a reinforced 83\" wide platform, the ECZ 16K handles big jobs with ease. Spring-loaded drop jack, removable fenders, and dual D-rings enhance utility. Its powder-coated finish resists wear, while the welded-on spare tire mount ensures you're always ready.",
+                    "image": "",
+                    "blockId": "block2"
+                },
+                {
+                    "title": "DEPENDABLE JOBSITE TRANSPORT",
+                    "subtitle": "Strength Meets Daily Demands",
+                    "description": "The ECZ 16K is a go-to choice for contractors needing consistent performance. Featuring 2 heavy-duty spring axles, 5'6\" slide-in ramps, and steel stake pockets, this bumper pull trailer is ready for action. From pine deck flooring to LED lighting, every detail is crafted for reliability.",
+                    "image": "",
+                    "blockId": "block3"
+                }
+            ],
+            "gallery": [
+            ],
+            "scrollGallery": [
+
+            ],
+            "productGallery": [
+            ]
+        },
+        "models": {
+            "src": "",
+            "iosSrc": ""
+        },
+        "standardFeatures": {
+            "highlights": [
+                "6\" Channel (8.20 lbs/ft)",
+                "Weld On Spare Tire Mount",
+                "Front Guard Rail",
+                "Outer Deck Frame 3/16\" Diamond Plate",
+                "Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps",
+                "2 - D-Rings In Between Fenders",
+                "83\" Wide In Between Fenders"
+            ],
+            "trailerSpecs": {
+                "dimensions": {
+                    "availableLengths": "18', 20', 22', 24'",
+                    "deckHeight": "26\"",
+                    "deckWidth": "102\""
+                },
+                "weightRating": {
+                    "gawr": "8,000 lbs",
+                    "gvwr": "16,000 lbs"
+                },
+                "finish": {
+                    "paintType": "Powdercoat",
+                    "prep": "Steel Grit Blasted",
+                    "colors": [{
+                            "name": "Military Green",
+                            "hex": "#a6ab7f"
+                        },
+                        {
+                            "name": "Desert Tan",
+                            "hex": "#e3d2ba"
+                        },
+                        {
+                            "name": "Flame Orange",
+                            "hex": "#f04f23"
+                        },
+                        {
+                            "name": "Midnight Black",
+                            "hex": "#0c0d0d"
+                        },
+                        {
+                            "name": "Spectra Yellow",
+                            "hex": "#d3a92a"
+                        },
+                        {
+                            "name": "Blue Horizon",
+                            "hex": "#4877b9"
+                        },
+                        {
+                            "name": "Lime Green",
+                            "hex": "#3bab4c"
+                        },
+                        {
+                            "name": "Ash Grey",
+                            "hex": "#575858"
+                        },
+                        {
+                            "name": "True Red",
+                            "hex": "#c62d27"
+                        },
+                        {
+                            "name": "Pearl White",
+                            "hex": "#e0eaf0"
+                        },
+                        {
+                            "name": "Cloud Grey",
+                            "hex": "#c2c1c1"
+                        },
+                        {
+                            "name": "Navy Blue",
+                            "hex": "#292f6c"
+                        }
+                    ]
+                },
+                "warranty": {
+                    "axleWarranty": "5 Year Spring Axle Warranty",
+                    "trailerWarranty": "3 Year Frame / 1 Year Parts Warranty"
+                }
+            },
+            "tongue": {
+                "tongue": {
+                    "type": "6\" Channel (8.20 lbs/ft)",
+                    "length": "50\"",
+                    "spare": "Weld On Spare Tire Mount"
+                },
+                "coupler": {
+                    "standardCoupler": "Adjustable Auto Latch 2-5/16\" BP Coupler (17,000 lbs)"
+                },
+                "jacks": {
+                    "frontJack": "1 Side Wind Spring Loaded Drop Jack Leg (12,000 lbs)"
+                },
+                "safety": {
+                    "safetyChains": "3/8\" Grade 70 Safety Chain w/Clevis Hook (2 each)"
+                }
+            },
+            "chassis": {
+                "frame": {
+                    "mainFrame": "6\" Channel (8.20 lbs/ft)"
+                }
+            },
+            "deck": {
+                "bed": {
+                    "rearOfDeck":"Straight Deck",
+                    "deckFrame": "3/16\" Diamond Plate",
+                    "flooring":"Pine Lumber Floor",
+                    "crossmembers":"3\" Channel (3.50 lbs/ft) 16\" Spacing",
+                    "deckHeight":"26\"",
+                    "deckWidth":"102\"",
+                    "widthBetweenFenders": "83\"",
+                    "dRings":"2 - D-Rings In Between Deck",
+                    "tieDownSlots": "Slots for Latch On Tie Down Fittings Along Sides Of Deck"
+                },
+                "sides": {
+                    "rubRail": "2\" x 3/8\" Rub Rail",
+                    "stakePockets": "1,5/8\" x 3,5/8\" (ID) Stake Pockets (Spaced At 24\")",
+                    "spools": "2\" x 10ga. Pipe Spools (Spaced At 24\")",
+                    "fenders": "3/16\" Diamond Plate Drive Over Fenders"
+                },
+                "front": {
+                    "guard": "Reinforced 2\" 10ga. Round Tubing"
+                },
+                "rear": {
+                    "ramps": "Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps (7,000 LBS WHEEL RATING EACH ONLY OVER AREA OF 12\" OR MORE)"
+                }
+            },
+            "runningGear": {
+                "tires": {
+                    "type": "Radial Tires",
+                    "size": "ST235/85R16",
+                    "ply": "14",
+                    "rating": "4,400 lbs",
+                    "rims": "16\" Black Mod Wheels"
+                },
+                "suspension": {
+                    "axleType": "8k Electric Brake Auto Adjust EZ Lube Spring Axles",
+                    "boltPattern": "8 On 6.5\"",
+                    "axleCount": "2",
+                    "suspensionType": "Spring",
+                    "axleWarranty": "5 Year Spring Axle Warranty"
+                }
+            },
+            "electricalAndLighting": {
+                "batteryAndCharging": {
+                    "breakawaySystem": "2382 Brightway Group Electric Breakaway Kit",
+                    "wiringHarness": "All-Weather Wiring Harness (7-Way RV)",
+                    "frameWiring": "Double Insulated Wiring Harness"
+                },
+                "lighting": {
+                    "lights": "DOT Approved Tecniq LED Lights"
+                },
+                "safety": {
+                    "reflectiveTape": "3M Dot Compliant Reflective Tape"
+                }
+            }
+        },
+        "options": {
+            "tongue": [{
+                    "code": "ECZ-103",
+                    "image": "",
+                    "name": "12k Ram 2 Speed Jack",
+                    "price": 273
+                },
+                {
+                    "code": "ECZ-105",
+                    "image": "",
+                    "name": "12k Hydraulic Jack",
+                    "price": 1982.5
+                },
+                {
+                    "code": "ECZ-213",
+                    "image": "",
+                    "name": "Mega Lockable Toolbox",
+                    "price": 312
+                }
+            ],
+            "deck": {
+                "dovetailOptions": [
+                    {
+                        "code": "ECZ-452",
+                        "image": "",
+                        "name": "2' Dovetail w/ Ramp Pockets w/ 5' 6\" Long Heavy Duty Slide In 4\" Channel Ramps",
+                        "price": null
+                    },
+                    {
+                        "code": "ECZ-447",
+                        "image": "",
+                        "name": "2' Dovetail w/ 2 - 24\" x 5' Long Heavy Duty (3\" Channel) w/ 10ga. Mesh Covering Stand Up Ramps",
+                        "price": null
+                    },
+                    {
+                        "code": "ETZ-402",
+                        "image": "",
+                        "name": "12\" Crossmember Spacing",
+                        "price": 15.6,
+                        "priceAddon": "perLinearFt"
+                    },
+                    {
+                        "code": "506-005",
+                        "image": "",
+                        "name": "Full Deck Blackwood \"Classic\" Rubber Infused Lumber",
+                        "price": 37.7,
+                        "priceAddon": "perLinearFt"
+                    },
+                    {
+                        "code": "508-001",
+                        "image": "",
+                        "name": "4 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 84.5
+                    },
+                    {
+                        "code": "508-002",
+                        "image": "",
+                        "name": "6 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 123.5
+                    },
+                    {
+                        "code": "508-003",
+                        "image": "",
+                        "name": "8 Additional D-Rings Welded Across Deck (1/2\" - 4,000 lbs)",
+                        "price": 162.5
+                    },
+                    {
+                        "code": "508-009",
+                        "image": "",
+                        "name": "4 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 54.6
+                    },
+                    {
+                        "code": "508-010",
+                        "image": "",
+                        "name": "6 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 84.5
+                    },
+                    {
+                        "code": "508-011",
+                        "image": "",
+                        "name": "8 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 110.5
+                    },
+                    {
+                        "code": "508-012",
+                        "image": "",
+                        "name": "10 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 136.5
+                    },
+                    {
+                        "code": "508-013",
+                        "image": "",
+                        "name": "12 - Latch On Tie Down Fittings 2\" O-ring (4,000 lbs)",
+                        "price": 162.5
+                    },
+                    {
+                        "code": "511-003",
+                        "image": "",
+                        "name": "Rear Stabilizer Swivel Jacks (Slide In Ramps Option Only)",
+                        "price": null
+                    },
+                    {
+                        "code": "ECZ-413",
+                        "image": "",
+                        "name": "Winch Mounting Plate On Deck",
+                        "price": null
+                    }
+                ]
+            },
+            "liftSystem": [{
+                    "code": "509-016",
+                    "image": "",
+                    "name": "Tuff Wireless 2 Button Remote (Hydraulic Jacks)",
+                    "price": 708.5
+                },
+                {
+                    "code": "509-018",
+                    "image": "",
+                    "name": "Tuff Wireless 4 Button Remote (Hydraulic Jacks - Winch)",
+                    "price": 858
+                },
+                {
+                    "code": "504-012",
+                    "image": "",
+                    "name": "13.5k Steel Cable Winchmax Winch",
+                    "price": 1774.5
+                },
+                {
+                    "code": "504-013",
+                    "image": "",
+                    "name": "13.5k Synthetic Rope Winchmax Winch",
+                    "price": 2047.5
+                }
+            ],
+            "runningGear": {
+                "tireUpgradeOptions": [{
+                    "code": "501-005",
+                    "name": "4 - ST235/75R17.5 18 Ply Tires Super Singles (6,005 lbs)",
+                    "price": 819
+                }],
+                "spareTireOptions": [
+                    {
+                        "code": "501-104",
+                        "name": "ST235/85R16 14 Ply Tire Single (4,400 lbs)",
+                        "price": 240.5
+                    },
+                    {
+                        "code": "501-107",
+                        "name": "ST235/75R17.5 18 Ply Tire Super Single (6,005 lbs)",
+                        "price": 318.5
+                    }
+                ]
+            },
+            "electricalAndLighting": [{
+                "code": "505-001",
+                "name": "10 Watt Solar Panel",
+                "price": 481
+            }],
+            "finish": [{
+                    "code": "ECZ-818",
+                    "name": "18ft Zinc Primer Undercoat",
+                    "price": 1027
+                },
+                {
+                    "code": "ECZ-815",
+                    "name": "20ft & Up Zinc Primer Undercoat",
+                    "price": 1365
+                }
+            ]
+        }
+    },
+    {
+        "_comment": "ecz equipment bp 16k 102\" [CHECKED 12-04-25] NEEDS DESCRIPTION"
+    }
+]

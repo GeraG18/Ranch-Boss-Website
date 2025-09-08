@@ -1,0 +1,1100 @@
+{
+  "__Words": "Palabras generales",
+  "PagesTitles": {
+    "dovetail": "Dovetail",
+    "flatbed": "Flatbed",
+    "service": "Service",
+    "scrollTop": "Scroll Top",
+    "getInTouch": "Get in touch",
+    "horizon":"Horizon",
+    "products":"Products",
+    "allproducts": "All Products",
+    "dumpTrailer":"Dump Trailer",
+    "rolloffTrailer":"Roll Off Trailer",
+    "equipmentTrailer":"Equipment Trailer",
+    "flatdeckTrailer":"Flatdeck Trailer",
+    "utilityTrailer":"Utility Trailer",
+    "dumpTrailers":"Dump Trailers",
+    "rolloffTrailers":"Roll Off Trailers",
+    "equipmentTrailers":"Equipment Trailers",
+    "flatdeckTrailers":"Flatdeck Trailers",
+    "utilityTrailers":"Utility Trailers",
+    "carhaulerTrailers": "Car Hauler Trailers",
+    "dealer":"Dealer",
+    "blogEditor":"Blog Editor",
+    "account":"Account",
+    "dealerApplication":"Dealer Application",
+    "dealerApplicationSlogan":"Interested in joining the Horizon Dealer Network? Complete the application form below, and a Horizon Representative will reach out to you.",
+    "suggestedSearch":"Suggested Search",
+    "noResults":"No results found",
+    "dump":"Dump",
+    "rolloff":"Roll Off",
+    "equipment":"Equipment",
+    "flatdeck":"Flatdeck",
+    "utility":"Utility",
+    "carhauler": "Car Hauler",
+    "company": "Company",
+    "findADealer":"Find a Dealer",
+    "aboutUs":"About Us",
+    "merchandise": "Merchandise",
+    "support": "Support",
+    "warrantyClaim":"Warranty Claim",
+    "warrantyDocs":"Warranty Docs",
+    "ownersManual":"Owners Manual",
+    "financing": "Financing",
+    "financeYourTrailer":"Finance your Trailer",
+    "warranty": "Warranty",
+    "resources":"Resources",
+    "blog":"Blog",
+    "shop":"Shop",
+    "action":"Action",
+    "review":"Review",
+    "videoPlayer":"Video Player",
+    "helpCenter":"Help center",
+    "contactUs":"Contact Us",
+    "becomeADealer":"Become a Dealer",
+    "mainMenu":"Main menu",
+    "insideTheTrailerWorld":"Inside the trailer world",
+    "proudNATM":"Proud member of natm",
+    "privacyPolicy":"Privacy Policy",
+    "interestedInThisTrailer":"Interested in this trailer? Find a dealer near you to get started!",
+    "viewYt":"View on youtube",
+    "videoNotAvailable":"This video is not available",
+    "videoComingSoon":"This video is coming soon",
+    "termsOfUse":"Terms Of Use",
+    "dimensionsPdf":"Dimensions Pdf",
+    "faqs":"FAQ's",
+    "sitemap":"Sitemap",
+    "filters": "Filters",
+    "dealersMap":"Dealers Map",
+    "dealersList":"List Of Dealers",
+    "ourFinancers":"Our Financers",
+    "standardFeatures":"Standard features",
+    "options":"Options",
+    "compare": "Compare",
+    "brochure":"Brochure",
+    "viewOnCamera":"View on camera",
+    "configure":"Configure",
+    "configureThisModel":"Configure this model",
+    "addNewModel":"Add new model",
+    "remove":"Remove",
+    "specsOfThisModel":"Specs of this model",
+    "notes":"Notes",
+    "cart":"Cart",
+    "gallery":"Gallery",
+    "nextStep":"Next step",
+    "viewVideo":"View video",
+    "explorePopularTrailers":"Explore other popular trailers",
+    "view":"View",
+    "pdfViewer":"PDF Viewer",
+    "show":"Show",
+    "description":"Description",
+    "loading": "Loading",
+    "dynCatTrailer":"{category} bed",
+    "dynTrailer":"{name} bed",
+    "home":"Home",
+    "pageResults": "{page} - {results} of {total} results",
+    "search":"Search",
+    "openPdf": "Open PDF File",
+    "dryWeightsPdf": "Dry Weights PDF",
+    "notAvailableForNow":"Not available for now",
+    "noAvailableDescription":"The {length, plural, =0 { Trailer } other { \"{name}\" }} is not available for the configurator, but it will be coming soon! Stay tuned for updates and get ready to customize your perfect trailer soon."
+  },
+  "CookiesDialog": {
+    "title":"We value your privacy",
+    "description":"<p>We use cookies to enhance your browsing experience and analize our traffic.</p> <p>By using this website, you automatically accept the cookies usage.\nIf you have any doubts, you can check our <link>Cookies Privacy Policy</link></p>",
+    "button":"Ok, I understand"
+  },
+  "CompareModal":{
+    "title":"Compare models",
+    "description":"You can only select {total} models to compare",
+    "button":"Compare now {selected}/{total}"
+  },
+  "CompareModels": {
+    "header": {
+      "title":"Models comparator",
+      "subtitle":"Compare all the {category} of the Ranch Boss branch"
+    }
+  },
+  "ConfigureModel": {
+    "isAlmostYours": {
+      "title":"This {name} is almost yours",
+      "subtitle":"Your dream trailer it's ready and waiting for you!"
+    },
+    "summary": {
+      "title":"Summary",
+      "yourModelConfig":"Your {name} configuration",
+      "nothingSelected":"Nothing selected",
+      "basePrice":"Base price",
+      "units":"units",
+      "selectedOptions":"Selected options",
+      "totalPrice":"Total price",
+      "notes": {
+        "title":"Notes",
+        "description":"<li>Send this configuration file to your nearest Horizon dealer to discuss your custom trailer order.</li><li>You can share the configuration web link to your nearest dealer to discuss your custom trailer order.</li><li>You can request this model in contact us zone with the configuration web link to discuss your custom trailer order.</li><li>Or you can request directly to us clicking the \"Request this model\" button to discuss your custom trailer order.</li><li>These prices may be subject to changes, such as location or dealer.</li>",
+        "n1":"Send this configuration file to your nearest Horizon dealer to discuss your custom trailer order.",
+        "n2":"You can share the configuration web link to your nearest dealer to discuss your custom trailer order.",
+        "n3":"You can request this model in contact us zone with the configuration web link to discuss your custom trailer order.",
+        "n4":"Or you can request directly to us clicking the \"Request this model\" button to discuss your custom trailer order.",
+        "n5":"These prices may be subject to changes, such as location or dealer."
+      }
+    },
+    "file": {
+      "name":"Configuration File",
+      "pageOf":"Page {page} of {total}",
+      "checkConfigOnPage":"Check configuration on the page",
+      "checkMoreProducts":"Check more products",
+      "goToPage":"Go to main page"
+    },
+    "getConfig":"Get configuration file",
+    "requestModel":"Request this model"
+  },
+  "Merchandise": {
+    "Details":{
+      "selectSize":"Select size",
+      "price":"Price",
+      "color":"Color",
+      "delete":"Delete",
+      "size":"Size",
+      "availableColors": "Available Colors",
+      "quantity":"Quantity",
+      "youCanAdd5Only":"You can only add up to 5 products",
+      "notes":"Notes",
+      "addToCart":"Add to cart",
+      "checkoutNow":"Checkout now"
+    },
+    "Cart": {
+      "title":"Cart {count, plural, =0 { } =1 {(# product)} other {(# products)}}",
+      "summary":"Summary",
+      "subtotal":"Subtotal",
+      "back":"Back",
+      "checkout":"Checkout",
+      "goToMerch":"Go to merchandise",
+      "executingPayment":"Executing payment",
+      "yourCartIsEmpty":"Your cart is empty, add products to your cart to continue.",
+      "notes":"Notes: You need to give your address in the next step for shipment and taxes."
+    },
+    "explorePopularMerch":"Explore other popular merchandise"
+  },
+  "WeReSorry": {
+    "title":"We are sorry!",
+    "description":"We couldn't find a match."
+  },
+  "ErrorCatcher": {
+    "title":"Oh snap!",
+    "description":"We have an error, please report this error with the button at the end of this page.",
+    "button": "Go to main page"
+  },
+  "Financers": {
+    "financeTrailer":"Finance your Trailer with {name}",
+    "information":"Information",
+    "locateDealer":"Locate Your Dealer",
+    "apply":"Apply Now"
+  },
+  "DealersScreen": {
+    "mapHeaderTitle":"Find a dealer near you!",
+    "mapHeaderPlaceholder":"Search a name or an address",
+    "listHeaderTitle":"Find a Dealer",
+    "contactHorizonDTitle":"Contact Horizon Dealers",
+    "contactHorizonDSlogan":"For warranty and technical support with Ranch Boss byalers click on the logo bellow to submit your request."
+  },
+  "PrivacyNotice": {
+    "title":"Privacy notice",
+    "description":"By providing your contact information, you consent to being contacted by Ranch Boss, its affiliates, and authorized dealers. If you prefer not to be contacted in this way, please refrain from providing your email and/or phone information. In accordance with Texas law, this consent supersedes any previous opt-outs you may have given to Ranch Boss and any government Do Not Call Lists. Your information may be used to share updates about Ranch Boss products, services, news, and events, as detailed in our Privacy Notice, available at <policy>https://www.bedboss.shop/privacy-policy</policy>. You can withdraw your consent at any time by calling <phone>+1 915-455-8537</phone> or emailing <mail>privacy@bedboss.shop</mail>. Texas residents can learn about Ranch Boss' privacy practices and their rights under Texas law in the \"Additional Notice to Texas Consumers\" section of our Privacy Notice."
+  },
+  "WarrantyDocs": {
+    "horizon":"Horizon",
+    "horizonWarranty":"Horizon Warranty Policy",
+    "axle":"Axle",
+    "grAxles":"GR Axles Warranty",
+    "lippertAxles":"Dexter Axles Warranty",
+    "battery":"Battery",
+    "interstateBatteriesUS":"Interstate Batteries-USA",
+    "interstateBatteriesCA":"Insterstate Batteries-Canada",
+    "brightGroup":"Bright Way Group",
+    "tarp":"Tarp",
+    "carolinaTarp":"Carolina Tarps",
+    "diamondTarp":"Diamond Tarps"
+  },
+  "FabChat": {
+    "chat":"Chat",
+    "horizonHelper":"Ranch Boss Helper",
+    "buttonTitle":"Open Chat",
+    "startConversation":"Start conversation",
+    "startConversationToContinue":"Start a conversation to continue",
+    "clientMessage":"I need help with my trailer",
+    "botMessage":"We're sorry, there's no agents available to help you. But you can fill the next form with your contact information and one of our agents are going to communicate with you soon.",
+    "botMessage2":"Thank you! We've received your inquiry and will get back to you as soon as possible. Have a nice day!"
+  },
+  "BasicForm": {
+    "all":"All",
+    "sortBy":"Sort by",
+    "newest":"Newest",
+    "name":"Name",
+    "addressLabel":"Address",
+    "directionsLabel":"Directions",
+    "visitWebsiteLabel":"Visit {website} website",
+    "messageLabel":"Your message",
+    "messagePlaceholder":"Add your message",
+    "messagePlaceholderAlt":"Explanation",
+    "subjectLabel":"Subject",
+    "subjectPlaceholder":"Add your subject",
+    "subjectPlaceholderAlt":"Example: Custom trailer request",
+    "nameLabel":"Name(s)",
+    "namePlaceholder":"Add your name(s)",
+    "namePlaceholderAlt":"Example: Randy (Derek)",
+    "lastnameLabel":"Last Name",
+    "lastnamePlaceholder":"Add your last name",
+    "lastnamePlaceholderAlt":"Example: Thiessen",
+    "fullnameLabel":"Full name",
+    "fullnamePlaceholder":"Add your full name",
+    "fullnamePlaceholderAlt":"Example: Randy Thiessen",
+    "emailLabel":"Email",
+    "emailPlaceholder":"Add your email",
+    "emailPlaceholderAlt":"Example: email@email.com",
+    "phoneLabel":"Phone Number",
+    "phoneLabelAlt":"Phone",
+    "phonePlaceholder":"Add your phone number",
+    "phonePlaceholderAlt":"Example: +1 915 455 8537",
+    "companyNameLabel":"Company Name",
+    "companyNamePlaceholder":"Add your company name",
+    "companyNamePlaceholderAlt":"Example: Company Inc.",
+    "annualSalesLabel":"Annual Sales",
+    "annualSalesPlaceholder":"Add your annual sales",
+    "annualSalesPlaceholderAlt":"Example: 500 or NA",
+    "yibLabel":"Years In Bussines",
+    "yibPlaceholder":"Add your years in bussiness",
+    "yibPlaceholderAlt":"Example: 3 or 0",
+    "dealerlicenseLabel":"Dealer License",
+    "dealerlicensePlaceholder":"Add your dealer license",
+    "dealerlicensePlaceholderAlt":"Example: XX00000XX or NA",
+    "explanationwywlbhdLabel":"Explanation of why you would like to become a Horizon Dealer",
+    "explanationwywlbhdPlaceholder":"Add your explanation",
+    "explanationwywlbhdPlaceholderAlt":"Example: I would like to become a Horizon Dealer because...",
+    "submittedTitle":"Successfully Submitted!",
+    "submittedSubtitle":"Your message has been submitted successfully.",
+    "submittedDescription":"One of our representatives will get back to you as soon as possible. In the meanwhile feel free to check out our <products>Products</products> or any of our Social Media Channels Bellow:",
+    "horizonTTeam":"Ranch Boss Team.",
+    "required":"*Required",
+    "send":"Submit",
+    "subscribe":"Subscribe",
+    "moreDetails":"More details",
+    "next":"Next",
+    "prev":"Prev",
+    "contactThisDealer":"Contact this dealer",
+    "getDirections":"Get directions",
+    "webpage":"Webpage",
+    "youReHere":"You are here",
+    "showOnMap": "Show on map",
+    "sendMessage":"Send Message",
+    "contactTo":"Contact {name}",
+    "ourTeam":"Our Team",
+    "clearAll":"Clear all",
+    "forWarrantyAndMore":"For warranty, technical support and other matters fill this form.",
+    "requestModel":"Request {count, plural, =0 {this model} =1 {one follower} other { {model} }}",
+    "fileAttachment": {
+      "title":"Configuration file",
+      "fileAttached":"File Attached.",
+      "loadingFile":"Loading File.",
+      "note":"Note: If the status remains stuck on 'Loading file.' for more than 2 minutes, try closing this dialog and reopening it."
+    },
+    "delete":"Delete",
+    "edit":"Edit",
+    "urPoint":"Your location",
+    "closestPoint": "Closest dealer",
+    "farthestPoint": "Farthest dealer"
+  },
+  "MonthsOfTheYear": {
+    "jan":"Jan", 
+    "feb":"Feb", 
+    "mar":"Mar", 
+    "apr":"Apr", 
+    "may":"May", 
+    "jun":"Jun", 
+    "jul":"Jul", 
+    "aug":"Aug", 
+    "sep":"Sep", 
+    "oct":"Oct", 
+    "nov":"Nov", 
+    "dec":"Dec"
+  },
+  "ContactLocations":{
+    "title":"Come talk to us",
+    "subtitle":"We are very excited to help you!"
+  },
+  "Notes": {
+    "title":"Notes",
+    "linearMiles":"The distances are linear miles and they're approximately."
+  },
+  "QualityPage": {
+    "topQuality":"Top Quality",
+    "hdmTitle":"At Ranch Boss: Every. Detail. Matters.",
+    "hdmDescription":"We craft each bed with precision, ensuring top-tier quality and durability to meet your needs. From design to delivery, we're committed to excellence in every aspect.",
+    "hiwTitle":"How it works",
+    "hiwDescription":"At Ranch Boss, we believe that quality is not just a goal—it's a standard. Our beds are built with the highest-grade materials and engineered to handle the toughest jobs while maintaining unmatched durability and reliability. Every weld, every bolt, and every inch of our trailers is meticulously crafted to ensure that what you receive is more than just a product; it's a tool you can depend on for years to come. From our initial designs to the final inspection, we leave no stone unturned. We constantly innovate and refine our processes to deliver truck beds that exceed expectations in performance and longevity.",
+    "faqTitle":"Frecuently Asked Questions"
+  },
+  "AboutUs": {
+    "headerTitle":"<gray>Every.</gray> <white>Detail.</white> <orange>Matters.</orange>",
+    "aboutHTTitle":"About Ranch Boss",
+    "aboutHTDescription":"Since its inception, the team at Ranch Boss has kept sight on our core values of Excellence, Respect, and Passion. We have seen exponential growth in the efficiency of our designs, in the quality of our product assurance, and in the smiles of satisfaction on our customers' faces. We continue to focus on providing the most value to our customers by building our products lighter, stronger, and with industry leading appeal. Our implementation of the latest technologies and automation processes empowers us to produce more efficiently, more accurately, and with far less waste. These technologies provide us with interdepartmental visibility of customer orders, parts and configurations, and manufacturing details, allowing our Warranty and Service teams to expedite customer requests and solve them quickly. When it's time to go to work, you can trust that your Horizon trailer will be there for you, getting the job done right. When the work is done, you may want to just take your trailer for a nice country drive, crank up the radio, show ‘er off to your friends. When you look in those truck mirrors, we want you to see a trailer that you know will follow you anywhere, and never let you down. We're proud to serve our customers, and we're excited to see what's on the horizon! Remember, Every Detail Matters.",
+    "valuesTitle":"Our values",
+
+    "integrityTitle": "Integrity",
+    "integrityDescription": "We believe a promise is unbreakable, and a handshake still means something.",
+    "qualityTitle": "Quality",
+    "qualityDescription": "Every bed is built tough, with uncompromising standards.",
+    "reliabilityTitle": "Reliability",
+    "reliabilityDescription": "Our products are designed to perform day after day, mile after mile.",
+    "customerCommitmentTitle": "Customer Commitment",
+    "customerCommitmentDescription": "We put customers first, offering service rooted in respect and trust.",
+    "communityTitle": "Community",
+    "communityDescription": "Proudly based in El Paso, we invest in the people and businesses that make our region strong.",
+    "innovationTitle": "Innovation",
+    "innovationDescription": "We continuously improve our designs to meet modern demands while honoring tradition.",
+
+    "missionAndVision": {
+      "title":"Mission and Vision",
+      "mission": {
+        "title": "Mission",
+        "description": "At Ranch Boss, our mission is to design and build premium truck beds that deliver strength, reliability, and lasting value. We serve hardworking individuals and businesses in El Paso and across the Southwest, ensuring that every product stands as a symbol of durability, honesty, and trust."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "To be the leading truck body brand in North America, recognized for unmatched quality, customer loyalty, and integrity—where every handshake reflects our commitment to deliver on our word."
+      }
+    }
+  },
+  "FooterMailchimpForm": {
+    "title":"Get on the list",
+    "description":"Sign up to receive the latest info on  new Ranch Boss products special offers and more",
+    "nameInputPlaceholder":"Enter your first name",
+    "emailInputPlaceholder":"Enter your email address",
+    "thanks":"Thanks for subscribing!"
+  },
+  "Developex": {
+    "subtitle":"Make your drive unstoppable",
+    "title":"<white>Build to exceed your <orange>expectations</orange></white>"
+  },
+  "__HomePage": "Componentes de HomePage",
+  "MainCarousel": {
+    "slogan":"<white>Engineered for <orange>durability,</orange></white> <white>designed for <orange>performance</orange></white>",
+    "button":"More products",
+    "followers":"ACTIVE FOLLOWERS",
+    "visitors":"REGULAR VISITORS",
+    "dealers":"AUTHORIZED DEALERS"
+  },
+  "FindADealer": {
+    "title":"FIND YOUR NEAREST DEALER",
+    "description":"Discover over 150 locations across the USA and Canada. Find your nearest dealer today and explore our high-quality truck beds up close.",
+    "button": "FIND A DEALER"
+  },
+  "UltimateEfficiencyContainer": {
+    "block1":"Ultimate efficiency",
+    "block2":"Elevate your fleet"
+  },
+  "FeaturedProducts": {
+    "title":"Featured products",
+    "dTitle":"Dump",
+    "rTitle":"Roll off",
+    "eTitle":"Equipment",
+    "gTitle":"Flatdeck",
+    "uTitle":"Utility",
+    "dDescription":"Versatile and durable, dump trailers from Horizon are designed for easy material transport. With hydraulic lifts and rugged construction, they're perfect for landscaping, construction, and farm use, handling heavy loads effortlessly.",
+    "rDescription":"Horizon's roll-off trailers offer maximum convenience for waste management and hauling. Featuring interchangeable bins and durable frames, they're ideal for efficient, multi-purpose transport in construction, demolition, and recycling projects.",
+    "eDescription":"Horizon equipment trailers provide secure, heavy-duty transport for machinery and tools. Built with reinforced frames, multiple axle configurations, and enhanced safety features, they're the ultimate solution for reliable equipment hauling.",
+    "gDescription":"Horizon's flatdeck trailers deliver unmatched stability and towing power. With high GVWR ratings, advanced suspension, and versatile deck designs, they're perfect for transporting heavy equipment or materials over long distances.",
+    "uDescription":"Horizon's utility trailers are designed for maximum versatility and durability. With sturdy construction, easy-to-use loading ramps, and a variety of sizes, they're ideal for hauling goods, vehicles, and equipment. Perfect for personal or commercial use, these trailers provide reliable performance for everyday transport needs."
+  },
+  "WhyHorizon": {
+    "title":"Why Ranch Boss?",
+    "b1Title":"Top Quality",
+    "b1Description":"At Ranch Boss: Every. Detail. Matters.",
+    "b2Title":"Supported by Horizon",
+    "b2Description":"A sub-brand of Horizon Trailers.",
+    "b3Title":"Large Dealer Network",
+    "b3Description":"150 Locations across USA and Canada. And growing.",
+    "b4Title":"Warranty",
+    "b4Description":"We stand behind our products with a 3 year structure and 1 year parts warranty."
+  },
+  "FeaturedCategories": {
+    "title": "Featured categories",
+    "dTitle":"Dump trailer",
+    "dDescription":"Portable tipping cargo hauler.",
+    "rTitle":"Roll off trailer",
+    "rDescription":"Container transport with detachable bed.",
+    "eTitle":"Equipment trailer",
+    "eDescription":"Flatbed for heavy machinery transport.",
+    "fTitle":"Flatdeck trailer",
+    "fDescription":"Heavy-duty trailer with curved hitch.",
+    "uTitle":"Utility trailer",
+    "uDescription":"Versatile, lightweight cargo hauler."
+  },
+  "Testimonials": {
+    "slogan":"What our customers say",
+    "title":"Testimonials",
+    "horizonDealer":"Horizon Dealer",
+    "horizonClient":"Horizon Client",
+    "t1Comment":"Our partnership with Horizon Dealer has been nothing short of exceptional. Their high-quality trailers have exceeded our expectations, delighting our customers and boosting our sales. What truly sets them apart is their outstanding customer service and seamless communication, making every interaction a pleasure. Thanks to their proactive support, we've been able to meet our customers' needs more effectively than ever before. It's clear that Horizon values our partnership as much as we do, and we look forward to many more years of success together. In short, they have become an indispensable ally in our business growth, and we couldn't be more grateful for their dedication and excellence.",
+    "t2Comment":"Very happy with the product Ranch Boss has brought out. Edgar and the sales team have been very helpful throughout the process whether it be insight into a new model, pricing and general questions in order to make the proper orders. Much appreciated.",
+    "t3Comment":"As a dealer, we have seen many brands throughout the years. The latest manufacturer to have been introduced into our lot is Ranch Boss. Ranch Boss have gone above and beyond our expectations, not only in the trailer quality, but from a customer service standpoint as well. Edgar and the team have made bringing them on to the lot an absolute pleasure. If you are looking for a great trailer but an even better team to stand behind it look no further. Ranch Boss will be your new go-to to get it done.",
+    "t4Comment":"Working with Ranch Boss has been a fantastic experience for Chipper LLC. Their professionalism, prompt service, and deep understanding of our needs make them an invaluable partner. Their commitment to quality and customer satisfaction consistently exceeds our expectations. We highly recommend Ranch Boss to anyone in need ofreliable and efficient trailer solutions. They've truly set the standard for excellence in the industry.",
+    "t5Comment":"Trailer Sales and I have been a Horizon Trailer dealer in the state of Indiana for over two years now. We originally Took the Horizon Trailer brand on for the Roll Off Dumpster line but as we progressed along, we eventually started to funnel Dump Trailers in and eventually we keep about all of their models now. I believe that the Horizon Trailer brand is one of the top of the line brands in the industry as far as quality and price point. Their customer service from a dealer perspective is great and my sells rep Roger is always on top of getting me what I need. Also, another great thing is I can always reach Benny the owner of Ranch Boss anytime I need something There is no corporate ladder that you have to climb to reach the top to talk to someone that can help you. So if your looking for one of the top of the line trailer brands on the market to add to your dealership I believe that Ranch Boss Should be that Brand.",
+    "t6Comment":"Our experience with Horizon has been nothing short of exceptional. The delivery process is always smooth,efficient, and punctual. Thanks to theirreliable service, we never experience delays in receiving trailers, which helps us meet the high demand from our customers. Horizon's professionalism and attention to detail have greatly contributed to the success of our business, allowing us to quickly turn around trailer sales and maintain customer satisfaction. We deeply value our partnership with Horizon and look forward to continuing this productive relationship for many years to come.",
+    "t7Comment":"We met Ranch Boss two years ago at NATDA. Since acquiring this relationship our sales and customer base has grownsignificantly. Every department of thiscompany conducts business withcomplete professionalism. Sun City Trailer Sales (before 264 Trailers) anticipates and looks forward to a long relationship. Look to the HORIZON and this company will be there!",
+    "t8Comment":"At Trailer World Alabama, we take pride in our commitment to customer service and delivering quality products. Our company values revolve around creating a seamless and satisfying experience for our customers, ensuring they receive the highest level of servicefrom start to finish. That is why weappreciate Ranch Boss. Horizon offers exceptional products at fair prices that meet/exceed the highest industry standards. They believe in building strong relationships with their customers, understanding our unique needs, and providing personalized solutions. Horizon prioritizes durability, functionality, and safety in all their products, ensuring that their customers and our customers can trust the trailer to perform reliably andefficiently for years to come.",
+    "t9Comment":"Just purchased a brand new dump trailer manufactured May 2024 with two different quality check sign offs one for welds one for paint. Everything looks 10/10 so far. Drove back home 3HRs from dealer no issues. Will report back with an updated review in the coming months with how it handles work. Happy here so far."
+  },
+  "Blog": {
+    "slogan":"Read all the important news about Ranch Boss.",
+    "shareArticle":"Share Article",
+    "shareArticleAlt":"Check out this amazing post about Trailers!",
+    "joinToHTCommunity":"Join to the Horizon Community!",
+    "getExclusiveOffers":"Get exclusive offers, insider information, and the latest Ranch Boss articles straightly to your inbox.",
+    "explorePopularBlogs":"Explore other popular blogs",
+    "viewAll":"View all blogs",
+    "translateArticle":"Tips",
+    "translateDescription": "We recommend using the Google translator built into your browser if you wish to read this blog. We are working to offer this blogs in other languages.",
+    "shareDescription":"Hey everyone! Just stumbled upon this awesome blog post from Ranch Boss. Check it out!",
+    "xMinsRead":"{minutes, plural, =0 {Max. 1 min read} =1 {1 min read} other {# mins read}}",
+    "thanks4Subs":"Thanks for subscribing!"
+  },
+  "RelantlessPursuit": {
+    "slogan":"<white>The relentless pursuit of <orange>perfection</orange></white>",
+    "button":"Explore"
+  },
+  "ExclusiveWallpapers": {
+    "slogan":"<white>Download exclusive wallpapers - <orange>unlock now</orange></white>",
+    "button":"Explore"
+  },
+  "CallOrChat": {
+    "title":"Call or <orange>Chat</orange>",
+    "slogan": "Let us help you find what you need.",
+    "description":"No matter where you go, we've probably been in your shoes. And we can help guide you on your next adventure. After all, we're all about sharing the road, and everything we know about navigating it.",
+    "liveChat":"Live Chat",
+    "liveChatSlogan":"Chat with an Expert",
+    "phone":"915-455-8537",
+    "phoneSlogan":"Talk with an Expert"
+  },
+  "TermsOfUse": {
+    "data":"<h2>Terms of Use of Ranch Boss</h2><p>This document governs the use of our website, and, any other related agreement or legal relationship with us in a legally binding way.</p><p>You must read this document carefully.</p><p>Our website is provided by:<br></br><span>Ranch Boss LLC 1163 Horizon Blvd El Paso, TX. 79927.</span></p><p>If you want to talk to us, go to the <strong>Contact Us</strong>section and write your message.</p><h2>What you should know at a glance</h2><p>Please note that some provisions may only apply to certain categories of users. In particular, certain provisions may only apply to consumers or to those users that do not qualify as consumers. Such limitations are always explicitly mentioned within each affected clause. In the absence of any such mention, clauses apply to all users.</p><h2>TERMS OF USE</h2><p>Unless stated otherwise, the terms in this section apply generally when using our website.</p><p>Specific or additional conditions may apply in certain situations and are noted in this document.</p><p>By using our website, you confirm the following:</p><ul><li>you are older than <code>18</code>;</li><li>you are not in a country under a U.S. government embargo or designated as a \"terrorist-supporting\" country;</li><li>you are not on any U.S. government list of prohibited or restricted parties.</li></ul><h3>Account registration</h3><p>To use the service, you can register or create an account by providing complete and truthful information. You can also use the service without an account, but this might limit some features.</p><p>You are responsible for keeping your login details confidential and must choose passwords that meet the highest standards of strength as allowed by our website.</p><p>By registering, you agree to take full responsibility for all activities under your username and password.<br></br>You must immediately inform us using the contact details in this document if you believe your personal information, account, or login details have been violated, disclosed, or stolen.</p><h4>Conditions for account registration</h4><p>Registration of accounts on our website is subject to the conditions outlined below. By registering, you agree to meet such conditions.</p><ul><li>It is not permitted to register accounts by bots or any other automated methods;</li><li>You must register only one account, unless otherwise specified;</li><li>Your account must not be shared with other persons unless otherwise specified.</li></ul><h4>Account termination</h4><p>You can close your account and stop using our service anytime by contacting us at the contact details provided in this document.</p><h4>Account suspension and deletion</h4><p>We reserve the right to suspend or delete your account at any time and without notice if we find it inappropriate, offensive, or in violation of these terms.</p><p>Suspending or deleting accounts does not entitle you to claim for any compensation, damages, or reimbursement.</p><p>The suspension or deletion of accounts due to causes attributable to you does not exempt you from paying any applicable fees or prices.</p><h3>Content on the website</h3><p>Unless otherwise noted, all content on our website is owned or provided by us or our licensors.</p><p>We do our best to ensure the content on our website complies with all laws and respects third-party rights. However, this may not always be achievable.<br></br>If you believe your rights are being infringed, without prejudice to any legal prerogatives to enforce your rights, please report any issues using the contact details provided in this document.</p><h4>Rights regarding content on our website - All rights reserved</h4><p>We hold and reserve all intellectual property rights for all content.</p><p>You may not use such content in any way that is not necessary or implied for the proper use of the service.</p><p>Specifically, but without limitation, you may not copy, download, share (beyond the limits mentioned below), modify, translate, transform, publish, transmit, sell, sublicense, edit, transfer, assign to third parties, or create derivative works from the content on our website. You also cannot allow any third party to do so through your account or device, even unknowingly.</p><p>Where explicitly stated, you may download, copy, and share some content from our website for personal and non-commercial use, provided you correctly implement copyright and other required attributions.</p><p>Any statutory limitations or exceptions to copyright remain unaffected.</p><h3>Access to external resources</h3><p>Through our website, you may access external resources provided by third parties. You acknowledge and accept that we have no control over these resources and are not responsible for their content or availability.</p><p>Conditions for third-party resources, including any rights granted in their content, are governed by those third parties' terms and conditions or by applicable law.</p><h3>Acceptable use</h3><p>Our website and service may only be used within the scope of what is provided for, under these terms and applicable law.</p><p>You are solely responsible for ensuring your use of our website and service does not violate any laws, regulations, or third-party rights.</p><p>We reserve the right to protect our interests by denying you access to our website or service, terminating contracts, and reporting any misconduct to the appropriate authorities if you are involved in or suspected of the following:</p><ul><li>violating laws, regulations, or these terms;</li><li>infringing on third-party rights;</li><li>significantly impairing our legitimate interests;</li><li>offending us or any third party.</li></ul><h2>TERMS AND CONDITIONS OF SALE</h2><h3>Paid products</h3><p>Some of our products require payment. Details about fees, duration, and conditions are described below and in the dedicated sections of our website.</p><h3>Product description</h3><p>Prices, descriptions, and availability of products are detailed in the relevant sections of our website and may change without notice.</p><p>Although we strive for accuracy in presenting products on our website, representations (including graphics, images, colors, and sounds) are for reference only and do not guarantee the characteristics of the purchased product.</p><p>The specific characteristics of the chosen product are outlined during the purchasing process.</p><h3>Purchasing process</h3><p>Every action taken from selecting a product to submitting the order is part of the purchasing process.</p><p>In merchandise we use Stripe service to process the payments, using the Stripe's embedded form and takes data like name, payment card, address (for shipment) and email.</p><h3>Order submission</h3><p>When you place an order, the following apply:</p><ul><li>submitting an order determines the contract conclusion and obligates you to pay the specified price, taxes, and any additional fees and expenses outlined on the order page;</li><li>if the purchased product requires action from you, such as providing personal information or specific requests, submitting the order means you agree to cooperate accordingly;</li><li>after submitting the order, you will receive a receipt confirming that the order has been received.</li></ul><p>All communications regarding the purchasing process will be sent to the email address you provided.</p><h3>Prices</h3><p>During checkout and before order submission, you will see all charges, including any fees, taxes, and costs (including, where applicable, delivery costs).</p><p>On our website, prices are displayed including all applicable fees, taxes, and costs.</p><h3>Methods of payment</h3><p>Details about accepted payment methods are provided during the purchasing process.</p><p>Certain payment methods might have additional conditions or fees. In these cases, more information can be found in the related section of our website.</p><p>You can use credit card, debit card or other payment method, wallets and services like AfterPay or ClearPay.</p><h3>Retention of product ownership</h3><p>Until payment of the total purchase price is received by us, any products ordered will not become your property.</p><h3>Delivery</h3><p>Products are delivered to the address provided by you and in the manner outlined in the order summary.</p><p>Upon delivery, please check the content and report any issues promptly using the contact details provided in this document or as outlined in the delivery note. If the parcel appears visibly damaged, you may refuse to accept it.</p><p>Goods are delivered to the following countries: US and Canada</p><p>Delivery times are outlined on our website or during the purchasing process.</p><h4>Failed delivery</h4><p>We are not liable for delivery errors due to incorrect or incomplete information provided by you during the purchasing process nor for any damage or delays after delivery to a carrier organized by you and not offered or recommended by us.</p><p>If the goods are not received or collected at the time or within the period specified, they will be returned to us. We will contact you to schedule a second delivery attempt or to agree on a future course of action.</p><p>Unless otherwise agreed, each delivery attempt after the second one will be at your expense.</p><h2>USER RIGHTS</h2><h3>Right of withdrawal</h3><p>Unless exceptions apply, if you qualify as a European consumer, you have the right to withdraw from a contract within a specified period (usually 14 days), without giving any reason. If you don't fit this qualification, you cannot benefit from the rights described in this section.</p><h4>Exercising your right of withdrawal</h4><p>To withdraw from a contract, you must inform us clearly of your decision. This can be done using a withdrawal form or by any other clear statement. Make sure to do this before the withdrawal period ends.</p><h4>Withdrawal period</h4><ul><li>for goods, the withdrawal period ends 14 days after you or a designated third party takes physical possession of the goods;</li><li>for multiple goods ordered together or delivered separately, the withdrawal period ends 14 days after you or a designated third party acquires physical possession of the last good.</li></ul><h4>Effects of withdrawal</h4><p>If you correctly withdraw from a contract, we will reimburse you for all payments made to us, including any delivery costs, if applicable.</p><p>However, any additional costs resulting from choosing a delivery method other than our standard option will not be reimbursed.</p><p>We will process your reimbursement promptly and no later than 14 days after we receive your withdrawal notification. Reimbursements will be made using the same payment method you used for the initial transaction unless agreed otherwise. You will not incur any costs or fees for this reimbursement.</p><h4>... on the purchase of physical goods</h4><p>Unless we have offered to collect the goods, you must return them to us or to a person authorized by us without delay and no later than 14 days after notifying us of your decision to withdraw from the contract.</p><p>Your deadline is met if you hand the goods to the carrier or return them as instructed before the 14-day period expires. We may withhold reimbursement until we receive the goods or until you provide evidence of returning them, whichever occurs first.</p><p>You are responsible for any diminished value of the goods resulting from handling beyond what is necessary to establish their nature, characteristics, and functioning.</p><p>You will bear the costs of returning the goods.</p><h3>UK USER RIGHTS</h3><h4>Right to cancel</h4><p>Unless exceptions apply, if you qualify as a consumer in the United Kingdom, you have the right to withdraw from a contract within a specified period (usually 14 days), without giving any reason. If you do not fit this qualification, you cannot benefit from the rights described in this section.</p><h4>Exercising your right to cancel</h4><p>To withdraw from a contract, you must inform us clearly of your decision. This can be done using a cancellation form or by any other clear statement. Make sure to do this before the cancellation period ends.</p><h4>Cancellation period</h4><ul><li>for goods, the cancellation period ends 14 days after you or a designated third party takes physical possession of the goods;</li><li>for multiple goods ordered together or delivered separately, the cancellation period ends 14 days after you or a designated third party acquires physical possession of the last good.</li></ul><h4>Effects of cancellation</h4><p>If you correctly withdraw from a contract, we will reimburse you for all payments made to us, including any delivery costs, if applicable.</p><p>However, any additional costs resulting from choosing a delivery method other than our standard option will not be reimbursed.</p><p>We will process your reimbursement promptly and no later than 14 days after we receive your cancellation notification. Reimbursements will be made using the same payment method you used for the initial transaction unless agreed otherwise. You will not incur any costs or fees for this reimbursement.</p><h4>... on the purchase of physical goods</h4><p>Unless we have offered to collect the goods, you must return them to us or to a person authorized by us without delay and no later than 14 days after notifying us of your decision to withdraw from the contract.</p><p>Your deadline is met if you hand the goods to the carrier or return them as instructed before the 14-day period expires. We may withhold reimbursement until we receive the goods or until you provide evidence of returning them, whichever occurs first.</p><p>You are responsible for any diminished value of the goods resulting from handling beyond what is necessary to establish their nature, characteristics, and functioning.</p><p>You will bear the costs of returning the goods.</p><h2>GUARANTEES</h2><h3>Legal guarantee of conformity for goods under EU law</h3><p>We guarantee the conformity of goods sold to European consumers for at least 2 years from delivery. This guarantee applies to goods on our website according to the laws of your country.</p><p>The laws of your country may grant you broader rights regarding legal guarantees of conformity.</p><h3>Conformity to contract for consumers in the United Kingdom</h3><p>UK consumers have the right to receive goods that conform to the contract.</p><h2>LIABILITY AND INDEMNIFICATION</h2><p>We limit our liability as much as legally allowed when executing agreements with you. This means our responsibility for damages is reduced to the maximum extent permitted by law unless explicitly stated otherwise or agreed upon with you.</p><h4>Indemnification</h4><p>You agree to indemnify us and our affiliates, officers, directors, and employees from any claims or demands made by third parties due to or in connection with any culpable violation of these terms or third-party rights related to your use of the service to the extent allowed by law.</p><h4>Limitation of liability</h4><p>Unless explicitly stated otherwise and subject to applicable law, you cannot claim damages against us (or any individual or entity acting on our behalf).</p><p>However, this exclusion does not apply to damages affecting life, health, or physical integrity, damages arising from the breach of significant contractual obligations (such as those necessary to fulfill the contract's purpose), and/or damages resulting from intentional or gross negligence, provided that our website has been used appropriately and correctly by you.</p><p>Unless damages stem from intentional or gross negligence, or they impact life, health, or physical integrity, our liability is limited to typical and foreseeable damages at the time the contract was entered into.</p><h3>US users</h3><h4>Disclaimer of warranties</h4><p>Our website is provided on an “as is” and “as available” basis. When you use our service, you are doing so at your own risk. We explicitly state that we are not making any promises or guarantees, whether they are express, implied, or even required by law. These include assurances about the quality of the service, its suitability for your specific needs, or whether it infringes on anyone else's rights. Please keep in mind that any advice or information you receive from us or through our service does not create any warranties beyond what we have explicitly stated here.</p><p>Additionally, while we strive to provide accurate and reliable content, we cannot guarantee that it is always going to be the case. We do not guarantee that the service will always meet your requirements or be available when you need it. There might be interruptions, or it might not function correctly due to factors beyond our control. While we do our best to keep everything running smoothly, we cannot ensure that the service will be free of harmful elements like viruses. If you choose to download any content from our service, you are assuming the risk, and we are not responsible for any damage it might cause to your devices or data.</p><p>We do not endorse or guarantee any products or services advertised through our service or any links we provide. We are not involved in any transactions between you and third-party providers, so any interactions or agreements you make with them are solely your responsibility.</p><p>Our service might not always be accessible or may not work correctly with your web browser, mobile device, or operating system. While we strive to provide a seamless experience, we cannot guarantee it in every situation. As such, we want to clarify that we cannot be held responsible for any perceived or actual damages that result from issues related to the content, operation, or use of our service.</p><p>While we may have certain exclusions and limitations in our agreement, these may not apply to you depending on the laws of your jurisdiction. Federal law, as well as laws in some states and other jurisdictions, may offer protections that supersede our disclaimers and exclusions. This means that you may have specific legal rights that are not affected by our agreement. It is essential to understand your rights, as they may vary from state to state or country to country. We want to emphasize that any disclaimers or exclusions in our agreement will only be enforced to the extent permitted by applicable law.</p><h4>Limitation of liability</h4><p>To the maximum extent permitted by applicable law, in no event shall we, along with our subsidiaries, affiliates, officers, directors, agents, partners, suppliers, or employees, be liable for:</p><ul><li>any indirect, punitive, incidental, special, consequential, or exemplary damages arising from or related to your use of, or inability to use, the service. This includes damages for loss of profits, goodwill, use, data, or other intangible losses;</li><li>any damage, loss, or injury resulting from hacking, tampering, or unauthorized access to your account or the information within it;</li><li>errors, mistakes, or inaccuracies in the content provided;</li><li>personal injury or property damage resulting from your use of the service;</li><li>unauthorized access to our secure servers or personal information stored therein;</li><li>interruption or cessation of transmission to or from the service;</li><li>bugs, viruses, trojan horses, or similar harmful elements transmitted through the service;</li><li>errors or omissions in any content posted, transmitted, or made available through the service;</li><li>defamatory, offensive, or illegal conduct of any user or third party. Our liability is limited to the amount you have paid us in the preceding 12 months, or the duration of your agreement with us, whichever is shorter.</li></ul><p>This limitation of liability section will apply to the fullest extent permitted by law in the applicable jurisdiction whether the alleged liability is based on contract, tort, negligence, strict liability, or any other basis, even if you have been advised of the possibility of such damage.</p><p>Please note that in some jurisdictions, the exclusion or limitation of incidental or consequential damages may not be allowed. This means that these limitations or exclusions might not apply to you. You have specific legal rights, which may vary depending on your jurisdiction. The disclaimers, exclusions, and limitations of liability outlined here may not apply to the extent prohibited by applicable law.</p><h4>Indemnification</h4><p>By using and accessing the service, you agree to defend, indemnify, and hold us, our subsidiaries, affiliates, officers, directors, agents, co-branders, partners, suppliers, and employees harmless from any claims, damages, losses, liabilities, costs, or expenses, including legal fees, arising from:</p><ul><li>your use of the service, including any data or content you transmit or receive;</li><li>your violation of these terms, including any breach of representations and warranties;</li><li>your violation of third-party rights, such as privacy or intellectual property rights;</li><li>your violation of statutory laws, rules, or regulations;</li><li>any content submitted from your account, including third-party access using username, password, or other security measures, including misleading, false, or inaccurate information;</li><li>your intentional misconduct; or</li><li>any statutory provision by you or your affiliates, officers, directors, agents, co-branders, partners, suppliers, and employees to the extent permitted by law.</li></ul><h2>COMMON PROVISIONS</h2><h3>No waiver</h3><p>Our failure to assert any right or provision under these terms does not waive that right or provision. No waiver will constitute a continuing waiver of such term or any other term.</p><h3>Service interruption</h3><p>To maintain the best service level, we reserve the right to interrupt the service for maintenance, updates, or other changes, with appropriate notification.</p><p>We may suspend or discontinue the service within legal limits. If discontinued, we will assist you in withdrawing personal data and respect your rights regarding continued product use and compensation under applicable law.</p><p>The service may be unavailable due to events beyond our reasonable control, such as infrastructure breakdowns or blackouts.</p><h3>Service reselling</h3><p>You may not reproduce, duplicate, copy, sell, or exploit any part of our website or its service without our express written permission, granted either directly or through a legitimate reselling program.</p><h3>Privacy policy</h3><p>For information on the use of personal data, you can refer to our website's privacy policy.</p><h3>Intellectual property rights</h3><p>Without prejudice to any more specific provisions in these terms, all intellectual property rights associated with our website, including copyrights, trademark rights, patent rights, and design rights, are exclusively owned by us or our licensors. These rights are protected by applicable laws and international treaties concerning intellectual property.</p><p>All trademarks, whether nominal or figurative, and any other marks, trade names, service marks, word marks, illustrations, images, or logos associated with our website, are and remain the exclusive property of us or our licensors. These are also protected by applicable laws and international treaties related to intellectual property.</p><h3>Changes to the terms</h3><p>We reserve the right to modify these terms at any time, informing you of any changes.</p><p>Such changes will only affect the relationship with you from the date communicated onwards.</p><p>Your continued use of the service will signify your acceptance of the revised terms. If you do not wish to be bound by the changes, you must stop using the service and terminate the agreement.</p><p>The applicable previous version will govern the relationship prior to your acceptance. You can obtain any previous version from us.</p><p>If legally required, we will notify you in advance of when the modified terms will take effect.</p><h3>Assignment of contract</h3><p>We reserve the right to transfer, assign, dispose of by novation, or subcontract any or all rights or obligations under these terms, considering your legitimate interests. Provisions about changes to these terms will apply accordingly.</p><p>You cannot assign or transfer your rights or obligations under these terms without our written permission.</p><h3>Contact</h3><p>All communications regarding the use of our website must be sent using the contact information provided in this document.</p><h3>Severability</h3><p>Invalidity or unenforceability of any provision under applicable law will not affect the validity of other provisions, which will remain in full force and effect.</p><h4>US users</h4><p>Any invalid or unenforceable provision will be interpreted to the extent reasonably required to render it valid, enforceable, and consistent with its original intent. This document constitutes the entire agreement between you and us and supersedes all other communications, including but not limited to prior agreements concerning such subject matter, to the fullest extent permitted by law.</p><h4>EU users</h4><p>If any provision of this document is void, invalid, or unenforceable, we both agree to do our best to find, in an amicable way, an agreement on valid and enforceable provisions.<br></br>In case of failure to do so, the void, invalid, or unenforceable provisions will be replaced by the applicable statutory provisions.</p><p>Regardless of the above, the nullity, invalidity, or impossibility of enforcing a particular provision of this document will not nullify the entire agreement, unless the severed provisions are essential for it, or of such importance that we both would not have entered into the contract if we had known that the provision would not be valid, or in cases where the remaining provisions would translate into an unacceptable hardship for you or us.</p><h3>Governing law</h3><p>These terms are governed by the law of the place where we are based, as outlined in the relevant section of this document, without regard to conflict of laws principles.</p><h4>Prevalence of national law</h4><p>However, regardless of the above, if the law of the country that you are based on provides for higher applicable consumer protection standards, such higher standards will prevail.</p><h3>Venue of jurisdiction</h3><p>The jurisdiction over any controversy related to these terms lies with the courts of the place where we are based, as outlined in the relevant section of this document.</p><h4>Exception for consumers in Europe</h4><p>However, regardless of the above, this does not apply if you qualify as a European consumer or if you are a consumer based in the United Kingdom, Switzerland, Norway, or Iceland.</p><h4>UK consumers</h4><p>If you are a consumer based in England and Wales, you may bring legal proceedings related to these terms in the English and Welsh courts. If you are a consumer based in Scotland, you may bring legal proceedings in either the Scottish or the English courts. If you are a consumer based in Northern Ireland, you may bring legal proceedings in either the Northern Irish or the English courts.</p><h4>US users</h4><p>We both agree to waive any right to trial by jury in any court in connection with any action or litigation.<br></br>Any claims under these terms shall proceed individually and we both agree not to join in a class action or other proceeding with or on behalf of others.</p><h3>US users</h3><h4>Surviving provisions</h4><p>Our agreement will continue in effect until it is terminated by either our website or you. Upon termination, the provisions contained in this document that by their context are intended to survive termination or expiration will survive, including but not limited to the following:</p><ul><li>your grant of licenses under this document will survive indefinitely;</li><li>your indemnification obligations will survive for a period of five years from the date of termination;</li><li>the disclaimer of warranties and representations, and the stipulations under the section containing indemnity and limitation of liability provisions, will survive indefinitely.</li></ul><h2>DISPUTE RESOLUTION</h2><h3>Online dispute resolution for consumers</h3><p>The European Commission has set up an online platform for alternative dispute resolution, providing an out-of-court solution for resolving disputes arising from online sale and service contracts.</p><p>Therefore, European consumers or consumers based in Norway, Iceland, or Liechtenstein can use this platform to settle disputes arising from online contracts. You can access the platform <a>via the following link</a>.</p>"
+  },
+  "PrivacyPolicy": {
+    "data":"<h2><strong>PRIVACY POLICY</strong></h2><p>Ranch Boss LLC, henceforth referred to as “Horizon”, values the privacy and confidentiality of your personal information, such as your name, postal and email addresses, or telephone number. Accordingly, the personal information you provide is securely stored, accessible only by designated staff or authorized agents, and is used solely to market our products or enhance our customer service. Horizon will not disclose any personal information to external organizations.</p><h2><strong>INFORMATION COLLECTION</strong></h2><p>When you browse a Horizon website, your visit is anonymous. Personal information is not collected. However, certain areas of our websites may request that you voluntarily supply personal information, including your name, email address, etc., for purposes such as correspondence, site registration, receiving localized pricing, or participating in online surveys.</p><p>Horizon may also retain electronic communications sent to our customer service representatives, webmasters, or other associates. These communications may be shared within Horizon to continually improve customer service or partly within our website comments or FAQ section.</p><p>Horizon websites monitor and track information about visits to the sites. We compile statistics that show the daily number of visitors, the daily requests for particular files, and the countries those requests come from. These aggregated statistics are used to customize our website to better meet your needs and may also be provided to others, but they contain no personal information and cannot be used to gather such information.</p><p>Some Horizon sites may use “cookies” or “web beacons.” Cookies enhance your online experience by saving your preferences while you are visiting a particular site. Web beacons, or clear GIFs, are used to measure the success of our marketing campaigns and compile statistics about usage and response rates. You can set your browser to notify you when you receive a cookie, giving you the chance to decide whether or not to accept it. If you choose to decline cookies, web beacons may not function properly.</p><h2><strong>INFORMATION USE</strong></h2><p>Horizon may use the information provided by users to, for example, provide services, measure consumer interest in our products and services, or inform users about new products and programs. These offerings may be based on the information provided in surveys, purchasing preferences, or emails sent to our site. Any lists used to send you product and service offers are developed and managed under conditions designed to protect the security and privacy of our customers' personal information. Horizon will make reasonable efforts to address all requests to remove names from any postal mail or email lists.</p><h2><strong>DISCLOSURE</strong></h2><p>Because Horizon considers the personal information we maintain to be confidential, our policy is to disclose no personal information gathered online to third parties unless such release is required by law or is pertinent to judicial or government investigations or proceedings. Horizon does not sell or rent personal information to other organizations.</p><h2><strong>OTHER WEB SITES</strong></h2><p>Horizon websites may contain links to other sites. While we strive to link only to sites that share our high standards and respect for privacy, we are not responsible for the content or the privacy practices employed by other sites.</p><h2><strong>CHILDREN</strong></h2><p>Horizon does not knowingly collect any personal information (such as name, address, and telephone number) from children under 13 years old through its website. We specifically instruct children under 13 not to submit such information to our site. If the parent or guardian of a child under 13 believes that the child has provided us with personal information, the parent or guardian should contact us to have this information deleted from our files. Moreover, anyone under 18 years old should seek their parent's or guardian's permission prior to using or disclosing any personal information on this site.</p><h2><strong>DISCLAIMER</strong></h2><p>By using a Horizon site, you signify your assent to the Horizon Online Privacy Policy. If you do not agree to this policy, please do not use our sites. We reserve the right, at our discretion, to change, modify, add, or remove portions of this policy at any time. Please check this page periodically for changes. Your continued use of the Horizon sites following the posting of changes to these terms will mean you accept those changes.</p><h2><strong>COOKIES POLICY</strong></h2><p>Ranch Boss (\"we\", \"our\", \"us\") uses cookies to enhance your experience on our website and to analyze our traffic. This Cookies Policy explains what cookies are, how we use them, and your choices regarding their use.</p><h3>1. What Are Cookies?</h3><p>Cookies are small text files stored on your device when you visit a website. They help websites remember your preferences, improve functionality, and analyze usage patterns.</p><h3>2. Types of Cookies We Use</h3><ul><li>Essential Cookies: Necessary for the website to function properly and cannot be disabled.</li><li>Performance and Analytics Cookies: Help us understand how visitors interact with our website by collecting anonymized data.</li><li>Functional Cookies: Remember your preferences to enhance your experience.</li><li>Targeting and Advertising Cookies: Deliver personalized advertisements based on your browsing behavior.</li></ul><h3>3. How We Use Cookies</h3><p>We use cookies to:</p><ul><li>Remember your preferences.</li><li>Improve website performance and usability.</li><li>Analyze traffic and user behavior to enhance our services.</li><li>Deliver relevant advertisements.</li></ul><h3>4. Your Choices</h3><p>You can manage or disable cookies through your browser settings. However, disabling certain cookies may impact your experience on our site.</p><h3>5. Third-Party Cookies</h3><p>Some cookies may be placed by third-party services (e.g., analytics or advertising partners) to help us provide a better service.</p><h3>6. Updates to This Policy</h3><p>We may update this Cookies Policy from time to time. Any changes will be reflected on this page with an updated “Last Updated” date.</p><h3>7. Contact Us</h3><p>If you have any questions about this Cookies Policy, please contact us at: <a>Contact Us</a></p>"
+  },
+  "Resources": {
+    "Logos": {
+      "title":"Logos",
+      "description":"You can find all logos from Ranch Boss",
+      "publishedDate":"Published on September 04, 2025",
+      "doYouNeedOtherFormat": "Do you need a different format or size? <link>Contact Us</link>",
+      "htLogo":"Ranch Boss Logotype + Isotype",
+      "htLogoAlt":"Ranch Boss Alt Logotype + Isotype",
+      "htLogoVert":"Ranch Boss Vertical Logotype + Isotype",
+      "htlbogCtB":"Ranch Boss Logo - Black",
+      "htlbogtB":"Ranch Boss Logo - White",
+      "hLogo":"Ranch Boss Name Logotype",
+      "hlbc":"Ranch Boss - Black",
+      "hlb":"Horizon  - logo, black",
+      "hlw":"Horizon  - logo, white",
+      "hlwbB":"Horizon  - logo, white background black",
+      "isoLogo":"Ranch Boss - Isotype Logo",
+      "isoLogoAlt":"Ranch Boss - Isotype Logo Alt",
+      "htioC":"Ranch Boss Isotype - Black",
+      "htio":"Ranch Boss - isotype, orange",
+      "htiobB":"Ranch Boss - isotype, orange background black",
+      "sloganLogo":"Ranch Boss - Slogan",
+      "edmswgo":"Every Detail Matters - Slogan, white grey orange",
+      "edmsb":"Every Detail Matters - Slogan, black",
+      "edmsg":"Every Detail Matters - Slogan, grey",
+      "edmsw":"Every Detail Matters - Slogan,white.png",
+      "downloadFullSuite":"Download full suite of Logos"
+    },
+    "Wallpapers": {
+      "title":"Wallpapers",
+      "description": "You can find our exclusive wallpapers from Ranch Boss",
+      "slogan_title": "Ready to transform your screen?",
+      "slogan_description": "Enter your email to be the first to get our exclusive Ranch Boss wallpapers.",
+      "invalid_email": "Fix the email and try again",
+      "button":"Receive wallpapers now",
+      "thanks": "Thanks! Your exclusive Ranch Boss wallpapers are on their way."
+    }
+  },
+  "NotFound": {
+    "title": "Something went wrong",
+    "description":"We couldn't find this page. Maybe you clicked the wrong link...",
+    "button":"Go to main page"
+  },
+  "__Products": "Componentes de ProductsPage",
+  
+  "ProductsJson": {
+    "compatibilityOptions": "Compatibility Options",
+    "heavyDutyStructure": "Heavy Duty Structure",
+    "12',14'DumpLift": "12',14'DumpLift",
+    "12'Dovetail": "12'Dovetail",
+    "12'DumpLift": "12'DumpLift",
+    "14',16'DumpLift": "14',16'DumpLift",
+    "14'DeckLift": "14'DeckLift",
+    "16'DeckLift": "16'DeckLift",
+    "16'DumpLift": "16'DumpLift",
+    "24'-38'deckLift": "24'-38'deckLift",
+    "24'deckLift": "24'deckLift",
+    "40'deckLift": "40'deckLift",
+    "77\"DeckDovetailOptions**NotAvailableFor12'Deck**": "77\"DeckDovetailOptions**NotAvailableFor12'Deck**",
+    "77\"DeckRampOptions": "77\"DeckRampOptions",
+    "83\"DeckDovetailOptions**NotAvailableFor12'Deck**": "83\"DeckDovetailOptions**NotAvailableFor12'Deck**",
+    "83\"DeckRampOptions": "83\"DeckRampOptions",
+    "8ButtonRemoteOption*6ButtonsInUseOnly*": "8ButtonRemoteOption*6ButtonsInUseOnly*",
+    "8ButtonRemoteOption*AllButtonsInUse*": "8ButtonRemoteOption*AllButtonsInUse*",
+    "aluminiumWheelsOptions": "aluminiumWheelsOptions",
+    "aluminiumWheelsOptions(outerWheelsOnly)": "aluminiumWheelsOptions(outerWheelsOnly)",
+    "availableLengths": "availableLengths",
+    "axleCount": "axleCount",
+    "axleRating": "axleRating",
+    "axleType": "axleType",
+    "axleWarranty": "axleWarranty",
+    "baseModel": "baseModel",
+    "battery": "battery",
+    "batteryAndCharging": "batteryAndCharging",
+    "bed": "bed",
+    "bedHeight": "bedHeight",
+    "bedWidth": "bedWidth",
+    "boltOnSwivelD-rings": "boltOnSwivelD-rings",
+    "boltPattern": "boltPattern",
+    "bottomRailBedWidth": "bottomRailBedWidth",
+    "bottomRailChassisWidth": "bottomRailChassisWidth",
+    "brakesUpgradeOption": "brakesUpgradeOption",
+    "breakawaySystem": "breakawaySystem",
+    "cargoCapacity":"cargoCapacity",
+    "centerWinchCable": "centerWinchCable",
+    "centerWinchCableGuide": "centerWinchCableGuide",
+    "chargingSystem": "chargingSystem",
+    "chassis": "chassis",
+    "code": "code",
+    "colors": "colors",
+    "color": "color",
+    "dumpColor": "dumpColor",
+    "deckColor": "deckColor",
+    "chassisColor": "chassisColor",
+    "controller": "controller",
+    "coupler": "coupler",
+    "crossmembers": "crossmembers",
+    "cylinder": "cylinder",
+    "cylinders": "cylinders",
+    "d-rings": "d-rings",
+    "deck": "deck",
+    "deckFrame": "deckFrame",
+    "deckHeight": "deckHeight",
+    "deckLift": "deckLift",
+    "deckWidth": "deckWidth",
+    "description": "description",
+    "dimensions": "dimensions",
+    "dovetail": "dovetail",
+    "dovetailFrame": "dovetailFrame",
+    "dovetailLength": "dovetailLength",
+    "dovetailOptions": "dovetailOptions",
+    "dump":"dump",
+    "dumpAngle": "dumpAngle",
+    "dumpLift": "dumpLift",
+    "electricalAndLighting": "electricalAndLighting",
+    "fenders": "fenders",
+    "finish": "finish",
+    "flooring": "flooring",
+    "frame": "frame",
+    "frameWiring": "frameWiring",
+    "front": "front",
+    "frontJack": "frontJack",
+    "fullTiltDeck": "fullTiltDeck",
+    "gate": "gate",
+    "gawr": "gawr",
+    "gnLengths":"gnLengths",
+    "guard": "guard",
+    "gvwr": "gvwr",
+    "haulingCapacity": "haulingCapacity",
+    "height": "height",
+    "hex": "hex",
+    "highlights": "highlights",
+    "hooks": "hooks",
+    "hutchensSuspensionUpgrade/AxleOptions": "hutchensSuspensionUpgrade/AxleOptions",
+    "hutchensTandemSuspensionUpgrade/AxleOptions": "hutchensTandemSuspensionUpgrade/AxleOptions",
+    "hydraulics": "hydraulics",
+    "image": "image",
+    "jacks": "jacks",
+    "large": "large",
+    "leftSide": "leftSide",
+    "length": "length",
+    "lengths": "lengths",
+    "liftAxleRidewellAirRideUpgrade/AxlesOptions": "liftAxleRidewellAirRideUpgrade/AxlesOptions",
+    "liftCapacity": "liftCapacity",
+    "liftCylinder": "liftCylinder",
+    "liftSystem": "liftSystem",
+    "lighting": "lighting",
+    "lights": "lights",
+    "loadingAngle": "loadingAngle",
+    "mainFrame": "mainFrame",
+    "model":"model",
+    "name": "name",
+    "overallWidth": "overallWidth",
+    "paintType": "paintType",
+    "phLengths":"phLengths",
+    "ply": "ply",
+    "prep": "prep",
+    "price": "price",
+    "priceAddon": "priceAddon",
+    "pump": "pump",
+    "railing": "railing",
+    "ramps": "ramps",
+    "rating": "rating",
+    "rear": "rear",
+    "rearOfDeck": "rearOfDeck",
+    "rearStands": "rearStands",
+    "reflectiveTape": "reflectiveTape",
+    "ridewellAirRideSuspensionUpgrade/AxleOptions": "ridewellAirRideSuspensionUpgrade/AxleOptions",
+    "ridewellAirRideSuspensionUpgrade/AxlesOptions": "ridewellAirRideSuspensionUpgrade/AxlesOptions",
+    "rims": "rims",
+    "rubRail": "rubRail",
+    "runningGear": "runningGear",
+    "safety": "safety",
+    "safetyChains": "safetyChains",
+    "safetyChainsForRollOff": "safetyChainsForRollOff",
+    "safetySystem": "safetySystem",
+    "side": "side",
+    "sideGuides": "sideGuides",
+    "sideHeight": "sideHeight",
+    "sideHeights": "sideHeights",
+    "sideRunners": "sideRunners",
+    "sides": "sides",
+    "size": "size",
+    "solar": "solar",
+    "spare": "spare",
+    "spareTireOptions": "spareTireOptions",
+    "spools": "spools",
+    "stakePockets": "stakePockets",
+    "standardCoupler": "standardCoupler",
+    "steps": "steps",
+    "storageBehindNeck": "storageBehindNeck",
+    "style": "style",
+    "suspension": "suspension",
+    "suspensionType": "suspensionType",
+    "system": "system",
+    "tank": "tank",
+    "tarp": "tarp",
+    "thickness": "thickness",
+    "tieDownFittings*FrontAndRearOfDeckOnly*": "tieDownFittings*FrontAndRearOfDeckOnly*",
+    "tieDownSlots": "tieDownSlots",
+    "tilt": "tilt",
+    "tiltAngle": "tiltAngle",
+    "tiltDeckFrame": "tiltDeckFrame",
+    "tiltDeckLenght": "tiltDeckLenght",
+    "tiltSystem": "tiltSystem",
+    "tireUpgradeOptions": "tireUpgradeOptions",
+    "tires": "tires",
+    "tongue": "tongue",
+    "toolbox": "toolbox",
+    "topRail": "topRail",
+    "topRailExternalWidth": "topRailExternalWidth",
+    "topRailInternalWidth": "topRailInternalWidth",
+    "topRailWidth": "topRailWidth",
+    "torqueTube": "torqueTube",
+    "torqueTube30'AndUpOnly": "torqueTube30'AndUpOnly",
+    "trailerSpecs": "trailerSpecs",
+    "trailerWarranty": "trailerWarranty",
+    "type": "type",
+    "twoToneColor":"2 - tone colors",
+    "valve": "valve",
+    "volteo": "volteo",
+    "warranty": "warranty",
+    "weightRating": "weightRating",
+    "weldOnD-rings": "weldOnD-rings",
+    "widthBetweenFenders": "widthBetweenFenders",
+    "winch": "winch",
+    "winchAddOn(InstalledInStorageBoxOnNeck)": "winchAddOn(InstalledInStorageBoxOnNeck)",
+    "winchController": "winchController",
+    "winchPlate": "winchPlate",
+    "wirelessController": "wirelessController",
+    "wiringHarness": "wiringHarness"
+  },
+  "SEOMetadata": {
+    "AboutUs": {
+      "title": "About Ranch BossRanch Boss | Ranch Boss by Horizon Trailers",
+      "authors":{
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "At Ranch Boss by Horizon Trailers, we're committed to delivering high-quality, durable trailers for all your hauling needs. With a focus on innovation, customer satisfaction, and reliability, we provide solutions for construction, agriculture, and transport. Discover the Horizon difference today.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "About Ranch BossRanch Boss | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator":"Ranch Boss by Horizon Trailers LLC",
+        "site":"@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "About Ranch BossRanch Boss | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "BecomeADealer": {
+      "title": "Dealer Application | Ranch Boss by Horizon Trailers",
+      "authors":{
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Become a Ranch Boss by Horizon Trailers dealer and grow your business with high-quality, durable trailers. Our dealer application process is simple and designed to help you succeed. Join our trusted network and provide customers with reliable dump, equipment, roll-off, and gooseneck trailers.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Dealer Application | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator":"Ranch Boss by Horizon Trailers LLC",
+        "site":"@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Dealer Application | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "Blog": {
+      "title": "Check Our Blog and Last News | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Discover expert insights, tips, and updates on the Ranch Boss by Horizon Trailers blog. Stay informed about the latest trailer trends, maintenance advice, and hauling solutions. Explore articles tailored for trailer enthusiasts, professionals, and anyone seeking reliable transportation solutions.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Check Our Blog and Last News | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Check Our Blog and Last News | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "ContactToDealer": {
+      "title": "Contact to Dealer | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Connect with Ranch Boss by Horizon Trailers' authorized dealers for expert guidance and personalized support. Find your nearest dealer to explore our high-quality trailer options, get pricing, and discover the perfect solution for your hauling needs. Reliable service is just a contact away!",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Contact to Dealer | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Contact to Dealer | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "ContactUs": {
+      "title": "Have Questions? Contact Us | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Connect with Ranch Boss by Horizon Trailers through our contact us page. Whether you have questions about our trailers, need support, or want to explore dealership opportunities, our team is ready to assist. Reach out today for expert guidance and exceptional customer service!",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Have Questions? Contact Us | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Have Questions? Contact Us | Ranch Boss by Horizon Trailers"
+      }
+    }, 
+    "Financing": {
+      "title": "Check our Financers | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Discover flexible financing options with Ranch Boss by Horizon Trailers. Our trusted financial partners offer competitive rates and tailored solutions to fit your needs. Get the trailer you need today with financing plans designed for convenience and affordability. Apply now to get started!",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Check our Financers | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Check our Financers | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "FindADealer": {
+      "title": "Find a Dealer | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Find your nearest Ranch Boss by Horizon Trailers dealer with ease. Our trusted network of affiliates offers expert guidance, top-tier service, and access to our durable trailer lineup. Locate dealers near you to get the perfect trailer for your hauling needs today!",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Find a Dealer | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Find a Dealer | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "Maintenance": {
+      "title": "",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": ""
+      }
+    },
+    "Merchandise":{
+      "title": "Look Our Merchandise | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Show your Ranch Boss by Horizon Trailers pride with our official merchandise. From comfy tees to cozy hoodies, find the perfect gear to represent your love for quality trailers. Shop now!",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Merchandise | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Merchandise | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "OwnersManual": {
+      "title": "Owners Manual | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Find Ranch Boss by Horizon Trailers' Owner's Manuals with detailed instructions, safety guidelines, and maintenance tips. Ensure your trailer's optimal performance and longevity with easy-to-follow guides tailored to each model. Download your manual today for hassle-free trailer operation.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Owners Manual | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Owners Manual | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "PrivacyPolicy": {
+      "title": "Privacy Policy | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Learn about Ranch Boss by Horizon Trailers' Privacy Policy, detailing how we collect, use, and protect your personal information. Committed to transparency and security, we ensure your data is handled responsibly to safeguard your privacy while you browse and interact with our website.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Privacy Policy | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Privacy Policy | Ranch Boss by Horizon Trailers"
+      } 
+    },
+    "Products": {
+      "title": "All Products | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Explore Ranch Boss by Horizon Trailers' diverse product range, including dump trailers, roll-off trailers, equipment trailers, and gooseneck trailers. Designed for durability and performance, our trailers meet the demands of construction, agriculture, and heavy-duty hauling with superior quality and innovation.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "All Products | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "All Products | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "Products__Compare": {
+      "title": "Compare {models} | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Easily compare up to three Ranch Boss by Horizon Trailers side by side. View key specs, features, and options to find the perfect match for your hauling needs, all in one convenient place. Make informed decisions faster with our streamlined Compare Products tool.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image"
+      }
+    },
+    "Products__Configure": {
+      "title": "Configure {product} | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Customize your Horizon Trailer your way. Choose size, color, axles, features, and more with our easy-to-use trailer builder. Instantly see specs and upgrades to build the perfect trailer for your needs—fast, simple, and tailored to you.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Configure product | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Configure product | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "Quality": {
+      "title": "Quality That Exceeds Expectations | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Discover Ranch Boss by Horizon Trailers' commitment to quality craftsmanship. From durable materials to precision engineering, every trailer is built to exceed industry standards. Trust Ranch Boss by Horizon Trailers for reliability, performance, and unmatched durability on every job, big or small.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Quality That Exceeds Expectations | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Quality That Exceeds Expectations | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "Resources": {
+      "title": "Our Brand Resources | Ranch Boss by Horizon Trailers",
+      "titleAlt": "Our {name} | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Access a comprehensive library of Ranch Boss by Horizon Trailers brand resources. From logos to images, everything you need to promote our business. #brandassets #HorizonTrailers",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Our Brand Resources | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Our Brand Resources | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "Sitemap": {
+      "title": "Our Sitemap | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Navigate Ranch Boss by Horizon Trailers' sitemap for quick access to essential pages, including product categories, warranty documents, contact information, and more. Easily find everything you need to explore our durable trailers and services designed to meet your hauling needs.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Our Sitemap | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Our Sitemap | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "TermsOfUse": {
+      "title": "Terms of Use | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Review the Terms of Use for Ranch Boss by Horizon Trailers, outlining user responsibilities, website policies, and legal agreements. Understand your rights and obligations when accessing our site to ensure a secure and seamless experience with our products and services.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Terms of Use | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Terms of Use | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "WarantyClaim": {
+      "title": "Warranty Claim | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Submit your warranty claim for Ranch Boss by Horizon Trailers easily and efficiently. Our dedicated support team ensures quick processing to address your concerns. Protect your investment and maintain your trailer's performance with our hassle-free warranty claim process.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Warranty Claim | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Warranty Claim | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "WarrantyDocs": {
+      "title": "Check Warranty Docs | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Access all Ranch Boss by Horizon Trailers warranty documents in one place. Review coverage details, terms, and support for your trailer with ease. Stay informed and protected with our clear, downloadable warranty info—designed to give you confidence and peace of mind on every haul.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Check Warranty Docs | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Check Warranty Docs | Ranch Boss by Horizon Trailers"
+      }
+    },
+    "MainScreen": {
+      "title": "Premier Truck Beds | Ranch Boss by Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss by Horizon Trailers LLC"
+      },
+      "description": "Discover Ranch Boss by Horizon Trailers' legacy of craftsmanship with our premier range of Gooseneck, Dump, Roll Off, and Equipment trailers. Tailored for the most demanding hauls and built with an unwavering commitment to excellence. Dive in and experience the Horizon difference.",
+      "keywords": "Ranch Boss by Horizon Trailers,Ranch Boss by Horizon Trailers llc,dump trailer,roll off trailer,equipment trailer,gooseneck trailer,utility trailer,dump trailer,flatdeck trailer,trailer for sell, trailer rentals,dumpster trailer,trailer rental near me,quality trailer,premier trailer,premium trailer,utility trailers for sale,trailers and hitches near me, trailers albuquerque,aluminium trailers,affordable trailers,basic trailers,bike trailers,trailers craiglist,trailers cost,trailers colorado springs,trailers, cargo trailers for sale,trailers dealers near me,dump trailers for sale,trailers denver,trailers el paso,trailers east,trailers west,trailers south,trailers north, dump trailer for sale,roll off trailer for sale,equipment trailer for sale,gooseneck trailer for sale,utility trailer for sale, about Ranch Boss by Horizon Trailers, about us Ranch Boss by Horizon Trailers, who is Ranch Boss by Horizon Trailers",
+      "og": {
+        "title": "Premier Truck Beds | Ranch Boss by Horizon Trailers",
+        "siteName": "Ranch Boss by Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss by Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Premier Truck Beds | Ranch Boss by Horizon Trailers"
+      }
+    }
+  },
+  "FooterArea": {
+    "policy": "Design, options, pricing, and specifications are subject to change without notice."
+  }
+
+}

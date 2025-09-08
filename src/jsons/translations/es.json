@@ -1,0 +1,1085 @@
+{
+  "__Words": "Palabras generales",
+  "PagesTitles": {
+    "scrollTop": "Ir al principio",
+    "getInTouch": "Contáctanos",
+    "dovetail": "Cola de Milano",
+    "service": "Servicio",
+    "flatbed": "Plataforma",
+    "horizon":"Horizon",
+    "products": "Productos",
+    "allproducts": "Todos los Productos",
+    "dumpTrailer": "Remolque de Volteo",
+    "rolloffTrailer": "Remolque Rodante",
+    "equipmentTrailer": "Remolque de Equipamento",
+    "flatdeckTrailer": "Remolque de Plataforma",
+    "utilityTrailer": "Remolque Utilitario",
+    "dumpTrailers": "Remolques de Volteo",
+    "rolloffTrailers": "Remolques Rodantes",
+    "equipmentTrailers": "Remolques de Equipamento",
+    "flatdeckTrailers": "Remolques de Plataforma",
+    "utilityTrailers": "Remolques Utilitarios",
+    "carhaulerTrailers": "Remolques de Transporte de Coches",
+    "dealer":"Distribuidor",
+    "blogEditor":"Editor",
+    "account":"Cuenta",
+    "dealerApplication":"Solicitud de Distribuidor",
+    "dealerApplicationSlogan": "¿Te interesa unirte a la red de distribuidores de Horizon? Completa el formulario de solicitud a continuación y un representante de Horizon se pondrá en contacto contigo.",
+    "suggestedSearch": "Búsqueda sugerida",
+    "noResults": "No se encontraron resultados",
+    "dump":"Volteo",
+    "rolloff":"Rodante",
+    "equipment":"Equipamento",
+    "flatdeck":"Plataforma",
+    "utility":"Utilitario",
+    "carhauler":"Transportador de Coches",
+    "company": "Empresa",
+    "findADealer": "Distribuidores",
+    "aboutUs": "Sobre Nosotros",
+    "merchandise": "Mercancía",
+    "support": "Soporte",
+    "warrantyClaim": "Reclamación de Garantía",
+    "warrantyDocs": "Documentos de Garantía",
+    "ownersManual": "Manual del Propietario",
+    "financing": "Financiamiento",
+    "financeYourTrailer":"Financia tu remolque",
+    "warranty": "Garantía",
+    "resources":"Recursos",
+    "blog": "Blog",
+    "shop":"Tienda",
+    "action":"Acción",
+    "review":"Reseña",
+    "videoPlayer":"Reproductor de video",
+    "helpCenter":"Centro de ayuda",
+    "contactUs": "Contáctanos",
+    "becomeADealer": "Hazte Distribuidor",
+    "mainMenu":"Volver al inicio",
+    "insideTheTrailerWorld":"Dentro del mundo de los remolques",
+    "proudNATM":"Miembro orgulloso de natm",
+    "privacyPolicy": "Política de Privacidad",
+    "interestedInThisTrailer": "¿Interesado en este remolque? ¡Encuentra un distribuidor cercano para comenzar!",
+    "viewYt":"Ver en YouTube",
+    "videoNotAvailable": "Este video no está disponible",
+    "videoComingSoon": "Este video estará disponible pronto",
+    "termsOfUse": "Términos de Uso",
+    "dimensionsPdf":"Pdf de dimensiones",
+    "faqs": "Preguntas Frecuentes",
+    "sitemap": "Mapa del Sitio",
+    "filters": "Filtros",
+    "dealersMap": "Mapa de Distribuidores",
+    "dealersList": "Lista de Distribuidores",
+    "ourFinancers":"Nuestros Financiadores",
+    "standardFeatures": "Características",
+    "options": "Opciones",
+    "compare": "Comparar",
+    "brochure": "Folleto",
+    "viewOnCamera": "Ver en cámara",
+    "configure": "Configurar",
+    "configureThisModel":"Configurar este modelo",
+    "addNewModel":"Agregar modelo",
+    "remove":"Remover",
+    "specsOfThisModel":"Especificaciones del modelo",
+    "notes": "Notas",
+    "cart":"Carrito",
+    "gallery": "Galería",
+    "nextStep": "Siguiente paso",
+    "viewVideo": "Ver video",
+    "explorePopularTrailers": "Explora otros remolques populares",
+    "view":"Ver detalles",
+    "pdfViewer":"Visualizador de PDF",
+    "show":"Ver",
+    "description":"Descripción",
+    "loading":"Cargando",
+    "dynCatTrailer":"cama de {category}",
+    "dynTrailer":"Cama {name}",
+    "home":"Inicio",
+    "pageResults": "{page} - {results} de {total} resultados",
+    "search":"Buscar",
+    "openPdf": "Abrir archivo PDF",
+    "dryWeightsPdf": "PDF de pesos secos",
+    "notAvailableForNow":"No disponible por ahora",
+    "noAvailableDescription":"El {length, plural, =0 { Remolque } other { \"{name}\" }} aún no está disponible en el configurador, ¡pero llegará muy pronto! Mantente atento a las actualizaciones y prepárate para personalizar tu remolque ideal."
+  },
+  "CookiesDialog": {
+    "title": "Valoramos tu privacidad",
+    "description": "<p>Usamos cookies para mejorar tu experiencia de navegación y analizar nuestro tráfico.</p> <p>Al usar este sitio web, aceptas automáticamente el uso de cookies.\nSi tienes alguna duda, puedes consultar nuestra <link>Política de Privacidad de Cookies</link></p>",
+    "button": "Ok, entiendo"
+  },
+  "CompareModal": {
+    "title": "Comparar modelos",
+    "description": "Puedes seleccionar máximo {total} modelos para comparar",
+    "button": "Comparar ahora {selected}/{total}"
+  },
+  "CompareModels": {
+    "header": {
+      "title": "Comparador de modelos",
+      "subtitle": "Compara todos los {category} de la línea de Ranch Boss de Horizon Trailers"
+    }
+  },
+  "ConfigureModel": {
+    "isAlmostYours": {
+      "title": "Este {name} está casi en tus manos",
+      "subtitle": "¡Tu remolque soñado está listo y esperándote!"
+    },
+    "summary": {
+      "title": "Resumen",
+      "yourModelConfig": "Tu configuración de {name}",
+      "nothingSelected": "Nada seleccionado",
+      "basePrice": "Precio base",
+      "units":"unidades",
+      "selectedOptions": "Opciones seleccionadas",
+      "totalPrice": "Precio total",
+      "notes": {
+        "title": "Notas",
+        "description": "<li>Envía este archivo de configuración a tu distribuidor Horizon más cercano para hablar sobre tu pedido personalizado.</li><li>Puedes compartir el enlace web de esta configuración con tu distribuidor más cercano para discutir tu pedido personalizado.</li><li>También puedes solicitar este modelo en la sección de contacto usando el enlace web de configuración para hablar sobre tu pedido personalizado.</li><li>O puedes solicitarlo directamente haciendo clic en el botón \"Solicitar este modelo\" para hablar sobre tu pedido personalizado.</li><li>Estos precios podrían estar sujetos a cambios, como la ubicación o el distribuidor.</li>",
+        "n1":"Envía este archivo de configuración a tu distribuidor Horizon más cercano para hablar sobre tu pedido personalizado.",
+        "n2":"Puedes compartir el enlace web de esta configuración con tu distribuidor más cercano para discutir tu pedido personalizado.",
+        "n3":"También puedes solicitar este modelo en la sección de contacto usando el enlace web de configuración para hablar sobre tu pedido personalizado.",
+        "n4":"O puedes solicitarlo directamente haciendo clic en el botón \"Solicitar este modelo\" para hablar sobre tu pedido personalizado.",
+        "n5":"Estos precios podrían estar sujetos a cambios, como la ubicación o el distribuidor."
+      }
+    },
+    "file": {
+      "name":"Archivo de configuración",
+      "pageOf":"Página {page} de {total}",
+      "checkConfigOnPage":"Ver configuración en la página",
+      "checkMoreProducts":"Ver más productos",
+      "goToPage":"Ir a página web"
+    },
+    "getConfig": "Descargar configuración",
+    "requestModel": "Solicitar este modelo"
+  },
+  "Merchandise": {
+    "Details": {
+      "selectSize": "Seleccionar talla",
+      "price":"Precio",
+      "color":"Color",
+      "delete":"Quitar",
+      "size":"Talla",
+      "availableColors": "Colores disponibles",
+      "quantity": "Cantidad",
+      "youCanAdd5Only": "Solo puedes agregar hasta 5 productos",
+      "notes": "Notas",
+      "addToCart":"Agregar al carrito",
+      "checkoutNow":"Comprar ahora"
+    },
+    "Cart": {
+      "title":"Carrito {count, plural, =0 { } =1 {(# producto)} other {(# productos)}}",
+      "summary": "Resumen",
+      "checkout":"Finalizar compra",
+      "back":"Volver",
+      "subtotal":"Subtotal",
+      "goToMerch":"Ir a mercancía",
+      "executingPayment":"Realizando pago",
+      "yourCartIsEmpty": "Tu carrito está vacío, agrega productos para continuar.",
+      "notes": "Notas: Necesitas proporcionar tu dirección en el siguiente paso para el envío e impuestos."
+    },
+    "explorePopularMerch":"Explora otros productos populares"
+  },
+  "WeReSorry": {
+    "title": "¡Lo sentimos!",
+    "description": "No pudimos encontrar una coincidencia."
+  },
+  "ErrorCatcher": {
+    "title": "¡Oh no!",
+    "description": "Tuvimos un problema. Reportanos el error con el botón en la parte inferior de la página.",
+    "button": "Ir a la página principal"
+  },
+  "Financers": {
+    "financeTrailer": "Financia tu remolque con {name}",
+    "information": "Información",
+    "locateDealer": "Ubica tu distribuidor",
+    "apply": "Solicítalo ahora"
+  },
+  "DealersScreen": {
+    "mapHeaderTitle":"Encuentra un distribuidor cerca de ti!",
+    "mapHeaderPlaceholder":"Busca un nombre o una dirección",
+    "listHeaderTitle":"Encuentra un distribuidor",
+    "contactHorizonDTitle": "Contactar a Distribuidores de Horizon",
+    "contactHorizonDSlogan": "Para garantías y soporte técnico con los distribuidores de Ranch Boss de Horizon Trailers, haz clic en el logo de abajo para enviar tu solicitud."
+  },
+  "PrivacyNotice": {
+    "title": "Aviso de privacidad",
+    "description": "Al proporcionar tu información de contacto, aceptas ser contactado por Ranch Boss de Horizon Trailers, sus afiliados y distribuidores autorizados. Si prefieres no ser contactado de esta manera, por favor no proporciones tu correo electrónico y/o número de teléfono. De acuerdo con la ley de Texas, este consentimiento reemplaza cualquier solicitud previa de exclusión que hayas hecho a Ranch Boss de Horizon Trailers y cualquier lista gubernamental de No Llamar. Tu información puede ser utilizada para compartir actualizaciones sobre productos, servicios, noticias y eventos de Ranch Boss de Horizon Trailers, según se detalla en nuestro Aviso de Privacidad, disponible en <policy>https://www.bedboss.shop/privacy-policy</policy>. Puedes retirar tu consentimiento en cualquier momento llamando al <phone>+1 915-455-8537</phone> o enviando un correo a <mail>privacy@bedboss.shop</mail>. Los residentes de Texas pueden conocer las prácticas de privacidad de Ranch Boss de Horizon Trailers y sus derechos conforme a la ley de Texas en la sección \"Aviso adicional para consumidores de Texas\" de nuestro Aviso de Privacidad."
+  },
+  "WarrantyDocs": {
+    "horizon": "Horizon",
+    "horizonWarranty": "Política de Garantía de Horizon",
+    "axle": "Eje",
+    "grAxles": "Garantía de Ejes GR",
+    "lippertAxles": "Garantía de Ejes Dexter",
+    "battery": "Batería",
+    "interstateBatteriesUS": "Baterías Interstate - E.U.",
+    "interstateBatteriesCA": "Baterías Interstate - Canadá",
+    "brightGroup": "Bright Way Group",
+    "tarp": "Lona",
+    "carolinaTarp": "Lonas Carolina",
+    "diamondTarp": "Lonas Diamond"
+  },
+  "FabChat": {
+    "chat":"Chat",
+    "horizonHelper":"Asistente de Ranch Boss",
+    "buttonTitle":"Abrir Chat",
+    "startConversation":"Iniciar conversación",
+    "startConversationToContinue":"Inicia una conversación para continuar",
+    "clientMessage": "Necesito ayuda con mi remolque",
+    "botMessage": "Lo sentimos, no hay agentes disponibles para ayudarte en este momento. Pero puedes llenar el siguiente formulario con tu información de contacto y uno de nuestros agentes se comunicará contigo pronto.",
+    "botMessage2": "¡Gracias! Hemos recibido tu consulta y responderemos lo antes posible. ¡Que tengas un buen día!"
+  },
+  "BasicForm": {
+    "all":"Todos",
+    "sortBy":"Ordenar por",
+    "newest":"Más Nuevo",
+    "name":"Nombre",
+    "addressLabel":"Dirección",
+    "directionsLabel":"Direcciones",
+    "visitWebsiteLabel":"Visitar página web de {website}",
+    "messageLabel": "Tu mensaje",
+    "messagePlaceholder": "Agrega tu mensaje",
+    "messagePlaceholderAlt": "Explicación",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "Agrega tu asunto",
+    "subjectPlaceholderAlt": "Ejemplo: Solicitud de remolque personalizado",
+    "nameLabel":"Nombre(s)",
+    "namePlaceholder":"Ingresa tu(s) nombre(s)",
+    "namePlaceholderAlt":"Ejemplo: Randy (Derek)",
+    "lastnameLabel":"Apellido(s)",
+    "lastnamePlaceholder":"Ingresa tu(s) apellido(s)",
+    "lastnamePlaceholderAlt":"Ejemplo: Thiessen",
+    "fullnameLabel":"Nombre completo",
+    "fullnamePlaceholder":"Ingresa tu nombre completo",
+    "fullnamePlaceholderAlt":"Ejemplo: Randy Thiessen",
+    "emailLabel":"Correo electrónico",
+    "emailPlaceholder":"Ingresa tu correo electrónico",
+    "emailPlaceholderAlt":"Ejemplo: email@email.com",
+    "phoneLabel":"Teléfono",
+    "phoneLabelAlt":"Teléfono",
+    "phonePlaceholder":"Ingresa tu número de teléfono",
+    "phonePlaceholderAlt":"Ejemplo: +1 915 455 8537",
+    "companyNameLabel": "Nombre de la empresa",
+    "companyNamePlaceholder": "Agrega el nombre de tu empresa",
+    "companyNamePlaceholderAlt": "Ejemplo: Empresa S.A.",
+    "annualSalesLabel": "Ventas anuales",
+    "annualSalesPlaceholder": "Agrega tus ventas anuales",
+    "annualSalesPlaceholderAlt": "Ejemplo: 500 o NA",
+    "yibLabel": "Años en el negocio",
+    "yibPlaceholder": "Agrega tus años en el negocio",
+    "yibPlaceholderAlt": "Ejemplo: 3 o 0",
+    "dealerlicenseLabel": "Licencia de distribuidor",
+    "dealerlicensePlaceholder": "Agrega tu licencia de distribuidor",
+    "dealerlicensePlaceholderAlt": "Ejemplo: XX00000XX o NA",
+    "explanationwywlbhdLabel": "Explica por qué te gustaría convertirte en distribuidor de Horizon",
+    "explanationwywlbhdPlaceholder": "Agrega tu explicación",
+    "explanationwywlbhdPlaceholderAlt": "Ejemplo: Me gustaría convertirme en distribuidor de Horizon porque...",
+    "submittedTitle": "¡Enviado con éxito!",
+    "submittedSubtitle": "Tu mensaje ha sido enviado correctamente.",
+    "submittedDescription": "Uno de nuestros representantes se pondrá en contacto contigo lo antes posible. Mientras tanto, si lo deseas, puedes revisar nuestros <products>Productos</products> o cualquiera de nuestros canales de redes sociales a continuación:",
+    "horizonTTeam": "Equipo de Ranch Boss de Horizon Trailers.",
+    "required":"*Requerido",
+    "send":"Enviar",
+    "subscribe":"Suscribirse",
+    "moreDetails":"Más detalles",
+    "next":"Sig",
+    "prev":"Ant",
+    "contactThisDealer":"Contactar distribuidor",
+    "getDirections":"Ver en Google Maps",
+    "webpage":"Visitar página web",
+    "youReHere":"Te encuentras aquí",
+    "showOnMap":"Ver en el mapa",
+    "sendMessage":"Enviar mensaje",
+    "contactTo":"Contacta a {name}",
+    "ourTeam":"Nuestro Equipo",
+    "clearAll":"Borrar filtros",
+    "forWarrantyAndMore": "Para garantías, soporte técnico y otros asuntos, completa este formulario.",
+    "requestModel":"Solicitar {count, plural, =0 {este modelo} =1 {one follower} other { {model} }}",
+    "fileAttachment": {
+      "title": "Archivo de configuración",
+      "fileAttached": "Archivo adjunto.",
+      "loadingFile": "Cargando archivo.",
+      "note": "Nota: Si el estado permanece en 'Cargando archivo.' por más de 2 minutos, intenta cerrar este cuadro de diálogo y volver a abrirlo."
+    },
+    "delete":"Borrar",
+    "edit":"Editar",
+    "urPoint": "Tu ubicación",
+    "closestPoint": "Distribuidor más cercano",
+    "farthestPoint": "Distribuidor más lejano"
+  },
+  "MonthsOfTheYear": {
+    "jan":"Ene", 
+    "feb":"Feb", 
+    "mar":"Mar", 
+    "apr":"Abr", 
+    "may":"May", 
+    "jun":"Jun", 
+    "jul":"Jul", 
+    "aug":"Ago", 
+    "sep":"Sep", 
+    "oct":"Oct", 
+    "nov":"Nov", 
+    "dec":"Dic"
+  },
+  "ContactLocations": {
+    "title": "Ven a hablar con nosotros",
+    "subtitle": "¡Estamos muy emocionados de ayudarte!"
+  },
+  "Notes": {
+    "title":"Notas",
+    "linearMiles":"Las distancias están en millas lineares y son aproximadas."
+  },
+  "QualityPage": {
+    "topQuality": "Calidad Superior",
+    "hdmTitle": "En Ranch Boss: Cada. Detalle. Importa.",
+    "hdmDescription": "Fabricamos cada caja de camioneta con precisión, asegurando calidad y durabilidad de primer nivel para satisfacer tus necesidades. Desde el diseño hasta la entrega, estamos comprometidos con la excelencia en cada aspecto.",
+    "hiwTitle": "Como funciona",
+    "hiwDescription": "En Ranch Boss, creemos que la calidad no es solo una meta, es un estándar. Nuestras cajas están construidas con materiales de la más alta calidad y diseñados para soportar los trabajos más exigentes, manteniendo una durabilidad y confiabilidad incomparables. Cada soldadura, cada tornillo y cada centímetro de nuestras cajas está cuidadosamente elaborada para garantizar que lo que recibes no sea solo un producto, sino una herramienta en la que puedes confiar durante años. Desde nuestros diseños iniciales hasta la inspección final, no dejamos nada al azar. Innovamos y perfeccionamos constantemente nuestros procesos para ofrecer cajas que superen las expectativas en rendimiento y durabilidad.",
+    "faqTitle": "Preguntas Frecuentes"
+  },
+  "AboutUs": {
+    "headerTitle": "<gray>Cada.</gray> <white>Detalle.</white> <orange>Importa.</orange>",
+    "aboutHTTitle": "Sobre Ranch Boss",
+    "aboutHTDescription": "Desde sus inicios, el equipo de Ranch Boss ha mantenido sus valores fundamentales de Excelencia, Respeto y Pasión. Hemos experimentado un crecimiento exponencial en la eficiencia de nuestros diseños, en la calidad de nuestra garantía de producto y en las sonrisas de satisfacción de nuestros clientes. Seguimos enfocados en brindar el mayor valor a nuestros clientes construyendo productos más livianos, más resistentes y con un atractivo líder en la industria. La implementación de las tecnologías más avanzadas y procesos de automatización nos permite producir de manera más eficiente, precisa y con mucho menos desperdicio. Estas tecnologías nos brindan visibilidad interdepartamental de los pedidos de los clientes, piezas y configuraciones, y detalles de fabricación, lo que permite a nuestros equipos de Garantía y Servicio acelerar las solicitudes y resolverlas rápidamente. Cuando llega el momento de trabajar, puedes confiar en que tu remolque Horizon estará allí para ti, haciendo bien el trabajo. Y cuando el trabajo haya terminado, quizás quieras simplemente llevar tu remolque a dar un buen paseo por el campo, subir la radio y presumírselo a tus amigos. Cuando mires por los espejos del camión, queremos que veas un remolque que sabes que te seguirá a donde sea y que nunca te fallará. Nos enorgullece servir a nuestros clientes y nos emociona ver lo que viene en el horizonte. Recuerda... Cada. Detalle. Importa.",
+    "valuesTitle": "Nuestros valores",
+    
+    "integrityTitle": "Integridad",
+    "integrityDescription": "Creemos que una promesa es inquebrantable y que un apretón de manos aún significa algo.",
+    "qualityTitle": "Calidad",
+    "qualityDescription": "Cada plataforma está construida con solidez, con estándares inflexibles.",
+    "reliabilityTitle": "Fiabilidad",
+    "reliabilityDescription": "Nuestros productos están diseñados para funcionar día tras día, milla tras milla.",
+    "customerCommitmentTitle": "Compromiso con el Cliente",
+    "customerCommitmentDescription": "Ponemos a los clientes en primer lugar, ofreciendo un servicio basado en el respeto y la confianza.",
+    "communityTitle": "Comunidad",
+    "communityDescription": "Con orgullo en El Paso, invertimos en la gente y los negocios que hacen fuerte a nuestra región.",
+    "innovationTitle": "Innovación",
+    "innovationDescription": "Mejoramos continuamente nuestros diseños para satisfacer las demandas modernas, honrando la tradición.",
+
+    "missionAndVision": {
+      "title":"Misión y Visión",
+      "mission": {
+        "title":"Misión",
+        "description": "En Ranch Boss, nuestra misión es diseñar y construir plataformas de camión de primera calidad que ofrezcan resistencia, confiabilidad y un valor duradero. Servimos a personas y empresas trabajadoras en El Paso y en todo el Suroeste, asegurando que cada producto sea un símbolo de durabilidad, honestidad y confianza."
+      },
+      "vision": {
+        "title":"Visión",
+        "description": "Ser la marca líder de cajas de camionetas en América del Norte, reconocida por su calidad inigualable, lealtad del cliente e integridad, donde cada apretón de manos refleje nuestro compromiso de cumplir con nuestra palabra."
+      }
+    }
+  },
+  "FooterMailchimpForm": {
+    "title":"ÚNETE A LA LISTA",
+    "description":"Regístrate para recibir la información más reciente sobre los nuevos productos de Ranch Boss, ofertas especiales y más.",
+    "nameInputPlaceholder":"Ingresa tu nombre",
+    "emailInputPlaceholder":"Ingresa tu correo electrónico",
+    "thanks":"Gracias por suscribirte!"
+  },
+  "Developex": {
+    "subtitle":"Haz que tu camino no tenga límites",
+    "title":"<white>Construido para superar tus <orange>expectativas</orange></white>"
+  },
+  "__HomePage": "Componentes de HomePage",
+  "MainCarousel": {
+    "slogan":"<white>Diseñado para la <orange>durabilidad,</orange></white> <white>construido para el <orange>rendimiento</orange></white>",
+    "button":"Ver los productos",
+    "followers":"SEGUIDORES ACTIVOS",
+    "visitors":"VISITANTES REGULARES",
+    "dealers":"DISTRIBUIDORES AUTORIZADOS"
+  },
+  "FindADealer": {
+    "title":"ENCUENTRA AL DISTRIBUIDOR MÁS CERCANO",
+    "description":"Descubre cerca de 150 localizaciones en todo E.U. y Canada. Encuentra hoy mismo tu distribuidor más cercano y explora nuestras camas de camionetas de alta calidad.",
+    "button": "ENCONTRAR UN DISTRIBUIDOR"
+  },
+  "UltimateEfficiencyContainer": {
+    "block1":"Máxima eficiencia",
+    "block2":"Potencia tus operaciones"
+  },
+  "FeaturedProducts": {
+    "title": "Productos destacados",
+    "dTitle":"Volteo",
+    "rTitle":"Rodante",
+    "eTitle":"Equipamento",
+    "gTitle":"Plataforma",
+    "uTitle":"Utilitario",
+    "dDescription": "Versátiles y duraderos, los remolques de volteo de Horizon están diseñados para facilitar el transporte de materiales. Con elevadores hidráulicos y una construcción resistente, son perfectos para jardinería, construcción y uso agrícola, manejando cargas pesadas sin esfuerzo.",
+    "rDescription": "Los remolques rodantes de Horizon ofrecen máxima comodidad para la gestión de residuos y el transporte. Con contenedores intercambiables y estructuras duraderas, son ideales para un transporte eficiente y multifuncional en proyectos de construcción, demolición y reciclaje.",
+    "eDescription": "Los remolques para equipamento de Horizon proporcionan un transporte seguro y resistente para maquinaria y herramientas. Construidos con marcos reforzados, múltiples configuraciones de ejes y características de seguridad mejoradas, son la mejor solución para el transporte confiable de equipos.",
+    "gDescription": "Los remolques de plataforma de Horizon ofrecen estabilidad y potencia de remolque inigualables. Con altas capacidades de carga (GVWR), suspensión avanzada y diseños de plataforma versátiles, son perfectos para transportar equipos pesados o materiales a largas distancias.",
+    "uDescription": " Los remolques utilitarios de Horizon están diseñados para ofrecer máxima versatilidad y durabilidad. Con una construcción robusta, rampas de carga fáciles de usar y una variedad de tamaños, son ideales para transportar mercancías, vehículos y equipos. Perfectos para uso personal o comercial, estos remolques ofrecen un rendimiento confiable para necesidades de transporte diarias."
+  },
+  "WhyHorizon": {
+    "title":"Por qué Ranch Boss?",
+    "b1Title": "Calidad superior",
+    "b1Description": "En Ranch Boss: Cada. Detalle. Importa.",
+    "b2Title": "Respaldado por Horizon",
+    "b2Description": "Una submarca de Horizon Trailers.",
+    "b3Title": "Amplia red de distribuidores",
+    "b3Description": "150 ubicaciones en E.U. y Canadá. Y seguimos creciendo.",
+    "b4Title": "Garantía",
+    "b4Description": "Contamos con garantía en estructura de 3 años y una garantía de 1 año en piezas."
+  },
+  "FeaturedCategories": {
+    "title": "Categorías destacadas",
+    "dTitle": "Remolque de volteo",
+    "dDescription": "Transportador de carga basculante portátil.",
+    "rTitle": "Remolque rodante",
+    "rDescription": "Transporte de contenedores con cama desmontable.",
+    "eTitle": "Remolque de equipamento",
+    "eDescription": "Plataforma para el transporte de maquinaria pesada.",
+    "fTitle": "Remolque de plataforma",
+    "fDescription": "Remolque de alta resistencia con enganche curvado.",
+    "uTitle": "Remolque utilitario",
+    "uDescription": "Transportador de carga versátil y ligero."
+  },
+  "Testimonials": {
+    "slogan":"Esto es lo que dicen nuestros clientes",
+    "title":"Testimonios",
+    "horizonDealer":"Distribuidor de Horizon",
+    "horizonClient":"Cliente de Horizon",
+    "t1Comment": "Nuestra asociación con Horizon Dealer ha sido excepcional. Sus remolques de alta calidad han superado nuestras expectativas, encantando a nuestros clientes y aumentando nuestras ventas. Lo que realmente los distingue es su excelente servicio al cliente y su comunicación fluida, lo que hace que cada interacción sea un placer. Gracias a su apoyo proactivo, hemos podido satisfacer las necesidades de nuestros clientes de manera más efectiva que nunca. Está claro que Horizon valora nuestra asociación tanto como nosotros, y esperamos muchos más años de éxito juntos. En resumen, se han convertido en un aliado indispensable para el crecimiento de nuestro negocio, y no podríamos estar más agradecidos por su dedicación y excelencia.",
+    "t2Comment": "Muy contento con el producto que Ranch Boss de Horizon Trailers ha lanzado. Edgar y el equipo de ventas han sido de gran ayuda durante todo el proceso, ya sea proporcionando información sobre un nuevo modelo, precios o respondiendo preguntas generales para realizar los pedidos adecuados. Muy agradecido.",
+    "t3Comment": "Como distribuidores, hemos visto muchas marcas a lo largo de los años. El fabricante más reciente que hemos incorporado a nuestro lote es Ranch Boss de Horizon Trailers. Sus remolques han superado nuestras expectativas, no solo en calidad, sino también en términos de servicio al cliente. Edgar y su equipo han hecho que incorporarlos sea un verdadero placer. Si buscas un excelente remolque, pero un equipo aún mejor que lo respalde, no busques más. Ranch Boss de Horizon Trailers será tu mejor opción para hacer el trabajo.",
+    "t4Comment": "Trabajar con Ranch Boss de Horizon Trailers ha sido una experiencia fantástica para Chipper LLC. Su profesionalismo, servicio rápido y profundo conocimiento de nuestras necesidades los convierten en un socio invaluable. Su compromiso con la calidad y la satisfacción del cliente supera constantemente nuestras expectativas. Recomendamos ampliamente Ranch Boss de Horizon Trailers a cualquiera que necesite soluciones de remolques confiables y eficientes. Realmente han establecido el estándar de excelencia en la industria.",
+    "t5Comment": "Trailer Sales y yo hemos sido distribuidores de Ranch Boss de Horizon Trailers en el estado de Indiana durante más de dos años. Inicialmente, incorporamos la marca Horizon por su línea de Rodante Dumpster, pero con el tiempo también empezamos a incluir remolques de volteo y, eventualmente, mantenemos casi todos sus modelos. Creo que Ranch Boss de Horizon Trailers es una de las mejores marcas de la industria en términos de calidad y precio. Su servicio al cliente desde la perspectiva de un distribuidor es excelente, y mi representante de ventas, Roger, siempre está atento para conseguirme lo que necesito. Además, siempre puedo comunicarme directamente con Benny, el propietario de Ranch Boss de Horizon Trailers, cuando lo requiera. No hay una jerarquía corporativa que deba escalar para hablar con alguien que realmente pueda ayudar. Si buscas una de las mejores marcas de remolques en el mercado para agregar a tu concesionario, creo que Ranch Boss de Horizon Trailers debería ser esa marca.",
+    "t6Comment": "Nuestra experiencia con Horizon ha sido excepcional. El proceso de entrega siempre es fluido, eficiente y puntual. Gracias a su servicio confiable, nunca experimentamos retrasos en la recepción de los remolques, lo que nos ayuda a satisfacer la alta demanda de nuestros clientes. El profesionalismo y la atención al detalle de Horizon han contribuido en gran medida al éxito de nuestro negocio, permitiéndonos vender rápidamente los remolques y mantener la satisfacción del cliente. Valoramos profundamente nuestra asociación con Horizon y esperamos continuar con esta relación productiva durante muchos años.",
+    "t7Comment": "Conocimos a Ranch Boss de Horizon Trailers hace dos años en NATDA. Desde que establecimos esta relación, nuestras ventas y base de clientes han crecido significativamente. Cada departamento de esta empresa maneja los negocios con total profesionalismo. Sun City Trailer Sales (antes 264 Trailers) anticipa y espera una relación duradera. ¡Mira hacia el HORIZONTE, y esta empresa estará allí!",
+    "t8Comment": "En Trailer World Alabama, nos enorgullecemos de nuestro compromiso con el servicio al cliente y la entrega de productos de calidad. Nuestros valores empresariales giran en torno a brindar una experiencia fluida y satisfactoria a nuestros clientes, asegurándonos de que reciban el más alto nivel de servicio de principio a fin. Por eso apreciamos a Ranch Boss de Horizon Trailers. Horizon ofrece productos excepcionales a precios justos que cumplen o superan los estándares más altos de la industria. Creen en construir relaciones sólidas con sus clientes, comprendiendo nuestras necesidades únicas y proporcionando soluciones personalizadas. Horizon prioriza la durabilidad, funcionalidad y seguridad en todos sus productos, garantizando que tanto sus clientes como los nuestros puedan confiar en que el remolque funcionará de manera confiable y eficiente durante muchos años.",
+    "t9Comment": "Acabo de comprar un remolque de volteo nuevo, fabricado en mayo de 2024, con dos revisiones de control de calidad diferentes: una para soldaduras y otra para pintura. Todo parece 10/10 hasta ahora. Conduje de regreso a casa durante 3 horas desde el concesionario sin problemas. Volveré con una reseña actualizada en los próximos meses sobre cómo se desempeña en el trabajo. Por ahora, estoy satisfecho."
+  },
+  "Blog": {
+    "slogan":"Lee todas las noticias importantes de Ranch Boss de Horizon Trailers.",
+    "shareArticle": "Compartir artículo",
+    "shareArticleAlt": "¡Mira esta increíble publicación sobre remolques!",
+    "joinToHTCommunity": "Únete a la comunidad Horizon!",
+    "getExclusiveOffers": "Recibe ofertas exclusivas, información privilegiada y los últimos artículos de Ranch Boss de Horizon Trailers directamente en tu bandeja de entrada.",
+    "explorePopularBlogs":"Explora otros blogs populares",
+    "viewAll":"Ver todos los blogs",
+    "translateArticle":"Recomendaciones",
+    "translateDescription":"Recomendamos el uso del traductor de google que incluye el navegador si desea leer este blog. Estamos trabajando arduamente para ofrecer los blogs en otros lenguajes.",
+    "shareDescription":"¡Hola a todos! Acabo de encontrarme con este increíble post en la sección de blogs de Ranch Boss de Horizon Trailers. ¡Échenle un vistazo!",
+    "xMinsRead":"{minutes, plural, =0 {Max. 1 min de lectura} =1 {1 min de lectura} other {# mins de lectura}}",
+    "thanks4Subs":"Gracias por suscribirte!"
+  },
+  "RelantlessPursuit": {
+    "slogan":"<white>La búsqueda implacable de la <orange>perfección</orange></white>",
+    "button":"Explorar"
+  },
+  "ExclusiveWallpapers": {
+    "slogan":"<white>Descarga los fondos de pantalla exclusivos - <orange>Desbloquéalos ahora</orange></white>",
+    "button":"Explorar"
+  },
+  "CallOrChat": {
+    "title":"Llama o <orange>Chatea</orange>",
+    "slogan": "Permítenos ayudarte a encontrar lo que necesitas.",
+    "description": "No importa a dónde vayas, probablemente ya hemos estado en tu lugar. Y podemos ayudarte a guiarte en tu próxima aventura. Después de todo, se trata de compartir el camino y todo lo que sabemos sobre cómo recorrerlo.",
+    "liveChat":"Chat en Vivo",
+    "liveChatSlogan":"Chatea con un Experto",
+    "phone":"+1 915-455-8537",
+    "phoneSlogan":"Habla con un Experto"
+  },
+  "TermsOfUse": {
+    "data":"<h2>Términos de uso de Ranch Boss de Horizon Trailers</h2><p>Este documento regula el uso de nuestro sitio web, así como cualquier otro acuerdo o relación legal relacionada con nosotros de manera legalmente vinculante.</p><p>Debes leer este documento cuidadosamente.</p><p>Nuestro sitio web es proporcionado por:<br></br><span>Ranch Boss de Horizon Trailers LLC 1163 Horizon Blvd El Paso, TX. 79927.</span></p><p>Si deseas comunicarte con nosotros, dirígete a la sección de <strong>Contáctanos</strong> y escribe tu mensaje.</p><h2>Lo que debes saber a simple vista</h2><p>Ten en cuenta que algunas disposiciones solo pueden aplicarse a ciertas categorías de usuarios. En particular, algunas disposiciones solo pueden aplicarse a consumidores o a aquellos usuarios que no califiquen como consumidores. Tales limitaciones se mencionan explícitamente dentro de cada cláusula afectada. En ausencia de tales menciones, las cláusulas se aplican a todos los usuarios.</p><h2>TÉRMINOS DE USO</h2><p>Salvo que se indique lo contrario, los términos de esta sección se aplican generalmente al usar nuestro sitio web.</p><p>Pueden aplicarse condiciones específicas o adicionales en ciertas situaciones, las cuales se indican en este documento.</p><p>Al utilizar nuestro sitio web, confirmas lo siguiente:</p><ul><li>tienes más de <code>18</code>años;</li><li>no te encuentras en un país sujeto a embargo del gobierno de EE. UU. o designado como \"país que apoya el terrorismo\";</li><li>no estás en ninguna lista del gobierno de EE. UU. de personas o entidades restringidas o prohibidas.</li></ul><h3>Registro de cuenta</h3><p>Para utilizar el servicio, puedes registrarte o crear una cuenta proporcionando información completa y veraz. También puedes utilizar el servicio sin una cuenta, pero esto podría limitar algunas funciones.</p><p>Eres responsable de mantener la confidencialidad de tus datos de inicio de sesión y debes elegir contraseñas que cumplan con los estándares más altos de seguridad permitidos por nuestro sitio web.</p><p>Al registrarte, aceptas asumir toda la responsabilidad por las actividades realizadas bajo tu nombre de usuario y contraseña.<br></br>Debes informarnos inmediatamente utilizando los datos de contacto en este documento si crees que tu información personal, cuenta o datos de acceso han sido vulnerados, divulgados o robados.</p><h4>Condiciones para el registro de cuentas</h4><p>El registro de cuentas en nuestro sitio web está sujeto a las siguientes condiciones. Al registrarte, aceptas cumplir con dichas condiciones.</p><ul><li>No está permitido registrar cuentas mediante bots u otros métodos automatizados;</li><li>Debes registrar solo una cuenta, salvo que se especifique lo contrario;</li><li>Tu cuenta no debe compartirse con otras personas, salvo que se indique expresamente.</li></ul><h4>Terminación de la cuenta</h4><p>Puedes cerrar tu cuenta y dejar de utilizar nuestro servicio en cualquier momento contactándonos mediante los datos provistos en este documento.</p><h4>Suspensión y eliminación de cuentas</h4><p>Nos reservamos el derecho de suspender o eliminar tu cuenta en cualquier momento y sin previo aviso si consideramos que es inapropiada, ofensiva o contraria a estos términos.</p><p>La suspensión o eliminación de cuentas no te da derecho a ninguna compensación, indemnización o reembolso.</p><p>La suspensión o eliminación de cuentas por causas atribuibles a ti no te exime del pago de tarifas o precios aplicables.</p><h3>Contenido del sitio web</h3><p>Salvo que se indique lo contrario, todo el contenido en nuestro sitio web es propiedad nuestra o de nuestros licenciantes.</p><p>Hacemos todo lo posible para asegurar que el contenido cumpla con la ley y respete los derechos de terceros. Sin embargo, esto puede no ser siempre posible.<br></br>Si crees que se están infringiendo tus derechos, sin perjuicio de cualquier derecho legal para hacerlos valer, por favor informa cualquier problema mediante los datos de contacto proporcionados en este documento.</p><h4>Derechos sobre el contenido del sitio web - Todos los derechos reservados</h4><p>Mantenemos y reservamos todos los derechos de propiedad intelectual sobre todo el contenido.</p><p>No puedes utilizar dicho contenido de ninguna forma que no sea necesaria o implícita para el uso adecuado del servicio.</p><p>Específicamente, sin limitarse a ello, no puedes copiar, descargar, compartir (más allá de los límites mencionados), modificar, traducir, transformar, publicar, transmitir, vender, sublicenciar, editar, transferir, ceder a terceros o crear trabajos derivados del contenido en nuestro sitio web. Tampoco puedes permitir que terceros lo hagan mediante tu cuenta o dispositivo, incluso sin saberlo.</p><p>Cuando se indique de forma expresa, puedes descargar, copiar y compartir contenido del sitio web para uso personal y no comercial, siempre que respetes correctamente los derechos de autor y demás atribuciones requeridas.</p><p>Cualquier limitación o excepción legal a los derechos de autor permanecerá vigente.</p><h3>Acceso a recursos externos</h3><p>A través de nuestro sitio web puedes acceder a recursos externos proporcionados por terceros. Reconoces y aceptas que no tenemos control sobre estos recursos y que no somos responsables por su contenido o disponibilidad.</p><p>Las condiciones sobre los recursos de terceros, incluidos los derechos otorgados sobre su contenido, se rigen por los términos y condiciones de dichos terceros o por la legislación aplicable.</p><h3>Uso aceptable</h3><p>Nuestro sitio web y servicio solo pueden utilizarse dentro del alcance previsto, conforme a estos términos y la legislación aplicable.</p><p>Eres el único responsable de asegurarte de que tu uso del sitio web y servicio no infringe ninguna ley, reglamento o derecho de terceros.</p><p>Nos reservamos el derecho de proteger nuestros intereses denegándote el acceso a nuestro sitio web o servicio, rescindiendo contratos y reportando cualquier mala conducta a las autoridades competentes si estás involucrado o se sospecha que estás involucrado en lo siguiente:</p><ul><li>infracción de leyes, regulaciones o estos términos;</li><li>violación de derechos de terceros;</li><li>daños significativos a nuestros intereses legítimos;</li><li>ofensas hacia nosotros o cualquier tercero.</li></ul><h2>TÉRMINOS Y CONDICIONES DE VENTA</h2><h3>Productos de pago</h3><p>Algunos de nuestros productos requieren pago. Los detalles sobre tarifas, duración y condiciones se describen a continuación y en las secciones correspondientes de nuestro sitio web.</p><h3>Descripción del producto</h3><p>Los precios, descripciones y disponibilidad de los productos se detallan en las secciones correspondientes de nuestro sitio web y pueden cambiar sin previo aviso.</p><p>Aunque nos esforzamos por mostrar con precisión los productos en nuestro sitio web, las representaciones (incluyendo gráficos, imágenes, colores y sonidos) son solo de referencia y no garantizan las características del producto adquirido.</p><p>Las características específicas del producto elegido se detallan durante el proceso de compra.</p><h3>Proceso de compra</h3><p>Toda acción desde la selección del producto hasta el envío del pedido forma parte del proceso de compra.</p><p>En productos de mercancía usamos el servicio de Stripe para procesar los pagos, utilizando el formulario integrado de Stripe, que recopila datos como nombre, tarjeta de pago, dirección (para envío) y correo electrónico.</p><h3>Envío del pedido</h3><p>Cuando realizas un pedido, se aplican las siguientes condiciones:</p><ul><li>el envío del pedido implica la celebración del contrato y te obliga a pagar el precio indicado, los impuestos y cualquier cargo adicional detallado en la página del pedido;</li><li>si el producto adquirido requiere alguna acción por tu parte, como proporcionar información personal o solicitudes específicas, al enviar el pedido aceptas cooperar en consecuencia;</li><li>después de enviar el pedido, recibirás un comprobante que confirma que el pedido ha sido recibido.</li></ul><p>Todas las comunicaciones relacionadas con el proceso de compra se enviarán a la dirección de correo electrónico que hayas proporcionado.</p><h3>Precios</h3><p>Durante el proceso de pago y antes de enviar el pedido, verás todos los cargos, incluidos cualquier tarifa, impuesto y costos (incluidos, cuando corresponda, los gastos de envío).</p><p>En nuestro sitio web, los precios se muestran con todos los cargos, impuestos y costos incluidos.</p><h3>Métodos de pago</h3><p>Los métodos de pago aceptados se indican durante el proceso de compra.</p><p>Algunos métodos de pago pueden tener condiciones o tarifas adicionales. En estos casos, se proporciona más información en la sección correspondiente del sitio web.</p><p>Puedes usar tarjeta de crédito, débito u otros métodos de pago, billeteras electrónicas y servicios como AfterPay o ClearPay.</p><h3>Retención de propiedad del producto</h3><p>Hasta que hayamos recibido el pago total del precio de compra, los productos solicitados no serán de tu propiedad.</p><h3>Entrega</h3><p>Los productos se entregan a la dirección proporcionada por ti y de acuerdo con el resumen del pedido.</p><p>Al recibir el pedido, revisa el contenido y reporta cualquier problema de inmediato utilizando los datos de contacto proporcionados en este documento o en la nota de entrega. Si el paquete parece dañado a simple vista, puedes rechazar su recepción.</p><p>Los productos se entregan a los siguientes países: EE. UU. y Canadá.</p><p>Los tiempos de entrega se indican en nuestro sitio web o durante el proceso de compra.</p><h4>Entrega fallida</h4><p>No somos responsables por errores de entrega debido a información incorrecta o incompleta proporcionada por ti durante el proceso de compra ni por daños o retrasos después de la entrega a un transportista organizado por ti y no ofrecido o recomendado por nosotros.</p><p>Si los productos no se reciben o recogen en el momento o dentro del plazo especificado, serán devueltos a nosotros. Nos pondremos en contacto contigo para programar un segundo intento de entrega o acordar un curso de acción futuro.</p><p>Salvo que se acuerde lo contrario, cada intento de entrega posterior al segundo será a tu cargo.</p><h2>DERECHOS DEL USUARIO</h2><h3>Derecho de desistimiento</h3><p>Salvo que existan excepciones, si calificas como consumidor europeo, tienes derecho a desistir de un contrato dentro de un período específico (generalmente 14 días), sin necesidad de justificar el motivo. Si no cumples con esta calificación, no puedes beneficiarte de los derechos descritos en esta sección.</p><h4>Ejercicio del derecho de desistimiento</h4><p>Para desistir de un contrato, debes informarnos claramente tu decisión. Esto puede hacerse mediante un formulario de desistimiento o cualquier otra declaración clara. Asegúrate de hacerlo antes de que finalice el período de desistimiento.</p><h4>Período de desistimiento</h4><ul><li>Para bienes, el período de desistimiento finaliza 14 días después de que tú o un tercero designado tome posesión física de los bienes;</li><li>Para múltiples bienes pedidos juntos o entregados por separado, el período de desistimiento finaliza 14 días después de que tú o un tercero designado tome posesión física del último bien.</li></ul><h4>Efectos del desistimiento</h4><p>Si ejerces correctamente tu derecho de desistimiento, te reembolsaremos todos los pagos que hayas realizado a nuestro favor, incluidos los costos de envío, si corresponde.</p><p>Sin embargo, no se reembolsarán los costos adicionales derivados de haber elegido un método de entrega distinto a nuestra opción estándar.</p><p>Procesaremos tu reembolso sin demora indebida y, en todo caso, a más tardar 14 días después de haber recibido la notificación de tu desistimiento. El reembolso se realizará utilizando el mismo método de pago que usaste en la transacción inicial, salvo acuerdo expreso en contrario. No incurrirás en ningún gasto como resultado del reembolso.</p><h4>... en la compra de bienes físicos</h4><p>A menos que hayamos ofrecido recoger los bienes, deberás devolverlos a nosotros o a una persona autorizada por nosotros sin demora y, en cualquier caso, a más tardar 14 días después de notificarnos tu decisión de desistir del contrato.</p><p>El plazo se considerará cumplido si entregas los bienes al transportista antes de que haya expirado el período de 14 días. Podemos retener el reembolso hasta haber recibido los bienes o hasta que hayas presentado una prueba de su devolución, lo que ocurra primero.</p><p>Serás responsable de cualquier disminución del valor de los bienes resultante de una manipulación distinta a la necesaria para establecer la naturaleza, características y funcionamiento de los mismos.</p><p>Asumirás los costos de devolución de los bienes.</p><h3>DERECHOS DE LOS USUARIOS DEL REINO UNIDO</h3><h4>Derecho a cancelar</h4><p>Salvo que existan excepciones, si calificas como consumidor en el Reino Unido, tienes derecho a cancelar un contrato dentro de un período determinado (generalmente 14 días), sin necesidad de dar una razón. Si no cumples con esta calificación, no puedes beneficiarte de los derechos descritos en esta sección.</p><h4>Ejercicio del derecho de cancelación</h4><p>Para cancelar un contrato, debes informarnos claramente tu decisión. Esto puede hacerse mediante un formulario de cancelación o por cualquier otra declaración clara. Asegúrate de hacerlo antes de que finalice el período de cancelación.</p><h4>Período de cancelación</h4><ul><li>Para bienes, el período de cancelación termina 14 días después de que tú o un tercero designado tome posesión física de los bienes;</li><li>Para múltiples bienes pedidos conjuntamente o entregados por separado, el período de cancelación termina 14 días después de que tú o un tercero designado adquiera posesión física del último bien.</li></ul><h4>Efectos de la cancelación</h4><p>Si ejerces correctamente tu derecho de cancelación, te reembolsaremos todos los pagos realizados, incluidos los gastos de entrega, si corresponde.</p><p>Sin embargo, no se reembolsarán los gastos adicionales derivados de haber elegido un método de entrega distinto al estándar que ofrecemos.</p><p>Procesaremos tu reembolso sin demora indebida y, en cualquier caso, a más tardar 14 días después de recibir tu notificación de cancelación. El reembolso se realizará utilizando el mismo método de pago que usaste en la transacción inicial, salvo que se acuerde lo contrario. No se te cobrará ninguna tarifa por este reembolso.</p><h4>... en la compra de bienes físicos</h4><p>Salvo que hayamos ofrecido recoger los bienes, deberás devolverlos a nosotros o a una persona autorizada sin demora y a más tardar 14 días después de notificarnos tu decisión de cancelar el contrato.</p><p>El plazo se considerará respetado si entregas los bienes al transportista antes de que expire el período de 14 días. Podemos retener el reembolso hasta haber recibido los bienes o hasta que nos proporciones prueba de haberlos devuelto, lo que ocurra primero.</p><p>Serás responsable de cualquier pérdida de valor de los bienes debido a una manipulación más allá de lo necesario para establecer su naturaleza, características y funcionamiento.</p><p>Los costos de devolución de los bienes correrán por tu cuenta.</p><h2>GARANTÍAS</h2><h3>Garantía legal de conformidad para bienes según la legislación de la UE</h3><p>Garantizamos la conformidad de los bienes vendidos a consumidores europeos durante al menos 2 años desde la entrega. Esta garantía se aplica a los productos adquiridos en nuestro sitio web, conforme a las leyes de tu país.</p><p>Las leyes de tu país pueden otorgarte derechos más amplios en lo referente a garantías legales de conformidad.</p><h3>Conformidad contractual para consumidores del Reino Unido</h3><p>Los consumidores del Reino Unido tienen derecho a recibir productos que cumplan con el contrato.</p><h2>RESPONSABILIDAD E INDEMNIZACIÓN</h2><p>Limitamos nuestra responsabilidad en la mayor medida permitida por la ley al celebrar acuerdos contigo. Esto significa que nuestra responsabilidad por daños se reduce al máximo permitido por la legislación aplicable, salvo que se indique expresamente lo contrario o se acuerde contigo.</p><h4>Indemnización</h4><p>Aceptas indemnizarnos, así como a nuestras filiales, directivos, directores y empleados, frente a cualquier reclamación o demanda de terceros derivada o relacionada con cualquier incumplimiento de estos términos o de derechos de terceros relacionados con tu uso del servicio, en la medida permitida por la ley.</p><h4>Limitación de responsabilidad</h4><p>Salvo que se indique explícitamente lo contrario y sujeto a la legislación aplicable, no podrás reclamar daños y perjuicios contra nosotros (ni contra ninguna persona o entidad que actúe en nuestro nombre).</p><p>Sin embargo, esta exclusión no se aplicará a los daños que afecten a la vida, la salud o la integridad física, a los daños derivados del incumplimiento de obligaciones contractuales significativas (como aquellas necesarias para cumplir con el objeto del contrato), y/o a los daños derivados de negligencia grave o intencional, siempre que hayas hecho un uso apropiado y correcto de nuestro sitio web.</p><p>A menos que los daños resulten de negligencia grave o intencional, o afecten a la vida, salud o integridad física, nuestra responsabilidad se limita a los daños típicos y previsibles en el momento en que se celebró el contrato.</p><h3>Usuarios de EE. UU.</h3><h4>Renuncia de garantías</h4><p>Nuestro sitio web se proporciona \"tal cual\" y \"según disponibilidad\". Al utilizar nuestro servicio, lo haces bajo tu propio riesgo. Dejamos expresamente en claro que no ofrecemos promesas ni garantías, ya sean expresas, implícitas o exigidas por ley. Esto incluye garantías sobre la calidad del servicio, su idoneidad para tus necesidades específicas o si infringe los derechos de terceros. Ten en cuenta que cualquier consejo o información que recibas de nosotros o a través de nuestro servicio no crea garantías más allá de las expresamente indicadas aquí.</p><p>Además, aunque nos esforzamos por proporcionar contenido preciso y confiable, no podemos garantizar que siempre sea así. No garantizamos que el servicio siempre cumpla con tus requisitos o esté disponible cuando lo necesites. Puede haber interrupciones o mal funcionamiento debido a factores fuera de nuestro control. Aunque hacemos lo posible por mantener todo funcionando correctamente, no podemos asegurar que el servicio esté libre de elementos dañinos como virus. Si eliges descargar contenido del servicio, asumes el riesgo y no somos responsables de los daños que pueda causar a tus dispositivos o datos.</p><p>No respaldamos ni garantizamos ningún producto o servicio publicitado a través de nuestro servicio o cualquier enlace que proporcionemos. No participamos en ninguna transacción entre tú y proveedores externos, por lo tanto, cualquier interacción o acuerdo que hagas con ellos es exclusivamente tu responsabilidad.</p><p>Es posible que nuestro servicio no siempre sea accesible o no funcione correctamente con tu navegador, dispositivo móvil o sistema operativo. Aunque procuramos ofrecer una experiencia fluida, no podemos garantizarlo en todos los casos. Por ello, queremos dejar en claro que no se nos puede responsabilizar por ningún daño percibido o real derivado del contenido, operación o uso de nuestro servicio.</p><p>Aunque nuestro acuerdo puede contener ciertas exclusiones y limitaciones, es posible que estas no se apliquen a ti según las leyes de tu jurisdicción. Las leyes federales, así como las leyes de algunos estados u otras jurisdicciones, pueden ofrecer protecciones que anulan nuestras renuncias y exclusiones. Esto significa que puedes tener derechos legales específicos que no se ven afectados por nuestro acuerdo. Es importante que entiendas tus derechos, ya que pueden variar de un estado a otro o entre países. Queremos enfatizar que cualquier exclusión o limitación en nuestro acuerdo solo se aplicará en la medida en que lo permita la ley aplicable.</p><h4>Limitación de responsabilidad</h4><p>En la máxima medida permitida por la ley aplicable, bajo ninguna circunstancia nosotros, nuestras subsidiarias, filiales, directivos, directores, agentes, socios, proveedores o empleados seremos responsables por:</p><ul><li>daños indirectos, punitivos, incidentales, especiales, consecuentes o ejemplares derivados de tu uso del servicio o de la imposibilidad de utilizarlo. Esto incluye pérdida de beneficios, reputación, uso, datos u otras pérdidas intangibles;</li><li>daños, pérdidas o lesiones derivados de hackeo, manipulación o acceso no autorizado a tu cuenta o a la información dentro de ella;</li><li>errores, equivocaciones o inexactitudes en el contenido proporcionado;</li><li>lesiones personales o daños materiales derivados del uso del servicio;</li><li>acceso no autorizado a nuestros servidores seguros o a cualquier información personal almacenada en ellos;</li><li>interrupción o cese de transmisión hacia o desde el servicio;</li><li>virus, troyanos o elementos dañinos similares transmitidos a través del servicio;</li><li>errores u omisiones en cualquier contenido publicado, transmitido o puesto a disposición a través del servicio;</li><li>conducta difamatoria, ofensiva o ilegal de cualquier usuario o tercero. Nuestra responsabilidad se limita al monto que nos hayas pagado en los 12 meses anteriores o durante la vigencia del contrato contigo, lo que sea menor.</li></ul><p>Esta sección de limitación de responsabilidad se aplicará en la máxima medida permitida por la ley aplicable, ya sea que la supuesta responsabilidad se base en contrato, agravio, negligencia, responsabilidad estricta u otra base, incluso si se nos ha advertido sobre la posibilidad de tales daños.</p><p>Ten en cuenta que en algunas jurisdicciones, la exclusión o limitación de daños incidentales o consecuentes puede no estar permitida. Esto significa que estas limitaciones o exclusiones podrían no aplicarse a ti. Tienes derechos legales específicos que pueden variar según tu jurisdicción. Las exenciones, exclusiones y limitaciones de responsabilidad aquí descritas pueden no aplicarse en la medida en que lo prohíba la legislación aplicable.</p><h4>Indemnización</h4><p>Al utilizar y acceder al servicio, aceptas defender, indemnizar y eximirnos de responsabilidad a nosotros, nuestras subsidiarias, afiliadas, directivos, directores, agentes, co-marcadores, socios, proveedores y empleados de cualquier reclamación, daño, pérdida, responsabilidad, costo o gasto, incluidos los honorarios legales, que surjan de:</p><ul><li>tu uso del servicio, incluidos los datos o contenido que transmitas o recibas;</li><li>tu incumplimiento de estos términos, incluido cualquier quebrantamiento de representaciones y garantías;</li><li>tu violación de derechos de terceros, como los derechos de privacidad o propiedad intelectual;</li><li>tu incumplimiento de leyes, normas o reglamentos aplicables;</li><li>cualquier contenido enviado desde tu cuenta, incluido el acceso de terceros mediante nombre de usuario, contraseña u otras medidas de seguridad, incluyendo información falsa, engañosa o inexacta;</li><li>tu conducta dolosa; o</li><li>cualquier disposición legal incumplida por ti o por tus afiliados, directivos, agentes, co-marcadores, socios, proveedores y empleados en la medida permitida por la ley.</li></ul><h2>DISPOSICIONES GENERALES</h2><h3>Ausencia de renuncia</h3><p>Nuestra falta de ejercicio de cualquier derecho o disposición bajo estos términos no constituirá una renuncia a dicho derecho o disposición. Ninguna renuncia será considerada continua o aplicable a otros términos.</p><h3>Interrupción del servicio</h3><p>Para mantener el mejor nivel del servicio, nos reservamos el derecho de interrumpir el servicio por mantenimiento, actualizaciones u otros cambios, con notificación adecuada.</p><p>Podemos suspender o descontinuar el servicio dentro de los límites legales. Si se descontinúa, te ayudaremos a retirar tus datos personales y respetaremos tus derechos en cuanto al uso continuado del producto y compensaciones bajo la legislación aplicable.</p><p>El servicio puede no estar disponible debido a eventos fuera de nuestro control razonable, como fallos de infraestructura o apagones.</p><h3>Reventa del servicio</h3><p>No puedes reproducir, duplicar, copiar, vender o explotar ninguna parte de nuestro sitio web o su servicio sin nuestro permiso por escrito, otorgado directamente o a través de un programa legítimo de reventa.</p><h3>Política de privacidad</h3><p>Para información sobre el uso de datos personales, puedes consultar la política de privacidad de nuestro sitio web.</p><h3>Derechos de propiedad intelectual</h3><p>Sin perjuicio de disposiciones más específicas en estos términos, todos los derechos de propiedad intelectual asociados a nuestro sitio web, incluidos derechos de autor, marcas registradas, patentes y diseños, son de nuestra propiedad exclusiva o de nuestros licenciantes. Estos derechos están protegidos por leyes aplicables y tratados internacionales sobre propiedad intelectual.</p><p>Todas las marcas, sean nominales o figurativas, y cualquier otro signo distintivo, nombres comerciales, marcas de servicio, ilustraciones, imágenes o logotipos asociados a nuestro sitio web, son y seguirán siendo propiedad exclusiva nuestra o de nuestros licenciantes. También están protegidos por leyes aplicables y tratados internacionales.</p><h3>Cambios en los términos</h3><p>Nos reservamos el derecho de modificar estos términos en cualquier momento, informándote de los cambios.</p><p>Dichos cambios solo afectarán la relación contigo desde la fecha de su comunicación en adelante.</p><p>Tu uso continuado del servicio significará que aceptas los términos modificados. Si no deseas quedar sujeto a los cambios, debes dejar de utilizar el servicio y finalizar el acuerdo.</p><p>La versión previa aplicable regirá la relación antes de tu aceptación. Puedes solicitar cualquier versión anterior.</p><p>Si es legalmente necesario, te notificaremos con antelación sobre la fecha en que los nuevos términos entrarán en vigor.</p><h3>Cesión del contrato</h3><p>Nos reservamos el derecho de transferir, ceder, novar o subcontratar cualquiera o todos los derechos u obligaciones bajo estos términos, considerando tus intereses legítimos. Las disposiciones sobre cambios en estos términos se aplicarán en consecuencia.</p><p>No puedes ceder o transferir tus derechos u obligaciones bajo estos términos sin nuestro consentimiento por escrito.</p><h3>Contacto</h3><p>Todas las comunicaciones relacionadas con el uso de nuestro sitio web deben enviarse utilizando la información de contacto proporcionada en este documento.</p><h3>Divisibilidad</h3><p>La invalidez o inaplicabilidad de cualquier disposición bajo la ley aplicable no afectará la validez de las demás disposiciones, que seguirán siendo plenamente vigentes.</p><h4>Usuarios en EE.UU.</h4><p>Cualquier disposición inválida o inaplicable será interpretada en la medida razonablemente necesaria para hacerla válida, aplicable y coherente con su intención original. Este documento constituye el acuerdo completo entre tú y nosotros y reemplaza todas las comunicaciones anteriores, incluidos acuerdos previos sobre la misma materia, en la medida permitida por la ley.</p><h4>Usuarios en la UE</h4><p>Si alguna disposición de este documento es nula, inválida o inaplicable, ambas partes acuerdan hacer lo posible para llegar a un acuerdo válido y aplicable.<br></br>En caso de no lograrlo, la disposición será reemplazada por la disposición legal aplicable.</p><p>No obstante lo anterior, la nulidad, invalidez o imposibilidad de aplicar una disposición no anulará todo el acuerdo, salvo que la disposición sea esencial, o tan importante que ambas partes no hubiesen celebrado el contrato si hubieran sabido que esa disposición no sería válida, o si las disposiciones restantes implicaran una carga inaceptable para cualquiera de las partes.</p><h3>Ley aplicable</h3><p>Estos términos se rigen por la ley del lugar donde tenemos nuestra sede, tal como se indica en la sección correspondiente de este documento, sin considerar conflictos de principios legales.</p><h4>Prevalencia de la legislación nacional</h4><p>Sin embargo, independientemente de lo anterior, si la legislación del país en el que resides establece estándares de protección al consumidor más altos, dichos estándares prevalecerán.</p><h3>Jurisdicción competente</h3><p>La jurisdicción sobre cualquier controversia relacionada con estos términos corresponde a los tribunales del lugar donde tenemos nuestra sede, tal como se indica en la sección correspondiente de este documento.</p><h4>Excepción para consumidores en Europa</h4><p>No obstante lo anterior, esto no se aplica si calificas como consumidor europeo o si eres un consumidor con residencia en el Reino Unido, Suiza, Noruega o Islandia.</p><h4>Consumidores del Reino Unido</h4><p>Si eres un consumidor con residencia en Inglaterra y Gales, puedes iniciar acciones legales relacionadas con estos términos en los tribunales de Inglaterra y Gales. Si eres un consumidor con residencia en Escocia, puedes iniciar acciones legales en los tribunales escoceses o ingleses. Si resides en Irlanda del Norte, puedes iniciar acciones legales en los tribunales de Irlanda del Norte o de Inglaterra.</p><h4>Usuarios en EE.UU.</h4><p>Ambas partes acordamos renunciar a cualquier derecho a juicio por jurado en cualquier tribunal relacionado con una acción o litigio.<br></br>Cualquier reclamación en virtud de estos términos se resolverá de manera individual, y ambas partes acordamos no participar en demandas colectivas ni en otros procedimientos junto con, o en representación de, otros.</p><h3>Usuarios en EE.UU.</h3><h4>Cláusulas que sobreviven</h4><p>Nuestro acuerdo seguirá en vigor hasta que sea terminado por nuestro sitio web o por ti. Tras la terminación, las disposiciones de este documento que por su naturaleza deban seguir vigentes, continuarán siéndolo, incluyendo, entre otras, las siguientes:</p><ul><li>la concesión de licencias conforme a este documento seguirá vigente indefinidamente;</li><li>tus obligaciones de indemnización seguirán vigentes por un período de cinco años desde la fecha de terminación;</li><li>la renuncia de garantías y representaciones, así como las disposiciones de las secciones sobre indemnización y limitación de responsabilidad, seguirán vigentes indefinidamente.</li></ul><h2>RESOLUCIÓN DE CONFLICTOS</h2><h3>Resolución de disputas en línea para consumidores</h3><p>La Comisión Europea ha creado una plataforma en línea para la resolución alternativa de disputas, que ofrece una solución extrajudicial para resolver conflictos derivados de contratos de venta y servicios en línea.</p><p>Por lo tanto, los consumidores europeos o los consumidores con residencia en Noruega, Islandia o Liechtenstein pueden utilizar esta plataforma para resolver disputas derivadas de contratos en línea. Puedes acceder a la plataforma <a>a través del siguiente enlace</a>.</p>"
+  },
+  "PrivacyPolicy": {
+    "data":"<h2><strong>POLÍTICA DE PRIVACIDAD</strong></h2><p>Ranch Boss de Horizon Trailers LLC, en adelante “Horizon”, valora la privacidad y confidencialidad de tu información personal, como tu nombre, direcciones postal y de correo electrónico, o número de teléfono. Por lo tanto, la información personal que proporciones se almacena de forma segura, accesible solo por el personal designado o agentes autorizados, y se utiliza únicamente para promocionar nuestros productos o mejorar nuestro servicio al cliente. Horizon no divulgará ninguna información personal a organizaciones externas.</p><h2><strong>RECOLECCIÓN DE INFORMACIÓN</strong></h2><p>Cuando navegas por un sitio web de Horizon, tu visita es anónima. No se recopila información personal. Sin embargo, ciertas áreas de nuestros sitios web pueden solicitar voluntariamente información personal, como tu nombre, correo electrónico, etc., para fines como correspondencia, registro en el sitio, recibir precios localizados o participar en encuestas en línea.</p><p>Horizon también puede conservar comunicaciones electrónicas enviadas a nuestros representantes de servicio al cliente, administradores web u otros colaboradores. Estas comunicaciones pueden compartirse dentro de Horizon para mejorar continuamente el servicio al cliente o publicarse parcialmente en los comentarios o sección de preguntas frecuentes de nuestro sitio web.</p><p>Los sitios web de Horizon monitorean y rastrean información sobre las visitas. Compilamos estadísticas que muestran el número diario de visitantes, las solicitudes diarias de archivos específicos y los países de los que provienen dichas solicitudes. Estas estadísticas agregadas se utilizan para personalizar nuestro sitio web y satisfacer mejor tus necesidades, y pueden ser compartidas con otros, pero no contienen información personal ni pueden utilizarse para recopilar dicha información.</p><p>Algunos sitios de Horizon pueden utilizar “cookies” o “balizas web”. Las cookies mejoran tu experiencia en línea al guardar tus preferencias mientras visitas un sitio en particular. Las balizas web, o GIFs transparentes, se utilizan para medir el éxito de nuestras campañas de marketing y recopilar estadísticas sobre el uso y las tasas de respuesta. Puedes configurar tu navegador para que te notifique cuando recibas una cookie, dándote la oportunidad de decidir si la aceptas o no. Si decides rechazar las cookies, es posible que las balizas web no funcionen correctamente.</p><h2><strong>USO DE LA INFORMACIÓN</strong></h2><p>Horizon puede utilizar la información proporcionada por los usuarios para, por ejemplo, brindar servicios, medir el interés de los consumidores en nuestros productos y servicios o informar a los usuarios sobre nuevos productos y programas. Estas ofertas pueden basarse en la información proporcionada en encuestas, preferencias de compra o correos electrónicos enviados a nuestro sitio. Todas las listas utilizadas para enviarte ofertas de productos y servicios se desarrollan y gestionan bajo condiciones diseñadas para proteger la seguridad y privacidad de la información personal de nuestros clientes. Horizon hará esfuerzos razonables para atender todas las solicitudes de eliminación de nombres de listas de correo postal o electrónico.</p><h2><strong>DIVULGACIÓN</strong></h2><p>Dado que Horizon considera que la información personal que mantenemos es confidencial, nuestra política es no divulgar información personal recopilada en línea a terceros, a menos que la ley lo requiera o sea pertinente para investigaciones o procesos judiciales o gubernamentales. Horizon no vende ni alquila información personal a otras organizaciones.</p><h2><strong>OTROS SITIOS WEB</strong></h2><p>Los sitios web de Horizon pueden contener enlaces a otros sitios. Aunque nos esforzamos por enlazar únicamente con sitios que compartan nuestros altos estándares y respeto por la privacidad, no somos responsables del contenido ni de las prácticas de privacidad empleadas por otros sitios.</p><h2><strong>NIÑOS</strong></h2><p>Horizon no recopila intencionadamente ninguna información personal (como nombre, dirección o número de teléfono) de niños menores de 13 años a través de su sitio web. Indicamos específicamente a los niños menores de 13 años que no envíen dicha información a nuestro sitio. Si el padre, madre o tutor de un niño menor de 13 años cree que el niño nos ha proporcionado información personal, debe comunicarse con nosotros para eliminar esta información de nuestros archivos. Además, cualquier persona menor de 18 años debe solicitar el permiso de sus padres o tutores antes de usar o divulgar cualquier información personal en este sitio.</p><h2><strong>AVISO LEGAL</strong></h2><p>Al utilizar un sitio de Horizon, manifiestas tu consentimiento a la Política de Privacidad en Línea de Horizon. Si no estás de acuerdo con esta política, por favor no utilices nuestros sitios. Nos reservamos el derecho, a nuestra discreción, de cambiar, modificar, añadir o eliminar partes de esta política en cualquier momento. Por favor revisa esta página periódicamente para ver los cambios. Tu uso continuo de los sitios de Horizon después de la publicación de cambios en estos términos significará que aceptas dichos cambios.</p><h2><strong>POLÍTICA DE COOKIES</strong></h2><p>Ranch Boss de Horizon Trailers (\"nosotros\", \"nuestro\") utiliza cookies para mejorar tu experiencia en nuestro sitio web y analizar nuestro tráfico. Esta Política de Cookies explica qué son las cookies, cómo las utilizamos y tus opciones respecto a su uso.</p><h3>1. ¿Qué son las cookies?</h3><p>Las cookies son pequeños archivos de texto almacenados en tu dispositivo cuando visitas un sitio web. Ayudan a los sitios web a recordar tus preferencias, mejorar la funcionalidad y analizar los patrones de uso.</p><h3>2. Tipos de cookies que usamos</h3><ul><li>Cookies esenciales: Necesarias para que el sitio funcione correctamente y no se pueden desactivar.</li><li>Cookies de rendimiento y análisis: Nos ayudan a entender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos anónimos.</li><li>Cookies funcionales: Recuerdan tus preferencias para mejorar tu experiencia.</li><li>Cookies de segmentación y publicidad: Ofrecen anuncios personalizados en función de tu comportamiento de navegación.</li></ul><h3>3. Cómo usamos las cookies</h3><p>Utilizamos cookies para:</p><ul><li>Recordar tus preferencias.</li><li>Mejorar el rendimiento y la usabilidad del sitio web.</li><li>Analizar el tráfico y el comportamiento de los usuarios para mejorar nuestros servicios.</li><li>Mostrar anuncios relevantes.</li></ul><h3>4. Tus opciones</h3><p>Puedes gestionar o desactivar las cookies desde la configuración de tu navegador. Sin embargo, desactivar ciertas cookies puede afectar tu experiencia en nuestro sitio.</p><h3>5. Cookies de terceros</h3><p>Algunas cookies pueden ser colocadas por servicios de terceros (por ejemplo, socios de análisis o publicidad) para ayudarnos a ofrecer un mejor servicio.</p><h3>6. Actualizaciones de esta política</h3><p>Podemos actualizar esta Política de Cookies ocasionalmente. Cualquier cambio se reflejará en esta página con una fecha de “Última actualización”.</p><h3>7. Contáctanos</h3><p>Si tienes preguntas sobre esta Política de Cookies, por favor contáctanos en: <a>Contáctanos</a></p>"
+  },
+  "Resources": {
+    "Logos": {
+      "title": "Logotipos",
+      "description": "Aquí puedes encontrar todos los logotipos de Ranch Boss",
+      "publishedDate":"Publicado el 04 de Septiembre de 2025",
+      "doYouNeedOtherFormat": "Necesitas los logotipos en otro formato o tamaño? <link>Contáctanos</link>",
+      "htLogo": "Logotipo + Isotipo de Ranch Boss",
+      "htLogoAlt": "Logotipo + Isotipo Alternativo de Ranch Boss",
+      "htLogoVert": "Logotipo + Isotipo Vertical de Ranch Boss",
+      "htlbogCtB": "Ranch Boss Logotipo - Negro",
+      "htlbogtB": "Ranch Boss Logotipo - Blanco",
+      "hLogo": "Logotipo de Nombre Ranch Boss",
+      "hlbc": "Ranch Boss - Negro",
+      "hlb": "Horizon - logotipo, negro",
+      "hlw": "Horizon - logotipo, blanco",
+      "hlwbB": "Horizon - logotipo, blanco con fondo negro",
+      "isoLogo": "Ranch Boss - Isotipo",
+      "isoLogoAlt": "Ranch Boss - Isotipo Alternativo",
+      "htioC": "Isotipo Ranch Boss - Negro",
+      "htio": "Ranch Boss de Horizon Trailers - isotipo, naranja",
+      "htiobB": "Ranch Boss de Horizon Trailers - isotipo, naranja con fondo negro",
+      "sloganLogo": "Ranch Boss - Eslogan",
+      "edmswgo": "Cada Detalle Cuenta - Eslogan, blanco gris naranja",
+      "edmsb": "Cada Detalle Cuenta - Eslogan, negro",
+      "edmsg": "Cada Detalle Cuenta - Eslogan, gris",
+      "edmsw": "Cada Detalle Cuenta - Eslogan, blanco",
+      "downloadFullSuite": "Descargar paquete completo de logotipos"
+    },
+    "Wallpapers": {
+      "title":"Fondos de pantalla",
+      "description":"Aquí puedes encontrar todos nuestros wallpapers exclusivos de Ranch Boss de Horizon Trailers",
+      "slogan_title": "¿Listo para Transformar tu Pantalla?",
+      "slogan_description": "Deja tu correo electrónico y sé el primero en recibir los fondos de pantalla exclusivos de Ranch Boss de Horizon Trailers.",
+      "invalid_email": "Arregle el correo y vuelva a intentarlo",
+      "button":"Recibir los fondo ahora",
+      "thanks": "¡Gracias! Tus wallpapers exclusivos de Ranch Boss de Horizon Trailers ya están en camino."
+    }
+  },
+  "NotFound": {
+    "title": "Algo salió mal",
+    "description": "No pudimos encontrar esta página. Tal vez hiciste clic en el enlace equivocado...",
+    "button": "Ir a la página principal"
+  },
+  "__Products": "Componentes de ProductsPage",
+  
+  "ProductsJson": {
+    "compatibilityOptions": "Opciones de compatibilidad",
+    "heavyDutyStructure": "Estructura de uso rudo",
+    "12',14'DumpLift": "12',14'LevanteDeVolteo",
+    "12'Dovetail": "12'ColaDeMilano",
+    "12'DumpLift": "12'LevanteDeVolteo",
+    "14',16'DumpLift": "14',16'LevanteDeVolteo",
+    "14'DeckLift": "14'LevanteDePlataforma",
+    "16'DeckLift": "16'LevanteDePlataforma",
+    "16'DumpLift": "16'LevanteDeVolteo",
+    "24'-38'deckLift": "24'-38'LevanteDePlataforma",
+    "24'deckLift": "24'LevanteDePlataforma",
+    "40'deckLift": "40'LevanteDePlataforma",
+    "77\"DeckDovetailOptions**NotAvailableFor12'Deck**": "77\"OpcionesColaDeMilanoPlataforma**NoDisponibleParaPlataforma12'**",
+    "77\"DeckRampOptions": "77\"OpcionesRampasPlataforma",
+    "83\"DeckDovetailOptions**NotAvailableFor12'Deck**": "83\"OpcionesColaDeMilanoPlataforma**NoDisponibleParaPlataforma12'**",
+    "83\"DeckRampOptions": "83\"OpcionesRampasPlataforma",
+    "8ButtonRemoteOption*6ButtonsInUseOnly*": "OpciónControlRemoto8Botones*Solo6BotonesEnUso*",
+    "8ButtonRemoteOption*AllButtonsInUse*": "OpciónControlRemoto8Botones*TodosLosBotonesEnUso*",
+    "aluminiumWheelsOptions": "OpcionesRinesAluminio",
+    "aluminiumWheelsOptions(outerWheelsOnly)": "OpcionesRinesAluminio(RinesExterioresSolo)",
+    "availableLengths": "longitudesDisponibles",
+    "axleCount": "cantidadDeEjes",
+    "axleRating": "capacidadDelEje",
+    "axleType": "tipoEje",
+    "axleWarranty": "garantíaEje",
+    "baseModel": "modeloBase",
+    "battery": "batería",
+    "batteryAndCharging": "bateríaYCarga",
+    "bed": "plataforma",
+    "bedHeight": "alturaPlataforma",
+    "bedWidth": "anchoPlataforma",
+    "boltOnSwivelD-rings": "anillosDGiratoriosAtornillados",
+    "boltPattern": "patrónPernos",
+    "bottomRailBedWidth": "anchoRielInferiorPlataforma",
+    "bottomRailChassisWidth": "anchoRielInferiorChasis",
+    "brakesUpgradeOption": "opciónMejoraFrenos",
+    "breakawaySystem": "sistemaEmergencia",
+    "cargoCapacity":"capacidadDeCarga",
+    "centerWinchCable": "cableCabrestanteCentral",
+    "centerWinchCableGuide": "guíaCableCabrestanteCentral",
+    "chargingSystem": "sistemaCarga",
+    "chassis": "chasis",
+    "code": "código",
+    "colors": "colores",
+    "color": "color",
+    "dumpColor": "colorDeCaja",
+    "deckColor": "colorDeLaPlataforma",
+    "chassisColor": "colorDelChasis",
+    "controller": "controlador",
+    "coupler": "acoplador",
+    "crossmembers": "travesaños",
+    "cylinder": "cilindro",
+    "cylinders": "cilindros",
+    "d-rings": "anillosD",
+    "deck": "cubierta",
+    "deckFrame": "estructuraPlataforma",
+    "deckHeight": "alturaPlataforma",
+    "deckLift": "levantePlataforma",
+    "deckWidth": "anchoPlataforma",
+    "description": "descripción",
+    "dimensions": "dimensiones",
+    "dovetail": "colaDeMilano",
+    "dovetailFrame": "estructuraColaDeMilano",
+    "dovetailLength": "longitudColaDeMilano",
+    "dovetailOptions": "opcionesColaDeMilano",
+    "dump":"volteo",
+    "dumpAngle": "ánguloVolteo",
+    "dumpLift": "elevaciónVolteo",
+    "electricalAndLighting": "sistemaEléctricoEIluminación",
+    "fenders": "salpicaderas",
+    "finish": "acabado",
+    "flooring": "piso",
+    "frame": "estructura",
+    "frameWiring": "cableadoEstructura",
+    "front": "frontal",
+    "frontJack": "gatoFrontal",
+    "fullTiltDeck": "plataformaInclinaciónTotal",
+    "gate": "puerta",
+    "gawr": "gawr",
+    "gnLengths":"longitudesCg",
+    "guard": "protección",
+    "gvwr": "gvwr",
+    "haulingCapacity": "capacidadCarga",
+    "height": "altura",
+    "hex": "hex",
+    "highlights": "puntosClave",
+    "hooks": "ganchos",
+    "hutchensSuspensionUpgrade/AxleOptions": "mejoraSuspensiónHutchens/OpcionesEjes",
+    "hutchensTandemSuspensionUpgrade/AxleOptions": "mejoraSuspensiónTándemHutchens/OpcionesEjes",
+    "hydraulics": "hidráulica",
+    "image": "imagen",
+    "jacks": "gatos",
+    "large": "grande",
+    "leftSide": "ladoIzquierdo",
+    "length": "longitud",
+    "lengths": "longitudes",
+    "liftAxleRidewellAirRideUpgrade/AxlesOptions": "mejoraEjeElevableRidewell/Aire/Opciones",
+    "liftCapacity": "capacidadElevación",
+    "liftCylinder": "cilindroElevación",
+    "liftSystem": "sistemaElevación",
+    "lighting": "iluminación",
+    "lights": "luces",
+    "loadingAngle": "ánguloCarga",
+    "mainFrame": "estructuraPrincipal",
+    "model":"modelo",
+    "name": "nombre",
+    "overallWidth": "anchoTotal",
+    "paintType": "tipoPintura",
+    "phLengths":"longitudesAl",
+    "ply": "capas",
+    "prep": "preparación",
+    "price": "precio",
+    "priceAddon": "adicionalPrecio",
+    "pump": "bomba",
+    "railing": "barandal",
+    "ramps": "rampas",
+    "rating": "clasificación",
+    "rear": "trasero",
+    "rearOfDeck": "parteTraseraPlataforma",
+    "rearStands": "soportesTraseros",
+    "reflectiveTape": "cintaReflectante",
+    "ridewellAirRideSuspensionUpgrade/AxleOptions": "mejoraSuspensiónAireRidewell/OpcionesEjes",
+    "ridewellAirRideSuspensionUpgrade/AxlesOptions": "mejoraSuspensiónAireRidewell/OpcionesEjes",
+    "rims": "rines",
+    "rubRail": "rielDeProtección",
+    "runningGear": "trenRodaje",
+    "safety": "seguridad",
+    "safetyChains": "cadenasSeguridad",
+    "safetyChainsForRollOff": "cadenasSeguridadParaRodante",
+    "safetySystem": "sistemaSeguridad",
+    "side": "lado",
+    "sideGuides": "guíasLaterales",
+    "sideHeight": "alturaDeLateral",
+    "sideHeights": "alturaDeLaterales",
+    "sideRunners": "corredoresLaterales",
+    "sides": "lados",
+    "size": "tamaño",
+    "solar": "solar",
+    "spare": "repuesto",
+    "spareTireOptions": "opcionesLlantaRepuesto",
+    "spools": "bobinas",
+    "stakePockets": "bolsillosEstaca",
+    "standardCoupler": "acopladorEstándar",
+    "steps": "escalones",
+    "storageBehindNeck": "almacenamientoDetrásCuello",
+    "style": "estilo",
+    "suspension": "suspensión",
+    "suspensionType": "tipoSuspensión",
+    "system": "sistema",
+    "tank": "tanque",
+    "tarp": "lonas",
+    "thickness": "grosor",
+    "tieDownFittings*FrontAndRearOfDeckOnly*": "ajustesAmarre*SoloParteFrontalYTraseraPlataforma*",
+    "tieDownSlots": "ranurasAmarre",
+    "tilt": "inclinación",
+    "tiltAngle": "ánguloInclinación",
+    "tiltDeckFrame": "estructuraPlataformaInclinable",
+    "tiltDeckLenght": "longitudPlataformaInclinable",
+    "tiltSystem": "sistemaInclinación",
+    "tireUpgradeOptions": "opcionesMejoraLlantas",
+    "tires": "llantas",
+    "tongue": "lengüeta",
+    "toolbox": "cajaHerramientas",
+    "topRail": "rielSuperior",
+    "topRailExternalWidth": "anchoExternoRielSuperior",
+    "topRailInternalWidth": "anchoInternoRielSuperior",
+    "topRailWidth": "anchoRielSuperior",
+    "torqueTube": "tuboDeTorsión",
+    "torqueTube30'AndUpOnly": "tuboDeTorsiónSolo30'YMás",
+    "trailerSpecs": "especificacionesRemolque",
+    "trailerWarranty": "garantíaRemolque",
+    "type": "tipo",
+    "twoToneColor":"2 - colores de tono",
+    "valve": "válvula",
+    "volteo": "volteo",
+    "warranty": "garantía",
+    "weightRating": "clasificaciónPeso",
+    "weldOnD-rings": "anillosDSoldados",
+    "widthBetweenFenders": "anchoEntreGuardabarros",
+    "winch": "cabrestante",
+    "winchAddOn(InstalledInStorageBoxOnNeck)": "accesorioCabrestante(InstaladoEnCajaAlmacenamientoEnCuello)",
+    "winchController": "controladorCabrestante",
+    "winchPlate": "placaCabrestante",
+    "wirelessController": "controladorInalámbrico",
+    "wiringHarness": "arnésCableado"
+  },
+  "SEOMetadata": {
+    "AboutUs": {
+      "title": "Acerca de Ranch Boss de Horizon Trailers | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "En Ranch Boss de Horizon Trailers, estamos comprometidos a ofrecer remolques de alta calidad y durabilidad para todas tus necesidades de transporte. Con un enfoque en la innovación, la satisfacción del cliente y la confiabilidad, brindamos soluciones para construcción, agricultura y transporte. Descubre la diferencia de Horizon hoy.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta, alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí,remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Acerca de Ranch Boss de Horizon Trailers | Ranch Boss de Horizon Trailers Facebook",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Acerca de Ranch Boss de Horizon Trailers | Ranch Boss de Horizon Trailers X"
+      }
+    },
+    "BecomeADealer": {
+      "title": "Solicitud para Distribuidores | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Conviértete en distribuidor de Ranch Boss de Horizon Trailers y haz crecer tu negocio con remolques duraderos y de alta calidad. Nuestro proceso de solicitud para distribuidores es simple y está diseñado para ayudarte a tener éxito. Únete a nuestra red de confianza y ofrece a tus clientes remolques confiables de volteo, equipo, rodantes y cuello de ganso.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí,remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Solicitud para Distribuidores | Ranch Boss de Horizon Trailers Facebook",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Solicitud para Distribuidores | Ranch Boss de Horizon Trailers X"
+      }
+    },
+    "Blog": {
+      "title": "Consulta Nuestro Blog y Últimas Noticias | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Descubre conocimientos expertos, consejos y actualizaciones en el blog de Ranch Boss de Horizon Trailers. Mantente informado sobre las últimas tendencias en remolques, recomendaciones de mantenimiento y soluciones de transporte. Explora artículos pensados para entusiastas de remolques, profesionales y cualquier persona en busca de soluciones confiables de transporte.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí,remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Consulta Nuestro Blog y Últimas Noticias | Ranch Boss de Horizon Trailers Facebook",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Consulta Nuestro Blog y Últimas Noticias | Ranch Boss de Horizon Trailers X"
+      }
+    },
+    "ContactToDealer": {
+      "title": "Contacto con el Distribuidor | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Conéctate con los distribuidores autorizados de Ranch Boss de Horizon Trailers para obtener orientación experta y soporte personalizado. Encuentra tu distribuidor más cercano para explorar nuestras opciones de remolques de alta calidad, obtener precios y descubrir la solución perfecta para tus necesidades de transporte. ¡Un servicio confiable está a solo un contacto de distancia!",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Contacto con el Distribuidor | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Contacto con el Distribuidor | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "ContactUs": {
+      "title": "¿Tienes Preguntas? Contáctanos | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Conéctate con Ranch Boss de Horizon Trailers a través de nuestra página de contacto. Ya sea que tengas preguntas sobre nuestros remolques, necesites soporte o quieras explorar oportunidades como distribuidor, nuestro equipo está listo para ayudarte. ¡Contáctanos hoy para recibir orientación experta y un servicio al cliente excepcional!",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "¿Tienes Preguntas? Contáctanos | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "¿Tienes Preguntas? Contáctanos | Ranch Boss de Horizon Trailers"
+      }
+    }, 
+    "Financing": {
+      "title": "Consulta Nuestros Financiadores | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Descubre opciones de financiamiento flexibles con Ranch Boss de Horizon Trailers. Nuestros socios financieros de confianza ofrecen tasas competitivas y soluciones personalizadas para adaptarse a tus necesidades. Obtén hoy mismo el remolque que necesitas con planes de financiamiento diseñados para brindarte comodidad y accesibilidad. ¡Solicita ahora para comenzar!",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Consulta Nuestros Financiadores | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Consulta Nuestros Financiadores | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "FindADealer": {
+      "title": "Encuentra un Distribuidor | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Encuentra fácilmente el distribuidor más cercano de Ranch Boss de Horizon Trailers. Nuestra red de afiliados de confianza ofrece asesoría experta, servicio de primer nivel y acceso a nuestra línea de remolques duraderos. ¡Ubica distribuidores cerca de ti y obtén el remolque perfecto para tus necesidades de carga hoy mismo!",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Encuentra un Distribuidor | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Encuentra un Distribuidor | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "Maintenance": {
+
+    },
+    "Merchandise":{
+      "title": "Revisa nuestra mercancía | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Demuestra tu orgullo por Ranch Boss de Horizon Trailers con nuestra mercancía oficial. Desde camisetas cómodas hasta sudaderas acogedoras, encuentra el atuendo perfecto para representar tu pasión por los remolques de calidad. ¡Compra ahora!",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Mercancía | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Mercancía | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "OwnersManual": {
+      "title": "Manual del Propietario | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Encuentra los manuales del propietario de Ranch Boss de Horizon Trailers con instrucciones detalladas, pautas de seguridad y consejos de mantenimiento. Asegura el rendimiento óptimo y la durabilidad de tu remolque con guías fáciles de seguir adaptadas a cada modelo. Descarga tu manual hoy para una operación sin complicaciones.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Manual del Propietario | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Manual del Propietario | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "PrivacyPolicy": {
+      "title": "Política de Privacidad | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Conozca la Política de Privacidad de Ranch Boss de Horizon Trailers, donde explicamos cómo recopilamos, usamos y protegemos su información personal. Comprometidos con la transparencia y la seguridad, garantizamos que sus datos sean manejados de manera responsable para proteger su privacidad mientras navega e interactúa con nuestro sitio web.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Política de Privacidad | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Política de Privacidad | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "Products": {
+      "title": "Todos los Productos | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Explora la diversa gama de productos de Ranch Boss de Horizon Trailers, que incluye remolques de volteo, roll-off, de equipo y de cuello de ganso. Diseñados para ofrecer durabilidad y rendimiento, nuestros remolques satisfacen las exigencias de la construcción, la agricultura y el transporte pesado con calidad superior e innovación.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Todos los Productos | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Todos los Productos | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "Products__Compare": {
+      "title": "Comparar {models} | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Compara fácilmente hasta tres remolques Horizon uno al lado del otro. Consulta especificaciones clave, características y opciones para encontrar la combinación perfecta para tus necesidades de transporte, todo en un solo lugar. Toma decisiones informadas más rápido con nuestra herramienta de comparación de productos.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image"
+      }
+    },
+    "Products__Configure": {
+      "title": "Configura el {product} | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Personaliza tu remolque Horizon a tu manera. Elige tamaño, color, ejes, características y más con nuestro configurador fácil de usar. Ve al instante las especificaciones y mejoras para construir el remolque perfecto para tus necesidades—rápido, sencillo y a tu medida.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Configura tu producto | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Configura tu producto | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "Quality": {
+      "title": "Calidad que Supera las Expectativas | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Descubre el compromiso de Ranch Boss de Horizon Trailers con la artesanía de calidad. Desde materiales duraderos hasta ingeniería de precisión, cada remolque está construido para superar los estándares de la industria. Confía en Ranch Boss de Horizon Trailers para obtener confiabilidad, rendimiento y una durabilidad inigualable en cada trabajo, grande o pequeño.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Calidad que Supera las Expectativas | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Calidad que Supera las Expectativas | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "Resources": {
+      "title": "Nuestros Recursos de Marca | Ranch Boss de Horizon Trailers",
+      "titleAlt": "Nuestros {name} | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Accede a una biblioteca completa de recursos de marca de Ranch Boss de Horizon Trailers. Desde logotipos hasta imágenes, todo lo que necesitas para promocionar nuestro negocio. #recursosdemarca #HorizonTrailers",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Nuestros Recursos de Marca | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Nuestros Recursos de Marca | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "Sitemap": {
+      "title": "Nuestro Mapa del Sitio | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Navega por el mapa del sitio de Ranch Boss de Horizon Trailers para acceder rápidamente a las páginas esenciales, incluidas las categorías de productos, documentos de garantía, información de contacto y más. Encuentra fácilmente todo lo que necesitas para explorar nuestros remolques duraderos y servicios diseñados para satisfacer tus necesidades de carga.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Nuestro Mapa del Sitio | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Nuestro Mapa del Sitio | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "TermsOfUse": {
+      "title": "Términos de Uso | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Consulta los Términos de Uso de Ranch Boss de Horizon Trailers, donde se detallan las responsabilidades del usuario, las políticas del sitio web y los acuerdos legales. Conoce tus derechos y obligaciones al acceder a nuestro sitio para garantizar una experiencia segura y fluida con nuestros productos y servicios.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Términos de Uso | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Términos de Uso | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "WarantyClaim": {
+      "title": "Reclamación de Garantía | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Presenta tu reclamación de garantía para Ranch Boss de Horizon Trailers de forma fácil y eficiente. Nuestro equipo de soporte especializado asegura un procesamiento rápido para atender tus inquietudes. Protege tu inversión y mantén el rendimiento de tu remolque con nuestro proceso de garantía sin complicaciones.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Reclamación de Garantía | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Reclamación de Garantía | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "WarrantyDocs": {
+      "title": "Consultar Documentos de Garantía | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Accede a todos los documentos de garantía de Ranch Boss de Horizon Trailers en un solo lugar. Revisa fácilmente los detalles de la cobertura, términos y soporte para tu remolque. Mantente informado y protegido con nuestra información de garantía clara y descargable—diseñada para darte confianza y tranquilidad en cada carga.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de equipo,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Consultar Documentos de Garantía | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Consultar Documentos de Garantía | Ranch Boss de Horizon Trailers"
+      }
+    },
+    "MainScreen": {
+      "title": "Cajas de Camionetas Premium  | Ranch Boss de Horizon Trailers",
+      "authors": {
+        "author1": "Ranch Boss de Horizon Trailers LLC"
+      },
+      "description": "Descubre el legado de artesanía de Ranch Boss de Horizon Trailers con nuestra línea premium de cajas de camionetas. Diseñados para los traslados más exigentes y construidos con un compromiso inquebrantable con la excelencia. Sumérgete y experimenta la diferencia Horizon.",
+      "keywords": "Ranch Boss de Horizon Trailers,Ranch Boss de Horizon Trailers llc,remolque de volteo,remolque rodante,remolque de Equipamento,remolque cuello de ganso,remolque utilitario,remolque de plataforma,remolque en venta,alquiler de remolques,remolque de basura,alquiler de remolques cerca de mí,remolque de calidad,remolque premier,remolque premium,remolques utilitarios en venta,remolques y enganches cerca de mí, remolques albuquerque,remolques de aluminio,remolques asequibles,remolques básicos,remolques para bicicletas,remolques craigslist,costo de remolques,remolques colorado springs,remolques, remolques de carga en venta,concesionarios de remolques cerca de mí,remolques de volteo en venta,remolques denver,remolques el paso,remolques este,remolques oeste,remolques sur,remolques norte, remolque de volteo en venta,remolque rodante en venta,remolque de equipo en venta,remolque cuello de ganso en venta,remolque utilitario en venta, acerca de Ranch Boss de Horizon Trailers, sobre nosotros Ranch Boss de Horizon Trailers, quién es Ranch Boss de Horizon Trailers",
+      "og": {
+        "title": "Cajas de Camionetas Premium | Ranch Boss de Horizon Trailers",
+        "siteName": "Ranch Boss de Horizon Trailers"
+      },
+      "twitter": {
+        "creator": "Ranch Boss de Horizon Trailers LLC",
+        "site": "@TrailersHorizon",
+        "card": "summary_large_image",
+        "title": "Cajas de Camionetas Premium  | Ranch Boss de Horizon Trailers"
+      }
+    }
+  },
+  "FooterArea": {
+    "policy": "El diseño, las opciones, los precios y las especificaciones están sujetos a cambios sin previo aviso."
+  }
+
+}

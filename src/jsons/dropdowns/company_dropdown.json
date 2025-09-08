@@ -1,0 +1,24 @@
+{
+    "en":[
+        
+        {
+            "name":"About Us",
+            "url":"/about-us"
+        }, 
+        {
+            "name":"Top Quality",
+            "url":"/quality"
+        }
+    ],
+    "es":[
+        
+        {
+            "name":"Sobre nosotros",
+            "url":"/about-us"
+        }, 
+        {
+            "name":"Calidad superior",
+            "url":"/quality"
+        }
+    ]
+}

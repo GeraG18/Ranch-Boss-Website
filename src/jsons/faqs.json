@@ -1,0 +1,73 @@
+{
+    "en":[
+        {
+            "question":"How does shipping work from Ranch Boss?", 
+            "answer":"We ship directly from Mexico to anywhere in North America, and we handle everything from lining up freight to all border paperwork."
+        },
+        {
+            "question":"What does the Warranty Policy look like?", 
+            "answer":"Ranch Boss completely stands behind our products. We offer a 3 year warranty on all structural components. We want our customers to have a great experience with our truck beds, and part of this is to fully support our end users. We want you to be completely satisfied with the experience of owning an outstanding Ranch Boss product."
+        },
+        {
+            "question":"How close do we set up new dealers to active Horizon dealers?", 
+            "answer":"To ensure optimal market coverage without oversaturation, we maintain a standard proximity of 60-80 miles between our dealers. This distance can vary depending on the population density and regional demand to ensure that each dealer has adequate market potential."
+        },
+        {
+            "question":"How many loads do I have to order per month as a Dealer?", 
+            "answer":"Our goal is 1 load per month per dealer location."
+        },
+        {
+            "question":"What is the product lead time?", 
+            "answer":"When inquiring about product lead times, it\"s essential to connect with one of our sales representatives for the most accurate estimated time of arrival (ETA). Given that different products have varying lead times based on a range of factors. Generally, the lead time for our products typically ranges from 8 to 10 weeks, but this can fluctuate depending on the current demand and production schedules."
+        },
+        
+        {
+            "question":"Does Ranch Boss take care of the customs paperwork?", 
+            "answer":"Yes, Ranch Boss does all exportation paperwork and deliver the load to your doorstep."
+        },
+        {
+            "question":"Why should you choose Ranch Boss truck beds over the competition?", 
+            "answer":"There are several compelling reasons to choose Ranch Boss as your go-to source:\n1. Customer Service.\n2. Quality.\n3. Unique Products."
+        },
+        {
+            "question":"How does Ranch Boss support its dealers in terms of marketing?", 
+            "answer":"At Ranch Boss, we have a professional marketing team dedicated to continuously supporting our dealers with educational materials to thoroughly understand the products we offer. This team focuses on each of our dealers individually, providing personalized attention for social media strategies and marketing support. We believe in empowering our dealers, not just with quality products, but also with the knowledge and tools to succeed. And should you need any assistance, our marketing specialists are just a phone call away, ready to assist with any inquiries or support you might need."
+        }
+    ],
+    "es":[
+        {
+            "question": "¿Cómo funciona el envío desde Ranch Boss?",
+            "answer": "Enviamos directamente desde México a cualquier parte de Norteamérica, y nosotros nos encargamos de todo, desde coordinar el transporte hasta toda la documentación aduanal."
+        },
+        {
+            "question": "¿Cómo es la política de garantía?",
+            "answer": "Ranch Boss respalda completamente nuestros productos. Ofrecemos una garantía de 3 años en todos los componentes estructurales. Queremos que nuestros clientes tengan una excelente experiencia con nuestras camas de camioneta, y parte de esto es brindar un respaldo completo a nuestros usuarios finales. Queremos que estés completamente satisfecho con la experiencia de tener un producto excepcional de Ranch Boss."
+        },
+        {
+            "question": "¿Qué tan cerca establecen nuevos distribuidores de los ya activos?",
+            "answer": "Para asegurar una cobertura óptima del mercado sin saturarlo, mantenemos una proximidad estándar de 60 a 80 millas entre nuestros distribuidores. Esta distancia puede variar dependiendo de la densidad poblacional y la demanda regional, para asegurar que cada distribuidor tenga un mercado adecuado."
+        },
+        {
+            "question": "¿Cuántas cargas debo pedir al mes como distribuidor?",
+            "answer": "Nuestro objetivo es una carga por mes por cada ubicación de distribuidor."
+        },
+        {
+            "question": "¿Cuál es el tiempo de entrega del producto?",
+            "answer": "Cuando preguntes por los tiempos de entrega, es importante que te comuniques con uno de nuestros representantes de ventas para obtener la estimación más precisa. Ya que los diferentes productos tienen distintos tiempos de entrega según varios factores. Generalmente, el tiempo de entrega para nuestros productos varía entre 8 y 10 semanas, aunque esto puede cambiar dependiendo de la demanda actual y los calendarios de producción."
+        },
+        
+        {
+            "question": "¿Horizon se encarga de la documentación aduanal?",
+            "answer": "Sí, Horizon realiza toda la documentación de exportación y entrega la carga directamente a tu puerta."
+        },
+        {
+            "question": "¿Por qué elegir Ranch Boss sobre la competencia?",
+            "answer": "Hay varias razones convincentes para elegir Ranch Boss como tu proveedor de confianza:\n1. Servicio al cliente.\n2. Calidad.\n3. Productos únicos."
+        },
+        {
+            "question": "¿Cómo apoya Ranch Boss a sus distribuidores en términos de marketing?",
+            "answer": "En Ranch Boss, contamos con un equipo de marketing profesional dedicado a apoyar continuamente a nuestros distribuidores con materiales educativos para que comprendan a fondo los productos que ofrecemos. Este equipo se enfoca individualmente en cada distribuidor, brindando atención personalizada para estrategias de redes sociales y apoyo en marketing. Creemos en empoderar a nuestros distribuidores, no solo con productos de calidad, sino también con el conocimiento y las herramientas necesarias para tener éxito. Y si necesitas ayuda, nuestros especialistas en marketing están a solo una llamada de distancia, listos para asistirte con cualquier duda o apoyo que necesites."
+        }
+    ]
+
+}

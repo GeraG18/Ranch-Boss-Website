@@ -1,0 +1,32 @@
+{
+    "AVSTBS01":{
+        "name":"Armor-Vault Service Truck Bed",
+        "title":"Armor-Vault Service Truck Bed | Ranch Boss",
+        "description":"",
+        "h1Tag":""
+    },
+    "ABFBTBNS01":{
+        "name":"Armor-Bed Flatbed Truck Bed",
+        "title":"Armor-Bed Flatbed Truck Bed | Ranch Boss",
+        "description":"",
+        "h1Tag":""
+    },
+    "ADFBTBS01":{
+        "name":"Armor-Deck Flatbed Truck Bed",
+        "title":"Armor-Deck Flatbed Truck Bed | Ranch Boss",
+        "description":"",
+        "h1Tag":""
+    },
+    "ADPFBTBS01":{
+        "name":"Armor-Deck Premium Flatbed Truck Bed",
+        "title":"Armor-Deck Premium Flatbed Truck Bed | Ranch Boss",
+        "description":"",
+        "h1Tag":""
+    },
+    "ACDTBS01":{
+        "name":"Armor-Clad Flatbed Truck Bed",
+        "title":"Armor-Clad Flatbed Truck Bed | Ranch Boss",
+        "description":"",
+        "h1Tag":""
+    }
+}

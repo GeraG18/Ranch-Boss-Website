@@ -1,0 +1,63 @@
+{
+    "en":{
+        "sheffield": {
+            "name":"SHEFFIELD FINANCIAL",
+            "body": "Horizon Trailers is your trusted partner in high-quality trailer solutions. In collaboration with Sheffield Financial, a division of Truist Bank, we offer tailored financing options designed to suit your budget and schedule. Sheffield Financial has over 30 years of service and specializes in simple, fast, and secure financing solutions for trailers, snowmobiles, all-terrain vehicles, and more. Their streamlined process ensures you can easily finance your Horizon Trailer and start your journey quickly. Invest in your future with our flexible payment plans, allowing you to conserve cash while securing the trailer you need right now. Take advantage of our exclusive financing opportunities (subject to qualification and availability), and don’t let this opportunity pass you by.\nFinancing is subject to approval by Sheffield Financial. Please note that financing options may vary by dealer.",
+            "image":"/Images/financy/sheffield.svg",
+            "infoButton":"https://www.sheffieldfinancial.com/equipment-manufacturers/trailers/horizon",
+            "applyButton":"https://secure.sheffieldfinancial.com/newLoanApplication.aspx?m207"
+        },
+        "mazo": {
+            "name":"MAZO CAPITAL",
+            "body": "Mazo Capital provides tailored financing solutions for Horizon Trailers, making trailer ownership accessible and hassle-free. With competitive rates, flexible terms, and personalized service, Mazo Capital helps businesses and individuals invest in quality trailers with ease and confidence.",
+            "image":"/Images/financy/mazo.webp",
+            "infoButton":"https://mazocapital.com/contact-us/",
+            "applyButton":"https://mazocapital.com/apply/?eid=89517"
+        },
+        "trio": {
+            "name":"TRIO CAPITAL",
+            "body": "Trio Capital, known for its customer-centric approach, provides financing solutions that are both accessible and accommodating. Their expertise in the trailer and heavy equipment sector means they offer competitive rates and terms designed to fit your budget and timeline.\nFinancing is subject to approval by Trio Capital. Please note that financing options may vary by dealer.",
+            "image":"/Images/financy/trio.png",
+            "infoButton":"https://triocapital.com/?contact-us=open",
+            "applyButton":"https://triocapital.com/?contact-us=open"
+        },
+        "synchrony": {
+            "name":"SYNCHRONY BANK",
+            "body": "Synchrony Bank, a leader in consumer financial services, brings a wealth of experience in offering customized financing programs across various industries.\nWith more than $180 billion in sales financed, their deep industry expertise ensures every customer receives top-notch financial support.\nFinancing is subject to approval by Synchrony Bank. Please note that financing options may vary by dealer.",
+            "image":"/Images/financy/synchrony.svg",
+            "infoButton":"https://www.synchrony.com/help/contact-us",
+            "applyButton":"https://www.synchrony.com/help/contact-us"
+        }
+    },
+    "es":{
+        "sheffield": {
+            "name":"SHEFFIELD FINANCIAL",
+            "body": "HORIZON TRAILERS es tu socio de confianza en soluciones de remolques de alta calidad. En colaboración con Sheffield Financial, una división de Truist Bank, ofrecemos opciones de financiamiento personalizadas diseñadas para adaptarse a tu presupuesto y calendario. Sheffield Financial cuenta con más de 30 años de experiencia y se especializa en soluciones de financiamiento simples, rápidas y seguras para remolques, motos de nieve, vehículos todo terreno y más. Su proceso simplificado garantiza que puedas financiar fácilmente tu remolque Horizon y comenzar tu camino rápidamente. Invierte en tu futuro con nuestros planes de pago flexibles, que te permiten conservar efectivo mientras aseguras el remolque que necesitas ahora mismo. Aprovecha nuestras oportunidades exclusivas de financiamiento (sujetas a calificación y disponibilidad), y no dejes pasar esta oportunidad.\nEl financiamiento está sujeto a aprobación por parte de Sheffield Financial. Ten en cuenta que las opciones de financiamiento pueden variar según el distribuidor.",
+            "image": "/Images/financy/sheffield.svg",
+            "infoButton": "https://www.sheffieldfinancial.com/equipment-manufacturers/trailers/horizon",
+            "applyButton": "https://secure.sheffieldfinancial.com/newLoanApplication.aspx?m207"
+        },
+        "mazo": {
+            "name":"MAZO CAPITAL",
+            "body": "Mazo Capital ofrece soluciones de financiamiento personalizadas para Horizon Trailers, haciendo que la adquisición de un remolque sea accesible y sin complicaciones. Con tasas competitivas, plazos flexibles y un servicio personalizado, Mazo Capital ayuda a empresas y particulares a invertir en remolques de calidad con facilidad y confianza.",
+            "image": "/Images/financy/mazo.webp",
+            "infoButton": "https://mazocapital.com/contact-us/",
+            "applyButton": "https://mazocapital.com/apply/?eid=89517"
+        },
+        "trio": {
+            "name":"TRIO CAPITAL",
+            "body": "Trio Capital, reconocida por su enfoque centrado en el cliente, ofrece soluciones de financiamiento que son accesibles y flexibles. Su experiencia en el sector de remolques y equipos pesados les permite ofrecer tasas y condiciones competitivas diseñadas para ajustarse a tu presupuesto y cronograma.\nEl financiamiento está sujeto a aprobación por parte de Trio Capital. Ten en cuenta que las opciones de financiamiento pueden variar según el distribuidor.",
+            "image": "/Images/financy/trio.png",
+            "infoButton": "https://triocapital.com/?contact-us=open",
+            "applyButton": "https://triocapital.com/?contact-us=open"
+        },
+        "synchrony": {
+            "name":"SYNCHRONY BANK",
+            "body": "Synchrony Bank, líder en servicios financieros para consumidores, aporta una gran experiencia ofreciendo programas de financiamiento personalizados en diversas industrias.\nCon más de $180 mil millones en ventas financiadas, su profundo conocimiento del sector asegura que cada cliente reciba un respaldo financiero de primer nivel.\nEl financiamiento está sujeto a aprobación por parte de Synchrony Bank. Ten en cuenta que las opciones de financiamiento pueden variar según el distribuidor.",
+            "image": "/Images/financy/synchrony.svg",
+            "infoButton": "https://www.synchrony.com/help/contact-us",
+            "applyButton": "https://www.synchrony.com/help/contact-us"
+        }
+
+    }
+}

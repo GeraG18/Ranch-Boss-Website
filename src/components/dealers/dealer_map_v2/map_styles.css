@@ -1,0 +1,24 @@
+:root {
+    /* real estate */
+    --estate-yellow: #b88b2e;
+    --estate-yellow-light: #6897d8;
+    --estate-green-dark: #6897d8;
+    --estate-green-light: #18342a;
+    --estate-01-grey-mid: #f4f4f4;
+    --estate-grey-main: #404040;
+    /* basic colors */
+    --background-color-primary: #fff;
+    /* fonts */
+    --font-family-rufina: 'Rufina', serif;
+    --font-family-raleway: 'Raleway', sans-serif;
+  }
+  
+  .advanced-marker-example * {
+    box-sizing: border-box;
+    /* position: relative; */
+  }
+  
+  .advanced-marker-example *:before,
+  .advanced-marker-example *:after {
+    box-sizing: border-box;
+  }

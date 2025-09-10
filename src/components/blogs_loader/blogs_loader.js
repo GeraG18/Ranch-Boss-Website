@@ -458,34 +458,34 @@ function BlogsLoader({blogEditParams = false}){
         <>
             {
                 progress > 0 &&
-                <div className="fixed top-0 left-0 z-400 w-full h-full flex gap-2 items-center justify-center bg-white/55 text-black font-['Montserrat']">
+                <div className="fixed top-0 left-0 z-400 w-full h-full flex gap-2 items-center justify-center bg-white/55 text-black font-['lora']">
                     <LoadingLoop className="text-gray-700" width="42" height="42" style={{alignSelf:'center'}}/>
                     <span className="">Uploading {progress.toFixed(2)}</span>
                 </div>
             }
-            <div className="flex flex-col gap-4 lg:gap-8 lg:grid lg:grid-cols-[36%_56%] xl:grid-cols-[40%_60%] my-8 px-4 justify-center max-w-(--breakpoint-xl)! z-100 xl:mx-auto font-['Montserrat'] relative">
+            <div className="flex flex-col gap-4 lg:gap-8 lg:grid lg:grid-cols-[36%_56%] xl:grid-cols-[40%_60%] my-8 px-4 justify-center max-w-screen-lg ! z-100 xl:mx-auto font-['lora'] relative">
                 <form onSubmit={(e) => e.preventDefault()} name="postOrEditBlog" className="flex flex-none flex-col gap-3 items-left">
-                    <h2 className="font-['Michroma'] text-[2.5rem] w-fit">BLOG CONTENT</h2>
+                    <h2 className="font-['lora'] text-[2.5rem] w-fit">BLOG CONTENT</h2>
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">TITLE: </span>
+                        <span className="font-['lora'] text-[2rem] w-fit">TITLE: </span>
                         <input placeholder="Example: Blog title" value={blogContent.title} onChange={(e) => {setBlogContent((prev) => ({...prev, title: e.target.value})); setSlug(e.target.value)}} 
-                        className="border border-[#d5d5d5] rounded-[10px] bg-transparent w-[calc(100%-0.2rem)] h-8
+                        className="border border-[#d5d5d5] bg-transparent w-[calc(100%-0.2rem)] h-8
                         text-[1rem] outline-hidden p-0 pl-[0.2rem]"></input>
                     </div>
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">AUTHOR: </span>
+                        <span className="font-['lora'] text-[2rem] w-fit">AUTHOR: </span>
                         <input placeholder="Example: Author" readOnly disabled value={blogContent.author} onChange={(e) => setBlogContent((prev) => ({...prev, author: e.target.value}))} 
-                        className="border border-[#d5d5d5] rounded-[10px] bg-transparent w-[calc(100%-0.2rem)] h-8
+                        className="border border-[#d5d5d5] bg-transparent w-[calc(100%-0.2rem)] h-8
                         text-[1rem] outline-hidden p-0 pl-[0.2rem]"></input>
                     </div>
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">SLUG (URL): </span>
+                        <span className="font-['lora'] text-[2rem] w-fit">SLUG (URL): </span>
                         <input placeholder="example-slug" value={blogContent.slug} onChange={(e) => setBlogContent((prev) => ({...prev, slug: e.target.value}))} 
-                        className="border border-[#d5d5d5] rounded-[10px] bg-transparent w-[calc(100%-0.2rem)] h-8
+                        className="border border-[#d5d5d5] bg-transparent w-[calc(100%-0.2rem)] h-8
                         text-[1rem] outline-hidden p-0 pl-[0.2rem]"></input>
                     </div>
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">
+                        <span className="font-['lora'] text-[2rem] w-fit">
                             HEADER IMAGE:   
                         </span> 
                         <span>
@@ -507,7 +507,7 @@ function BlogsLoader({blogEditParams = false}){
                         <input type="file" onChange={fileChangeHandler} id="fileInput" 
                         className="hidden" accept="image/*"/>
                         <button className="flex flex-row justify-center items-center gap-1 text-[1rem] cursor-pointer
-                        w-full relative bg-transparent rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d]
+                        w-full relative bg-transparent border border-[#d5d5d5] text-[#4d4d4d]
                         py-2 px-4 pointer-events-auto lg:px-6 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:border-secondary-color
                         lg:hover:text-white motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 uppercase" 
@@ -517,7 +517,7 @@ function BlogsLoader({blogEditParams = false}){
                         </button>
                     </div>
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">TAGS: </span>
+                        <span className="font-['lora'] text-[2rem] w-fit">TAGS: </span>
                         <div className="flex w-full h-8">
                             <input value={tag} onChange={(e) => setTag(e.target.value)} 
                                 className="border border-[#d5d5d5] border-r-0 rounded-l-[10px] bg-white w-full text-[1rem]
@@ -538,7 +538,7 @@ function BlogsLoader({blogEditParams = false}){
                             }
                             {
                                 blogContent.tags.map((tag, index) => (
-                                    <div key={index} className="w-fit h-6 rounded-[10px] text-white py-0.5 px-2 uppercase
+                                    <div key={index} className="w-fit h-6 text-white py-0.5 px-2 uppercase
                                     text-[0.85rem] flex flex-row gap-1 items-center justify-center backdrop-saturate-50 backdrop-blur-sm
                                     bg-black/50">
                                         {tag} 
@@ -552,28 +552,28 @@ function BlogsLoader({blogEditParams = false}){
                         </div>
                     </div>
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">BODY: </span>
+                        <span className="font-['lora'] text-[2rem] w-fit">BODY: </span>
                         <div className="h-120 mb-20 lg:mb-16 lg:max-w-full lg:h-80 
-                            [&_p]:text-[1rem] [&_p]:font-['Montserrat']! 
-                            [&_span]:font-['Montserrat']! 
-                            [&_div]:font-['Montserrat']!
+                            [&_p]:text-[1rem] [&_p]:font-['lora']! 
+                            [&_span]:font-['lora']! 
+                            [&_div]:font-['lora']!
                         ">
                             <div ref={quillRef} />
                         </div>
                     </div>
                     {/* AQUI */}
-                    <h2 className="font-['Michroma'] text-[2.5rem] w-fit mt-8 lg:mt-0">SEO CONFIG</h2>
+                    <h2 className="font-['lora'] text-[2.5rem] w-fit mt-8 lg:mt-0">SEO CONFIG</h2>
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">DESCRIPTION: </span>
+                        <span className="font-['lora'] text-[2rem] w-fit">DESCRIPTION: </span>
                         <textarea value={blogContent.seo?.description} onChange={(e) => setBlogContent((prev) => ({...prev, seo: {...prev.seo, description: e.target.value} }))} 
                         placeholder="If you leave it empty, is going to pick the first blog paragraph" 
                         aria-label="add your explanation why you would like to become a Horizon Dealer here" role="form" 
-                        className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem] min-h-32
+                        className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem] min-h-32
                             outline-hidden p-0 pl-[0.2rem]`}/>
                     </div>
 
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">
+                        <span className="font-['lora'] text-[2rem] w-fit">
                             SEO IMAGE:   
                         </span> 
                         <span>
@@ -596,7 +596,7 @@ function BlogsLoader({blogEditParams = false}){
                         <input type="file" onChange={fileChangeHandlerSEO} id="fileInputSEO" 
                         className="hidden" accept="image/*"/>
                         <button className="flex flex-row justify-center items-center gap-1 text-[1rem] cursor-pointer
-                        w-full relative bg-transparent rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d]
+                        w-full relative bg-transparent border border-[#d5d5d5] text-[#4d4d4d]
                         py-2 px-4 pointer-events-auto lg:px-6 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:border-secondary-color
                         lg:hover:text-white motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 uppercase" 
@@ -607,7 +607,7 @@ function BlogsLoader({blogEditParams = false}){
                     </div>
 
                     <div className="flex flex-col items-start gap-1 lg:w-full lg:m-0">
-                        <span className="font-['Michroma'] text-[2rem] w-fit">KEYWORDS: </span>
+                        <span className="font-['lora'] text-[2rem] w-fit">KEYWORDS: </span>
                         <div className="flex w-full h-8">
                             <input value={keyword} onChange={(e) => setKeyword(e.target.value)} 
                                 className="border border-[#d5d5d5] border-r-0 rounded-l-[10px] bg-white w-full text-[1rem]
@@ -621,14 +621,14 @@ function BlogsLoader({blogEditParams = false}){
                             </button>
                         </div>
                         <div className="relative z-30 w-full min-h-16 flex-wrap p-2 flex flex-row gap-1 border
-                        border-[#d5d5d5] rounded-[10px] select-none">
+                        border-[#d5d5d5] select-none">
                             {
                                 blogContent.seo?.keywords?.length === 0 &&
                                 <span className="text-[#77787b]">There's no keywords listed in here</span>
                             }
                             {
                                 blogContent.seo?.keywords?.map((tag, index) => (
-                                    <div key={index} className="w-fit h-6 rounded-[10px] text-white py-0.5 px-2 uppercase
+                                    <div key={index} className="w-fit h-6 text-white py-0.5 px-2 uppercase
                                     text-[0.85rem] flex flex-row gap-1 items-center justify-center backdrop-saturate-50 backdrop-blur-sm
                                     bg-black/50">
                                         {tag} 
@@ -645,16 +645,16 @@ function BlogsLoader({blogEditParams = false}){
                     <div className="flex flex-row justify-evenly">
                         <button className="text-[1rem] w-full cursor-pointer relative mt-4 text-white border-none bg-primary-color
                         select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 
-                        rounded-[10px] py-2 px-6 pointer-events-auto lg:w-auto lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
+                        py-2 px-6 pointer-events-auto lg:w-auto lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
                         onClick={() => handlePublish()}>PUBLISH</button>
                     </div>
                 </form>
-                <div className="relative flex flex-col rounded-[10px] pointet-events-none w-full select-none justify-self-center shrink max-w-full overflow-hidden">
-                    <h2 className="font-['Michroma'] text-[2.5rem] w-fit">PREVIEW</h2>
-                    <span className="font-['Michroma'] text-[2rem] w-fit">
+                <div className="relative flex flex-col pointet-events-none w-full select-none justify-self-center shrink max-w-full overflow-hidden">
+                    <h2 className="font-['lora'] text-[2.5rem] w-fit">PREVIEW</h2>
+                    <span className="font-['lora'] text-[2rem] w-fit">
                             PAGE:   
                     </span>
-                    <div className="border border-[#d5d5d5] rounded-[10px] overflow-hidden pointer-events-none max-w-full">
+                    <div className="border border-[#d5d5d5] overflow-hidden pointer-events-none max-w-full">
                         <Header 
                             author={blogContent.author}
                             authorImg={blogContent.authorImg}
@@ -667,7 +667,7 @@ function BlogsLoader({blogEditParams = false}){
                         <HorizonBlog body={blogContent.body}/>
                     
                     </div> 
-                    <span className="font-['Michroma'] text-[2rem] w-fit">
+                    <span className="font-['lora'] text-[2rem] w-fit">
                             SEO:   
                     </span>
 

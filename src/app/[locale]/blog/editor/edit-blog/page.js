@@ -35,8 +35,8 @@ function BlogsLoad(){
                     motion-safe:duration-300 z-5 brightness-[0.35] contrast-[1.05]"></div>  
                     
                     <div className="relative z-20 filter-none flex flex-row gap-2 items-end justify-center overflow-hidden
-                    py-4 mx-4 max-w-(--breakpoint-xl) lg:gap-4 h-64 xl:mx-auto">
-                        <h1 className="font-['Michroma'] uppercase font-medium leading-9
+                    py-4 mx-4 max-w-screen-lg  lg:gap-4 h-64 xl:mx-auto">
+                        <h1 className="font-['lora'] uppercase font-medium leading-9
                         text-[3rem] text-white mb-2 lg:mb-0">EDIT BLOG</h1>
                     </div>
                 </div>

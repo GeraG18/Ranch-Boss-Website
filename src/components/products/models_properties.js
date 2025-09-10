@@ -23,15 +23,15 @@ function ModelsProperties({image, id, status,notes, props, name, category, compa
     return (
         <Link href={`/products/standard-features/${id}`} 
             className="w-full flex gap-2 flex-col justify-around items-center cursor-pointer relative group/item
-            overflow-hidden shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] font-['Montserrat] rounded-[1rem]
+            overflow-hidden shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] font-['lora] 
             bg-[radial-gradient(circle,rgba(55,62,62,0)_50%,rgba(55,62,62,0.03)_74%,rgba(55,62,62,0.06)_100%)]
             transition-opacity duration-300 ease-in-out">
             <div className="h-full w-full flex flex-col p-1">
                 <div className="aspect-16/10 w-full object-fill flex items-center justify-center">
                     {
                         notes &&
-                        <div className="absolute font-['Montserrat'] top-2 right-2 text-white
-                            backdrop-saturate-50 backdrop-blur-sm bg-[rgb(18,18,18)]/75 rounded-[10px] 
+                        <div className="absolute font-['lora'] top-2 right-2 text-white
+                            backdrop-saturate-50 backdrop-blur-sm bg-[rgb(18,18,18)]/75 
                             min-h-6 min-w-6 p-1 max-w-[calc(100%-1.5rem)] flex items-center justify-center
                             cursor-help opacity-50 motion-safe:transition-all motion-reduce:transition-none 
                             will-change-auto motion-safe:duration-300 group hover:opacity-100 z-100"
@@ -53,8 +53,8 @@ function ModelsProperties({image, id, status,notes, props, name, category, compa
                     />
                     {
                         status &&
-                        <div className="absolute font-['Michroma'] text-[white] *font-semibold
-                            backdrop-saturate-50 backdrop-blur-sm bg-primary-color/70 *rounded-[10px] 
+                        <div className="absolute font-['lora'] text-[white] *font-semibold
+                            backdrop-saturate-50 backdrop-blur-sm bg-primary-color/70
                             min-h-6 min-w-6 p-0.5 *max-w-[calc(100%-1.5rem)] w-full flex items-center justify-center text-center
                             motion-safe:transition-all motion-reduce:transition-none mb-1 text-[1rem] font-bold
                             will-change-auto motion-safe:duration-300 group z-20 uppercase"
@@ -89,7 +89,7 @@ function ModelsProperties({image, id, status,notes, props, name, category, compa
                     }
                 </div>
                 <span className="mx-2 w-[calc(100%-1rem)] font-bold text-[1.125rem] text-black
-                max-w-full line-clamp-2 font-['Michroma']">
+                max-w-full line-clamp-2 font-['lora']">
                     {(name)}
                 </span>
                 <div className="w-[calc(100%-2rem)] text-black font-bold mx-4 mb-2">

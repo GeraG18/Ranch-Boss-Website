@@ -7,7 +7,7 @@ const MayCampain = () => {
                 bg-contain bg-repeat-x animate-slide-clouds drop-shadow-[5px_5px_5px_rgba(0,0,0,0.4)]"></div>
             <div className="z-2 absolute w-14 h-14 bg-[url(/Images/campains/may_campain/carro.svg)] bg-center
                 bg-cover bg-no-repeat left-1/4 bottom-1 animate-bounce-car before:content-['Get_your_next_quality_trailer']
-                before:w-56 before:absolute before:-left-56 before:bottom-[1.35rem] before:font-['Montserrat']
+                before:w-56 before:absolute before:-left-56 before:bottom-[1.35rem] before:font-['lora']
                 before:bg-red-400 before:rounded-t-md before:flex before:items-center before:justify-center before:font-semibold
                 after:absolute after:content-[''] after:w-4 after:h-4 after:rounded-full after:bg-gray-800 after:-left-54
                 after:bottom-3"></div>

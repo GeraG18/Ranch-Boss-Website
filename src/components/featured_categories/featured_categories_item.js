@@ -37,13 +37,13 @@ function FeaturedCategoriesItem ({image, firstText, description, size="w-[50%]",
                 <span className="z-10 flex flex-row flex-wrap gap-x-[0.325rem] lg:gap-x-3 pointer-events-none break-normal max-w-full">
                     {
                         firstText.split(' ').map((item, index) => (
-                            <span key={item+index} className={`font-['Michroma'] h-fit leading-[1.5rem] uppercase text-[1rem] text-center items-center lg:text-[2rem] lg:leading-[2.5rem] ${index === firstText.split(' ').length -1 ? "text-primary-light-color" : "text-white"}`}>
+                            <span key={item+index} className={`font-['lora'] h-fit leading-[1.5rem] uppercase text-[1rem] text-center items-center lg:text-[2rem] lg:leading-[2.5rem] ${index === firstText.split(' ').length -1 ? "text-primary-light-color" : "text-white"}`}>
                                 {item}
                             </span>
                         ))
                     }
                 </span>
-                <span className="font-['Montserrat'] text-[1rem] text-start text-white text-shadow">{description}</span>
+                <span className="font-['lora'] text-[1rem] text-start text-white text-shadow">{description}</span>
             </div>
             {/* <div style={{background:`url(${image})`}} className="content-[''] w-full h-full absolute left-0 top-0 bg-no-repeat! bg-cover!
             bg-center! brightness-[0.4] lg:group-hover:scale-110 motion-safe:transition-all motion-safe:duration-300 motion-reduce:transition-none

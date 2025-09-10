@@ -7,17 +7,17 @@ const SitemapContainer = () => {
     const t = useTranslations('PagesTitles')
     //region view
     return(
-        <div className="font-['Montserrat'] min-h-[60vh] select-none">
-            <div className="relative z-20 text-left py-8 gap-4 w-[calc(100%-2rem)] mx-4 max-w-(--breakpoint-xl) xl:mx-auto
+        <div className="font-['lora'] min-h-[60vh] select-none">
+            <div className="relative z-20 text-left py-8 gap-4 w-[calc(100%-2rem)] mx-4 max-w-screen-lg  xl:mx-auto
                 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
                 <div className="py-4 flex flex-col gap-4">
-                    <Link href="/" className="text-black font-['Michroma'] cursor-pointer 
+                    <Link href="/" className="text-black font-['lora'] cursor-pointer 
                     text-[2.25rem] leading-8 flex items-center justify-start font-medium
                     lg:hover:text-primary-color uppercase">{t('home')}</Link>
                 </div> 
                 <div className="py-4 flex flex-col gap-4">
-                    <Link href="/products" className="text-black font-['Michroma'] cursor-pointer 
+                    <Link href="/products" className="text-black font-['lora'] cursor-pointer 
                     text-[2.25rem] leading-8 flex items-center justify-start font-medium
                     lg:hover:text-primary-color uppercase">{t('products')}</Link>
                     <Link className="text-black cursor-pointer 
@@ -37,7 +37,7 @@ const SitemapContainer = () => {
                     lg:hover:text-primary-color" href="/products?category=utility">{t('utilityTrailers')}</Link>
                 </div> 
                 <div className="py-4 flex flex-col gap-4">
-                    <span className="text-black font-['Michroma']
+                    <span className="text-black font-['lora']
                     text-[2.25rem] leading-8 flex items-center 
                     justify-start font-medium uppercase">{t('support')}</span>
                     <Link className="text-black cursor-pointer 
@@ -51,7 +51,7 @@ const SitemapContainer = () => {
                     lg:hover:text-primary-color" href="/owners-manual">{t('ownersManual')}</Link>
                 </div> 
                 <div className="py-4 flex flex-col gap-4">
-                    <span className="text-black font-['Michroma']
+                    <span className="text-black font-['lora']
                     text-[2.25rem] leading-8 flex items-center 
                     justify-start font-medium uppercase">{t('dealer')}</span>
                     <Link className="text-black cursor-pointer 
@@ -62,7 +62,7 @@ const SitemapContainer = () => {
                     lg:hover:text-primary-color" href="/become-a-dealer">{t('dealerApplication')}</Link>
                 </div> 
                 <div className="py-4 flex flex-col gap-4">
-                    <span className="text-black font-['Michroma']
+                    <span className="text-black font-['lora']
                     text-[2.25rem] leading-8 flex items-center 
                     justify-start font-medium uppercase">{t('shop')}</span>
                     <Link className="text-black cursor-pointer 
@@ -70,7 +70,7 @@ const SitemapContainer = () => {
                     lg:hover:text-primary-color" href="/merchandise">{t('merchandise')}</Link>
                 </div> 
                 <div className="py-4 flex flex-col gap-4">
-                    <span className="text-black font-['Michroma']
+                    <span className="text-black font-['lora']
                     text-[2.25rem] leading-8 flex items-center 
                     justify-start font-medium uppercase">{t('company')}</span>
                     <Link className="text-black cursor-pointer 
@@ -84,7 +84,7 @@ const SitemapContainer = () => {
                     lg:hover:text-primary-color" href="/financing">{t('financeYourTrailer')}</Link>
                 </div> 
                 <div className="py-4 flex flex-col gap-4">
-                    <span className="text-black font-['Michroma']
+                    <span className="text-black font-['lora']
                     text-[2.25rem] leading-8 flex items-center 
                     justify-start font-medium uppercase">{t('insideTheTrailerWorld')}</span>
                     <Link className="text-black cursor-pointer 

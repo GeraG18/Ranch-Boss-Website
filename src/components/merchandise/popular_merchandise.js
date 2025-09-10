@@ -58,7 +58,7 @@ const PopularMerchandise = () => {
     return(
         <div className="my-8 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-4 max-w-[924px]
         h-fit z-100 xl:mx-auto xl:w-full">
-            <span className="font-['Michroma'] font-medium text-[2.25rem] leading-8
+            <span className="font-['lora'] font-medium text-[2.25rem] leading-8
             flex items-center justify-center text-center col-span-full
             lg:text-[3.8rem] lg:leading-12 uppercase">{t('explorePopularMerch')}</span>
             {
@@ -77,8 +77,8 @@ const PopularMerchandise = () => {
                 </>
                 :
                 <div className="mt-4 flex items-center justify-center gap-2 flex-col w-full h-fit col-span-full">
-                    <h1 className="font-['Michroma'] text-[2rem] m-0">{wT('title')}</h1>
-                    <p className="font-['Montserrat'] m-0">{wT('description')}</p>
+                    <h1 className="font-['lora'] text-[2rem] m-0">{wT('title')}</h1>
+                    <p className="font-['lora'] m-0">{wT('description')}</p>
                 </div>
             }
         </div>

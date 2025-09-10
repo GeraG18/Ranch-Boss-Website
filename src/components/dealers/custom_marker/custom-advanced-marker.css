@@ -4,7 +4,7 @@
   transform: translateY(-5px);
   transition: all 0.2s ease-in-out;
   z-index: 5 !important;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'lora', Arial, sans-serif;
 }
 
 .advanced-marker-example .custom-marker .tip {

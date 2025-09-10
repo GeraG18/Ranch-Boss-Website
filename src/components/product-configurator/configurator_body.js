@@ -357,8 +357,8 @@ const ConfiguratorBody = ({product}) => {
     //#region view
     return(
         <>
-            <div className="py-4 h-fit flex font-['Montserrat'] flex-col items-start gap-4 relative lg:flex-row lg:grid lg:grid-cols-6 lg:grid-rows-[auto_auto]
-            m-0 max-w-(--breakpoint-xl) z-100 lg:mx-4 xl:mx-auto">
+            <div className="py-4 h-fit flex font-['lora'] flex-col items-start gap-4 relative lg:flex-row lg:grid lg:grid-cols-6 lg:grid-rows-[auto_auto]
+            m-0 max-w-screen-lg  z-100 lg:mx-4 xl:mx-auto">
                 <div className="w-full flex items-center justify-center rounded-b-[8px] lg:rounded-[8px] overflow-hidden sticky top-0 z-80 before:bg-[url(/Images/product-specs-bg.webp)] before:bg-center
                 before:bg-no-repeat before:bg-cover before:w-full before:h-full before:absolute before:top-0 before:left-0 lg:before:rounded-[8px] lg:z-auto lg:col-span-4 before:z-0!
                 lg:top-4 h-[30vh] md:h-[35vh] lg:h-[60vh]">
@@ -384,7 +384,7 @@ const ConfiguratorBody = ({product}) => {
                             className="cursor-pointer absolute z-200 w-8 h-14 backdrop-blur-sm backdrop-saturate-50 bg-white/20 font-bold text-[18px] 
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto left-4
                             motion-safe:duration-300 select-none border-none text-white py-[1.6rem]
-                             px-4 rounded-[10px] flex items-center justify-center lg:hover:bg-primary-color" >
+                             px-4 flex items-center justify-center lg:hover:bg-primary-color" >
                             <span className="material-icons notranslate " >
                             chevron_left
                             </span>
@@ -393,7 +393,7 @@ const ConfiguratorBody = ({product}) => {
                                 className="cursor-pointer absolute z-200 w-8 h-14 backdrop-blur-sm backdrop-saturate-50 bg-white/20 font-bold text-[18px] 
                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto right-4
                                 motion-safe:duration-300 select-none border-none text-white py-[1.6rem]
-                                 px-4 rounded-[10px] flex items-center justify-center lg:hover:bg-primary-color" >
+                                 px-4 flex items-center justify-center lg:hover:bg-primary-color" >
                                 <span className="material-icons notranslate " >
                                 chevron_right
                                 </span>
@@ -414,7 +414,7 @@ const ConfiguratorBody = ({product}) => {
                             <>
                             {    Object.keys(optionsList).map((category, index) => (
                                 <Fragment key={category+index+'_'}>
-                                        <li className="p-0 rounded-[10px] border border-[#f3f3f3]">
+                                        <li className="p-0 border border-[#f3f3f3]">
                                             <div onClick={()=>showOrHideCheckBox(category)} className="py-3 px-4 cursor-pointer font-bold flex items-center justify-center bg-[#f3f3f3]">
                                                 <span className="w-full uppercase flex items-center">
                                                     {formatCamelCaseToNormalCase(category)}
@@ -484,7 +484,7 @@ const ConfiguratorBody = ({product}) => {
                                                                                 }
                                                                                 {
                                                                                     optionsList[category][categorySection]['priceAddon'] === "each" &&
-                                                                                    <input className="z-20 border border-[#d5d5d5] rounded-[10px] text-[1rem] bg-transparent w-full h-8 text-center outline-hidden p-0 pl-1 " type="number" min="1" max="20" placeholder="Quantity" 
+                                                                                    <input className="z-20 border border-[#d5d5d5] text-[1rem] bg-transparent w-full h-8 text-center outline-hidden p-0 pl-1 " type="number" min="1" max="20" placeholder="Quantity" 
                                                                                     onClick={(e) => e.stopPropagation()}
                                                                                     value={optionsList[category][categorySection]['value'] || '1'} 
                                                                                     onChange={(e) => handleOnInputChange(e, category, categorySection)}/>
@@ -550,7 +550,7 @@ const ConfiguratorBody = ({product}) => {
                                                                                             }
                                                                                             {
                                                                                                 optionsList[category][categorySection][subitem]['priceAddon'] === "each" &&
-                                                                                                <input className="z-20 border border-[#d5d5d5] rounded-[10px] text-[1rem] bg-transparent w-full h-8 text-center outline-hidden p-0 pl-1 " type="number" min="1" max="20"
+                                                                                                <input className="z-20 border border-[#d5d5d5] text-[1rem] bg-transparent w-full h-8 text-center outline-hidden p-0 pl-1 " type="number" min="1" max="20"
                                                                                                 onClick={(e) => e.stopPropagation()} placeholder="Quantity" 
                                                                                                 value={optionsList[category][categorySection][subitem]['value']  || '1'} 
                                                                                                 onChange={(e) => handleOnInputChange(e, category, categorySection, subitem)}/>

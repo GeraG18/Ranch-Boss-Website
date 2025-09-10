@@ -35,7 +35,7 @@ const SideMenuFeatures = ({standardFeatures}) => {
             {
                 Object.keys(standardFeatures).map((category, index) => (
                     <Fragment key={category}>
-                        <li className="p-0 rounded-[10px] border border-[#f3f3f3]">
+                        <li className="p-0 border border-[#f3f3f3]">
                             <div onClick={()=>showOrHideCheckBox(category)} className="py-3 px-4 cursor-pointer font-bold flex
                             items-center justify-center bg-[#f3f3f3] rounded-[10px]">
                                 <span className="w-full uppercase flex items-center">

@@ -42,9 +42,9 @@ function TestimonialsContainer() {
     <div className="bg-[#1c1c1e] py-4 flex flex-col overflow-hidden">
         <div className="text-white py-2 px-5 text-left flex flex-col relative z-30 pointer-events-none items-center
           justify-center col-start-1 col-end-3 row-start-1 row-end-2">
-            <div className="font-['Michroma'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 
+            <div className="font-['lora'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 
             lg:text-[2rem] lg:leading-12 uppercase">{t('slogan')}</div>
-            <div className="text-primary-color text-center font-['Montserrat'] font-bold text-[1.25rem] lg:text-[2rem] uppercase">{t('title')}</div>
+            <div className="text-primary-color text-center font-['lora'] font-bold text-[1.25rem] lg:text-[2rem] uppercase">{t('title')}</div>
         </div>
 
         <div className="w-full flex relative overflow-hidden items-center justify-center h-[50vh] lg:h-[60vh]">

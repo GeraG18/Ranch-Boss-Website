@@ -49,15 +49,15 @@ export const RealEstateListingDetails = ({
           <Link className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none
               motion-safe:transition-all motion-reduce:transition-none will-change-auto 
               motion-safe:duration-300  w-full mx-1 py-2 flex justify-center items-center uppercase
-              rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"  href="/contact-to-dealer" onClick={() => setDealerInLS()}>{fT('contactThisDealer')}</Link>
+              lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"  href="/contact-to-dealer" onClick={() => setDealerInLS()}>{fT('contactThisDealer')}</Link>
           <a className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none
               motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase
               motion-safe:duration-300  w-full mx-1 py-2 flex justify-center items-center
-              rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"  href={directionURL} target="_blank">{fT('getDirections')}</a>
+              lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"  href={directionURL} target="_blank">{fT('getDirections')}</a>
           <a className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none
               motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase
               motion-safe:duration-300  w-full mx-1 py-2 flex justify-center items-center
-              rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"  href={website}>{fT('webpage')}</a>
+              lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"  href={website}>{fT('webpage')}</a>
         </div>
       </div>
     </div>

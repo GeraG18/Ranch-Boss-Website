@@ -117,20 +117,20 @@ function ModelFilters({isShowing}){
 
   //#region view
   return (
-    <div className={`p-0 w-full overflow-hidden font-['Montserrat'] ${isShowing ? "lg:w-[20rem] py-2 px-4" : "w-0 p-0"}`}>
+    <div className={`p-0 w-full overflow-hidden font-['lora'] ${isShowing ? "lg:w-[20rem] py-2 px-4" : "w-0 p-0"}`}>
       <div className="flex flex-col justify-center items-center p-0 select-none">
         <div className="hidden h-9 my-4 justify-center items-center lg:flex">
           <img src="/Images/filters.webp" alt="filters icon" className="p-1 left-[3.5%]" /> 
-          <span className="font-['Michroma'] uppercase text-[1rem] font-bold">{t('filters')}</span>
+          <span className="font-['lora'] uppercase text-[1rem] font-bold">{t('filters')}</span>
         </div>
 
         <ul className="w-full inline-flex gap-2 flex-col font-bold bg-white
         list-none relative select-none m-0 p-0 pb-4">
           {
             Object.keys(cleanAvailableFilters).map((filterSection)=> (
-              <li className="p-0 rounded-[10px] border border-[#f3f3f3]" key={filterSection}>
+              <li className="p-0 border border-[#f3f3f3]" key={filterSection}>
                 <div onClick={()=>showOrHideCheckBox(filterSection)} 
-                className="py-3 px-4 cursor-pointer font-bold flex rounded-[10px] items-center justify-center bg-[#f3f3f3]">
+                className="py-3 px-4 cursor-pointer font-bold flex items-center justify-center bg-[#f3f3f3]">
                   <span className="w-full uppercase flex items-center">
                     {formatCamelCaseToNormalCase(kT(filterSection))}
 
@@ -169,7 +169,7 @@ function ModelFilters({isShowing}){
         <div className="w-full flex items-center justify-center">
           <button onClick={() => clearInputs()} 
             className="cursor-pointer uppercase relative text-white border-none bg-primary-color
-            text-[1rem] select-none py-2 px-4 rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
+            text-[1rem] select-none py-2 px-4 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
             motion-safe:transition-all motion-reduce:transition-none will-change-auto
             motion-safe:duration-400 ">
             {fT('clearAll')}

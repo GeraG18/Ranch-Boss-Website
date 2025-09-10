@@ -55,7 +55,7 @@ const VideoPlayer = ({autoplay = true, url, size, useMarginTop = true}) => {
 
     //#region view
     return(
-        <div className={`w-full h-auto flex items-center justify-center font-['Montserrat'] 
+        <div className={`w-full h-auto flex items-center justify-center font-['lora'] 
         relative select-none overflow-hidden ${useMarginTop ? "my-8" : "m-0"}`}>
                 {
                     url ? 
@@ -67,7 +67,7 @@ const VideoPlayer = ({autoplay = true, url, size, useMarginTop = true}) => {
                             alt="horizon trailers img"/>
                             <div className="absolute w-full h-full bg-[rgba(18,18,18,0.6)] backdrop-saturate-50 backdrop-blur-md flex gap-4 flex-col items-center justify-center z-10">
                                 <div className={`material-symbols-outlined notranslate  motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 
-                                rounded-[10px] bg-primary-color text-[3rem] text-white py-[0.8rem] px-[1.2rem]`}>play_arrow</div>
+                                bg-primary-color text-[3rem] text-white py-[0.8rem] px-[1.2rem]`}>play_arrow</div>
                                 <span className="text-[1.25rem] w-4/5 text-center lg:w-auto lg:text-start">
                                     {t('videoNotAvailable')}
                                 </span>
@@ -79,7 +79,7 @@ const VideoPlayer = ({autoplay = true, url, size, useMarginTop = true}) => {
                             onClick={() => playOrPauseVideo()} 
                                 onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <div className={`material-symbols-outlined notranslate  motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 
-                                rounded-[10px] bg-primary-color text-[3rem] text-white py-[0.8rem] px-[1.2rem] ${(playVideo && !isPlayButtonHover) ? "opacity-0" : "opacity-100"} `}>{playVideo ? 'pause' : 'play_arrow'}</div>
+                                bg-primary-color text-[3rem] text-white py-[0.8rem] px-[1.2rem] ${(playVideo && !isPlayButtonHover) ? "opacity-0" : "opacity-100"} `}>{playVideo ? 'pause' : 'play_arrow'}</div>
                             </div>
                             <ReactPlayer 
                                 url={url} 
@@ -101,7 +101,7 @@ const VideoPlayer = ({autoplay = true, url, size, useMarginTop = true}) => {
                         <img src="/Images/secondBackgroundImage.webp" className="top-0 h-[210%] w-full contrast-[1.4] brightness-[0.5] z-5 absolute" alt="horizon trailers img" />
                         <div className="absolute w-full h-full bg-[rgba(18,18,18,0.6)] backdrop-saturate-50 backdrop-blur-md flex gap-4 flex-col items-center justify-center z-10">
                             <div className={`material-symbols-outlined notranslate  motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 
-                            rounded-[10px] bg-primary-color text-[3rem] text-white py-[0.8rem] px-[1.2rem]`}>play_arrow</div>
+                            bg-primary-color text-[3rem] text-white py-[0.8rem] px-[1.2rem]`}>play_arrow</div>
                             <span className="text-[1.25rem] w-4/5 text-center lg:w-auto lg:text-start">
                                 {t('videoComingSoon')}
                             </span>

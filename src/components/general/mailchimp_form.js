@@ -51,27 +51,27 @@ const MailchimpForm = () => {
     return (
         <div className="flex flex-col gap-4 w-full relative">
             
-            <div className={`absolute h-full font-['Montserrat'] w-full flex flex-col items-center justify-center motion-safe:transition-all 
+            <div className={`absolute h-full font-['lora'] w-full flex flex-col items-center justify-center motion-safe:transition-all 
                 motion-reduce:transition-none will-change-auto motion-safe:duration-300
                 bg-[#1C1C1E] text-[#d9dcdc] ${sended ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
                 <div className="max-w-(--breakpoint-md) xl:mx-auto flex flex-row items-center justify-center overflow-hidden p-2">
                     <MailCheckIcon width="48" height="48" className="text-primary-color w-20 aspect-square"/>
-                    <h1 className="font-['Michroma'] font-medium text-[1.5rem] leading-8
+                    <h1 className="font-['lora'] font-medium text-[1.5rem] leading-8
                     flex items-center justify-start uppercase ">{mcT('thanks')}</h1>
                 </div>
             </div>
 
-            <div className="flex h-8 w-full font-['Montserrat'] text-[1rem]">
+            <div className="flex h-8 w-full font-['lora'] text-[1rem]">
                 <input aria-label='first name for subscription to Horizon offers, news and more' 
-                    className="border-none rounded-[10px] bg-white w-full outline-hidden pl-[0.4rem] 
-                    font-['Montserrat'] text-[0.9rem]"
+                    className="border-none bg-white w-full outline-hidden pl-[0.4rem] 
+                    font-['lora'] text-[0.9rem]"
                     type="text" name="TEXT" placeholder={mcT('nameInputPlaceholder')} required 
                     onChange={(e) => setName(e.target.value)} value={name}/>
             </div>
-            <div className="flex h-8 w-full font-['Montserrat'] text-[1rem]">
+            <div className="flex h-8 w-full font-['lora'] text-[1rem]">
                 <input aria-label='email for subscription to Horizon offers, news and more' 
                     className="border-none rounded-l-[10px] rounded-r-none bg-white outline-hidden pl-[0.4rem] 
-                    font-['Montserrat'] text-[0.9rem] w-full"
+                    font-['lora'] text-[0.9rem] w-full"
                     type="email" name="EMAIL" placeholder={mcT('emailInputPlaceholder')} required 
                     onChange={(e) => setEmail(e.target.value)} value={email}/>
                 <button className="rounded-r-[10px] cursor-pointer color-white bg-primary-color

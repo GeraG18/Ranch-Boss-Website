@@ -30,8 +30,8 @@ function CallOrChat(){
     //#region view
     return(
         <div className="bg-[#2a2a2a] py-8">
-            <div className="font-['Montserrat'] flex flex-col items-center justify-center bg-cover relative overflow-hidden mx-4
-                bg-white h-auto lg:items-center lg:justify-center lg:flex-row lg:h-80 lg:max-w-(--breakpoint-xl) xl:mx-auto">
+            <div className="font-['lora'] flex flex-col items-center justify-center bg-cover relative overflow-hidden mx-4
+                bg-white h-auto lg:items-center lg:justify-center lg:flex-row lg:h-80 lg:max-w-screen-lg  xl:mx-auto">
                 <div className="w-full h-96 bg-center bg-cover bg-no-repeat 
                     motion-safe:transition-all motion-safe:duration-300 motion-reduce:transition-none will-change-auto
                     z-5 lg:w-auto lg:aspect-square lg:h-full relative">    
@@ -50,11 +50,11 @@ function CallOrChat(){
                     />
                 </div>
                 <div className="w-[calc(100%-4rem)] flex flex-col items-start justify-start m-8">
-                    <h2 className="z-10 font-['Michroma'] text-black text-[1.75rem] leading-10 
+                    <h2 className="z-10 font-['lora'] text-black text-[1.75rem] leading-10 
                         align-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase font-bold">
                         {
                             t.rich('title', {
-                            orange: (chunks) => <span className="z-10 font-['Michroma'] text-primary-color font-bold text-[1.75rem] leading-10
+                            orange: (chunks) => <span className="z-10 font-['lora'] text-primary-color font-bold text-[1.75rem] leading-10
                             align-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12">{chunks}</span>,
                             })
                         }

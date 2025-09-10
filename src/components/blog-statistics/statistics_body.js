@@ -13,7 +13,7 @@ const StatisticsBody = () => {
     }, [])
 
     return (
-        <div className="my-8 mx-4 max-w-(--breakpoint-xl) z-100 xl:mx-auto font-['Montserrat'] select-none! min-h-120">
+        <div className="my-8 mx-4 max-w-screen-lg  z-100 xl:mx-auto font-['lora'] select-none! min-h-120">
             <div className="flex flex-col gap-2 w-full h-auto">
                 {
                     blogs.map((blog) => (

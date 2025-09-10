@@ -11,8 +11,8 @@ function FinancingHeader(){
             motion-safe:duration-300 z-5 brightness-[0.35] contrast-[1.05]"></div>  
             
             <div className="relative z-20 filter-none flex flex-col gap-2 items-center justify-center overflow-hidden
-            py-4 mx-4 max-w-(--breakpoint-xl) h-40 sm:flex-row lg:gap-4 lg:h-56 xl:mx-auto">
-                <h1 className="font-['Michroma'] uppercase font-medium leading-9
+            py-4 mx-4 max-w-screen-lg  h-40 sm:flex-row lg:gap-4 lg:h-56 xl:mx-auto">
+                <h1 className="font-['lora'] uppercase font-medium leading-9
                 text-[3rem] text-white lg:text-[5rem] lg:leading-[4.2rem]">{t('ourFinancers')}</h1>
             </div>
         </div>

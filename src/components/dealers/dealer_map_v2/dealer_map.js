@@ -54,7 +54,7 @@ const DealersMap = () => {
     return (
         <>
             <div className="flex gap-4 flex-col-reverse my-8 lg:gap-0 h-fit *lg:h-[93vh] lg:flex-row
-                mx-4 max-w-(--breakpoint-xl) z-100 xl:mx-auto font-['Montserrat']">
+                mx-4 max-w-screen-lg  z-100 xl:mx-auto font-['lora']">
                 <div className="w-full *h-full grid grid-cols-1 grid-rows-[1fr_auto] lg:px-4">
                     <div className="h-full w-full overflow-y-hidden flex flex-col gap-1 lg:gap-0">
                         {
@@ -93,7 +93,7 @@ const DealersMap = () => {
                                     </>
                                     :
                                     <div className="col-span-full mt-4 flex items-center justify-center gap-2 flex-col w-full h-fit">
-                                        <h1 className="font-['Michroma'] text-[2rem] m-0">{wT('title')}</h1>
+                                        <h1 className="font-['lora'] text-[2rem] m-0">{wT('title')}</h1>
                                         <p className="m-0">{wT('description')}</p>
                                     </div>
                                 }
@@ -110,7 +110,7 @@ const DealersMap = () => {
                         />
                     }
                 </div>
-                <div className="w-full h-140 lg:h-[90vh] rounded-[10px] overflow-hidden relative *lg:h-full advanced-marker-example
+                <div className="w-full h-140 lg:h-[90vh] overflow-hidden relative *lg:h-full advanced-marker-example
                 bg-[#b5b5b5]">
                     {
                         apiKey ?
@@ -165,7 +165,7 @@ const DealersMap = () => {
                                 <div className="cursor-pointer relative text-white flex-none border-none uppercase
                                 bg-primary-color text-[1rem] select-none motion-safe:transition-all 
                                 motion-reduce:transition-none will-change-auto motion-safe:duration-300 
-                                mx-1 p-[0.45rem] flex justify-center items-center rounded-[10px] self-end 
+                                mx-1 p-[0.45rem] flex justify-center items-center self-end 
                                 lg:hover:bg-primary-color" 
                                 onClick={() => { setCameraProps((prev) => ({...prev, zoom: (cameraProps.zoom + 1 <= 20 ? cameraProps.zoom+1 : cameraProps.zoom) })) }}>
                                     <span className="material-icons notranslate " >
@@ -175,7 +175,7 @@ const DealersMap = () => {
                                 <div className="cursor-pointer relative text-white flex-none border-none uppercase
                                 bg-primary-color text-[1rem] select-none motion-safe:transition-all 
                                 motion-reduce:transition-none will-change-auto motion-safe:duration-300 
-                                mx-1 p-[0.45rem] flex justify-center items-center rounded-[10px] self-end 
+                                mx-1 p-[0.45rem] flex justify-center items-center self-end 
                                 lg:hover:bg-primary-color" onClick={() => { setCameraProps((prev) => ({...prev, zoom: (cameraProps.zoom - 1 !== 0 ? cameraProps.zoom-1 : cameraProps.zoom) }))  }}>
                                     <span className="material-icons notranslate " >
                                         remove
@@ -188,8 +188,8 @@ const DealersMap = () => {
                     }
                 </div>
             </div>
-            <div className="mx-4 mb-8 max-w-(--breakpoint-xl) z-100 xl:mx-auto font-['Montserrat'] text-[#73767a]">
-                <span className="px-2 font-['Michroma'] uppercase text-[2rem] 
+            <div className="mx-4 mb-8 max-w-screen-lg  z-100 xl:mx-auto font-['lora'] text-[#73767a]">
+                <span className="px-2 font-['lora'] uppercase text-[2rem] 
                 lg:pb-[10px] lg:pl-[20px] lg:pr-[100px]">{nT('title')}</span>
                 <p className="px-2">
                     &sup1;) {nT('linearMiles')}

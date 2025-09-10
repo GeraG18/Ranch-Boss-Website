@@ -301,7 +301,7 @@ const SideMenu = ({isSticky, isOpen, menuName, isOpenCallback}) => {
             borderBottomLeftRadius:'10px',
             outline: '2px solid transparent',
             outlineOffset: '2px',
-            fontFamily:'Montserrat',
+            fontFamily:'lora',
             marginRight:'-10px',
             transition:'all 0.4s',
             willChange: "transform, box-shadow, z-index",

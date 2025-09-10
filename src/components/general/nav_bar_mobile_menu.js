@@ -252,7 +252,7 @@ const NavbarMobileMenu = ({showMenu, isSticky, menuList, isOpenCallback}) => {
     return(
         <div style={{height: showMenu ? `calc(100vh - 5rem)` : "0px", opacity: showMenu ? "1" : "0", pointerEvents: showMenu ? 'auto' : 'none'}} 
             className="motion-safe:transition-transform motion-safe:duration-300 motion-reduce:transition-none will-change-auto overflow-hidden relative left-0 top-0 bg-[rgba(0,0,0,0.5)]
-            backdrop-blur-md backdrop-saturate-50 z-1000 flex items-start justify-center font-['Montserrat'] select-none">
+            backdrop-blur-md backdrop-saturate-50 z-1000 flex items-start justify-center font-['lora'] select-none">
             <div style={{ transform:showMenu ? 'translateX(0%)' : 'translateX(-100%)',}} 
                 className="motion-safe:transition-transform motion-safe:duration-300 motion-reduce:transition-none will-change-auto relative bg-white overflow-y-auto overflow-x-hidden
                 flex flex-none items-center flex-col gap-2 w-[85vw] max-h-full h-full">
@@ -262,14 +262,14 @@ const NavbarMobileMenu = ({showMenu, isSticky, menuList, isOpenCallback}) => {
                     {
                         (submenuOpened.first !== '') &&    
                         <>
-                            <button className="font-['Montserrat'] border-none bg-transparent flex items-center justify-center uppercase h-8 text-[#77787B] p-0"
+                            <button className="font-['lora'] border-none bg-transparent flex items-center justify-center uppercase h-8 text-[#77787B] p-0"
                                 onClick={() => doMenuContentChange({first:'', second:''})}>
                                 <span className="material-symbols-outlined notranslate ">
                                     chevron_left
                                 </span>
                                 {t('mainMenu')}
                             </button>
-                            <span className="font-['Michroma'] font-bold text-[1.25rem] text-[#77787B] tracking-[1px] flex uppercase items-center justify-start">
+                            <span className="font-['lora'] font-bold text-[1.25rem] text-[#77787B] tracking-[1px] flex uppercase items-center justify-start">
                                 {((submenuOpened.second !== "" ? submenuOpened.second : submenuOpened.first).replace(' ', '').toLowerCase())}
                             </span>
                             <div className="h-px w-full bg-[rgba(0,0,0,0.6)]"></div>

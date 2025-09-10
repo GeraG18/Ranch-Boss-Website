@@ -96,7 +96,7 @@ function MerchandiseNavbar({showRouteBar = false, isStatic=false}){
             </div>
             <nav className="relative motion-safe:transition-all motion-reduce:transition-none will-change-auto bg-[#1c1c1e] border-none shadow-2xl 
                 top-0 z-120 flex flex-col items-center justify-start text-center h-26 select-none px-4 lg:h-16 lg:justify-center xl:p-0" >
-                <div className="w-full flex flex-none gap-4 items-center justify-center max-w-(--breakpoint-xl) pt-2 pb-4 lg:gap-8 lg:mx-auto lg:p-0">
+                <div className="w-full flex flex-none gap-4 items-center justify-center max-w-screen-lg  pt-2 pb-4 lg:gap-8 lg:mx-auto lg:p-0">
                     <span onClick={() => setIsMobileMenuOpen((prev) => !prev)} className="material-icons notranslate  aspect-square flex-none flex items-center justify-center text-[1.75rem] text-white 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto lg:hidden!" style={{transform:`rotate(${isMobileMenuOpen ? "90" : "0"}deg)`}}>
                         menu
@@ -104,8 +104,8 @@ function MerchandiseNavbar({showRouteBar = false, isStatic=false}){
                     <Link className="inline-block relative motion-safe:transition-all motion-reduce:transition-none will-change-auto  lg:hover:brightness-75" href="/" onClick={() => {setIsMobileMenuOpen(''); setIsDesktopMenuOpen('');}}>
                         {
                             process.env.NEXT_PUBLIC_ENVIRONMENT === 'development' &&
-                            <span className="bg-[#379634] font-semibold text-black font-['Montserrat'] text-sm absolute right-0 top-0 
-                                rounded-[10px] px-0.5 flex items-center justify-center gap-0.5">
+                            <span className="bg-[#379634] font-semibold text-black font-['lora'] text-sm absolute right-0 top-0 
+                                px-0.5 flex items-center justify-center gap-0.5">
                                 <span className="material-symbols-outlined notranslate " style={{fontSize:'1rem'}}>
                                     code
                                 </span>
@@ -119,12 +119,12 @@ function MerchandiseNavbar({showRouteBar = false, isStatic=false}){
                     </div>
                     <div className="flex gap-2 items-center justify-end shrink-[1.25] w-full lg:gap-5">
 
-                       <Link href="/merchandise" className="motion-safe:transition-all motion-reduce:transition-none will-change-auto text-white min-w-10 flex items-center justify-center gap-2 font-['Montserrat']
+                       <Link href="/merchandise" className="motion-safe:transition-all motion-reduce:transition-none will-change-auto text-white min-w-10 flex items-center justify-center gap-2 font-['lora']
                             text-[1rem] cursor-pointer group" >
                              <ShoppingBagIcon width="28" height="28" color="#6897d8"/>
                              <span className="group-hover:text-primary-color hidden lg:block">{t('merchandise')}</span>
                         </Link>
-                        <Link href="/merchandise/cart" className="motion-safe:transition-all motion-reduce:transition-none will-change-auto text-white min-w-10 flex items-center justify-center gap-2 font-['Montserrat']
+                        <Link href="/merchandise/cart" className="motion-safe:transition-all motion-reduce:transition-none will-change-auto text-white min-w-10 flex items-center justify-center gap-2 font-['lora']
                             text-[1rem] cursor-pointer group relative" >
                              <CartIcon width="28" height="28" color="#6897d8" /> 
                              {
@@ -144,7 +144,7 @@ function MerchandiseNavbar({showRouteBar = false, isStatic=false}){
             </nav>
             <div className="w-full h-f bg-[rgba(255,255,255,0.8)] border-b-2 border-b-[#eeeeee] hidden lg:flex items-center justify-center backdrop-blur-sm backdrop-saturate-50 select-none">
             <div style={{color:isDesktopMenuOpen === 'PRODUCTS' ? "#6897d8" : "#000"}} 
-                    className="font-['Michroma'] text-[1.5rem] flex items-center uppercase justify-evenly w-40 h-auto text-black cursor-pointer 
+                    className="font-['lora'] text-[1.5rem] flex items-center uppercase justify-evenly w-40 h-auto text-black cursor-pointer 
                     px-5 lg:hover:text-secondary-color! motion-safe:transition-all motion-safe:duration-300 motion-reduce:transition-none will-change-auto relative" 
                     onClick={(e)=> {manageClickEvent("PRODUCTS",[], e)}}>
                     <span className="pointer-events-none">{t('products')}</span>
@@ -154,7 +154,7 @@ function MerchandiseNavbar({showRouteBar = false, isStatic=false}){
                 </div>
 
                 <div style={{color:isDesktopMenuOpen === 'COMPANY' ? "#6897d8" : "#000"}} 
-                    className="font-['Michroma'] text-[1.5rem] flex items-center uppercase justify-evenly w-40 h-auto text-black cursor-pointer 
+                    className="font-['lora'] text-[1.5rem] flex items-center uppercase justify-evenly w-40 h-auto text-black cursor-pointer 
                     px-5 lg:hover:text-secondary-color! motion-safe:transition-all motion-safe:duration-300 motion-reduce:transition-none will-change-auto relative" 
                     onClick={(e)=> {manageClickEvent("COMPANY",CompanyMenu[locale], e)}}
                     >
@@ -165,7 +165,7 @@ function MerchandiseNavbar({showRouteBar = false, isStatic=false}){
                 </div>
                 
                 <div style={{color:isDesktopMenuOpen === 'SUPPORT' ? "#6897d8" : "#000"}} 
-                    className="font-['Michroma'] text-[1.5rem] flex items-center uppercase justify-evenly w-40 h-auto text-black cursor-pointer 
+                    className="font-['lora'] text-[1.5rem] flex items-center uppercase justify-evenly w-40 h-auto text-black cursor-pointer 
                     px-5 lg:hover:text-secondary-color! motion-safe:transition-all motion-safe:duration-300 motion-reduce:transition-none will-change-auto relative"  
                     onClick={(e)=> {manageClickEvent("SUPPORT",SupportMenu[locale], e)}}
                     >
@@ -175,7 +175,7 @@ function MerchandiseNavbar({showRouteBar = false, isStatic=false}){
                     </span> 
                 </div>
                 <div style={{color:isDesktopMenuOpen === 'FINANCING' ? "#6897d8" : "#000"}} 
-                    className="font-['Michroma'] text-[1.5rem] flex items-center uppercase justify-evenly w-40 h-auto text-black cursor-pointer 
+                    className="font-['lora'] text-[1.5rem] flex items-center uppercase justify-evenly w-40 h-auto text-black cursor-pointer 
                     px-5 lg:hover:text-secondary-color! motion-safe:transition-all motion-safe:duration-300 motion-reduce:transition-none will-change-auto relative" 
                     onClick={(e)=> {manageClickEvent("FINANCING",FinancingMenu[locale], e)}}
                     >

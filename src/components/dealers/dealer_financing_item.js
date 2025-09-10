@@ -47,7 +47,7 @@ function DealerFinancingItem({image, firstText, secondText, title, alt}) {
             zIndex: "10",
         },
         subtitle:{
-            fontFamily: "Montserrat",
+            fontFamily: "lora",
             fontStyle: "Italic",
             fontSize: "14px",
             color: "white",
@@ -57,7 +57,7 @@ function DealerFinancingItem({image, firstText, secondText, title, alt}) {
             cursor: "pointer",
             color: "white",
             border: "none",
-            fontFamily: "Montserrat",
+            fontFamily: "lora",
             fontWeight: "500",
             fontSize: "15px",
             WebkitUserSelect: 'none',

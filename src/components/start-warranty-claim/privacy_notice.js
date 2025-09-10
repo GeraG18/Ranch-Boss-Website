@@ -7,9 +7,9 @@ const PrivacyNotice = () => {
     const t = useTranslations('PrivacyNotice')
 
     return(
-        <div className="mx-4 mb-4 max-w-(--breakpoint-xl) z-100 xl:mx-auto flex flex-col gap-2">
-            <h2 className="px-2 font-['Michroma'] uppercase text-[1rem] font-bold text-[#73767A]">{t('title')}</h2>
-            <p className="px-2 font-['Montserrat'] text-[#73767A]">
+        <div className="mx-4 mb-4 max-w-screen-lg  z-100 xl:mx-auto flex flex-col gap-2">
+            <h2 className="px-2 font-['lora'] uppercase text-[1rem] font-bold text-[#73767A]">{t('title')}</h2>
+            <p className="px-2 font-['lora'] text-[#73767A]">
                 {
                     t.rich('description', {
                         policy: (chunks) => <Link className="font-semibold text-[#77787b] text-wrap motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 

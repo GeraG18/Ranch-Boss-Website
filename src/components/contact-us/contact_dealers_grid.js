@@ -171,18 +171,18 @@ const ContactDealersGrid = () => {
 
     return(
     <div className="py-8">
-        <div className="flex flex-col font-['Montserrat'] mx-4 max-w-(--breakpoint-xl) xl:mx-auto relative">
+        <div className="flex flex-col font-['lora'] mx-4 max-w-screen-lg  xl:mx-auto relative">
             <div className="pb-8 flex flex-col">
-                <h2 className="font-['Michroma'] font-bold text-[1.75rem] leading-10 flex items-center justify-start text-start w-full col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{t('contactHorizonDTitle')}</h2>
+                <h2 className="font-['lora'] font-bold text-[1.75rem] leading-10 flex items-center justify-start text-start w-full col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{t('contactHorizonDTitle')}</h2>
                 <h3 className="">
                 {t('contactHorizonDSlogan')}
                 </h3>
             </div>
         </div>
-        <div className="flex flex-col items-center font-['Montserrat'] mx-4 max-w-(--breakpoint-xl) xl:mx-auto relative">
+        <div className="flex flex-col items-center font-['lora'] mx-4 max-w-screen-lg  xl:mx-auto relative">
             <div ref={inputRef} className="w-full relative flex flex-col items-center max-w-(--breakpoint-lg) lg:px-2 mb-4">
                 <input 
-                    className="border border-[#d5d5d5] rounded-[10px] bg-white w-full h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem] z-10"
+                    className="border border-[#d5d5d5] bg-white w-full h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem] z-10"
                     placeholder={t('mapHeaderPlaceholder')}
                     aria-label={t('mapHeaderPlaceholder')}
                     role="search"
@@ -194,14 +194,14 @@ const ContactDealersGrid = () => {
                 />
             </div>
         </div>
-        <div className="flex flex-col font-['Montserrat'] mx-4 max-w-(--breakpoint-xl) xl:mx-auto relative">
+        <div className="flex flex-col font-['lora'] mx-4 max-w-screen-lg  xl:mx-auto relative">
             {
                 !loading ?
                 <>
                     {
                         paginationView.length === 0 ?
                         <div className="col-span-full mt-4 flex items-center justify-center gap-2 flex-col w-full h-fit">
-                            <h1 className="font-['Michroma'] text-[2rem] m-0">{wT('title')}</h1>
+                            <h1 className="font-['lora'] text-[2rem] m-0">{wT('title')}</h1>
                             <p className="m-0">{wT('description')}</p>
                         </div>
                         :
@@ -213,13 +213,13 @@ const ContactDealersGrid = () => {
                                     )} key={index}
                                     className={` group cursor-pointer relative flex items-center justify-center overflow-hidden motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 hover:scale-[1.02] ${getLayout(index)}`}
                                     >
-                                        <div className="relative flex h-[calc(100%-1rem)] w-full md:w-[calc(100%-1rem)] flex-col justify-center p-4 my-2 md:mx-2 border border-[#d5d5d5] rounded-[10px] text-black group-hover:border-primary-color overflow-hidden">
+                                        <div className="relative flex h-[calc(100%-1rem)] w-full md:w-[calc(100%-1rem)] flex-col justify-center p-4 my-2 md:mx-2 border border-[#d5d5d5] text-black group-hover:border-primary-color overflow-hidden">
                                             {/* text-white bg-linear-to-t from-black/70 to-transparent */}
                                             <div className="z-10 w-full h-full flex flex-col items-start justify-end">
                                                 <h2 className="text-[1.25rem] uppercase font-semibold m-0 flex gap-1 justify-start items-center">{item.name}</h2>
                                                 <p className="text-[1rem] max-w-full truncate">{item.address}</p>
                                             </div>
-                                            <div className="z-0 absolute w-[140px] self-center justify-self-center grayscale group-hover:grayscale-0 opacity-50 bg-[#d4d4d4] rounded-[10px] p-2">
+                                            <div className="z-0 absolute w-[140px] self-center justify-self-center grayscale group-hover:grayscale-0 opacity-50 bg-[#d4d4d4] p-2">
                                                 <IconViewer src={item.logo} alt={`${item.name} dealer logo`}/>
                                             </div>
                                         </div>

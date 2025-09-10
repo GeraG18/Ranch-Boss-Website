@@ -91,7 +91,7 @@ export default function ModelsContainer() {
             />
 
             {/* Main Content */}
-            <div className="flex items-start justify-center relative h-auto overflow-x-hidden mx-4 max-w-(--breakpoint-xl) z-100 xl:mx-auto font-['Montserrat']">
+            <div className="flex items-start justify-center relative h-auto overflow-x-hidden mx-4 max-w-screen-lg  z-100 xl:mx-auto font-['lora']">
                 {/* Desktop Filters */}
                 <div className="top-0 left-0 hidden justify-end items-start w-fit z-100 relative lg:flex flex-col">
                     {
@@ -107,7 +107,7 @@ export default function ModelsContainer() {
                 </div>
 
                 {/* Products List */}
-                <div className="w-full grid grid-cols-1 p-2 flex-col *gap-y-2 select-none mx-auto max-w-(--breakpoint-xl)">
+                <div className="w-full grid grid-cols-1 p-2 flex-col *gap-y-2 select-none mx-auto max-w-screen-lg ">
                     <Header 
                         onShowFilters={() => setShowMobileFilters(true)}
                         resultsText={t('pageResults', {

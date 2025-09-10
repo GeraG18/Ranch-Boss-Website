@@ -21,9 +21,9 @@ function FeaturedCategoriesContainer(){
     //Display
     return (
         <div className="flex flex-col items-center justify-center gap-px h-full select-none">
-            <span className="font-['Michroma'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 
+            <span className="font-['lora'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 
             row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{t('title')}</span>
-            <div className="m-[2%_1%_2%_1%] flex flex-wrap gap-2 items-center justify-center w-full h-full max-w-(--breakpoint-xl) mx-auto">
+            <div className="m-[2%_1%_2%_1%] flex flex-wrap gap-2 items-center justify-center w-full h-full max-w-screen-lg  mx-auto">
                 {/* <FeaturedCategoriesItem responsive="w-full h-[50vh] lg:w-[calc(50%-0.5rem)] lg:h-full" size="calc(50%-0.5rem)" mobileSize="50vh" image="/Images/dump.webp" firstText={t('dTitle')} description={t('dDescription')} url={`/products?category=${fT('dump').toLowerCase().replace(' ', '+')}`} alt={"Go to Dumps"}/>
                 <FeaturedCategoriesItem responsive="w-full h-[50vh] lg:w-[calc(50%-0.5rem)] lg:h-full" size="calc(50%-0.5rem)" mobileSize="50vh" image="/Images/rolloff.webp" firstText={t('rTitle')} description={t('rDescription')} url={`/products?category=${fT('rolloff').toLowerCase().replace(' ', '+')}`} alt={"Go to Roll Off"}/> */}
                 {

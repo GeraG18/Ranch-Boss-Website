@@ -9,12 +9,12 @@ const NotFoundHeader = () => {
     
     //#region view
     return(
-        <div className="flex flex-col-reverse w-[calc(100%-2rem)] items-center font-['Montserrat'] lg:h-[60vh] lg:flex-row
-            mx-4 py-1 max-w-(--breakpoint-xl) z-100 xl:mx-auto select-none">
+        <div className="flex flex-col-reverse w-[calc(100%-2rem)] items-center font-['lora'] lg:h-[60vh] lg:flex-row
+            mx-4 py-1 max-w-screen-lg  z-100 xl:mx-auto select-none">
             {/* <div className={css(styles.title)}>OOPS!</div> */}
             <div className="relative w-full flex flex-col gap-4 items-center justify-center h-[30vh]">
                 <div className="self-start text-[2rem] inline-block uppercase
-                z-10 font-['Michroma'] lg:text-[3rem]">{t('title')}</div>
+                z-10 font-['lora'] lg:text-[3rem]">{t('title')}</div>
                 <p className="self-start inline-block z-10 text-[1.25rem]">
                     {t('description')}    
                 </p>

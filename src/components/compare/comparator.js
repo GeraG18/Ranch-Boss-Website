@@ -133,8 +133,8 @@ const Comparator = ({categoryId=""}) => {
         <>
             <DescriptionModal showModal={openDescription !== false} description={openDescription} closeModal={(val) => {setOpenDescription(val)}}/>
             <ModelSelectorModal category={categoryId} showModal={isModalOpen} selectedList={selectedModels} modelsList={availableModels} closeModal={modalHandler}/>
-            <div className="font-['Montserrat'] flex flex-col relative pt-4 pb-16 overflow-x-hidden">
-                <div className="mx-4 w-[calc(100%-2rem)] max-w-(--breakpoint-xl) xl:mx-auto">
+            <div className="font-['lora'] flex flex-col relative pt-4 pb-16 overflow-x-hidden">
+                <div className="mx-4 w-[calc(100%-2rem)] max-w-screen-lg  xl:mx-auto">
                     {
                         loading ?
                         <div className="flex items-center justify-center h-72">
@@ -151,7 +151,7 @@ const Comparator = ({categoryId=""}) => {
                                         >
                                             <span className="absolute top-[0.2rem] right-4 z-15 uppercase cursor-pointer
                                             motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400 
-                                            py-0.5 px-2 bg-primary-color text-white rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                                            py-0.5 px-2 bg-primary-color text-white lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                                             onClick={() => removeItem(values.id, index)}>
                                                 {t('remove')}
                                             </span>
@@ -189,7 +189,7 @@ const Comparator = ({categoryId=""}) => {
                                         bg-center bg-no-repeat bg-contain overflow-hidden">
                                             <button className="cursor-pointer relative uppercase text-white border-none bg-primary-color
                                             text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                                            motion-safe:duration-300 py-2 px-4 rounded-[10px] lg:px-9 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                                            motion-safe:duration-300 py-2 px-4 lg:px-9 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                                             onClick={() => setIsModalOpen(true)}>
                                                 {t('addNewModel')}
                                             </button>
@@ -225,7 +225,7 @@ const Comparator = ({categoryId=""}) => {
                                                                             <button className="cursor-pointer relative uppercase text-white border-none
                                                                             bg-primary-color text-[1rem] flex items-center justify-center w-full h-8
                                                                             select-none motion-safe:transition-all motion-reduce:transition-none 
-                                                                            will-change-auto motion-safe:duration-300 rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
+                                                                            will-change-auto motion-safe:duration-300 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
                                                                             onClick={() => {
                                                                                 setOpenDescription(values.description)
                                                                             }}>
@@ -268,7 +268,7 @@ const Comparator = ({categoryId=""}) => {
                                                             bg-center bg-no-repeat bg-contain overflow-hidden">
                                                                 <button className="cursor-pointer relative uppercase text-white border-none bg-primary-color
                                                                 text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                                                                motion-safe:duration-300 py-2 px-4 rounded-[10px] lg:px-9 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                                                                motion-safe:duration-300 py-2 px-4 lg:px-9 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                                                                 onClick={() => setIsModalOpen(true)}>
                                                                     {t('addNewModel')}
                                                                 </button>
@@ -291,7 +291,7 @@ const Comparator = ({categoryId=""}) => {
                                                             <Link className="cursor-pointer relative uppercase text-white border-none bg-primary-color
                                                                 text-[1rem] py-1 px-4 flex items-center justify-center w-[calc(100%-2rem)] lg:h-10 select-none
                                                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300
-                                                                rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-center" 
+                                                                lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-center" 
                                                                 href={'/products/configure/'+product.id}
                                                             >
                                                                 {t('configureThisModel')}

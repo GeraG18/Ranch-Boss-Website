@@ -7,7 +7,7 @@ import React from "react";
 const FabChatItem = ({type, isForm = false, children}) => {
 
     return(
-        <div className={`flex items-end gap-1 transition-all duration-[0.5s] will-change-auto animate-message-slide ${type === 'user' ? 'justify-end' : 'justify-start'} font-['Montserrat']`}>
+        <div className={`flex items-end gap-1 transition-all duration-[0.5s] will-change-auto animate-message-slide ${type === 'user' ? 'justify-end' : 'justify-start'} font-['lora']`}>
             {
                 type === 'bot' && 
                 <div className="rounded-full bg-primary-color aspect-square w-6 overflow-hidden flex items-center justify-center">

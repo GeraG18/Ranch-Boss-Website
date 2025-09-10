@@ -137,78 +137,78 @@ function Content(){
 
     //#region Display
     return(
-        <div className="relative bg-white font-['Montserrat']">
+        <div className="relative bg-white font-['lora']">
             <div className="absolute w-full h-full bg-[url(/Images/form-background.webp)]
                 bg-center bg-cover bg-no-repeat z-5 brightness-[0.35]
                 contrast-[1.05]"></div>  
             <div className="relative z-20 flex flex-col text-left py-8 gap-4 w-[calc(100%-2rem)]
                 mx-4 lg:max-w-(--breakpoint-md) lg:mx-auto">
                 <div className="py-8 flex flex-col">
-                    <h2 className="font-['Michroma'] font-bold font-bold text-[1.75rem] leading-10 flex items-center justify-start text-start w-full col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{t('dealerApplication')}</h2>
+                    <h2 className="font-['lora'] font-bold font-bold text-[1.75rem] leading-10 flex items-center justify-start text-start w-full col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{t('dealerApplication')}</h2>
                     <span className="">
                         {t('dealerApplicationSlogan')}
                     </span>
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('fullnameLabel')}</span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('fullnameLabel')}</span>
                     <input value={content.name} role="form"  type="text" aria-label={fT('fullnamePlaceholder')} placeholder={fT('fullnamePlaceholderAlt')}
                     onChange={(e) => {setSubmited(false); setContent((prev) => ({...prev, name: e.target.value})) }} 
-                    className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem]
+                    className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem]
                         outline-hidden p-0 pl-[0.2rem] ${(isNameWrong(content.name) && submited) ? "border-red-600" : ""}`}
                     />
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('emailLabel')}</span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('emailLabel')}</span>
                     <input value={content.email} type="email" role="form" aria-label={fT('emailPlaceholder')} placeholder={fT('emailPlaceholderAlt')}
                     onChange={(e) => {setSubmited(false); setContent((prev) => ({...prev, email: e.target.value})) }}
-                    className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem]
+                    className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem]
                         outline-hidden p-0 pl-[0.2rem] ${(isEmailWrong(content.email) && submited) ? "border-red-600" : ""}`} 
                     />
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('phoneLabel')}</span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('phoneLabel')}</span>
                     <input value={content.phoneNumber} role="form" aria-label={fT('phonePlaceholder')} placeholder={fT('phonePlaceholderAlt')}
                     onChange={(e) => {setSubmited(false); setContent((prev) => ({...prev, phoneNumber: e.target.value}))}} 
-                    className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem]
+                    className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem]
                         outline-hidden p-0 pl-[0.2rem] ${(isPhoneWrong(content.phoneNumber) && submited) ? "border-red-600" : ""}`}/>
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('companyNameLabel')}</span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('companyNameLabel')}</span>
                     <input value={content.companyName} type="text" role="form"  aria-label={fT('companyNamePlaceholder')} placeholder={fT('companyNamePlaceholderAlt')}
                     onChange={(e) => {setSubmited(false); setContent((prev) => ({...prev, companyName: e.target.value}))}} 
-                    className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem]
+                    className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem]
                         outline-hidden p-0 pl-[0.2rem] ${(isCompanyWrong(content.companyName) && submited) ? "border-red-600" : ""}`}/>
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('annualSalesLabel')}</span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('annualSalesLabel')}</span>
                     <input value={content.anualSales} type="number" aria-label={fT('annualSalesPlaceholder')} placeholder={fT('annualSalesPlaceholderAlt')} role="form"  
                     onChange={(e) => {setSubmited(false); setContent((prev) => ({...prev, anualSales: e.target.value}))}}
-                    className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem]
+                    className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem]
                         outline-hidden p-0 pl-[0.2rem] ${(isSalesWrong(content.anualSales) && submited) ? "border-red-600" : ""}`}/>
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('yibLabel')}</span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('yibLabel')}</span>
                     <input value={content.yearsInBussines} type="number" aria-label={fT('yibPlaceholder')} placeholder={fT('yibPlaceholderAlt')} role="form"  
                     onChange={(e) => {setSubmited(false); setContent((prev) => ({...prev, yearsInBussines: e.target.value}))}}
-                    className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem]
+                    className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem]
                         outline-hidden p-0 pl-[0.2rem] ${(isYearsWrong(content.yearsInBussines) && submited) ? "border-red-600" : ""}`}/>
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('dealerlicenseLabel')}</span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('dealerlicenseLabel')}</span>
                     <input value={content.dealerLicense} type="text" aria-label={fT('dealerlicensePlaceholder')} placeholder={fT('dealerlicensePlaceholderAlt')} role="form"  
                     onChange={(e) => {setSubmited(false); setContent((prev) => ({...prev, dealerLicense: e.target.value}))}} 
-                    className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem]
+                    className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem]
                         outline-hidden p-0 pl-[0.2rem] ${(isLicenseWrong(content.dealerLicense) && submited) ? "border-red-600" : ""}`}/>
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('explanationwywlbhdLabel')}</span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none" >{fT('explanationwywlbhdLabel')}</span>
                     <textarea value={content.explanation} aria-label={fT('explanationwywlbhdPlaceholder')} placeholder={fT('explanationwywlbhdPlaceholderAlt')} role="form" 
                     onChange={(e) =>{setSubmited(false); setContent((prev) => ({...prev, explanation: e.target.value}))}}
-                    className={`border border-[#d5d5d5] rounded-[10px] bg-transparent w-full h-8 text-[1rem] min-h-32
+                    className={`border border-[#d5d5d5] bg-transparent w-full h-8 text-[1rem] min-h-32
                         outline-hidden p-0 pl-[0.2rem] ${(isDescriptionWrong(content.explanation) && submited) ? "border-red-600" : ""}`}/>
                 </div>
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
-                    <span className="text-black w-full font-['Michroma'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none"> </span>
+                    <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none"> </span>
                     <button onClick={() => validateForm()} className="text-[1rem] cursor-pointer uppercase
                     relative mt-5 text-white border-none bg-primary-color select-none rounded-[10px]
                     py-2 px-4 pointer-events-auto lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">{fT('send')}</button>

@@ -16,10 +16,10 @@ const AnimatedNumber = ({quantity, unit, children}) => {
     return(
         <div className="flex flex-col gap-1 items-center justify-center lg:flex-row">
             <div className="flex flex-row items-center justify-center">
-                <div className="font-['Montserrat'] text-[2.2rem] leading-10 font-bold scale-[0.85] lg:scale-100">
+                <div className="font-['lora'] text-[2.2rem] leading-10 font-bold scale-[0.85] lg:scale-100">
                     <Odometer number={value}/>
                 </div>
-                <span className="font-['Montserrat'] text-[2.2rem] leading-10 font-bold scale-[0.85] lg:scale-100">{unit}</span>
+                <span className="font-['lora'] text-[2.2rem] leading-10 font-bold scale-[0.85] lg:scale-100">{unit}</span>
             </div>
             {children}
         </div>

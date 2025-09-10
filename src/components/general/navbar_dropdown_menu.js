@@ -89,7 +89,7 @@ function NavbarDropDown({menu, isShowing, xPos, yPos}) {
     }
 
     const secondContainerStyle ={
-        fontFamily: "Montserrat",
+        fontFamily: "lora",
         height: "100%",
         color: "gray",
         display: 'flex',
@@ -177,7 +177,7 @@ function NavbarDropDown({menu, isShowing, xPos, yPos}) {
                 return {
                     ...mainProductsStyle, 
                     fontSize:'1rem',
-                    fontFamily:'Montserrat',
+                    fontFamily:'lora',
                     width:'12rem', 
                     height:'3rem',
                     padding:'0.5rem 1rem', 

@@ -96,8 +96,8 @@ const ContactToDealer = () => {
             <YourMessage value={form.message} returnValue={(e) => {setForm((prev) => ({...prev, message: e}))}} clearedValue={isFormEmpty()}/>
             <button onClick={() => sendForm()} 
                 className="w-[calc(100%-2rem)] my-8 mx-4 bg-primary-color text-white cursor-pointer flex
-                items-center justify-center gap-2 height-[2.75rem] rounded-[10px] uppercase text-[1rem] lg:w-48 lg:mx-auto
-                lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium font-['Montserrat'] py-[0.45rem] px-4">
+                items-center justify-center gap-2 height-[2.75rem] uppercase text-[1rem] lg:w-48 lg:mx-auto
+                lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium font-['lora'] py-[0.45rem] px-4">
                 {fT('sendMessage')}
             </button>
         </>

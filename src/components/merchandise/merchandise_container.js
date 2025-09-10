@@ -145,7 +145,7 @@ const MerchContainer = () => {
     //#region view
     return(
         <>
-            <div className="font-['Montserrat'] flex flex-col max-w-(--breakpoint-xl) p-4 mx-2
+            <div className="font-['lora'] flex flex-col max-w-screen-lg  p-4 mx-2
             lg:flex-row xl:mx-auto">
                 <div className="justify-end hidden flex-none items-start px-4 w-[20rem] z-100
                 relative lg:flex">
@@ -156,7 +156,7 @@ const MerchContainer = () => {
                     <div className="w-full flex flex-row flex-wrap justify-center items-center
                     my-4 gap-2 lg:flex-nowrap lg:h-9">
                         <div className="w-[calc(50%-0.5rem)] h-9 flex-none border border-[#caced1]
-                        flex items-center justify-center rounded-[10px] text-black font-medium uppercase
+                        flex items-center justify-center text-black font-medium uppercase
                         lg:hidden" 
                             onClick={() => setShowMobileFilters(true)}>
                             <span className="material-symbols-outlined notranslate " >
@@ -189,7 +189,7 @@ const MerchContainer = () => {
                         {
                             pagination !== 1 &&
                             <button className="flex flex-row h-8 w-18 justify-center items-center text-[1rem] 
-                                rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
+                                border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
                                 lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                 motion-safe:duration-400" 
@@ -200,7 +200,7 @@ const MerchContainer = () => {
                             pagination > 2 &&
                             <>
                                 <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                                    rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                                    border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                                     cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                                     motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                     motion-safe:duration-400" 
@@ -213,19 +213,19 @@ const MerchContainer = () => {
                             {
                                 (pagination - 1 !== 0) &&
                                 <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                                rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                                border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                                 cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                 motion-safe:duration-400" 
                                 onClick={()=>setPagination(value=> minus(value))}>{pagination-1}</div>
                             }
                             <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                            rounded-[10px] border border-primary-color bg-primary-color
+                            border border-primary-color bg-primary-color
                             cursor-default text-white">{pagination}</div>
                             {
                             pagination  !== numOfPages &&
                             <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                            rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                            border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                             cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                             motion-safe:duration-400" 
@@ -238,7 +238,7 @@ const MerchContainer = () => {
                             <>
                                 <span>...</span>
                                 <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                                    rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                                    border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                                     cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                                     motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                     motion-safe:duration-400" 
@@ -249,7 +249,7 @@ const MerchContainer = () => {
                         {
                             pagination !== numOfPages &&
                             <button className="flex flex-row h-8 w-18 justify-center items-center text-[1rem] 
-                            rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
+                            border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
                             lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                             motion-safe:duration-400" 

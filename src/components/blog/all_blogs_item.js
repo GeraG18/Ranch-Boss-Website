@@ -81,10 +81,10 @@ function AllBlogItem ({title, body, headerImg, tags=[], date, author, authorImg,
             />
             <Link href={`/blog/details/${slug}`} className="w-full flex gap-2 flex-col justify-around items-center text-white
             cursor-pointer motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-200 
-            overflow-hidden group font-['Montserrat'] select-none">
+            overflow-hidden group font-['lora'] select-none">
                 <div className="w-full h-full max-w-full flex flex-col">
 
-                    <div className={`block relative aspect-16/10 w-full rounded-[10px] items-stretch
+                    <div className={`block relative aspect-16/10 w-full items-stretch
                     overflow-hidden object-fill motion-safe:transition-all motion-reduce:transition-none 
                     will-change-auto motion-safe:duration-300 ${(imgOneLoading || imgOneError) ? "bg-[#181818]" : "bg-transparent"}`}>
                         {
@@ -92,7 +92,7 @@ function AllBlogItem ({title, body, headerImg, tags=[], date, author, authorImg,
                             <div className="absolute left-0 bottom-0 h-fit gap-2 z-80 flex flex-col items-center justify-center p-2">
                                 <span onClick={editorEditForm} 
                                     className="bg-primary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium w-full font-semibold text-white text-sm
-                                    rounded-[10px] py-1 px-2 flex items-center justify-center gap-0.5 cursor-pointer text-[0.75rem]
+                                    py-1 px-2 flex items-center justify-center gap-0.5 cursor-pointer text-[0.75rem]
                                     lg:text-[0.85rem] z-80 uppercase">
                                     <span className="material-symbols-outlined notranslate lowercase" style={{fontSize:'1rem'}}>
                                         edit
@@ -101,7 +101,7 @@ function AllBlogItem ({title, body, headerImg, tags=[], date, author, authorImg,
                                 </span>
                                 <span onClick={(e) => { editorDelete(e); e.preventDefault();} } 
                                     className="bg-primary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium w-full font-semibold text-white text-sm
-                                    rounded-[10px] py-1 px-2 flex items-center justify-center gap-0.5 cursor-pointer text-[0.75rem]
+                                    py-1 px-2 flex items-center justify-center gap-0.5 cursor-pointer text-[0.75rem]
                                     lg:text-[0.85rem] z-80 uppercase">
                                     <span className="material-symbols-outlined notranslate lowercase" style={{fontSize:'1rem'}}>
                                         delete
@@ -116,13 +116,13 @@ function AllBlogItem ({title, body, headerImg, tags=[], date, author, authorImg,
                                     <Fragment key={index}>
                                         {
                                             index < 2 &&
-                                            <div className="w-fit rounded-[10px] py-0.5 px-3 uppercase text-[0.85rem] backdrop-saturate-50 backdrop-blur-sm bg-black/50">
+                                            <div className="w-fit py-0.5 px-3 uppercase text-[0.85rem] backdrop-saturate-50 backdrop-blur-sm bg-black/50">
                                                 {tag}
                                             </div>
                                         }
                                         {
                                             (tags.length > 2 && index === (tags.length - 1)) &&
-                                            <div className="w-fit rounded-[10px] py-0.5 px-3 uppercase text-[0.85rem] backdrop-saturate-50 backdrop-blur-sm bg-black/50">
+                                            <div className="w-fit py-0.5 px-3 uppercase text-[0.85rem] backdrop-saturate-50 backdrop-blur-sm bg-black/50">
                                                 {(tags.length) - index } +
                                             </div>
                                         }
@@ -130,7 +130,7 @@ function AllBlogItem ({title, body, headerImg, tags=[], date, author, authorImg,
                                 ))
                             }
                         </div>
-                        <img loading="lazy" className={`block relative aspect-16/10 w-full rounded-[10px] items-stretch
+                        <img loading="lazy" className={`block relative aspect-16/10 w-full items-stretch
                         overflow-hidden object-fill motion-safe:transition-all motion-reduce:transition-none group-hover:scale-110
                         will-change-auto motion-safe:duration-300 ${(imgOneLoading || imgOneError) ? "opacity-0" : "opacity-100"}`} 
                         src={headerImg || undefined} alt={title} 
@@ -144,7 +144,7 @@ function AllBlogItem ({title, body, headerImg, tags=[], date, author, authorImg,
                         </div>
                     </div>
 
-                    <span className="my-2 w-full uppercase font-['Michroma'] text-[1rem] leading-9 text-black font-bold">
+                    <span className="my-2 w-full uppercase font-['lora'] text-[1rem] leading-9 text-black font-bold">
                         {title}
                     </span>
                     <div className="w-full text-black my-2 [&_p]:m-0 line-clamp-2">{body.replace(/(<([^>]+)>)/ig, "").replace("&nbsp;", " ")}</div>

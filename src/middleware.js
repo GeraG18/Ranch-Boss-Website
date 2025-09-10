@@ -33,8 +33,8 @@ export default async function middleware(request) {
     localePrefix: 'never'
   });
   let req = intlMiddleware(request);
-  req.headers.set('x-user-ip', usrIp);
-  req.cookies.set('x-user-ip', usrIp.toString(), { path: '/' });
+  req.headers.set('x-user-ip', usrIp || '');
+  req.cookies.set('x-user-ip', usrIp.toString() || '', { path: '/' });
   return req;
 }
 

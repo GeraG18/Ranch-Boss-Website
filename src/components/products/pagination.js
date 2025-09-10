@@ -25,7 +25,7 @@ const currentPage = ({currentPage, totalPages, onChange}) => {
             {
                 currentPage !== 1 &&
                 <button className="flex flex-row h-8 w-18 justify-center items-center text-[1rem] 
-                    rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
+                    border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
                     lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                     motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                     motion-safe:duration-400" 
@@ -35,7 +35,7 @@ const currentPage = ({currentPage, totalPages, onChange}) => {
                 currentPage > 2 &&
                 <div className="min-h-8 flex flex-row justify-center items-center gap-2 lg:gap-4">
                     <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                        rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                        border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                         cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                         motion-safe:duration-400" 
@@ -47,19 +47,19 @@ const currentPage = ({currentPage, totalPages, onChange}) => {
                 {
                     (currentPage - 1 !== 0) &&
                     <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                    rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                    border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                     cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                     motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                     motion-safe:duration-400" 
                     onClick={()=>onChange(minus(currentPage))}>{currentPage-1}</div>
                 }
                 <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                rounded-[10px] border border-primary-color bg-primary-color
+                border border-primary-color bg-primary-color
                 cursor-default text-white">{currentPage}</div>
                 {
                 currentPage  !== totalPages &&
                 <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                 cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                 motion-safe:duration-400" 
@@ -71,7 +71,7 @@ const currentPage = ({currentPage, totalPages, onChange}) => {
                 <div className="min-h-8 flex flex-row justify-center items-center gap-2 lg:gap-4">
                     <span>...</span>
                     <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                        rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                        border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                         cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                         motion-safe:duration-400" 
@@ -81,7 +81,7 @@ const currentPage = ({currentPage, totalPages, onChange}) => {
             {
                 currentPage !== totalPages &&
                 <button className="flex flex-row h-8 w-18 justify-center items-center text-[1rem] 
-                rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
+                border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
                 lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                 motion-safe:duration-400" 

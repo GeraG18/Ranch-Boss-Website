@@ -87,12 +87,12 @@ const ContactUs = () => {
             <ContactHeader/>
             <div className="relative">
             
-                <div className={`absolute h-full py-4  font-['Montserrat'] w-full flex flex-col items-center justify-center motion-safe:transition-all 
+                <div className={`absolute h-full py-4  font-['lora'] w-full flex flex-col items-center justify-center motion-safe:transition-all 
                     motion-reduce:transition-none will-change-auto motion-safe:duration-300
                     bg-white ${formSended ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
-                    <div className="mx-4 max-w-(--breakpoint-md) xl:mx-auto border border-[#d5d5d5] rounded-[10px] flex flex-col items-center justify-center overflow-hidden p-4">
+                    <div className="mx-4 max-w-(--breakpoint-md) xl:mx-auto border border-[#d5d5d5] flex flex-col items-center justify-center overflow-hidden p-4">
                         <MailCheckIcon width="56" height="56" className="text-primary-color w-20 aspect-square"/>
-                        <h1 className="font-['Michroma'] font-bold text-[1.75rem] leading-10 flex items-center justify-start text-start w-full col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{fT('submittedTitle')}</h1>
+                        <h1 className="font-['lora'] font-bold text-[1.75rem] leading-10 flex items-center justify-start text-start w-full col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{fT('submittedTitle')}</h1>
                         <h2 className="mb-2">
                             {fT('submittedSubtitle')}
                         </h2>
@@ -166,8 +166,8 @@ const ContactUs = () => {
                 }} clearedValue={isFormEmpty()}/>
                 <YourMessage value={form.message} returnValue={(e) => {setForm((prev) => ({...prev, message: e}))}} clearedValue={isFormEmpty()}/>
                 <button onClick={() => sendForm()} className="w-[calc(100%-2rem)] my-8 mx-4 bg-primary-color text-white cursor-pointer flex
-                    items-center justify-center gap-2 height-[2.75rem] rounded-[10px] uppercase text-[1rem] lg:w-40 lg:mx-auto
-                    lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium font-['Montserrat'] py-[0.45rem] px-4">
+                    items-center justify-center gap-2 height-[2.75rem] uppercase text-[1rem] lg:w-40 lg:mx-auto
+                    lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium font-['lora'] py-[0.45rem] px-4">
                     {fT('send')}
                 </button>
             </div>

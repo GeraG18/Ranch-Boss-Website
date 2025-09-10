@@ -52,9 +52,9 @@ const SearchInput = ({id = "searchInput", onInputClick = () => {}}) => {
       }, [inputRef]);
 
     return(
-        <div className="relative col-start-1 flex h-8 w-full font-['Montserrat']" ref={inputRef} onClick={() => {onInputClick()}}>
+        <div className="relative col-start-1 flex h-8 w-full font-['lora']" ref={inputRef} onClick={() => {onInputClick()}}>
             <input aria-label="search in page" id={id} autoComplete="off" 
-                className="border-b-2 z-10 rounded-l-[10px] rounded-r-none bg-white w-full font-['Montserrat'] text-[1rem] outline-hidden pl-[0.2rem] font-medium" 
+                className="border-b-2 z-10 rounded-l-[10px] rounded-r-none bg-white w-full font-['lora'] text-[1rem] outline-hidden pl-[0.2rem] font-medium" 
                 onFocus={() => setFocusedInput(true)}  
                 type="search" placeholder={t('search')} 
                 onChange={(e) => setInputValue(e.target.value)}/>
@@ -65,12 +65,12 @@ const SearchInput = ({id = "searchInput", onInputClick = () => {}}) => {
             </button>
             <div style={{opacity: focusedInput ? 1 : 0, pointerEvents: focusedInput ? 'auto' : 'none'}}
                 className="bg-white absolute w-full border min-h-8 top-[1.6rem] z-5 py-3 px-2 flex flex-col items-start rounded-b-[10px]
-                shadow-[0px_4px_12px_0px_rgba(0,0,0,0.45)]! max-h-[30vh] overflow-y-auto overflow-x-hidden font-['Montserrat'] text-[1rem] font-normal">
+                shadow-[0px_4px_12px_0px_rgba(0,0,0,0.45)]! max-h-[30vh] overflow-y-auto overflow-x-hidden font-['lora'] text-[1rem] font-normal">
                 {
                     filteredSearch.map(({label, url}, index) => (
                         <Link 
-                            className={`h-8 flex-none w-full capitalize rounded-[10px] text-black flex items-center justify-start px-0.5 
-                            lg:hover:bg-[#f0efec] motion-safe:transition-all motion-reduce:transition-none will-change-auto ${!url && "pointer-events-none font-['Michroma'] text-[0.875rem]! font-bold! uppercase!"}`} 
+                            className={`h-8 flex-none w-full capitalize text-black flex items-center justify-start px-0.5 
+                            lg:hover:bg-[#f0efec] motion-safe:transition-all motion-reduce:transition-none will-change-auto ${!url && "pointer-events-none font-['lora'] text-[0.875rem]! font-bold! uppercase!"}`} 
                             href={`${url}`} key={'suggestionItem'+index}>
                             {label}
                         </Link>
@@ -78,7 +78,7 @@ const SearchInput = ({id = "searchInput", onInputClick = () => {}}) => {
                 }
                 {
                     filteredSearch.length === 1 &&
-                    <span className="h-8 flex-none w-full rounded-[10px] text-[#77787b] font-medium flex items-center justify-center px-0.5">{t('noResults')}</span>
+                    <span className="h-8 flex-none w-full text-[#77787b] font-medium flex items-center justify-center px-0.5">{t('noResults')}</span>
                 }
             </div>  
         </div>

@@ -101,14 +101,14 @@ const RequestModelDialog = ({ showModal = false, product, pdf, dispose = () => {
     //#region view
     return (
         <div className={`w-full h-full fixed left-0 top-0 bg-black/50 backdrop-saturate-50 backdrop-blur-md z-9999
-            flex items-center justify-center font-['Montserrat'] select-none motion-safe:transition-all motion-reduce:transition-none 
+            flex items-center justify-center font-['lora'] select-none motion-safe:transition-all motion-reduce:transition-none 
             will-change-auto motion-safe:duration-400 ${showModal ? "opacity-100! pointer-events-auto" : "opacity-0 pointer-events-none"}`} 
             style={{opacity:0}} 
             onClick={() => {dispose()}}
         >
             <div className={`overflow-hidden motion-safe:transition-all motion-reduce:transition-none max-h-[90vh]
             will-change-auto motion-safe:duration-500 relative w-[95%] h-fit grid grid-rows-[15%_85%] 
-            bg-white text-black rounded-[10px] p-0 md:w-[90%] lg:w-[40vw]
+            bg-white text-black p-0 md:w-[90%] lg:w-[40vw]
             ${showModal ? "translate-y-0" : "translate-y-[10%]"}`} 
                 onClick={(e) => e.stopPropagation()}>
                 <span className="min-h-full uppercase text-[1.4rem] flex flex-col items-start px-4 pr-12 justify-center shadow-[0_10px_25px_-12px_rgba(0,0,0,0.15)]
@@ -128,14 +128,14 @@ const RequestModelDialog = ({ showModal = false, product, pdf, dispose = () => {
                         email:e.email,
                         phoneNumber:e.phoneNumber}))
                     }} clearedValue={isFormEmpty()}/>
-                    <div className="font-['Montserrat'] mt-6 lg:mx-4 max-w-(--breakpoint-xl) xl:mx-auto">
+                    <div className="font-['lora'] mt-6 lg:mx-4 max-w-screen-lg  xl:mx-auto">
                         <YourMessage value={form.message} returnValue={(e) => {setForm((prev) => ({...prev, message: e}))}} clearedValue={isFormEmpty()}/>
                     </div>
 
                     <Attachment attachmentFile={pdf}/>
 
                     <button onClick={() => sendForm()} className="w-[calc(100%-2rem)] m-4 bg-primary-color text-white cursor-pointer flex items-center
-                    justify-center border-none gap-2 h-11 rounded-[10px] uppercase motion-safe:transition-all motion-reduce:transition-none 
+                    justify-center border-none gap-2 h-11 uppercase motion-safe:transition-all motion-reduce:transition-none 
                     will-change-auto motion-safe:duration-500 text-[1rem] lg:w-40 lg:mx-auto lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">
                         {fT('send')}
                     </button>

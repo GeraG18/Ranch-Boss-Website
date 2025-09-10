@@ -104,7 +104,7 @@ const DealersList = ({searchBox="", setPageParam = (quant) => {}}) => {
     //#region view
     return (
         <div className="flex gap-4 flex-col-reverse my-8 lg:flex-row lg:gap-0
-        mx-4 max-w-(--breakpoint-xl) h-fit z-100 xl:w-full xl:mx-auto font-['Montserrat']">
+        mx-4 max-w-screen-lg  h-fit z-100 xl:w-full xl:mx-auto font-['lora']">
             <div className="w-full h-full flex flex-col lg:px-4">
                 <div className="h-full w-full grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-0">
                     {
@@ -127,7 +127,7 @@ const DealersList = ({searchBox="", setPageParam = (quant) => {}}) => {
                         </>
                         :
                         <div className="col-span-full mt-4 flex items-center justify-center gap-2 flex-col w-full h-fit">
-                            <h1 className="font-['Michroma'] text-[2rem] m-0">{wT('title')}</h1>
+                            <h1 className="font-['lora'] text-[2rem] m-0">{wT('title')}</h1>
                             <p className="m-0">{wT('description')}</p>
                         </div>
                     }

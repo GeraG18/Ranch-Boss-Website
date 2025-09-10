@@ -67,8 +67,8 @@ const PopularTrailers = () => {
     //#region view
     return(
         <div className="my-8 grid gap-4 grid-cols-2 lg:grid-cols-3 mx-4 max-w-(--breakpoint-lg) h-fit
-        z-100 xl:w-full xl:mx-auto font-['Montserrat']">
-            <h2 className="font-['Michroma'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase"
+        z-100 xl:w-full xl:mx-auto font-['lora']">
+            <h2 className="font-['lora'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase"
                 >{t('explorePopularTrailers')}</h2>
             {
                 viewItems.length > 0 ?
@@ -90,7 +90,7 @@ const PopularTrailers = () => {
                 :
                 <div className="mt-4 flex items-center justify-center gap-2 flex-col w-full
                 h-fit col-span-full">
-                    <h2 className="font-['Michroma'] text-[2rem] m-0">{wT('title')}</h2>
+                    <h2 className="font-['lora'] text-[2rem] m-0">{wT('title')}</h2>
                     <p className="m-0">{wT('description')}</p>
                 </div>
             }

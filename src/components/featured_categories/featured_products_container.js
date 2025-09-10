@@ -67,48 +67,48 @@ function FeaturedProducts(){
     //#region display
     return (
         <div className="flex flex-col relative text-center items-center overflow-hidden gap-8 p-8">
-            <div className="w-full flex flex-col gap-4 mt-4 mx-4 max-w-(--breakpoint-xl) z-10 lg:mx-auto">
-                <div className="font-['Michroma'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase text-white">{t('title')}</div>
+            <div className="w-full flex flex-col gap-4 mt-4 mx-4 max-w-screen-lg  z-10 lg:mx-auto">
+                <div className="font-['lora'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase text-white">{t('title')}</div>
                 <div className="flex flex-col items-center justify-center gap-4 lg:w-full lg:flex-row lg:m-0">
-                    <button className={`font-['Montserrat'] cursor-pointer relative text-white border-none 
+                    <button className={`font-['lora'] cursor-pointer relative text-white border-none 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto font-medium
-                        motion-safe:duration-300 rounded-[10px] py-3 uppercase px-6 pointer-events-auto 
+                        motion-safe:duration-300 py-3 uppercase px-6 pointer-events-auto 
                         w-full lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-[1rem] select-none ${productSelected === 'dump' ? "bg-primary-color" : "bg-[#7a7a7a]"}`} 
                         onClick={() => setProduct("dump")}>
                         {t('dTitle')}
                     </button>
-                    <button className={`font-['Montserrat'] cursor-pointer relative text-white border-none 
+                    <button className={`font-['lora'] cursor-pointer relative text-white border-none 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto font-medium
-                        motion-safe:duration-300 rounded-[10px] py-3 uppercase px-6 pointer-events-auto 
+                        motion-safe:duration-300 py-3 uppercase px-6 pointer-events-auto 
                         w-full lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-[1rem] select-none ${productSelected === 'rollOff' ? "bg-primary-color" : "bg-[#7a7a7a]"}`} 
                         onClick={() => setProduct("rollOff")}>
                         {t('rTitle')}
                     </button>
-                    <button className={`font-['Montserrat'] cursor-pointer relative text-white border-none 
+                    <button className={`font-['lora'] cursor-pointer relative text-white border-none 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto font-medium
-                        motion-safe:duration-300 rounded-[10px] py-3 uppercase px-6 pointer-events-auto 
+                        motion-safe:duration-300 py-3 uppercase px-6 pointer-events-auto 
                         w-full lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-[1rem] select-none ${productSelected === 'equipment' ? "bg-primary-color" : "bg-[#7a7a7a]"}`} 
                         onClick={() => setProduct("equipment")}>
                         {t('eTitle')}
                     </button>
-                    <button className={`font-['Montserrat'] cursor-pointer relative text-white border-none 
+                    <button className={`font-['lora'] cursor-pointer relative text-white border-none 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto font-medium
-                        motion-safe:duration-300 rounded-[10px] py-3 uppercase px-6 pointer-events-auto 
+                        motion-safe:duration-300 py-3 uppercase px-6 pointer-events-auto 
                         w-full lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-[1rem] select-none ${productSelected === 'flatdeck' ? "bg-primary-color" : "bg-[#7a7a7a]"}`} 
                         onClick={() => setProduct("flatdeck")}>
                         {t('gTitle')}
                     </button>
-                    <button className={`font-['Montserrat'] cursor-pointer relative text-white border-none 
+                    <button className={`font-['lora'] cursor-pointer relative text-white border-none 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto font-medium
-                        motion-safe:duration-300 rounded-[10px] py-3 uppercase px-6 pointer-events-auto 
+                        motion-safe:duration-300 py-3 uppercase px-6 pointer-events-auto 
                         w-full lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-[1rem] select-none ${productSelected === 'utility' ? "bg-primary-color" : "bg-[#7a7a7a]"}`} 
                         onClick={() => setProduct("utility")}>
                         {t('uTitle')}
                     </button>
                 </div>
             </div>
-            <div className="w-full h-full flex flex-row gap-4 items-center justify-center mx-4 max-w-(--breakpoint-xl) z-10 lg:mx-auto">
-                <div className="z-10 overflow-hidden block rounded-[10px] w-full max-w-(--breakpoint-xl) lg:h-140 lg:rounded-none lg:mx-auto">
+            <div className="w-full h-full flex flex-row gap-4 items-center justify-center mx-4 max-w-screen-lg  z-10 lg:mx-auto">
+                <div className="z-10 overflow-hidden block w-full max-w-screen-lg  lg:h-140 lg:rounded-none lg:mx-auto">
                     {productList[productSelected]}
                 </div>
                 <button onClick={changeProduct} className="cursor-pointer w-8 z-8900 relative h-14 backdrop-saturate-50 backdrop-blur-sm bg-white/20 font-bold text-[1.2rem] 

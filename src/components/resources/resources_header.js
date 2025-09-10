@@ -11,8 +11,8 @@ function ResourcesHeader(){
             motion-safe:duration-300 z-5 brightness-[0.35] contrast-[1.05]"></div>  
             
             <div className="relative z-20 filter-none flex flex-col gap-2 items-center justify-center overflow-hidden
-            py-4 mx-4 max-w-(--breakpoint-xl) h-40 sm:flex-row lg:gap-4 lg:h-56 xl:mx-auto">
-                <h1 className="font-['Michroma'] uppercase font-medium text-white leading-10 text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem]">{t('resources')}</h1>
+            py-4 mx-4 max-w-screen-lg  h-40 sm:flex-row lg:gap-4 lg:h-56 xl:mx-auto">
+                <h1 className="font-['lora'] uppercase font-medium text-white leading-10 text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem]">{t('resources')}</h1>
             </div>
         </div>
     );

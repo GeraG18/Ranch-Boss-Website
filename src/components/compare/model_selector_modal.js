@@ -80,12 +80,12 @@ const ModelSelectorModal = ({ category, showModal, selectedList, modelsList, clo
     return (
         <div className={`w-full h-full fixed left-0 top-0 bg-black/50 backdrop-saturate-50 backdrop-blur-md
             z-900 flex items-center justify-center motion-safe:transition-all motion-reduce:transition-none 
-            will-change-auto motion-safe:duration-400 font-['Montserrat'] select-none ${showModal ? "opacity-100 pointer-events-auto" 
+            will-change-auto motion-safe:duration-400 font-['lora'] select-none ${showModal ? "opacity-100 pointer-events-auto" 
                 : "opacity-0 pointer-events-none"}`} 
             onClick={() => {setSelectedModels(selectedList); closeModal(false, undefined)}}>
             <div className={`z-100 overflow-hidden motion-safe:transition-all motion-reduce:transition-none 
             will-change-auto motion-safe:duration-500 relative w-[90%] h-[65vh] grid grid-rows-[auto_1fr_auto]
-            bg-white text-black rounded-[10px] p-0 md:w-[40vw] ${showModal ? "translate-y-0" 
+            bg-white text-black p-0 md:w-[40vw] ${showModal ? "translate-y-0" 
             : "translate-y-[10%]"}`} 
             onClick={(event) => event.stopPropagation()}>
                 <span className="text-[1.4rem] flex flex-col items-start px-4 py-2 
@@ -107,7 +107,7 @@ const ModelSelectorModal = ({ category, showModal, selectedList, modelsList, clo
                 {
                     viewList.map(({id, name, image, selected}) => (
                         <div key={id} onClick={() => manageSelection(id)}
-                            className={`overflow-hidden select-none w-40 aspect-[1/1.25] cursor-pointer rounded-[10px] 
+                            className={`overflow-hidden select-none w-40 aspect-[1/1.25] cursor-pointer 
                             border-2 flex flex-col items-center justify-center z-10  motion-safe:transition-all 
                             motion-reduce:transition-none will-change-auto motion-safe:duration-300  
                             ${(selected ? "border-primary-color bg-transparent lg:hover:border-secondary-color lg:hover:bg-transparent" : 

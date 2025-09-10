@@ -24,14 +24,10 @@ const MainCarouselItem = ({src}) => {
     
     return(
         <div className={`bg-carousel-item flex items-center justify-center relative z-40!  h-160 lg:h-176`}>
-            <div className="absolute z-100 w-full h-full top-0 left-0 content-[''] text-transparent
-                  bg-[radial-gradient(circle,rgba(0,0,0,0)_0%,rgba(0,0,0,0.20)_25%,rgba(0,0,0,0.35)_50%,rgba(0,0,0,0.40)_75%,rgba(0,0,0,0.45)_85%)]"> 
-                  </div>
-            {/* <div style={{backgroundImage: `url('${src}')`}} className="z-80 w-full h-full absolute top-0 left-0
-            bg-no-repeat bg-center bg-cover brightness-40 motion-safe:transition-all motion-safe:duration-300 
-            motion-reduce:transition-none will-change-auto"></div> */}
-            <Image className="brightness-40 motion-safe:transition-all motion-safe:duration-300 
-                motion-reduce:transition-none will-change-auto"
+            <div className="absolute z-100 w-full h-full top-0 left-0 content-[''] text-transparent bg-tertiary-dark-color/50"/> 
+            
+            <Image className="motion-safe:transition-all motion-safe:duration-300 
+                motion-reduce:transition-none will-change-auto saturate-50 grayscale-60 brightness-90"
                 alt='Get your next quality trailer by Horizon Trailers'
                 priority={true}
                 src={src}

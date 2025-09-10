@@ -146,13 +146,13 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
         <>
             <SideMenu isOpened={activateMenu}
                 item={item} menuStatusReceiver={(val) => {setActivateMenu(val)}}/>
-            <div className="relative overflow-hidden font-['Montserrat'] select-none flex flex-col items-center justify-center">
+            <div className="relative overflow-hidden font-['lora'] select-none flex flex-col items-center justify-center">
                 <ModelSelectorModal category={item.category} showModal={isModalOpen} selectedList={selectedModels} modelsList={availableModels} closeModal={modalHandler}/>
                 <div className="mt-6 flex gap-[2px] flex-col items-center justify-center">
                     <h1 
-                        className="z-50 text-white uppercase max-w-(--breakpoint-xl) text-center 
+                        className="z-50 text-white uppercase max-w-screen-lg  text-center 
                         lg:text-[2.25rem] lg:leading-[2.8rem] w-[calc(100%-2rem)] lg:w-full mx-4 
-                        font-bold text-[1.5rem] leading-8 font-['Michroma']"
+                        font-bold text-[1.5rem] leading-8 font-['lora']"
                     >
                         {item.seo.h1Tag || item.name}
                     </h1>
@@ -162,8 +162,8 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                 <div className={`w-full relative overflow-hidden select-none flex flex-col items-center justify-center ${item.status ? "[&_figure]:blur-xs lg:[&_figure]:blur-[0.5rem] [&_figure]:pointer-events-none" : ""}`}>
                     {
                         item.status &&
-                        <div className="md:absolute font-['Michroma'] text-[white] *font-semibold shadow-lg
-                            backdrop-saturate-50 backdrop-blur-sm bg-primary-color/70 *rounded-[10px] *mx-4
+                        <div className="md:absolute font-['lora'] text-[white] *font-semibold shadow-lg
+                            backdrop-saturate-50 backdrop-blur-sm bg-primary-color/70 **mx-4
                             min-h-6 min-w-6 p-0.5 w-full flex items-center justify-center text-center
                             motion-safe:transition-all motion-reduce:transition-none mb-1 text-[1.5rem]
                             top-[70%] whitespace-nowrap my-0 mx-8 overflow-hidden
@@ -280,7 +280,7 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                             h-10 uppercase flex items-center justify-center backdrop-saturate-50
                             backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                            motion-safe:duration-300 rounded-[10px] lg:text-[1rem]
+                            motion-safe:duration-300 lg:text-[1rem]
                             lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                                 name="standardFeaturesButton"
                                 onClick={() => setActivateMenu('standard-features')}>
@@ -294,7 +294,7 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                             h-10 uppercase flex items-center justify-center backdrop-saturate-50
                             backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                            motion-safe:duration-300 rounded-[10px] lg:text-[1rem]
+                            motion-safe:duration-300 lg:text-[1rem]
                             lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                                 name="optionsButton"
                                 onClick={() => setActivateMenu('options')}>
@@ -309,7 +309,7 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                                 h-10 uppercase flex items-center justify-center backdrop-saturate-50
                                 backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                                motion-safe:duration-300 rounded-[10px] lg:text-[1rem]
+                                motion-safe:duration-300 lg:text-[1rem]
                                 lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                                     name="compareButton"
                                     onClick={() =>{setIsModalOpen(true)}}>
@@ -319,7 +319,7 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                                 h-10 uppercase flex items-center justify-center backdrop-saturate-50
                                 backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                                motion-safe:duration-300 rounded-[10px] lg:text-[1rem]
+                                motion-safe:duration-300 lg:text-[1rem]
                                 lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" href={`/products/configure/${item.id}`}>
                                     {t('configure')}
                                 </Link> */}
@@ -332,7 +332,7 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                         h-10 uppercase flex items-center justify-center backdrop-saturate-50
                         backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                        motion-safe:duration-300 rounded-[10px] lg:text-[1rem]
+                        motion-safe:duration-300 lg:text-[1rem]
                         lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" onClick={() => openPdfViewer(item.brochure, true)}
                             name="brochureButton">
                             {t('brochure')}
@@ -344,7 +344,7 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                         h-10 uppercase flex items-center justify-center backdrop-saturate-50
                         backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                        motion-safe:duration-300 rounded-[10px] lg:text-[1rem]
+                        motion-safe:duration-300 lg:text-[1rem]
                         lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                             name="3dModel"
                             onClick={() =>{ setModelLoading(true); setSwitchToModel((prev) => !prev)}}>
@@ -359,7 +359,7 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                         h-10 uppercase flex items-center justify-center backdrop-saturate-50
                         backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                        motion-safe:duration-300 rounded-[10px] lg:text-[1rem]
+                        motion-safe:duration-300 lg:text-[1rem]
                         lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                             name="3dModel"
                             onClick={() =>{ startAR() }}>
@@ -373,8 +373,8 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                 <img className="absolute top-0 w-full h-full aspect-video z-1" src="/Images/product-specs-bg.webp" alt="background" />
             </div>
             <div className="h-auto font-[1.25rem] z-50 text-black justify-center items-center
-            my-8 mx-4 grid grid-cols-2 gap-4 sm:grid-cols-2 lg:hidden font-['Montserrat']">
-                <span className="col-span-full w-full text-center font-['Michroma'] text-[1.5rem] font-bold uppercase">
+            my-8 mx-4 grid grid-cols-2 gap-4 sm:grid-cols-2 lg:hidden font-['lora']">
+                <span className="col-span-full w-full text-center font-['lora'] text-[1.5rem] font-bold uppercase">
                     {t('specsOfThisModel')}
                 </span>
                 {

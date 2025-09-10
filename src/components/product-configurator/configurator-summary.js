@@ -15,9 +15,9 @@ function ConfiguratorSummary({onClickEvent = (clicked='') => {}}) {
 
     //region view
     return (
-        <div className="relative font-['Montserrat'] w-full py-6 my-8">
-            <div className="mx-4 max-w-(--breakpoint-xl) h-fit z-100 xl:w-full xl:mx-auto flex flex-col items-center justify-center gap-2">
-                <span className="font-['Michroma'] uppercase text-[2.25rem] leading-loose flex items-center justify-center text-center lg:text-[3.8rem] lg:leading-12">
+        <div className="relative font-['lora'] w-full py-6 my-8">
+            <div className="mx-4 max-w-screen-lg  h-fit z-100 xl:w-full xl:mx-auto flex flex-col items-center justify-center gap-2">
+                <span className="font-['lora'] uppercase text-[2.25rem] leading-loose flex items-center justify-center text-center lg:text-[3.8rem] lg:leading-12">
                     {t('title')}
                 </span>
                 <div className="my-1 w-full h-px bg-[#f3f3f3] hidden flex-col gap-2 lg:flex"></div>
@@ -28,12 +28,12 @@ function ConfiguratorSummary({onClickEvent = (clicked='') => {}}) {
                         </span>
                         <div className="w-full hidden flex-col gap-2 lg:flex ">
                             <Link href={`/products/standard-features/${product?.id}`} onClick={() => onClickEvent('request')} className="flex-none uppercase cursor-pointer relative text-[#6c6c6c] border-none bg-transparent select-none motion-safe:transition-all motion-reduce:transition-none 
-                                will-change-auto motion-safe:duration-[500ms]rounded-[10px] flex items-center gap-1 w-auto lg:hover:text-secondary-color">
+                                will-change-auto motion-safe:duration-[500ms]flex items-center gap-1 w-auto lg:hover:text-secondary-color">
                                 <span className="material-icons notranslate ">format_list_bulleted</span>
                                 {pT('standardFeatures')}
                             </Link>
                             <Link href="/warranty-docs" className="flex-none uppercase cursor-pointer relative text-[#6c6c6c] border-none bg-transparent select-none motion-safe:transition-all motion-reduce:transition-none 
-                                will-change-auto motion-safe:duration-[500ms]rounded-[10px] flex items-center gap-1 w-auto lg:hover:text-secondary-color">
+                                will-change-auto motion-safe:duration-[500ms]flex items-center gap-1 w-auto lg:hover:text-secondary-color">
                                 <span className="material-icons notranslate ">brightness_high</span>
                                 {pT('warrantyDocs')}
                             </Link>
@@ -60,12 +60,12 @@ function ConfiguratorSummary({onClickEvent = (clicked='') => {}}) {
                     <div className="my-1 w-full h-px bg-[#f3f3f3]"></div>
                     <div className="w-full list-none flex items-center justify-start flex-row flex-wrap gap-2">
                         <Link href={`/products/standard-features/${product?.id}`} onClick={() => onClickEvent('request')} className="flex-none uppercase cursor-pointer relative text-[#6c6c6c] border-none bg-transparent select-none motion-safe:transition-all motion-reduce:transition-none 
-                            will-change-auto motion-safe:duration-[500ms]rounded-[10px] flex items-center gap-1 w-auto lg:hover:text-secondary-color">
+                            will-change-auto motion-safe:duration-[500ms]flex items-center gap-1 w-auto lg:hover:text-secondary-color">
                             <span className="material-icons notranslate ">format_list_bulleted</span>
                             {pT('standardFeatures')}
                         </Link>
                         <Link href="/warranty-docs" className="flex-none uppercase cursor-pointer relative text-[#6c6c6c] border-none bg-transparent select-none motion-safe:transition-all motion-reduce:transition-none 
-                            will-change-auto motion-safe:duration-[500ms]rounded-[10px] flex items-center gap-1 w-auto lg:hover:text-secondary-color">
+                            will-change-auto motion-safe:duration-[500ms]flex items-center gap-1 w-auto lg:hover:text-secondary-color">
                             <span className="material-icons notranslate ">brightness_high</span>
                             {pT('warrantyDocs')}
                         </Link>
@@ -213,7 +213,7 @@ function ConfiguratorSummary({onClickEvent = (clicked='') => {}}) {
                     </div>
                 </div>
                 <div className="my-1 w-full h-px bg-[#f3f3f3] hidden flex-col gap-2 lg:flex"></div>
-                <span className="font-['Michroma'] text-[2.25rem] leading-loose flex items-center justify-center text-center lg:text-[3.8rem] lg:leading-12 uppercase">{t('notes.title')}</span>
+                <span className="font-['lora'] text-[2.25rem] leading-loose flex items-center justify-center text-center lg:text-[3.8rem] lg:leading-12 uppercase">{t('notes.title')}</span>
                 <div className="my-1 w-full h-px bg-[#f3f3f3] hidden flex-col gap-2 lg:flex"></div>
                 <div className="my-2 flex flex-col" style={{width:'100%', paddingLeft:'1rem'}}>
                     <ol className="list-decimal list-inside">

@@ -26,7 +26,7 @@ const Alert = ({
     return (
         message?.length && (
         <div style={{color: severity === "info" ? "rgb(3 105 161)" : (severity === "success" ? "rgb(101 163 13)" : (severity === "warning" ? "rgb(202 138 4)" : "rgb(239 68 68)") )}}
-            className="bg-white border border-[#b8b8b8] font-['Montserrat'] rounded-[8px] py-3 px-4 mb-4 shadow-lg pointer-events-auto" role="alert">
+            className="bg-white border border-[#b8b8b8] font-['lora'] rounded-[8px] py-3 px-4 mb-4 shadow-lg pointer-events-auto" role="alert">
             <div className="flex flex-row items-center justify-center gap-2">
                 <div className="py-2 flex flex-row items-center justify-center">
                     <div style={{boxShadow: `0px 0px 8px 0px ${severity === "info" ? "rgba(3,105,161,0.75)" : (severity === "success" ? "rgba(101,163,13,0.75)" : 

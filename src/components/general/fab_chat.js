@@ -78,7 +78,7 @@ const FabForm = ({showingChat, returnData = ()=> {} }) => {
                 <div className={` bg-[rgba(243,243,243,0.4)] w-full h-full absolute top-0 left-0`}></div>
             }
             <div className="w-full flex flex-col">
-                <span className="pb-0.5 font-['Montserrat'] font-bold text-[1rem] w-full">
+                <span className="pb-0.5 font-['lora'] font-bold text-[1rem] w-full">
                     {fT('fullnameLabel')}
                     {!isNameValid(formData.name) && <span className="text-red-600 text-[0.75rem]">{fT('required')}</span>}
                 </span>
@@ -88,12 +88,12 @@ const FabForm = ({showingChat, returnData = ()=> {} }) => {
                     value={formData.name} 
                     placeholder={fT('fullnamePlaceholderAlt')}
                     onChange={(e) => setFormData(prev => ({...prev, name: e.target.value}))} 
-                    className="h-8 text-[1rem] border border-[#babcbe] outline-hidden font-['Montserrat'] p-[2px]
-                    bg-white rounded-[10px] w-full"
+                    className="h-8 text-[1rem] border border-[#babcbe] outline-hidden font-['lora'] p-[2px]
+                    bg-white w-full"
                 />
             </div>
             <div className="w-full flex flex-col">
-                <span className="pb-0.5 font-['Montserrat'] font-bold text-[1rem] w-full">
+                <span className="pb-0.5 font-['lora'] font-bold text-[1rem] w-full">
                     {fT('emailLabel')}
                     {!isEmailValid(formData.email) && <span className="text-red-600 text-[0.75rem]">{fT('required')}</span>}
                 </span>
@@ -103,12 +103,12 @@ const FabForm = ({showingChat, returnData = ()=> {} }) => {
                     value={formData.email} 
                     placeholder={fT('emailPlaceholderAlt')}
                     onChange={(e) => setFormData(prev => ({...prev, email: e.target.value}))} 
-                    className="h-8 text-[1rem] border border-[#babcbe] outline-hidden font-['Montserrat'] p-[2px] w-full
+                    className="h-8 text-[1rem] border border-[#babcbe] outline-hidden font-['lora'] p-[2px] w-full
                     bg-white rounded-[10px]"
                 />
             </div>
             <div className="w-full flex flex-col">
-                <span className="pb-0.5 font-['Montserrat'] font-bold text-[1rem] w-full">
+                <span className="pb-0.5 font-['lora'] font-bold text-[1rem] w-full">
                     {fT('phoneLabel')}
                     {!isPhoneValid(formData.phoneNumber) && <span className="text-red-600 text-[0.75rem]">{fT('required')}</span>}
                 </span>
@@ -118,12 +118,12 @@ const FabForm = ({showingChat, returnData = ()=> {} }) => {
                     value={formData.phoneNumber} 
                     placeholder={fT('phonePlaceholderAlt')}
                     onChange={(e) => setFormData(prev => ({...prev, phoneNumber: e.target.value}))} 
-                    className="h-8 text-[1rem] border border-[#babcbe] outline-hidden font-['Montserrat'] p-[2px] w-full
+                    className="h-8 text-[1rem] border border-[#babcbe] outline-hidden font-['lora'] p-[2px] w-full
                     bg-white rounded-[10px]"
                 />
             </div>
             <div className="w-full flex flex-col">
-                <span className="pb-0.5 font-['Montserrat'] font-bold text-[1rem] w-full">
+                <span className="pb-0.5 font-['lora'] font-bold text-[1rem] w-full">
                     {fT('messageLabel')}
                     {!isMessageValid(formData.message) && <span className="text-red-600 text-[0.75rem]">{fT('required')}</span>}
                 </span>
@@ -133,14 +133,14 @@ const FabForm = ({showingChat, returnData = ()=> {} }) => {
                     value={formData.message} 
                     placeholder={fT('messagePlaceholderAlt')}
                     onChange={(e) => setFormData(prev => ({...prev, message: e.target.value}))} 
-                    className="text-[1rem] border border-[#babcbe] outline-hidden font-['Montserrat'] p-[2px] w-full
-                    bg-white rounded-[10px] resize-none h-40"
+                    className="text-[1rem] border border-[#babcbe] outline-hidden font-['lora'] p-[2px] w-full
+                    bg-white resize-none h-40"
                 ></textarea>
             </div>
 
             <button onClick={() => {validateAndSendForm(); }} 
                 className={`
-                cursor-pointer text-white border-none font-['Montserrat']
+                cursor-pointer text-white border-none font-['lora']
                 font-medium select-none h-8 overflow-hidden text-[1rem] w-full rounded-[10px]
                 flex items-center justify-center px-8 motion-safe:transition-all
                 motion-reduce:transition-none will-change-auto motion-safe:duration-400
@@ -244,8 +244,8 @@ const FABChat = () => {
                             onClick={() => setChatShowing(false)}>
                             <span style={{color:'white'}} className="material-symbols-outlined notranslate ">close</span> 
                         </button>
-                        <span className="text-[#77787b] z-30 font-[0.9rem] font-['Montserrat']">{t('chat')}</span>
-                        <span className="text-black font-semibold z-30 text-[1rem] font-['Montserrat'] h-fit text-center">
+                        <span className="text-[#77787b] z-30 font-[0.9rem] font-['lora']">{t('chat')}</span>
+                        <span className="text-black font-semibold z-30 text-[1rem] font-['lora'] h-fit text-center">
                             {t('horizonHelper')}
                         </span>
                     </div>
@@ -256,13 +256,13 @@ const FABChat = () => {
                             hideBtn ? 
                             <>{chatView}</>
                             :
-                            <span className="text-center text-[#77787b] z-30 font-[0.9rem] font-['Montserrat']">{t('startConversationToContinue')}</span>
+                            <span className="text-center text-[#77787b] z-30 font-[0.9rem] font-['lora']">{t('startConversationToContinue')}</span>
                         }
                     </div>
                     <div className="relative w-full py-2 flex flex-col items-center justify-center 
                         flex-none left-0 motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-400 bg-white z-20">
-                            <button className={`text-white border-none font-['Montserrat']
+                            <button className={`text-white border-none font-['lora']
                                 font-medium text-[1rem] select-none overflow-hidden
                                 w-[90%] flex items-center justify-center px-8 rounded-lg
                                 motion-safe:transition-all motion-reduce:transition-none 
@@ -273,7 +273,7 @@ const FABChat = () => {
                 </div>
             </div>
             <button id="floating-action-button" className="fixed bottom-[20%] right-0 *lg:right-2 border-none bg-primary-color
-                text-white flex flex-col items-center justify-center font-['Montserrat'] uppercase rounded-l-lg *lg:rounded-r-lg
+                text-white flex flex-col items-center justify-center font-['lora'] uppercase rounded-l-lg *lg:rounded-r-lg
                 p-4 lg:p-2 cursor-pointer z-450 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                 motion-safe:duration-300 shadow-[0px_-4px_15px_0px_rgba(0,0,0,0.3),0px_12px_12px_0px_rgba(0,0,0,0.22)]
                 *lg:bottom-2 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-[14px]" 

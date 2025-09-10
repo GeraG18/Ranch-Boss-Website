@@ -21,7 +21,7 @@ const MobileFilterModal = ({showModal, onFilterChange = (v) => {}}) => {
             ${showModal ? "translate-y-0" : "translate-y-[10%]"}`} 
             onClick={(e) => e.stopPropagation()}>
                 <span className="min-h-full uppercase text-[2.25rem] flex flex-col items-start
-                px-4 justify-center shadow-[0px_10px_25px_-12px_rgb(0 0 0 / 0.15)] font-['Michroma']
+                px-4 justify-center shadow-[0px_10px_25px_-12px_rgb(0 0 0 / 0.15)] font-['lora']
                 z-5 font-medium">
                     Select filters
                     <span className="absolute right-6 z-15 cursor-pointer 

@@ -7,11 +7,11 @@ function HowWorks(){
     //#region view
     return(
         <div className="bg-[#181818] p-0 relative">
-            <div className="font-['Montserrat'] grid grid-rows-[auto_auto] items-center justify-center
+            <div className="font-['lora'] grid grid-rows-[auto_auto] items-center justify-center
             bg-cover relative overflow-hidden w-full h-auto px-4 xl:p-0 lg:grid-cols-2 
-            lg:grid-rows-none lg:h-120 lg:mx-auto max-w-(--breakpoint-xl) xl:h-160">
+            lg:grid-rows-none lg:h-120 lg:mx-auto max-w-screen-lg  xl:h-160">
                 <div className="h-[calc(100%-2rem)] text-white py-4 z-50 flex flex-col items-center justify-center">
-                    <span className="font-['Michroma'] uppercase font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12">{t('hiwTitle')}</span>
+                    <span className="font-['lora'] uppercase font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12">{t('hiwTitle')}</span>
                     <p>
                         {t('hiwDescription')}
                     </p>

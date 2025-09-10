@@ -39,8 +39,8 @@ function FeaturedProductItem({img, firstText, secondText, linkMoreProducts, alt}
             </div>
 
             <div className="shadow-lg bg-white flex-none h-auto lg:h-104 flex flex-col z-100 items-start justify-start p-8 gap-4 lg:w-[20rem] lg:right-0 lg:rounded-lg lg:mb-0 lg:absolute">
-                <span className="font-['Michroma'] font-bold text-[1.25rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[1.5rem] lg:leading-10 uppercase">{firstText}</span>
-                <p className="font-['Montserrat'] text-[1rem] font-medium h-auto text-left text-black m-0">{secondText}</p>
+                <span className="font-['lora'] font-bold text-[1.25rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[1.5rem] lg:leading-10 uppercase">{firstText}</span>
+                <p className="font-['lora'] text-[1rem] font-medium h-auto text-left text-black m-0">{secondText}</p>
             </div>
         </div>
     );

@@ -21,7 +21,7 @@ function DropdownMenu({menu, isShowing, isSticky, xPos, isOpenCallback = () => {
                     flex-col gap-0 text-gray-500 items-start justify-center p-4 z-90 shadow-2xl">
                     {menu.map(({name, url, imgUrl, childs}) => (
                         <CustomLink href={url} className="w-88 flex-none flex flex-col items-baseline justify-center text-[#4d4d4d] rounded-[1.5rem] relative 
-                            py-3 px-4 font-['Michroma'] uppercase text-[1rem] font-bold lg:hover:bg-[rgb(220,220,220)]" 
+                            py-3 px-4 font-['lora'] uppercase text-[1rem] font-bold lg:hover:bg-[rgb(220,220,220)]" 
                             key={name} onClick={() => isOpenCallback(false) }>
                             <span style={{letterSpacing:'1px', color:'black', opacity:0.6, display:'flex', gap:'0.5rem', alignItems:'center'}}>
                                 {name}

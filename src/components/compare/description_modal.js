@@ -26,12 +26,12 @@ const DescriptionModal = ({ showModal, description, closeModal = (opened) => {} 
     return (
         <div className={`w-full h-full fixed left-0 top-0 bg-black/50 backdrop-saturate-50 backdrop-blur-md
             z-900 flex items-center justify-center motion-safe:transition-all motion-reduce:transition-none 
-            will-change-auto motion-safe:duration-400 font-['Montserrat'] select-none ${showModal ? "opacity-100 pointer-events-auto" 
+            will-change-auto motion-safe:duration-400 font-['lora'] select-none ${showModal ? "opacity-100 pointer-events-auto" 
                 : "opacity-0 pointer-events-none"}`} 
             onClick={() => {closeModal(false)}}>
             <div className={`z-100 overflow-hidden motion-safe:transition-all motion-reduce:transition-none 
             will-change-auto motion-safe:duration-500 relative w-[90%] h-fit grid grid-rows-[auto_1fr]
-            bg-white text-black rounded-[10px] p-0 md:w-[40vw] ${showModal ? "translate-y-0" 
+            bg-white text-black p-0 md:w-[40vw] ${showModal ? "translate-y-0" 
             : "translate-y-[10%]"}`} 
             onClick={(event) => event.stopPropagation()}>
                 <span className="text-[1.4rem] flex flex-col items-start px-4 py-2 

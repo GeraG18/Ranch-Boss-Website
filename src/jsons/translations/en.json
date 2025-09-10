@@ -378,8 +378,9 @@
   },
   "__HomePage": "Componentes de HomePage",
   "MainCarousel": {
-    "slogan":"<white>Engineered for <orange>durability,</orange></white> <white>designed for <orange>performance</orange></white>",
-    "button":"More products",
+    "slogan":"<white>Comfortable, safe and efficient</white><white>livestock transport</white>",
+    "description": "Our trailers are built tough, with premium materials and rugged engineering that withstands the harshest conditions.",
+    "button":"Check all products",
     "followers":"ACTIVE FOLLOWERS",
     "visitors":"REGULAR VISITORS",
     "dealers":"AUTHORIZED DEALERS"

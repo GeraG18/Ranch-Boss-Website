@@ -56,7 +56,7 @@ function FooterContainer(){
     return(
         <div className="flex flex-col select-none notranslate">
             <div className="h-auto flex flex-row items-center justify-center bg-linear-to-t from-black to-dark-gray py-[3%] px-4 lg:px-0 lg:pt-[1%] lg:pb-[2%] border-t-2 border-t-primary-color">
-                <div className="flex mx-4 flex-col max-w-(--breakpoint-xl) w-full gap-8 lg:flex-row xl:mx-auto">
+                <div className="flex mx-4 flex-col max-w-screen-lg  w-full gap-8 lg:flex-row xl:mx-auto">
                     <div className="flex flex-col items-center justify-center lg:w-[30%] lg:items-start">
                         <div className="w-[245px] h-[140px] py-5 px-[10px] shrink-3 relative">
                             <Image
@@ -131,21 +131,21 @@ function FooterContainer(){
                                 <LnIcon width="20" height="20"/>
                             </CustomLink>
                         </div>
-                        <div className="font-['Michroma'] text-[1rem] my-[3%] text-left text-[#d9dcdc] col-start-1 uppercase">{mcT('title')}</div>
-                        <span className="font-['Montserrat'] text-[1rem] mb-[5%] text-left text-[#d9dcdc] col-start-1 lg:text-[0.9rem]">
+                        <div className="font-['lora'] text-[1rem] my-[3%] text-left text-[#d9dcdc] col-start-1 uppercase">{mcT('title')}</div>
+                        <span className="font-['lora'] text-[1rem] mb-[5%] text-left text-[#d9dcdc] col-start-1 lg:text-[0.9rem]">
                              {mcT('description')}
                         </span>
                         <MailchimpForm/>
                     </div>
                     
                     <div className="w-full flex flex-col gap-3">
-                        <div className="flex flex-row h-full gap-[40px] text-white font-['Montserrat'] text-[1rem] lg:hidden">
-                            <ul className="w-full inline-flex flex-col gap-4 font-['Montserrat'] bg-transparent list-none
+                        <div className="flex flex-row h-full gap-[40px] text-white font-['lora'] text-[1rem] lg:hidden">
+                            <ul className="w-full inline-flex flex-col gap-4 font-['lora'] bg-transparent list-none
                                 relative motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400
                                 py-4 m-0 select-none">
                                 <li className="py-1 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400
                                     rounded-lg border border-[#252525] bg-[#181818]">
-                                    <div onClick={()=>showOrHideCheckBox("products")} className="py-[0.8rem] px-[0.4rem] font-['Michroma'] text-[0.875rem]
+                                    <div onClick={()=>showOrHideCheckBox("products")} className="py-[0.8rem] px-[0.4rem] font-['lora'] text-[0.875rem]
                                         cursor-pointer flex items-center justify-center motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                         motion-safe:duration-400">
                                         <span className="w-full uppercase flex items-center">
@@ -180,7 +180,7 @@ function FooterContainer(){
                                 <li className="py-1 rounded-lg border border-[#252525] bg-[#181818] motion-safe:transition-all 
                                         motion-reduce:transition-none will-change-auto motion-safe:duration-400 ">
                                     <div onClick={()=>showOrHideCheckBox("support")} 
-                                        className="py-[0.8rem] px-[0.4rem] font-['Michroma'] text-[0.875rem] cursor-pointer flex items-center 
+                                        className="py-[0.8rem] px-[0.4rem] font-['lora'] text-[0.875rem] cursor-pointer flex items-center 
                                         justify-center motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                         motion-safe:duration-400">
                                         <span className="w-full uppercase flex items-center">
@@ -209,7 +209,7 @@ function FooterContainer(){
                                 <li className="py-1 rounded-lg border border-[#252525] bg-[#181818] motion-safe:transition-all 
                                         motion-reduce:transition-none will-change-auto motion-safe:duration-400 ">
                                     <div onClick={()=>showOrHideCheckBox("dealer")} 
-                                        className="py-[0.8rem] px-[0.4rem] font-['Michroma'] text-[0.875rem] cursor-pointer flex items-center 
+                                        className="py-[0.8rem] px-[0.4rem] font-['lora'] text-[0.875rem] cursor-pointer flex items-center 
                                         justify-center motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                         motion-safe:duration-400">
                                         <span className="w-full uppercase flex items-center">
@@ -239,7 +239,7 @@ function FooterContainer(){
                                 {/* <li className="py-1 rounded-lg border border-[#252525] bg-[#181818] motion-safe:transition-all 
                                         motion-reduce:transition-none will-change-auto motion-safe:duration-400 ">
                                     <div onClick={()=>showOrHideCheckBox("shop")} 
-                                        className="py-[0.8rem] px-[0.4rem] font-['Michroma'] text-[0.875rem] cursor-pointer flex items-center 
+                                        className="py-[0.8rem] px-[0.4rem] font-['lora'] text-[0.875rem] cursor-pointer flex items-center 
                                         justify-center motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                         motion-safe:duration-400">
                                         <span className="w-full uppercase flex items-center">
@@ -264,7 +264,7 @@ function FooterContainer(){
                                 <li className="py-1 rounded-lg border border-[#252525] bg-[#181818] motion-safe:transition-all 
                                         motion-reduce:transition-none will-change-auto motion-safe:duration-400 ">
                                     <div onClick={()=>showOrHideCheckBox("company")} 
-                                        className="py-[0.8rem] px-[0.4rem] font-['Michroma'] text-[0.875rem] cursor-pointer flex items-center 
+                                        className="py-[0.8rem] px-[0.4rem] font-['lora'] text-[0.875rem] cursor-pointer flex items-center 
                                         justify-center motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                         motion-safe:duration-400">
                                         <span className="w-full uppercase flex items-center">
@@ -295,7 +295,7 @@ function FooterContainer(){
                                 <li className="py-1 rounded-lg border border-[#252525] bg-[#181818] motion-safe:transition-all 
                                         motion-reduce:transition-none will-change-auto motion-safe:duration-400 ">
                                     <div onClick={()=>showOrHideCheckBox("insideTrailer")} 
-                                        className="py-[0.8rem] px-[0.4rem] font-['Michroma'] text-[0.875rem] cursor-pointer flex items-center 
+                                        className="py-[0.8rem] px-[0.4rem] font-['lora'] text-[0.875rem] cursor-pointer flex items-center 
                                         justify-center motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                                         motion-safe:duration-400">
                                         <span className="w-full uppercase flex items-center">
@@ -321,9 +321,9 @@ function FooterContainer(){
                                 </li>
                             </ul>
                         </div>
-                        <div className="hidden flex-row gap-1 h-full font-['Montserrat'] text-[1rem] lg:flex justify-between">
+                        <div className="hidden flex-row gap-1 h-full font-['lora'] text-[1rem] lg:flex justify-between">
                             <div className="flex flex-col flex-wrap text-white gap-5">
-                                <span className="font-['Michroma'] font-medium text-[0.875rem] uppercase">{t('products')}</span>
+                                <span className="font-['lora'] font-medium text-[0.875rem] uppercase">{t('products')}</span>
                                 <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
                                     motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400" href="/products">{t('allproducts')}</CustomLink>
                                 <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
@@ -337,7 +337,7 @@ function FooterContainer(){
                                     href={`/products?category=${t('service').toLowerCase().replace(' ', '+')}`}>{t('service')}</CustomLink>
                             </div>
                             <div className="flex flex-col flex-wrap text-white gap-5">
-                                <span className="font-['Michroma'] font-medium text-[0.875rem] uppercase">{t('support')}</span>
+                                <span className="font-['lora'] font-medium text-[0.875rem] uppercase">{t('support')}</span>
                                 <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
                                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400" href="/warranty-claim">{t('warrantyClaim')}</CustomLink>
                                 {/* <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
@@ -346,7 +346,7 @@ function FooterContainer(){
                                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400" href="/owners-manual">{t('ownersManual')}</CustomLink> */}
                             </div>
                             <div className="flex flex-col flex-wrap text-white gap-5">
-                                <span className="font-['Michroma'] font-medium text-[0.875rem] uppercase">{t('dealer')}</span>
+                                <span className="font-['lora'] font-medium text-[0.875rem] uppercase">{t('dealer')}</span>
                                 {/* <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
                                                 // motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400" href="/find-a-dealer">{t('findADealer')}</CustomLink> */}
                                 {/* <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
@@ -356,12 +356,12 @@ function FooterContainer(){
                                 {/* <CustomLink>Dealer Port</CustomLink> */}
                             </div>
                             {/* <div className="flex flex-col flex-wrap text-white gap-5">
-                                <span className="font-['Michroma'] font-medium text-[0.875rem] uppercase">{t('shop')}</span>
+                                <span className="font-['lora'] font-medium text-[0.875rem] uppercase">{t('shop')}</span>
                                 <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
                                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400" href="/merchandise">{t('merchandise')}</CustomLink>
                             </div> */}
                             <div className="flex flex-col flex-wrap text-white gap-5">
-                                <span className="font-['Michroma'] font-medium text-[0.875rem] uppercase">{t('company')}</span>
+                                <span className="font-['lora'] font-medium text-[0.875rem] uppercase">{t('company')}</span>
                                 <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
                                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400" href="/about-us">{t('aboutUs')}</CustomLink>
                                 <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
@@ -372,7 +372,7 @@ function FooterContainer(){
                                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400" href="/financing">{t('financeYourTrailer')}</CustomLink> */}
                             </div>
                             <div className="flex flex-col flex-wrap text-white gap-5">
-                                <span className="font-['Michroma'] font-medium text-[0.875rem] uppercase">{t('insideTheTrailerWorld')}</span>
+                                <span className="font-['lora'] font-medium text-[0.875rem] uppercase">{t('insideTheTrailerWorld')}</span>
                                 <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
                                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400" href="/blog">{t('blog')}</CustomLink> 
                                 <CustomLink className="cursor-pointer h-10 text-[0.85rem] flex items-center justify-start lg:h-auto lg:hover:text-primary-light-color 
@@ -380,12 +380,12 @@ function FooterContainer(){
                             </div>
                         </div>
                         {/* <CustomLink href="https://www.natm.com/"
-                            className="font-['Montserrat'] font-medium text-[0.75rem] text-white! flex flex-row items-center justify-center
+                            className="font-['lora'] font-medium text-[0.75rem] text-white! flex flex-row items-center justify-center
                             w-fit h-8 my-4 gap-1 self-center lg:self-end lg:items-center lg:h-auto lg:m-0 hover:text-primary-color">
                             <span className="uppercase">{t('proudNATM')}</span>
                             <img loading="lazy" width="80" height="30" className="w-[80px] h-auto" src="/Images/natm.webp" alt="NATM Decal" />
                         </CustomLink> */}
-                        <div className="font-['Montserrat'] text-[0.875rem] font-medium text-white flex flex-col items-center justify-center
+                        <div className="font-['lora'] text-[0.875rem] font-medium text-white flex flex-col items-center justify-center
                             w-full h-8 my-4 lg:w-fit lg:items-start lg:h-auto lg:m-0">
                              <span> COPYRIGHT <span className="text-white self-end text-[0.75rem]! material-icons notranslate "> copyright</span> Ranch Boss BY HORIZON TRAILERS LLC {new Date().getFullYear()}</span>
                              <span className="text-[0.75rem] uppercase opacity-50 text-left">*{fT('policy')}</span>
@@ -395,19 +395,19 @@ function FooterContainer(){
             </div>
             <div className="bg-black border-t border-t-[#383838] text-white flex flex-wrap items-center justify-center min-h-10 flex-row gap-4 
                 lg:pl-16 pt-2 pb-2">
-                <CustomLink href="/privacy-policy" className=" font-['Montserrat'] text-white lg:hover:text-primary-light-color!
+                <CustomLink href="/privacy-policy" className=" font-['lora'] text-white lg:hover:text-primary-light-color!
                     motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase 
                     motion-safe:duration-300">{t('privacyPolicy')}</CustomLink>
-                {/* <span className=" font-['Montserrat'] hidden lg:block text-[12px]">|</span> */}
-                <CustomLink href="/terms-of-use" className=" font-['Montserrat'] text-white lg:hover:text-primary-light-color!
+                {/* <span className=" font-['lora'] hidden lg:block text-[12px]">|</span> */}
+                <CustomLink href="/terms-of-use" className=" font-['lora'] text-white lg:hover:text-primary-light-color!
                     motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase 
                     motion-safe:duration-300">{t('termsOfUse')}</CustomLink>
-                {/* <span className=" font-['Montserrat'] hidden lg:block text-[12px]">|</span> */}
-                <CustomLink href="/quality#faqs-section" className=" font-['Montserrat'] text-white lg:hover:text-primary-light-color!
+                {/* <span className=" font-['lora'] hidden lg:block text-[12px]">|</span> */}
+                <CustomLink href="/quality#faqs-section" className=" font-['lora'] text-white lg:hover:text-primary-light-color!
                     motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase 
                     motion-safe:duration-300">{t('faqs')}</CustomLink>
-                {/* <span className=" font-['Montserrat'] hidden lg:block text-[12px]">|</span> */}
-                <CustomLink href="/sitemap" className=" font-['Montserrat'] text-white lg:hover:text-primary-light-color!
+                {/* <span className=" font-['lora'] hidden lg:block text-[12px]">|</span> */}
+                <CustomLink href="/sitemap" className=" font-['lora'] text-white lg:hover:text-primary-light-color!
                     motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase 
                     motion-safe:duration-300">{t('sitemap')}</CustomLink> 
             </div>

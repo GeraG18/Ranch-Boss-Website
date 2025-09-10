@@ -8,8 +8,8 @@ const LocationItem = ({id, name, address, schedule, phoneNumber, directionUrl}) 
     //#region view
     return( 
         // id, name, address, schedule, phoneNumber, directionUrl
-        <div className="p-2 rounded-[10px] motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-        motion-safe:duration-400 font-['Montserrat'] bg-[#f3f3f3] flex flex-col h-80 lg:bg-transparent">
+        <div className="p-2 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
+        motion-safe:duration-400 font-['lora'] bg-[#f3f3f3] flex flex-col h-80 lg:bg-transparent">
             <div className="flex flex-none flex-row h-8 w-8 justify-center items-center text-[1rem] rounded-[10px]
             border border-[#d5d5d5] text-[#4d4d4d] bg-transparent ">
                 {id} 
@@ -41,9 +41,9 @@ const ContactLocations = () => {
     const cT = useTranslations('ContactLocations')
     const locale = useLocale()
     return(
-        <div className="mx-4 max-w-(--breakpoint-xl) xl:mx-auto font-['Montserrat'] py-4">
+        <div className="mx-4 max-w-screen-lg  xl:mx-auto font-['lora'] py-4">
             <div className="py-8 flex flex-col">
-                <h2 className="font-['Michroma'] m-0 p-0 font-bold text-[1.75rem] leading-10 flex items-center justify-start text-start w-full col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{cT('title')}</h2>
+                <h2 className="font-['lora'] m-0 p-0 font-bold text-[1.75rem] leading-10 flex items-center justify-start text-start w-full col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">{cT('title')}</h2>
                 <h3 className="">
                     {cT('subtitle')}
                 </h3>

@@ -8,8 +8,8 @@ const BodyContainer = () => {
     const t = useTranslations('PrivacyPolicy')
     //#region view
     return(
-        <div className="font-['Montserrat']">
-            <div className="my-8 mx-4 z-100 max-w-(--breakpoint-xl) xl:mx-auto">
+        <div className="font-['lora']">
+            <div className="my-8 mx-4 z-100 max-w-screen-lg  xl:mx-auto">
             {
                 t.rich('data', {
                     h2:(c) => <h2 className="text-lg font-bold uppercase">{c}</h2>,

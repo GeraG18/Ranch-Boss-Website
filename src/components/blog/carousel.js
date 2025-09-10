@@ -42,7 +42,7 @@ function BlogCarousel (){
 
     //Display
     return (
-        <div className="font-['Montserrat'] w-full flex relative overflow-hidden items-center justify-start h-[80vh] lg:h-[70vh] bg-[#181818]">
+        <div className="font-['lora'] w-full flex relative overflow-hidden items-center justify-start h-[80vh] lg:h-[70vh] bg-[#181818]">
             <div className="w-full absolute self-center justify-self-center">
                 <Slider ref={(slider) => {
                     sliderRef = slider;

@@ -5,8 +5,8 @@ import React from "react";
 const Terms = () => {
     const t = useTranslations('TermsOfUse')
     return(
-    <div className="font-['Montserrat']">
-        <div className="m-4 max-w-(--breakpoint-xl) z-100 xl:mx-auto">
+    <div className="font-['lora']">
+        <div className="m-4 max-w-screen-lg  z-100 xl:mx-auto">
             {
                 t.rich('data', {
                     h2:(c) => <h2 className="text-lg font-bold uppercase">{c}</h2>,

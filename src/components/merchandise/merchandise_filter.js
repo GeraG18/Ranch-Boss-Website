@@ -84,16 +84,16 @@ const MerchandiseFilter = ({availableFilters, onFilterChange = (value) => {}}) =
 
     //#region view
     return(
-        <div className="w-full flex flex-col font-['Montserrat']">
+        <div className="w-full flex flex-col font-['lora']">
             <div className="hidden h-9 my-4 justify-center items-center lg:flex">
                 <img src="/Images/filters.webp" alt="filters icon" className="p-1 left-[3.5%]" /> 
-                <span className="font-['Michroma'] uppercase text-[1.75rem]">{t('filters')}</span>
+                <span className="font-['lora'] uppercase text-[1.75rem]">{t('filters')}</span>
             </div>
             <ul className="w-full flex flex-row justify-center flex-wrap gap-1 bg-transparent
             list-none relative py-[10px] m-0 select-none">
                 {
                     Object.keys(cleanAvailableFilters).map((catName) => (
-                        <li key={catName} className="p-0 rounded-[10px] border border-[#f3f3f3] w-full">
+                        <li key={catName} className="p-0 border border-[#f3f3f3] w-full">
                             <div onClick={()=>showOrHideCheckBox(catName)} 
                             className="w-full py-3 px-4 cursor-pointer font-bold flex items-center justify-center bg-[#f3f3f3]">
                                 <span className="w-full uppercase flex items-center">
@@ -115,10 +115,10 @@ const MerchandiseFilter = ({availableFilters, onFilterChange = (value) => {}}) =
                                                     (typeof item) === 'object' && Array.isArray(item) === false &&
                                                     <div className={`group/item hover:bg-[#f0efec] motion-safe:transition-all motion-reduce:transition-none 
                                                         p-1 will-change-auto motion-safe:duration-400 w-26 min-h-22 h-full flex flex-col items-center 
-                                                        rounded-[10px] cursor-pointer relative self-center justify-self-center`}>
+                                                        cursor-pointer relative self-center justify-self-center`}>
                                                         <input type="checkbox" name={item.name} className="m-0 absolute left-0 top-0 w-full h-full z-20 opacity-0 cursor-pointer"
                                                             onChange={(e) => handleOnChange(e,catName)} aria-label={item.name+" option"} role="form" />
-                                                        <div className={`w-full h-10 flex-none bg-black rounded-[10px] 
+                                                        <div className={`w-full h-10 flex-none bg-black 
                                                             ${(selectedFilters[catName] ? selectedFilters[catName] : []).includes(item.name) 
                                                             ? "border-primary-color border" : "border-[#babbbd] border"}
                                                             cRibbonCont flex flex-row overflow-hidden `}>
@@ -137,7 +137,7 @@ const MerchandiseFilter = ({availableFilters, onFilterChange = (value) => {}}) =
                                                 }
                                                 {
                                                     ((typeof item) === 'string' || (typeof item) === 'number') &&
-                                                    <div className={`m-[0.15rem] relative overflow-hidden rounded-[10px] flex
+                                                    <div className={`m-[0.15rem] relative overflow-hidden flex
                                                         items-center justify-center uppercase motion-safe:transition-all group/item 
                                                         motion-reduce:transition-none will-change-auto motion-safe:duration-400
                                                         ${(selectedFilters[catName] ? selectedFilters[catName] : []).includes(item) 
@@ -169,7 +169,7 @@ const MerchandiseFilter = ({availableFilters, onFilterChange = (value) => {}}) =
                 border-none mt-4 bg-primary-color text-[1rem] select-none
                 motion-safe:transition-all motion-reduce:transition-none 
                 will-change-auto motion-safe:duration-400 py-2 px-4
-                rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
+                lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
                 ">{fT('clearAll')}</button>
             </div>
         </div>

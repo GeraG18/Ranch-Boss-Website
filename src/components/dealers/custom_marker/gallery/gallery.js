@@ -17,7 +17,7 @@ export const RealEstateGallery = ({
   return (
     <div className={`photo-gallery ${isExtended ? 'extended' : ''}`}>
       <div className={`self-start h-full w-full relative p-2
-      overflow-hidden flex ${ isExtended ? 'bg-[#b8b8b8]' :'bg-white'} *bg-[#d4d4d4] rounded-[10px] 
+      overflow-hidden flex ${ isExtended ? 'bg-[#b8b8b8]' :'bg-white'} *bg-[#d4d4d4] 
       items-center justify-center`}>
         {
           isExtended ?

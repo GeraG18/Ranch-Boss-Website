@@ -6,7 +6,7 @@ const MerchandiseItem = ({name, keyName, description, price, image}) => {
     const t = useTranslations('PagesTitles')
     //#region view
     return(
-        <div className="font-['Montserrat'] text-black w-full h-full flex flex-col
+        <div className="font-['lora'] text-black w-full h-full flex flex-col
         justify-around items-center cursor-pointer overflow-hidden shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]
         bg-[radial-gradient(circle,rgba(55,62,62,0)_50%,rgba(55,62,62,0.03)_74%,rgba(55,62,62,0.06)_100%)]">
             <Link href={`/merchandise/details/${keyName}`}  className="text-black w-full h-full
@@ -25,7 +25,7 @@ const MerchandiseItem = ({name, keyName, description, price, image}) => {
                     </div>
 
                 </div>
-                <button className="font-['Michroma'] text-[1.5rem] text-white uppercase bg-primary-color
+                <button className="font-['lora'] text-[1.5rem] text-white uppercase bg-primary-color
                 w-full h-9 flex items-center justify-center cursor-pointer border-none">
                     {t('view')} 
                 </button>

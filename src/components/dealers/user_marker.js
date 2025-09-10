@@ -29,7 +29,7 @@ function UserMarker({position}){
                 (<InfoWindow 
                     onCloseClick={handleInfoClose}
                     anchor={marker}>
-                    <div className="flex rounded-[10px] gap-[0.15rem] items-center justify-center flex-col font-['Montserrat']">
+                    <div className="flex gap-[0.15rem] items-center justify-center flex-col font-['lora']">
                         <div className="w-full flex gap-2 flex-row justify-center items-center">
                             <p className="text-[1.25rem] uppercase font-semibold py-[0.2rem] h-full
                             w-full m-0 flex gap-1 justify-center items-center">

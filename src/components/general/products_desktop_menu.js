@@ -112,7 +112,7 @@ const ProductsDesktopMenu = ({isSticky, isOpen, isOpenCallback}) => {
                             {
                                 url ? 
                                 <CustomLink href={`${url}`} className={`w-[16rem] flex-none flex flex-col items-baseline justify-center text-[#4d4d4d] rounded-[20px] relative
-                                    py-3 px-4 font-['Michroma'] uppercase text-[0.875rem] cursor-pointer lg:hover:bg-[rgb(220,220,220)] ${name} 
+                                    py-3 px-4 font-['lora'] uppercase text-[0.875rem] cursor-pointer lg:hover:bg-[rgb(220,220,220)] ${name} 
                                     ${submenuOpened === name ? "bg-white before:content-[''] before:absolute before:left-0 before:w-[0.5rem] before:h-[0.5rem] before:rounded-full before:bg-primary-color" : ""}`}
                                     onClick={() => {isOpenCallback(false)}}
                                 >
@@ -130,7 +130,7 @@ const ProductsDesktopMenu = ({isSticky, isOpen, isOpenCallback}) => {
                                 </CustomLink>
                                 :
                                 <div className={`w-[16rem] flex-none flex flex-col items-baseline justify-center text-[#4d4d4d] rounded-[20px] relative
-                                    py-3 px-4 font-['Michroma'] uppercase text-[1rem] cursor-pointer lg:hover:bg-[rgb(220,220,220)] ${name} 
+                                    py-3 px-4 font-['lora'] uppercase text-[1rem] cursor-pointer lg:hover:bg-[rgb(220,220,220)] ${name} 
                                     ${submenuOpened === name ? `bg-white before:content-[''] before:absolute before:left-0 before:w-[0.5rem] before:h-[0.5rem] before:rounded-full before:bg-primary-color
                                         after:content-[''] after:absolute after:left-0 after:w-[0.5rem] after:h-[0.5rem] after:rounded-full after:bg-primary-color` : ""}`}
                                     onClick={() => {setOpenedSubmenu(childs ? (name) : prodsMenu[1].name); manageMenuOpened(childs); }}>
@@ -160,13 +160,13 @@ const ProductsDesktopMenu = ({isSticky, isOpen, isOpenCallback}) => {
                                         <span className="col-span-full m-2 w-[calc(100%-1rem)] h-[2px] bg-[#f3f3f3] flex-none"></span>
                                     }
                                     {submenuItems[subcategory].map(({name, url, imgUrl, description, status}, index) => (
-                                        <CustomLink href={`${url}`} className="group p-8 w-full font-['Montserrat'] h-auto flex-none font-semibold flex flex-col items-baseline justify-start relative
-                                            rounded-[10px] motion-safe:transition-all motion-reduce:transition-none will-change-auto text-[1rem] tracking-[1px]  lg:hover:bg-[#f0efec]
+                                        <CustomLink href={`${url}`} className="group p-8 w-full font-['lora'] h-auto flex-none font-semibold flex flex-col items-baseline justify-start relative
+                                            motion-safe:transition-all motion-reduce:transition-none will-change-auto text-[1rem] tracking-[1px]  lg:hover:bg-[#f0efec]
                                             overflow-hidden" 
                                             key={name+index} onClick={() => isOpenCallback(false) }>
                                             {
                                                 status &&
-                                                <div className="absolute font-['Michroma'] text-[white] top-1/3 
+                                                <div className="absolute font-['lora'] text-[white] top-1/3 
                                                     backdrop-saturate-50 backdrop-blur-sm bg-primary-color/70 rounded-[20px] 
                                                     min-h-6 min-w-6 p-0.5 max-w-[calc(100%-4rem)] w-full flex items-center justify-center text-center
                                                     motion-safe:transition-all motion-reduce:transition-none mb-1 text-[0.875rem] font-bold
@@ -178,7 +178,7 @@ const ProductsDesktopMenu = ({isSticky, isOpen, isOpenCallback}) => {
                                                 </div>
                                             }
                                             <div className="w-full flex items-center justify-center">
-                                                <span className="w-full font-['Michroma'] font-bold bg-clip-text text-transparent bg-gradient-to-b from-secondary-color to-primary-color tracking-[1px] text-[1.125rem] text-shadow-gray-400!">
+                                                <span className="w-full font-['lora'] font-bold bg-clip-text text-transparent bg-gradient-to-b from-secondary-color to-primary-color tracking-[1px] text-[1.125rem] text-shadow-gray-400!">
                                                     {name}
                                                 </span>
                                             </div>
@@ -190,7 +190,7 @@ const ProductsDesktopMenu = ({isSticky, isOpen, isOpenCallback}) => {
                                                 category={submenuOpened.toLowerCase().replace(' ', '')}
                                                 alt={`${name} ${description}`}
                                             />
-                                            <div className="bg-[#f0efec] font-['Montserrat'] text-[0.875rem] text-bold text-gray/60! rounded-[20px] py-2 px-8 self-center text-center group-hover:bg-white">
+                                            <div className="bg-[#f0efec] font-['lora'] text-[0.875rem] text-bold text-gray/60! rounded-[20px] py-2 px-8 self-center text-center group-hover:bg-white">
                                                 {description}
                                             </div>
                                         </CustomLink>

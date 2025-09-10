@@ -7,8 +7,8 @@ const DealerCard = ({id, name, logo, distance, address, phoneNumber, directionUR
     const fT = useTranslations('BasicForm')
     //#region view
     return( 
-        <div className="p-2 rounded-[10px] font-['Montserrat'] bg-[#f3f3f3] lg:bg-transparent">
-            <div className="flex rounded-[10px] gap-[0.15rem] items-center justify-center flex-col">
+        <div className="p-2 font-['lora'] bg-[#f3f3f3] lg:bg-transparent">
+            <div className="flex gap-[0.15rem] items-center justify-center flex-col">
                 <div className="w-full flex gap-2 justify-center items-center flex-row">
                     <p className="text-[1.25rem] uppercase font-semibold h-full
                     w-full m-0 flex gap-1 justify-start items-center">
@@ -25,7 +25,7 @@ const DealerCard = ({id, name, logo, distance, address, phoneNumber, directionUR
                     </div>
                 </div>
                 <div className="self-start! relative overflow-hidden flex h-13 min-w-40
-                items-center justify-center rounded-[10px] bg-[#d4d4d4]">
+                items-center justify-center bg-[#d4d4d4]">
                     <div className="w-full h-full absolute flex items-center justify-center">
 
                         <IconViewer src={logo} alt={`${name} dealer logo`}/>
@@ -43,7 +43,7 @@ const DealerCard = ({id, name, logo, distance, address, phoneNumber, directionUR
                     <button className="cursor-pointer relative text-white flex-none border-none uppercase
                     bg-primary-color text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none 
                     will-change-auto motion-safe:duration-300 py-[0.45rem] px-4 flex justify-center items-center
-                    rounded-[10px] self-end lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase"
+                    self-end lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase"
                     onClick={()=>{
                         callback(id)
                     }}>{fT('moreDetails')}</button>

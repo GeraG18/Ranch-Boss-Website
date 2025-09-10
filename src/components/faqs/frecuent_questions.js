@@ -34,15 +34,15 @@ const FrecuentQuestions = () => {
 
     //#region view
     return(
-        <div className="font-['Montserrat'] py-28" id="faqs-section">
-            <div className="mx-4 max-w-(--breakpoint-xl) z-100 xl:mx-auto select-none">
-                <span className="font-['Michroma'] uppercase font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12">{t('faqTitle')}</span>
+        <div className="font-['lora'] py-28" id="faqs-section">
+            <div className="mx-4 max-w-screen-lg  z-100 xl:mx-auto select-none">
+                <span className="font-['lora'] uppercase font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12">{t('faqTitle')}</span>
                 <ul className="w-full inline-flex gap-4 flex-col bg-white list-none relative
                 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                 motion-safe:duration-400 py-[10px] m-0">
                     {
                         questions.map(({question, answer}, index) => (
-                            <li key={`question_${index}`} className="p-0 rounded-[10px] border border-[#f3f3f3]">
+                            <li key={`question_${index}`} className="p-0 border border-[#f3f3f3]">
                                 <div onClick={()=>showOrHideLi(`question_${index}`)} 
                                     className="py-3 px-4 cursor-pointer font-bold flex items-center justify-center bg-[#f3f3f3]">
                                     <span className="w-full uppercase flex items-center">

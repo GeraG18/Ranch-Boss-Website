@@ -8,9 +8,9 @@ const LogosBody = () => {
     const t = useTranslations('Resources.Logos')
 
     return(
-        <div className="font-['Montserrat'] text-black my-8 mx-4 z-100 max-w-(--breakpoint-xl) xl:mx-auto">
+        <div className="font-['lora'] text-black my-8 mx-4 z-100 max-w-screen-lg  xl:mx-auto">
             <div className="py-8 flex flex-col">
-                <span className="font-['Michroma'] font-medium text-[2.25rem] leading-8
+                <span className="font-['lora'] font-medium text-[2.25rem] leading-8
                     flex items-center justify-start uppercase">{t('title')}</span>
                 <span className="">
                     {t('publishedDate')}

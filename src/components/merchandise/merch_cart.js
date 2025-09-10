@@ -184,11 +184,11 @@ const MerchandiseCart = () => {
     const options = {fetchClientSecret};
 
     return(
-        <div className="font-['Montserrat'] bg-[#f3f3f3]">
+        <div className="font-['lora'] bg-[#f3f3f3]">
             {
                 (cartStep === 0 && formatedMerchCart.length === 0) &&
-                <div className="py-4 min-h-[50vh] mx-4 max-w-(--breakpoint-xl) xl:mx-auto">
-                    <div className="bg-white rounded-[10px] p-4 flex flex-col items-center justify-center">
+                <div className="py-4 min-h-[50vh] mx-4 max-w-screen-lg  xl:mx-auto">
+                    <div className="bg-white p-4 flex flex-col items-center justify-center">
                         <TrailerShadowIcon width="12rem" color="rgba(0,0,0,0.2)" />
                         <span>
                             {t('yourCartIsEmpty')}
@@ -197,7 +197,7 @@ const MerchandiseCart = () => {
                         border-none bg-primary-color text-[1rem] select-none 
                         motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 py-3 flex 
-                        items-center justify-center mt-4 rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">
+                        items-center justify-center mt-4 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">
                             {t('goToMerch')}
                         </Link>
                     </div>
@@ -205,17 +205,17 @@ const MerchandiseCart = () => {
             }
             {
                 (cartStep === 0 && formatedMerchCart.length > 0) &&
-                <div className="min-h-[50vh] py-4 flex flex-col gap-4 lg:flex-row mx-4 max-w-(--breakpoint-xl) xl:mx-auto">
+                <div className="min-h-[50vh] py-4 flex flex-col gap-4 lg:flex-row mx-4 max-w-screen-lg  xl:mx-auto">
                     <div className="w-full flex flex-col relative gap-3">
-                    <div className="bg-white rounded-[10px] p-4">
-                        <span className="font-['Michroma'] text-[1.75rem] z-80 uppercase
+                    <div className="bg-white p-4">
+                        <span className="font-['lora'] text-[1.75rem] z-80 uppercase
                         flex items-center justify-start text-center lg:text-[2.2rem]
                         lg:text-start">
                             {t('title', {count: cartQuantity})}
                         </span>
                     </div>
 
-                    <div className="bg-white rounded-[10px] p-4">
+                    <div className="bg-white p-4">
                         {
                             formatedMerchCart.map(({key, name, quantity, size, imageGallery, price, color, colorType}, index) => (
                                 <Fragment key={"menuItem_"+index}>
@@ -232,8 +232,8 @@ const MerchandiseCart = () => {
                     </div>
                     </div>
                     <div className="w-160 flex flex-col relative gap-3">
-                        <div className="bg-white rounded-[10px] py-4 px-8 sticky top-36 hidden lg:block">
-                            <span className="font-['Michroma'] text-[1.75rem] z-80 uppercase
+                        <div className="bg-white py-4 px-8 sticky top-36 hidden lg:block">
+                            <span className="font-['lora'] text-[1.75rem] z-80 uppercase
                                 flex items-center justify-start text-center lg:text-[2.2rem]
                                 lg:text-start">
                                 {t('summary')}
@@ -256,7 +256,7 @@ const MerchandiseCart = () => {
                 cartStep === 1 &&
                 <div className="w-full h-1/2 z-20 flex flex-col gap-4 text-black items-center justify-center 
                 py-4 backdrop-saturate-50 backdrop-blur-sm " >
-                    <div className="w-full h-full bg-white rounded-[10px] flex flex-col items-center justify-center loading-content">
+                    <div className="w-full h-full bg-white flex flex-col items-center justify-center loading-content">
                         <div className="loading-screen">
                         </div>
                         <span>{pT('loading')}</span>
@@ -265,9 +265,9 @@ const MerchandiseCart = () => {
             }
             {
                 cartStep === 2 &&
-                <div className="py-4 min-h-[50vh] mx-4 max-w-(--breakpoint-xl) xl:mx-auto">
-                    <div className="bg-white rounded-[10px] p-4">
-                        <span className="font-['Michroma'] text-[1.75rem] z-80 uppercase
+                <div className="py-4 min-h-[50vh] mx-4 max-w-screen-lg  xl:mx-auto">
+                    <div className="bg-white p-4">
+                        <span className="font-['lora'] text-[1.75rem] z-80 uppercase
                         flex items-center justify-start text-center lg:text-[2.2rem]
                         lg:text-start">
                             {t('checkout')}
@@ -288,7 +288,7 @@ const MerchandiseCart = () => {
                         border-none bg-primary-color text-[1rem] select-none 
                         motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 py-3 flex 
-                        items-center justify-center mt-4 rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">
+                        items-center justify-center mt-4 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">
                             {t('back')}
                         </button>
                     </div>
@@ -298,7 +298,7 @@ const MerchandiseCart = () => {
                 cartStep === 3 &&
                 <div className="w-full h-1/2 z-20 flex flex-col gap-4 text-black items-center justify-center 
                 py-4 backdrop-saturate-50 backdrop-blur-sm " >
-                    <div className="w-full h-full bg-white rounded-[10px] flex flex-col items-center justify-center loading-content">
+                    <div className="w-full h-full bg-white flex flex-col items-center justify-center loading-content">
                         <div className="loading-screen">
                         </div>
                         <span>{t('executingPayment')}</span>
@@ -307,8 +307,8 @@ const MerchandiseCart = () => {
             }
             {
                 cartStep === 4 &&
-                <div className="py-4 min-h-[50vh] mx-4 max-w-(--breakpoint-xl) xl:mx-auto">
-                    <div className="bg-white rounded-[10px] p-4 flex flex-col items-center justify-center">
+                <div className="py-4 min-h-[50vh] mx-4 max-w-screen-lg  xl:mx-auto">
+                    <div className="bg-white p-4 flex flex-col items-center justify-center">
                         <span className={`font-[1.5rem] material-icons notranslate  
                         ${(session.status || '') === "open" ? "text-[rgb(3,105,161)]" : 
                             (session.status || '') === "complete" ? "text-[rgb(101,163,13)]" : 
@@ -323,7 +323,7 @@ const MerchandiseCart = () => {
                         border-none bg-primary-color text-[1rem] select-none 
                         motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 py-3 flex 
-                        items-center justify-center mt-4 rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">
+                        items-center justify-center mt-4 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">
                             {t('goToMerch')}
                         </Link>
                     </div>
@@ -336,8 +336,8 @@ const MerchandiseCart = () => {
                 <div style={{padding:expandBar ? '1rem 0rem' : '0rem', height:expandBar ? 'auto' : '0px',}} 
                 className="w-full relative overflow-hidden motion-safe:transition-all motion-reduce:transition-none 
                 will-change-auto motion-safe:duration-400 ">
-                    <div className="mx-4 max-w-(--breakpoint-xl) xl:mx-auto">
-                        <span className="font-['Michroma'] text-[1.75rem] z-80 uppercase
+                    <div className="mx-4 max-w-screen-lg  xl:mx-auto">
+                        <span className="font-['lora'] text-[1.75rem] z-80 uppercase
                         flex items-center justify-start text-center lg:text-[2.2rem]
                         lg:text-start">
                             {t('summary')}
@@ -359,7 +359,7 @@ const MerchandiseCart = () => {
                     </div>
                 </div>
                 <div className="w-full py-4">
-                    <div className="mx-4 max-w-(--breakpoint-xl) xl:mx-auto flex flex-row items-center justify-center relative gap-2">
+                    <div className="mx-4 max-w-screen-lg  xl:mx-auto flex flex-row items-center justify-center relative gap-2">
                         <div className="flex flex-row items-center justify-center relative gap-2 w-full cursor-pointer select-none" 
                         onClick={() => setExpandBar((prev) => !prev)}>
                             <span className="w-full">{t('subtotal')}: </span>

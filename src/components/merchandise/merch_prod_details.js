@@ -151,9 +151,9 @@ const MerchProdDetails = ({productInfo}) => {
     //#region view
     return(
         <>
-            <div className="font-['Montserrat']! py-4 flex flex-col lg:grid lg:grid-cols-2
-            mx-4 max-w-(--breakpoint-xl) xl:mx-auto">
-                <div className="w-full overflow-hidden rounded-[10px] flex flex-col items-center
+            <div className="font-['lora']! py-4 flex flex-col lg:grid lg:grid-cols-2
+            mx-4 max-w-screen-lg  xl:mx-auto">
+                <div className="w-full overflow-hidden flex flex-col items-center
                 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] bg-[radial-gradient(circle,rgba(55,62,62,0)_50%,rgba(55,62,62,0.03)_74%,rgba(55,62,62,0.06)_100%)]
                 lg:h-fit">
                     <div className="border border-[#eeeff0] bg-[#eeeff0] w-full flex relative
@@ -177,7 +177,7 @@ const MerchProdDetails = ({productInfo}) => {
                             h-[40px] backdrop-saturate-50 backdrop-blur-sm bg-black/50
                             font-bold text-[1rem] select-none motion-safe:transition-all 
                             motion-reduce:transition-none will-change-auto motion-safe:duration-400
-                            border-none text-white py-[1.6rem] px-4 rounded-[10px] flex items-center 
+                            border-none text-white py-[1.6rem] px-4 flex items-center 
                             justify-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium left-0 lg:left-4">
                             <span className="material-icons notranslate " >
                             chevron_left
@@ -188,7 +188,7 @@ const MerchProdDetails = ({productInfo}) => {
                             h-[40px] backdrop-saturate-50 backdrop-blur-sm bg-black/50
                             font-bold text-[1rem] select-none motion-safe:transition-all 
                             motion-reduce:transition-none will-change-auto motion-safe:duration-400
-                            border-none text-white py-[1.6rem] px-4 rounded-[10px] flex items-center 
+                            border-none text-white py-[1.6rem] px-4 flex items-center 
                             justify-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium right-0 lg:right-4" >
                             <span className="material-icons notranslate " >
                             chevron_right
@@ -199,7 +199,7 @@ const MerchProdDetails = ({productInfo}) => {
                 <div className="py-4 flex gap-1 flex-col items-start lg:p-0 lg:ml-8">
                     <div className="w-full flex items-start justify-center flex-col gap-0.5">
                         <h2 className="uppercase whitespace-pre-wrap font-medium overflow-hidden
-                        text-[3rem] leading-[2.8rem] font-['Michroma'] text-ellipsis m-0">{productInfo?.name}</h2>
+                        text-[3rem] leading-[2.8rem] font-['lora'] text-ellipsis m-0">{productInfo?.name}</h2>
                         <p className="text-[0.8rem] m-0 p-0">{productInfo?.description}</p>
                     </div>
                     <div className="w-full flex items-center justify-start flex-row gap-2">
@@ -212,12 +212,12 @@ const MerchProdDetails = ({productInfo}) => {
                     {
                         productInfo?.props?.size &&
                         <div className="w-full flex items-start justify-center flex-col gap-0.5">
-                            <span className="text-[1.5rem] font-['Michroma'] text-center flex-none uppercase">{t('selectSize')}</span>
+                            <span className="text-[1.5rem] font-['lora'] text-center flex-none uppercase">{t('selectSize')}</span>
                             <div className="w-full list-none flex items-center justify-start flex-row flex-wrap gap-1">
                                 {
                                     productInfo?.props.size?.map((size, index) => (
                                         <div key={'size_'+index} 
-                                            className={`h-8 min-w-8 m-[0.15rem] relative overflow-hidden rounded-[10px] border 
+                                            className={`h-8 min-w-8 m-[0.15rem] relative overflow-hidden border 
                                                 flex items-center justify-center capitalize cursor-pointer
                                                 ${(String(productConfig.size) === String(size)) ? "border-primary-color text-primary-color" : "border-[#babbbd] text-black"}`}
                                             onClick={() => setProductConfig((prev) => ({...prev, size: prev.size !== size ? size : '' }))}>
@@ -233,7 +233,7 @@ const MerchProdDetails = ({productInfo}) => {
                     {
                         productInfo?.props?.color &&
                         <div className="w-full flex items-start justify-center flex-col gap-0.5">
-                            <span className="text-[1.5rem] uppercase font-['Michroma'] text-center flex-none">{t('availableColors')}</span>
+                            <span className="text-[1.5rem] uppercase font-['lora'] text-center flex-none">{t('availableColors')}</span>
                             <div className="w-full list-none flex items-center justify-center flex-row flex-wrap gap-1">
                                 {
                                     Array.isArray(productInfo?.props.color) &&
@@ -243,10 +243,10 @@ const MerchProdDetails = ({productInfo}) => {
                                             <div onClick={() => setProductConfig((prev) => ({...prev, color: prev.color !== color.name ? color.name : '' }))} 
                                             key={'notes_'+index} className={`group/item hover:bg-[#f0efec] motion-safe:transition-all motion-reduce:transition-none 
                                                 p-1 will-change-auto motion-safe:duration-400 w-26 min-h-22 h-full flex flex-col items-center 
-                                                rounded-[10px] cursor-pointer relative self-center justify-self-center`}>
+                                                cursor-pointer relative self-center justify-self-center`}>
                                                 <input type="checkbox" name={color.name} className="m-0 absolute left-0 top-0 w-full h-full z-20 opacity-0 cursor-pointer"
                                                     aria-label={color.name+" option"} role="form" />
-                                                <div className={`w-full h-10 flex-none bg-black rounded-[10px] 
+                                                <div className={`w-full h-10 flex-none bg-black 
                                                     ${(String(productConfig.color) === String(color.name)) 
                                                     ? "border-primary-color border" : "border-[#f3f3f3] border"}
                                                     cRibbonCont flex flex-row overflow-hidden `}>
@@ -271,7 +271,7 @@ const MerchProdDetails = ({productInfo}) => {
                                     <>
                                     {
                                         Object.keys(productInfo?.props.color).map((catName) => (
-                                            <li key={catName} className="w-full rounded-[10px] bg-transparent border border-[#f3f3f3]">
+                                            <li key={catName} className="w-full bg-transparent border border-[#f3f3f3]">
                                                 <div onClick={()=>showOrHideCheckBox(catName)} className="py-[0.8rem] px-[0.4rem] bg-[#f3f3f3]
                                                 text-[0.8rem] cursor-pointer flex items-center">
                                                     <span className="w-full uppercase flex items-center text-[1rem] font-bold">
@@ -302,10 +302,10 @@ const MerchProdDetails = ({productInfo}) => {
                                                             <div onClick={() => setProductConfig((prev) => ({...prev, color: prev.color !== color.name ? color.name : '', colorType: prev.colorType !== catName ? catName : '' }))} 
                                                             key={'notesSI_'+index} className={`group/item hover:bg-[#f0efec] motion-safe:transition-all motion-reduce:transition-none 
                                                                 p-1 will-change-auto motion-safe:duration-400 w-26 min-h-22 h-full flex flex-col items-center 
-                                                                rounded-[10px] cursor-pointer relative self-center justify-self-center`}>
+                                                                cursor-pointer relative self-center justify-self-center`}>
                                                                 <input type="checkbox" name={color.name} className="m-0 absolute left-0 top-0 w-full h-full z-20 opacity-0 cursor-pointer"
                                                                     aria-label={color.name+" option"} role="form" />
-                                                                <div className={`w-full h-10 flex-none bg-black rounded-[10px] 
+                                                                <div className={`w-full h-10 flex-none bg-black 
                                                                     ${(String(productConfig.color) === String(color.name)) 
                                                                     ? "border-primary-color border" : "border-[#babbbd] border"}
                                                                     cRibbonCont flex flex-row overflow-hidden `}>
@@ -334,10 +334,10 @@ const MerchProdDetails = ({productInfo}) => {
                         </div>
                     }
                     <div className="w-full flex items-start justify-center flex-col gap-0.5">
-                        <span className="text-[1.5rem] uppercase font-['Michroma'] text-center flex-none">{t('quantity')}</span>
+                        <span className="text-[1.5rem] uppercase font-['lora'] text-center flex-none">{t('quantity')}</span>
                         <div className="w-full list-none flex items-center justify-center flex-row flex-wrap gap-1">
                             <div className="cursor-pointer h-11 px-1 border border-[#d5d5d5] 
-                            text-[#4d4d4d] rounded-[10px] flex flex-row items-center justify-center">
+                            text-[#4d4d4d] flex flex-row items-center justify-center">
                                 <span className="material-icons notranslate " onClick={() => setProductConfig((prev) => ({...prev, quantity: (prev.quantity - 1 !== 0 ? prev.quantity - 1 : prev.quantity) }))}>
                                     remove
                                 </span>
@@ -356,18 +356,18 @@ const MerchProdDetails = ({productInfo}) => {
                         className="w-full uppercase cursor-pointer relative text-white border-none bg-primary-color
                         text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-400 py-2 px-4 
-                        rounded-[10px] lg:w-60 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">{t('addToCart')}</button>
+                        lg:w-60 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">{t('addToCart')}</button>
                         <button onClick={() => checkoutItem()} 
                         className="w-full uppercase cursor-pointer relative text-white border-none bg-primary-color
                         text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-400 py-2 px-4 
-                        rounded-[10px] lg:w-60 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">{t('checkoutNow')}</button>
+                        lg:w-60 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">{t('checkoutNow')}</button>
                     </div>
 
                     <div className="bg-[#f3f3f3] h-px w-full my-2"></div>
 
                     <div className="w-full flex items-start justify-center flex-col gap-0.5">
-                        <span className="text-[1.5rem] uppercase font-['Michroma'] text-center flex-none">{t('notes')}</span>
+                        <span className="text-[1.5rem] uppercase font-['lora'] text-center flex-none">{t('notes')}</span>
                         {
                             productInfo?.notes?.map((description, index) => (
                                 <p key={'notes_'+index} className="w-full max-w-full m-0 text-[0.8rem]">{description}</p>
@@ -376,16 +376,16 @@ const MerchProdDetails = ({productInfo}) => {
                     </div>
                 </div>
             </div>
-            <div className="flex gap-1 flex-col items-start mx-4 max-w-(--breakpoint-xl) xl:mx-auto">
-                {/* <span className="text-[1.5rem] capitalize font-['Michroma'] text-center flex-none">About this article</span>
+            <div className="flex gap-1 flex-col items-start mx-4 max-w-screen-lg  xl:mx-auto">
+                {/* <span className="text-[1.5rem] capitalize font-['lora'] text-center flex-none">About this article</span>
                 <p>{productInfo?.about}</p> */}
-                {/* <span className="text-[1.5rem] capitalize font-['Michroma'] text-center flex-none">Customer reviews</span>
+                {/* <span className="text-[1.5rem] capitalize font-['lora'] text-center flex-none">Customer reviews</span>
                 
                 <div className={css(styles.reviewContainer)}>
                     dad
 
                 </div>
-                <span className="text-[1.5rem] capitalize font-['Michroma'] text-center flex-none">Give your review</span>
+                <span className="text-[1.5rem] capitalize font-['lora'] text-center flex-none">Give your review</span>
                 <div className={css(styles.formContainer)}>
                     <div className={css(styles.inputContainer)}>
                         <span className={css(styles.containerTitle)}>Review</span>
@@ -425,7 +425,7 @@ const MerchProdDetails = ({productInfo}) => {
                     <button className="w-full uppercase cursor-pointer relative text-white border-none bg-primary-color
 text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none 
 will-change-auto motion-safe:duration-400 py-3 px-[2.6rem] 
-rounded-[10px] lg:w-56 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">Send review</button>
+lg:w-56 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">Send review</button>
                 </div> */}
             </div>
         </>

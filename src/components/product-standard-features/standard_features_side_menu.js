@@ -62,7 +62,7 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
     if(isObjectEmpty(item)) return (
         <div className={`fixed top-0 right-0 w-screen h-screen flex justify-end items-center z-500
             motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400
-            bg-black/40 backdrop-saturate-50 backdrop-blur-sm font-['Montserrat'] ${opened ? "opacity-100 pointer-events-auto" 
+            bg-black/40 backdrop-saturate-50 backdrop-blur-sm font-['lora'] ${opened ? "opacity-100 pointer-events-auto" 
             : "opacity-0 pointer-events-none"}`} onClick={() => menuStatusReceiver("")}>
             <div className={`relative bg-white motion-safe:transition-all motion-reduce:transition-none will-change-auto 
             motion-safe:duration-500 w-screen h-screen z-300 overflow-hidden flex flex-col items-center justify-center
@@ -76,7 +76,7 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
     return(
         <div className={`fixed top-0 right-0 w-screen h-dvh flex justify-start items-center z-500
             motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400
-            bg-black/40 backdrop-saturate-50 backdrop-blur-sm font-['Montserrat'] ${opened ? "opacity-100 pointer-events-auto" 
+            bg-black/40 backdrop-saturate-50 backdrop-blur-sm font-['lora'] ${opened ? "opacity-100 pointer-events-auto" 
             : "opacity-0 pointer-events-none"}`} onClick={() => menuStatusReceiver("")}>
             <div className={`relative bg-white motion-safe:transition-all motion-reduce:transition-none will-change-auto 
             motion-safe:duration-500 w-screen h-full max-h-full border-red-500 z-300 overflow-hidden flex flex-col *grid *grid-rows-[auto_1fr_auto] *grid-cols-1 items-center justify-start
@@ -87,12 +87,12 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
                     motion-safe:duration-500 bg-white ${isSticky ? "shadow-[0px_10px_25px_-12px_rgb(0,0,0,0.15)]" : "shadow-none"}`}>
                     <div className="w-full flex flex-row justify-start items-start lg:items-center">
                         <span className="text-black w-full z-30 text-[1rem] lg:text-[1.5rem] leading-[1.75rem] font-bold
-                        font-['Michroma'] uppercase text-start">
+                        font-['lora'] uppercase text-start">
                             {item?.name}
                             {
                                 item.status &&
-                                <span className="font-['Michroma'] text-[white] *font-semibold shadow-lg
-                                    backdrop-saturate-50 backdrop-blur-sm bg-primary-color/85 rounded-[10px] 
+                                <span className="font-['lora'] text-[white] *font-semibold shadow-lg
+                                    backdrop-saturate-50 backdrop-blur-sm bg-primary-color/85 
                                     min-h-6 min-w-6 p-0.5 px-2 w-fit flex items-center justify-center text-center
                                     motion-safe:transition-all motion-reduce:transition-none mb-1 text-[0.875rem]
                                     will-change-auto motion-safe:duration-300 group z-20 uppercase"
@@ -102,7 +102,7 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
                             }
                         </span>
                         <button className="bg-primary-color text-white cursor-pointer border-none w-10 aspect-square
-                        rounded-[10px] portrait:flex landscape:hidden items-center justify-center lg:hidden right-4 z-80 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                        portrait:flex landscape:hidden items-center justify-center lg:hidden right-4 z-80 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                         onClick={() => menuStatusReceiver("")}>
                             <span style={{color:'white'}} className="material-symbols-outlined notranslate ">close</span> 
                         </button>
@@ -113,7 +113,7 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
                                 <button className={`cursor-pointer relative text-white border-none w-full landscape:px-1
                                 h-10 uppercase flex items-center justify-center text-[0.85rem] select-none
                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                                motion-safe:duration-300 rounded-[10px] lg:text-[1rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:w-50
+                                motion-safe:duration-300 lg:text-[1rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:w-50
                                 ${openedScreen === 'standard-features' ? "bg-primary-color" : "bg-[#7a7a7a]"}`} 
                                 onClick={() => setOpenedScreen('standard-features')}>
                                     {t('standardFeatures')}
@@ -125,7 +125,7 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
                                 <button className={`cursor-pointer relative text-white border-none w-full landscape:px-1
                                 h-10 uppercase flex items-center justify-center text-[0.85rem]
                                 select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                                motion-safe:duration-300 rounded-[10px] lg:text-[1rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:w-50
+                                motion-safe:duration-300 lg:text-[1rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:w-50
                                 ${openedScreen === 'options' ? "bg-primary-color" : "bg-[#7a7a7a]"}`}
                                 onClick={() => setOpenedScreen('options')}>
                                     {t('options')}
@@ -133,7 +133,7 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
                             )
                         }
                         <button className="bg-primary-color text-white cursor-pointer border-none w-10 aspect-square
-                        rounded-[10px] lg:flex items-center justify-center portrait:hidden landscape:flex right-4 z-80 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                        lg:flex items-center justify-center portrait:hidden landscape:flex right-4 z-80 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
                         onClick={() => menuStatusReceiver("")}>
                             <span style={{color:'white'}} className="material-symbols-outlined notranslate ">close</span> 
                         </button>
@@ -145,7 +145,7 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
                     {
                         openedScreen.trim().length !== 0 &&
                         <span className="text-black w-full z-30 text-[1.25rem]
-                        leading-[1.8rem] *font-['Michroma'] uppercase h-fit font-semibold
+                        leading-[1.8rem] *font-['lora'] uppercase h-fit font-semibold
                         text-center lg:text-start">
                             {t(formatKebabCaseToCamelCase(openedScreen))}
                         </span>
@@ -204,7 +204,7 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
                             {
                                 item.dimensionsPdf &&
                                 <button className="cursor-pointer relative text-white border-none w-full h-10 uppercase flex items-center justify-center bg-primary-color text-[0.85rem]
-                                select-none rounded-[10px] lg:text-[1rem] lg:w-48 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
+                                select-none lg:text-[1rem] lg:w-48 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400 " onClick={() => openPdfViewer(item.dimensionsPdf)}>
                                     {t('dimensionsPdf')}
                                 </button>
@@ -212,18 +212,18 @@ const SideMenu = ({isOpened, item, menuStatusReceiver = () => {}}) => {
                             {
                                 item.dryWeightsPdf &&
                                 <button className="cursor-pointer relative text-white border-none w-full h-10 uppercase flex items-center justify-center bg-primary-color text-[0.85rem]
-                                select-none rounded-[10px] lg:text-[1rem] lg:w-48 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
+                                select-none lg:text-[1rem] lg:w-48 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
                                 motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400 " onClick={() => openPdfViewer(item.dryWeightsPdf)}>
                                     {t('dryWeightsPdf')}
                                 </button>
                             }
                             <Link className="cursor-pointer relative text-white border-none w-full h-10 uppercase flex items-center justify-center bg-primary-color text-[0.85rem]
-                            select-none rounded-[10px] lg:text-[1rem] lg:w-48 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
+                            select-none lg:text-[1rem] lg:w-48 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400 " href={`/products/configure/${item?.id}`}>
                                 {t('configure')}
                             </Link>
                             <button className="cursor-pointer relative text-white border-none w-full h-10 uppercase flex items-center justify-center bg-primary-color text-[0.85rem]
-                            select-none rounded-[10px] lg:text-[1rem] lg:w-48 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
+                            select-none lg:text-[1rem] lg:w-48 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-400 " onClick={() => openComparation()}>
                                 {t('compare')}
                             </button>

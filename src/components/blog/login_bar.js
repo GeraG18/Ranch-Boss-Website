@@ -28,11 +28,11 @@ const LoginBar = () => {
     return(
         <div className="bg-[#f3f3f3]">
             <div className="h-20 hidden gap-8 items-center lg:flex
-            mx-4 max-w-(--breakpoint-xl) z-100 xl:mx-auto">
-                <span className="w-full font-['Michroma'] text-[2rem] uppercase">
+            mx-4 max-w-screen-lg  z-100 xl:mx-auto">
+                <span className="w-full font-['lora'] text-[2rem] uppercase">
                     Welcome back, {user?.name?.split(" ")[0] || '-'}
                 </span>
-                <div className="flex-none font-['Michroma'] text-[2rem] leading-[1.8rem] border-none
+                <div className="flex-none font-['lora'] text-[2rem] leading-[1.8rem] border-none
                 w-full h-9 cursor-pointer flex flex-col gap-0 items-start justify-center bg-transparent
                 text-[rgb(119,120,123)] lg:w-fit lg:items-center lg:hover:underline lg:hover:decoration-secondary-color
                 lg:hover:decoration-[3px] lg:hover:underline-offset-4" 
@@ -43,7 +43,7 @@ const LoginBar = () => {
                 <li className="p-0 border border-[#f3f3f3]" key={"help_center"}>
                     <div onClick={()=>showOrHideCheckBox("help_center")} className="py-3 px-4 cursor-pointer flex h-12 items-center
                     justify-center bg-[#f3f3f3]">
-                    <span className="w-full font-['Michroma'] text-[2rem] uppercase flex items-center">
+                    <span className="w-full font-['lora'] text-[2rem] uppercase flex items-center">
                         Welcome back, name
                     </span>
                     <span className="material-symbols-outlined notranslate ">
@@ -52,7 +52,7 @@ const LoginBar = () => {
                     </div>
                     <div className="flex flex-col gap-[0.2rem]">
                         <div className="hidden rounded-[1px] help_center">
-                            <div className="font-['Michroma'] text-[2rem] leading-[1.8rem] border-none
+                            <div className="font-['lora'] text-[2rem] leading-[1.8rem] border-none
                             w-full h-9 cursor-pointer flex flex-col gap-0 items-start justify-center bg-transparent
                             text-[rgb(119,120,123)] lg:w-fit lg:items-center lg:hover:underline lg:hover:decoration-secondary-color
                             lg:hover:decoration-[3px] lg:hover:underline-offset-4" 

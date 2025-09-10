@@ -45,7 +45,7 @@ function UltimateEfficiencyItem({image, firstText, secondText, alt}){
             <div className="row-start-4 col-span-full z-10 flex flex-row gap-1 py-4 px-2 text-shadow self-end justify-self-start pointer-events-none lg:px-4 lg:gap-3">
                 {
                     firstText.split(' ').map((item, index) => (
-                        <span key={item+index} className={`font-['Michroma'] text-[1rem] leading-6 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase ${index === firstText.split(' ').length -1 ? "text-primary-light-color" : "text-white"}`}>
+                        <span key={item+index} className={`font-['lora'] text-[1rem] leading-6 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase ${index === firstText.split(' ').length -1 ? "text-primary-light-color" : "text-white"}`}>
                             {item}
                         </span>
                     ))

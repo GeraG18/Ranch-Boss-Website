@@ -21,7 +21,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import MailCheckIcon from "../icons/mail_check_icon";
 import { useLocale, useTranslations } from "next-intl";
 
-function BlogContent ({title, body, mediaQuery = "max-w-(--breakpoint-xl)"}){
+function BlogContent ({title, body, mediaQuery = "max-w-screen-lg "}){
     //Logic
     const [formatedDate, setFormatedDate] = useState('');
     const [name, setName] = useState('');
@@ -102,11 +102,11 @@ function BlogContent ({title, body, mediaQuery = "max-w-(--breakpoint-xl)"}){
     
     //Display
     return(
-        <div className={`my-8 mx-4 z-100 xl:mx-auto font-['Montserrat'] ${mediaQuery}`}>
+        <div className={`my-8 mx-4 z-100 xl:mx-auto font-['lora'] ${mediaQuery}`}>
             <div className="flex flex-col lg:flex-row lg:gap-16">
                 <div className="w-full">
                     {/* MAIN CONTENT */}
-                    <div id="blogInnerHTML" className="w-full h-auto [&_img]:w-full [&_img]:rounded-[10px] 
+                    <div id="blogInnerHTML" className="w-full h-auto [&_img]:w-full [&_img]:
                     [&_img]:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] [&_img]:min-h-8 ql-editor" 
                    >{parse(body)}</div>
                     {/* <div className={css(styles.flexRow)}>
@@ -124,13 +124,13 @@ function BlogContent ({title, body, mediaQuery = "max-w-(--breakpoint-xl)"}){
                     {
                         locale !== 'en' &&
                         <>
-                            <span className="font-['Michroma'] font-bold text-[1rem] w-fit uppercase notranslate" >{t('translateArticle')}</span>
+                            <span className="font-['lora'] font-bold text-[1rem] w-fit uppercase notranslate" >{t('translateArticle')}</span>
                             <span>
                                 {t('translateDescription')}
                             </span>
                         </>
                     }
-                    <span className="font-['Michroma'] text-[1rem] font-bold w-fit uppercase notranslate" >{t('shareArticle')}</span>
+                    <span className="font-['lora'] text-[1rem] font-bold w-fit uppercase notranslate" >{t('shareArticle')}</span>
                     <div className="flex flex-row gap-2 notranslate">
                         <EmailShareButton
                             url={`https://horizontrailers.com${pathname}`}
@@ -188,23 +188,23 @@ function BlogContent ({title, body, mediaQuery = "max-w-(--breakpoint-xl)"}){
                     </div>
                     <div className="w-full h-px my-4 bg-[#f3f3f3]"></div>
                     <div className="relative flex flex-col notranslate">
-                        <div className={`absolute h-full font-['Montserrat'] w-full flex flex-col items-center justify-center motion-safe:transition-all 
+                        <div className={`absolute h-full font-['lora'] w-full flex flex-col items-center justify-center motion-safe:transition-all 
                             motion-reduce:transition-none will-change-auto motion-safe:duration-300
                             bg-[#1C1C1E] text-[#d9dcdc] ${sended ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
                             <div className="max-w-(--breakpoint-md) xl:mx-auto flex flex-row items-center justify-center overflow-hidden p-2">
                                 <MailCheckIcon width="48" height="48" className="text-primary-color w-20 aspect-square"/>
-                                <h1 className="font-['Michroma'] font-medium text-[1.5rem] leading-8
+                                <h1 className="font-['lora'] font-medium text-[1.5rem] leading-8
                                 flex items-center justify-start uppercase ">{t('thanks4Subs')}</h1>
                             </div>
                         </div>
-                        <span className="font-['Michroma'] font-bold text-[1rem] w-fit uppercase">{t('joinToHTCommunity')}</span>
+                        <span className="font-['lora'] font-bold text-[1rem] w-fit uppercase">{t('joinToHTCommunity')}</span>
                         <span>
                             {t('getExclusiveOffers')}
                         </span>
-                        <input className="mt-4 border border-[#d5d5d5] rounded-[10px] bg-transparent h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem]" 
+                        <input className="mt-4 border border-[#d5d5d5] bg-transparent h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem]" 
                         type="text" name="NAME" placeholder={fT('namePlaceholder')} aria-label={fT('namePlaceholder')} required 
                         onChange={(e) => setName(e.target.value)} value={name}/>
-                        <input className="mt-4 border border-[#d5d5d5] rounded-[10px] bg-transparent h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem]" 
+                        <input className="mt-4 border border-[#d5d5d5] bg-transparent h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem]" 
                         type="email" name="EMAIL" placeholder={fT('emailPlaceholder')} aria-label={fT('emailPlaceholder')} required 
                         onChange={(e) => setEmail(e.target.value)} value={email}/>
                         <button onClick={onSubmit} className="text-[1rem] cursor-pointer relative rounded-[10px]

@@ -11,14 +11,14 @@ function DealerAppHeader(){
             motion-safe:duration-300 z-5 brightness-[0.35] contrast-[1.05]"></div>  
             
             <div className="relative z-20 filter-none flex flex-col gap-2 items-center justify-center overflow-hidden
-            py-4 mx-4 max-w-(--breakpoint-xl) h-40 sm:flex-row lg:gap-4 lg:h-56 xl:mx-auto">
-                {//z-30 text-white font-['Michroma'] font-bold leading-10 text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem] h-auto lg:h-[3.5rem]
+            py-4 mx-4 max-w-screen-lg  h-40 sm:flex-row lg:gap-4 lg:h-56 xl:mx-auto">
+                {//z-30 text-white font-['lora'] font-bold leading-10 text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem] h-auto lg:h-[3.5rem]
                     t.rich('headerTitle', {
-                        gray: (chunks) => <h1 className="font-['Michroma'] uppercase font-medium
+                        gray: (chunks) => <h1 className="font-['lora'] uppercase font-medium
                         text-[#bdbdbd] leading-10 text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem]">{chunks}</h1>,
-                        white: (chunks) => <h1 className="font-['Michroma'] uppercase font-medium
+                        white: (chunks) => <h1 className="font-['lora'] uppercase font-medium
                         text-white leading-10 text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem]">{chunks}</h1>,
-                        orange: (chunks) => <h1 className="font-['Michroma'] uppercase font-medium
+                        orange: (chunks) => <h1 className="font-['lora'] uppercase font-medium
                         text-primary-light-color leading-10 text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem]">{chunks}</h1>,
                     })
                 }

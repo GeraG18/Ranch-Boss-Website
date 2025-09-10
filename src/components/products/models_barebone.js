@@ -24,12 +24,12 @@ function ModelsBarebone() {
                 <div className="flex items-center justify-end mx-4">
                     <div 
                         className={`uppercase font-semibold text-[#77787b] flex gap-1 items-center mb-1
-                        justify-center w-26 bg-[rgba(119,120,123,0.3)] rounded-[10px] h-6 `}
+                        justify-center w-26 bg-[rgba(119,120,123,0.3)] h-6 `}
                     >
                     </div>
                 </div>
                 <div className="mx-2 w-[calc(100%-1rem)] font-bold text-[1.5rem]
-                max-w-full line-clamp-2 bg-[rgba(119,120,123,0.3)] text-transparent h-22 rounded-[10px] ">
+                max-w-full line-clamp-2 bg-[rgba(119,120,123,0.3)] text-transparent h-22 ">
                 </div>
                 <div className="w-[calc(100%-2rem)] mt-1 h-6 text-black font-bold mx-4 mb-2 bg-[rgba(119,120,123,0.3)]  rounded-[10px]">
                 </div>
@@ -38,16 +38,16 @@ function ModelsBarebone() {
                     {
                         (new Array(5).fill('-')).map((item, index) => (
                             <div key={`bareboneVariable_${index}`} className="flex flex-col w-full min-h-[2.2rem] gap-1">
-                                <div className="w-full flex justify-start items-center uppercase font-semibold bg-[rgba(119,120,123,0.3)] rounded-[10px] h-6 ">
+                                <div className="w-full flex justify-start items-center uppercase font-semibold bg-[rgba(119,120,123,0.3)] h-6 ">
                                 </div>
-                                <div className="w-full flex justify-start items-center text-black uppercase font-bold m-0 bg-[rgba(119,120,123,0.3)] rounded-[10px] h-6 ">
+                                <div className="w-full flex justify-start items-center text-black uppercase font-bold m-0 bg-[rgba(119,120,123,0.3)] h-6 ">
                                 </div>
                             </div>
                         ))
                     }
                 </div>
             </div>
-            <button className="font-['Michroma'] text-[1.5rem] text-white bg-primary-color w-full h-11
+            <button className="font-['lora'] text-[1.5rem] text-white bg-primary-color w-full h-11
             flex items-center justify-center border-none uppercase animate-barebone-pulse">
                
             </button>

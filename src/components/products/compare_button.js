@@ -6,7 +6,7 @@ const CompareButton = ({visible, onClick}) => {
 
     return(
         <button id="floating-action-button" className={`fixed bottom-[28%] right-0  border-none bg-primary-color
-            text-white flex flex-col items-center justify-center font-['Montserrat'] uppercase rounded-l-lg *lg:rounded-r-lg
+            text-white flex flex-col items-center justify-center font-['lora'] uppercase rounded-l-lg *lg:rounded-r-lg
             p-4 lg:p-2 cursor-pointer z-450 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
             motion-safe:duration-300 shadow-[0px_-4px_15px_0px_rgba(0,0,0,0.3),0px_12px_12px_0px_rgba(0,0,0,0.22)]
             *lg:bottom-2 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium text-[14px] ${visible ? "opacity-100 pointer-events-auto" 

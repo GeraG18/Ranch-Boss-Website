@@ -378,8 +378,9 @@
   },
   "__HomePage": "Componentes de HomePage",
   "MainCarousel": {
-    "slogan":"<white>Diseñado para la <orange>durabilidad,</orange></white> <white>construido para el <orange>rendimiento</orange></white>",
-    "button":"Ver los productos",
+    "slogan":"<white>cómodo, seguro y eficiente</white><white>transporte para ganado</white>",
+    "description": "Nuestros remolques están construidos con resistencia, utilizando materiales de primera calidad y una ingeniería robusta que soporta las condiciones más exigentes.",
+    "button":"Ver todos los productos",
     "followers":"SEGUIDORES ACTIVOS",
     "visitors":"VISITANTES REGULARES",
     "dealers":"DISTRIBUIDORES AUTORIZADOS"

@@ -67,7 +67,7 @@ const ScrollAnimation = ({gallery = [], code}) => {
 
     //#region view
     return( 
-        <div className="relative h-[500vh] flex flex-col mb-8 mx-4 max-w-(--breakpoint-xl) xl:w-full xl:mx-auto" 
+        <div className="relative h-[500vh] flex flex-col mb-8 mx-4 max-w-screen-lg  xl:w-full xl:mx-auto" 
         ref={(div)=> containerRef = div} >
 
             <canvas className="sticky top-28 w-full h-[calc(100%-8rem)] flex items-center justify-center" 

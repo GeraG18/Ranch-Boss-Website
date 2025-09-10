@@ -98,14 +98,14 @@ function Header() {
 
     //region view
     return (
-        <div className="bg-[#f3f3f3] relative w-full py-8 font-['Montserrat']">
-            <div className="mx-4 max-w-(--breakpoint-xl) h-fit z-100 xl:w-full xl:mx-auto flex flex-col items-center justify-center gap-2">
-                <span className="font-['Michroma'] text-[2.25rem] leading-8 flex items-center justify-center
+        <div className="bg-[#f3f3f3] relative w-full py-8 font-['lora']">
+            <div className="mx-4 max-w-screen-lg  h-fit z-100 xl:w-full xl:mx-auto flex flex-col items-center justify-center gap-2">
+                <span className="font-['lora'] text-[2.25rem] leading-8 flex items-center justify-center
                 text-center mb-4 lg:text-[4.8rem] lg:leading-16 uppercase">{t('mapHeaderTitle')}</span>
 
                 <div ref={inputRef} className="w-full relative flex flex-col items-center lg:w-1/2">
                     <input 
-                        className="border border-[#d5d5d5] rounded-[10px] bg-white w-full h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem] z-10"
+                        className="border border-[#d5d5d5] bg-white w-full h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem] z-10"
                         placeholder={t('mapHeaderPlaceholder')} 
                         aria-label={t('mapHeaderPlaceholder')} 
                         role="search"
@@ -116,7 +116,7 @@ function Header() {
                         onChange={(e) => setSearch(e.target.value)}
                     />
                     <div className={`bg-white absolute w-[calc(100%-0.2rem)] min-h-8 top-[1.6rem] z-5 py-3 px-2 flex flex-col items-start
-                    rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] max-h-[30vh] overflow-y-auto overflow-x-hidden font-['Montserrat']
+                    shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] max-h-[30vh] overflow-y-auto overflow-x-hidden font-['lora']
                     text-[1rem] font-normal ${(focusedInput && suggestions.length > 0) || filters.loading ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
                         {
                             filters.loading ? 

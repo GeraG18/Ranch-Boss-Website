@@ -30,7 +30,7 @@ const DealerInfoWindow = () => {
 
     return(
         <div className="info-window-content">
-            <div className="w-full flex gap-2 justify-center lg:items-center flex-col lg:flex-row font-['Montserrat']">
+            <div className="w-full flex gap-2 justify-center lg:items-center flex-col lg:flex-row font-['lora']">
             <p className="text-[1.25rem] uppercase font-semibold py-[0.2rem] h-full w-full m-0 gap-1 justify-start items-center">
                 {activeDealer.name}
             </p>
@@ -41,9 +41,9 @@ const DealerInfoWindow = () => {
             )}
             </div>
 
-            <div className="flex rounded-[10px] gap-2 items-center justify-center flex-col py-4 px-2 text-[1rem] select-none font-['Montserrat']">
+            <div className="flex gap-2 items-center justify-center flex-col py-4 px-2 text-[1rem] select-none font-['lora']">
                 <div className="self-start! relative overflow-hidden flex h-13 min-w-40 w-full
-                items-center justify-center rounded-[10px] bg-[#d4d4d4]">
+                items-center justify-center bg-[#d4d4d4]">
                     <div className="w-full h-full absolute flex items-center justify-center">
 
                         <IconViewer src={activeDealer.logo || undefined} alt={`${activeDealer.name} dealer logo`}/>
@@ -61,7 +61,7 @@ const DealerInfoWindow = () => {
                         activeDealer.email &&
                         <Link onClick={() => setDealerInLS()}
                         href="/contact-to-dealer" 
-                        className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 w-full mx-1 py-2 flex justify-center items-center uppercase rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
+                        className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 w-full mx-1 py-2 flex justify-center items-center uppercase lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
                         >
                         {fT('contactThisDealer')}
                         </Link>
@@ -71,7 +71,7 @@ const DealerInfoWindow = () => {
                         <a 
                         href={activeDealer.directionUrl} 
                         target="_blank"
-                        className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase motion-safe:duration-300 w-full mx-1 py-2 flex justify-center items-center rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
+                        className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase motion-safe:duration-300 w-full mx-1 py-2 flex justify-center items-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
                         >
                         {fT('getDirections')}
                         </a>
@@ -80,7 +80,7 @@ const DealerInfoWindow = () => {
                         activeDealer.website &&
                         <a 
                         href={activeDealer.website}
-                        className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase motion-safe:duration-300 w-full mx-1 py-2 flex justify-center items-center rounded-[10px] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
+                        className="cursor-pointer relative text-white bg-primary-color text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto uppercase motion-safe:duration-300 w-full mx-1 py-2 flex justify-center items-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium"
                         >
                         {fT('webpage')}
                         </a>

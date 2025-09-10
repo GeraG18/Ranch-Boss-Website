@@ -16,7 +16,7 @@ const Header = ({
         <div className="w-full flex flex-row flex-wrap justify-center items-center my-4 gap-2 lg:flex-nowrap lg:h-9">
             {/* Botón de filtros para móvil */}
             <button
-                className="w-[calc(50%-0.5rem)] h-9 flex-none border border-[#caced1] flex items-center justify-center rounded-[10px] text-[#181818] font-medium uppercase lg:hidden"
+                className="w-[calc(50%-0.5rem)] h-9 flex-none border border-[#caced1] flex items-center justify-center text-[#181818] font-medium uppercase lg:hidden"
                 onClick={onShowFilters}
             >
                 <span className="material-symbols-outlined notranslate">tune</span>
@@ -35,7 +35,7 @@ const Header = ({
                     <button
                         key={value}
                         onClick={() => onSegmentChange(value)}
-                        className={`flex-none font-['Montserrat'] font-bold leading-[1.8rem] border-none w-full h-9 cursor-pointer flex flex-col gap-0 items-start justify-center bg-transparent text-[rgb(119,120,123)] lg:w-fit lg:items-center hover:text-secondary-color transition-colors duration-300 ${
+                        className={`flex-none font-['lora'] font-bold leading-[1.8rem] border-none w-full h-9 cursor-pointer flex flex-col gap-0 items-start justify-center bg-transparent text-[rgb(119,120,123)] lg:w-fit lg:items-center hover:text-secondary-color transition-colors duration-300 ${
                         selectedSegment.toUpperCase() === value ? "underline decoration-[3px] underline-offset-4 decoration-primary-color" : ""
                         }`}
                     >
@@ -50,7 +50,7 @@ const Header = ({
                 <select
                 value={selectedSegment.toUpperCase()}
                 onChange={(e) => onSegmentChange(e.target.value)}
-                className="w-full h-9 border border-[#D5D5D5] rounded-[10px] px-3 font-['Montserrat'] text-[0.85rem] font-semibold focus:border-primary-color focus:outline-hidden"
+                className="w-full h-9 border border-[#D5D5D5] px-3 font-['lora'] text-[0.85rem] font-semibold focus:border-primary-color focus:outline-hidden"
                 >
                 {segmentOptions.map(({ label, value }) => (
                     <option key={value} value={value}>

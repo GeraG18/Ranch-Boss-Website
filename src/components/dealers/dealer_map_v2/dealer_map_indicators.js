@@ -6,7 +6,7 @@ const DealerMapIndicators = () => {
 
     return (
         <div className="flex flex-col *items-center justify-center absolute bottom-5 left-2 gap-1
-            rounded-[10px] bg-white p-2">
+            bg-white p-2">
                 <div className="flex flex-row gap-2 items-center">
                     <div className='w-4 h-4 bg-black border border-black'></div>
                     <span className='text-xs'>{fT('urPoint')}</span>

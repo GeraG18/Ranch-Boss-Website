@@ -126,9 +126,9 @@ function AllBlogContainer (){
 
     //Display
     return(
-        <div className="my-8 mx-4 max-w-(--breakpoint-xl) z.[100] xl:mx-auto font-['Montserrat'] select-none!">
+        <div className="my-8 mx-4 max-w-screen-lg  z.[100] xl:mx-auto font-['lora'] select-none!">
             <div className="w-full flex flex-col select-none!">
-                <h1 className="font-['Michroma'] font-bold leading-10 uppercase text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem] h-auto lg:h-[3.5rem]">{t('blog')}</h1>
+                <h1 className="font-['lora'] font-bold leading-10 uppercase text-[2rem] lg:text-[2.5rem] lg:leading-[2.75rem] h-auto lg:h-[3.5rem]">{t('blog')}</h1>
                 <h2 className="">
                     {bT('slogan')}
                 </h2>
@@ -189,7 +189,7 @@ function AllBlogContainer (){
                 {
                     pagination !== 1 &&
                     <button className="flex flex-row h-8 w-18 justify-center items-center text-[1rem] 
-                        rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
+                        border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
                         lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                         motion-safe:duration-400" 
@@ -200,7 +200,7 @@ function AllBlogContainer (){
                     pagination > 2 &&
                     <>
                         <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                            rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                            border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                             cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                             motion-safe:duration-400" 
@@ -213,19 +213,19 @@ function AllBlogContainer (){
                     {
                         (pagination - 1 !== 0) &&
                         <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                        rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                        border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                         cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                         motion-safe:duration-400" 
                         onClick={()=>setPagination(value=> minus(value))}>{pagination-1}</div>
                     }
                     <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                    rounded-[10px] border border-primary-color bg-primary-color
+                    border border-primary-color bg-primary-color
                     cursor-default text-white">{pagination}</div>
                     {
                     pagination  !== numOfPages &&
                     <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                    rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                    border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                     cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                     motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                     motion-safe:duration-400" 
@@ -238,7 +238,7 @@ function AllBlogContainer (){
                     <>
                         <span>...</span>
                         <div className="flex flex-row h-8 w-8 justify-center items-center text-[1rem]
-                            rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
+                            border border-[#d5d5d5] text-[#4d4d4d] bg-transparent
                             cursor-pointer lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                             motion-safe:duration-400" 
@@ -249,7 +249,7 @@ function AllBlogContainer (){
                 {
                     pagination !== numOfPages &&
                     <button className="flex flex-row h-8 w-18 justify-center items-center text-[1rem] 
-                    rounded-[10px] border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
+                    border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
                     lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
                     motion-safe:transition-all motion-reduce:transition-none will-change-auto 
                     motion-safe:duration-400" 

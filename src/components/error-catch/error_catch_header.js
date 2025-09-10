@@ -19,7 +19,7 @@ const ErrorCatchHeader = ({ onButtonClick = () => {} }) => {
                 </p>
                 <Link href="/" onClick={() => onButtonClick()} className="w-fit cursor-pointer relative text-white border-none
                 bg-primary-color text-[1rem] motion-safe:transition-all motion-reduce:transition-none 
-                    will-change-auto motion-safe:duration-400 py-2 px-[2.6rem] rounded-[10px]
+                    will-change-auto motion-safe:duration-400 py-2 px-[2.6rem] 
                     lg:self-start lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase">{t('button')}</Link>
             </div>
             <div className="relative w-full flex flex-col items-center justify-center h-[30vh]">

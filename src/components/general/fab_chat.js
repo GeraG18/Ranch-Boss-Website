@@ -104,7 +104,7 @@ const FabForm = ({showingChat, returnData = ()=> {} }) => {
                     placeholder={fT('emailPlaceholderAlt')}
                     onChange={(e) => setFormData(prev => ({...prev, email: e.target.value}))} 
                     className="h-8 text-[1rem] border border-[#babcbe] outline-hidden font-['lora'] p-[2px] w-full
-                    bg-white rounded-[10px]"
+                    bg-white "
                 />
             </div>
             <div className="w-full flex flex-col">
@@ -119,7 +119,7 @@ const FabForm = ({showingChat, returnData = ()=> {} }) => {
                     placeholder={fT('phonePlaceholderAlt')}
                     onChange={(e) => setFormData(prev => ({...prev, phoneNumber: e.target.value}))} 
                     className="h-8 text-[1rem] border border-[#babcbe] outline-hidden font-['lora'] p-[2px] w-full
-                    bg-white rounded-[10px]"
+                    bg-white "
                 />
             </div>
             <div className="w-full flex flex-col">
@@ -141,7 +141,7 @@ const FabForm = ({showingChat, returnData = ()=> {} }) => {
             <button onClick={() => {validateAndSendForm(); }} 
                 className={`
                 cursor-pointer text-white border-none font-['lora']
-                font-medium select-none h-8 overflow-hidden text-[1rem] w-full rounded-[10px]
+                font-medium select-none h-8 overflow-hidden text-[1rem] w-full 
                 flex items-center justify-center px-8 motion-safe:transition-all
                 motion-reduce:transition-none will-change-auto motion-safe:duration-400
                 ${sendedForm ? "lg:hover:bg-[#7c736f] bg-[#7c736f] pointer-events-none" : 

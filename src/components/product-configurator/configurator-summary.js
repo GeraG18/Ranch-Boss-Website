@@ -87,7 +87,7 @@ function ConfiguratorSummary({onClickEvent = (clicked='') => {}}) {
                                                 {
                                                     Object.keys(formatedProps[categorySection]).map((subitem) => (
                                                         <div key={'options_'+'category'+categorySection+subitem} 
-                                                            className="py-2 pl-4 m-0 flex flex-col lg:flex-row gap-2 lg:hover:bg-[#eeeff0] rounded-[10px]">
+                                                            className="py-2 pl-4 m-0 flex flex-col lg:flex-row gap-2 lg:hover:bg-[#eeeff0] ">
                                                             {
                                                                 formatedProps[categorySection][subitem]['hex'] &&
                                                                 <div style={{borderRadius:'5px', width:'4rem', height:'100%', backgroundColor:formatedProps[categorySection][subitem]['hex']}}>
@@ -151,7 +151,7 @@ function ConfiguratorSummary({onClickEvent = (clicked='') => {}}) {
                                                                     {
                                                                     Object.keys(formatedProps[categorySection][subitem]).map((index) => (
                                                                         <div key={'options_'+'category'+categorySection+subitem+index} 
-                                                                        className="py-2 pl-4 m-0 flex flex-col lg:flex-row gap-2 lg:hover:bg-[#eeeff0] rounded-[10px]">
+                                                                        className="py-2 pl-4 m-0 flex flex-col lg:flex-row gap-2 lg:hover:bg-[#eeeff0] ">
                                                                     {
                                                                         formatedProps[categorySection][subitem][index]['hex'] &&
                                                                         <div style={{borderRadius:'5px', minWidth:'4rem', height:'100%', backgroundColor:formatedProps[categorySection][subitem]['hex']}}>

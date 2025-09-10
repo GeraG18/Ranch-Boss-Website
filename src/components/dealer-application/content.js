@@ -210,7 +210,7 @@ function Content(){
                 <div className="w-full flex flex-col items-center gap-2 mx-4 lg:m-0">
                     <span className="text-black w-full font-['lora'] font-bold uppercase text-[1rem] leading-[1.2rem] flex-none"> </span>
                     <button onClick={() => validateForm()} className="text-[1rem] cursor-pointer uppercase
-                    relative mt-5 text-white border-none bg-primary-color select-none rounded-[10px]
+                    relative mt-5 text-white border-none bg-primary-color select-none 
                     py-2 px-4 pointer-events-auto lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">{fT('send')}</button>
                 </div>
 

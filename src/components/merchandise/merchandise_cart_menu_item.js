@@ -41,7 +41,7 @@ const MerchandiseCartMenuItem = ({merchId, name, quantity, color, colorType, siz
 
     //#region view
     return( 
-        <div className="p-2 grid gap-2 grid-cols-[8rem_auto] overflow-hidden rounded-[10px]">
+        <div className="p-2 grid gap-2 grid-cols-[8rem_auto] overflow-hidden ">
             <div className="rounded-[8px] overflow-hidden border border-[rgb(186,187,189)] 
             flex-none w-full aspect-square relative flex items-center justify-center">
                 <img className="absolute w-full h-full bg-center" src={image} alt={name} />

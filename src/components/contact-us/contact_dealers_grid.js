@@ -233,27 +233,27 @@ const ContactDealersGrid = () => {
                 <div className="grid max-h-screen min-h-112 h-auto md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 w-full max-w-(--breakpoint-lg) self-center animate-pulse">
                     <div className="group relative flex items-center justify-center overflow-hidden motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 md:col-span-2 md:row-span-2">
-                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] rounded-[10px]">
+                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] ">
                         </div>
                     </div>
                     <div className="group relative flex items-center justify-center overflow-hidden motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 md:col-span-1 md:row-span-1">
-                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] rounded-[10px]">
+                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] ">
                         </div>
                     </div>
                     <div className="group relative flex items-center justify-center overflow-hidden motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 md:col-span-1 md:row-span-1 lg:row-span-2">
-                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] rounded-[10px]">
+                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] ">
                         </div>
                     </div>
                     <div className="group relative flex items-center justify-center overflow-hidden motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 md:col-span-1 md:row-span-1 lg:row-span-2">
-                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] rounded-[10px]">
+                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] ">
                         </div>
                     </div>
                     <div className="group relative flex items-center justify-center overflow-hidden motion-safe:transition-all motion-reduce:transition-none 
                         will-change-auto motion-safe:duration-300 md:col-span-1 md:row-span-1 lg:row-span-2">
-                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] rounded-[10px]">
+                        <div className="relative flex h-[calc(100%-1rem)] w-full flex-col justify-end p-4 m-2 text-white bg-[#d5d5d5] ">
                         </div>
                     </div>
                 </div>

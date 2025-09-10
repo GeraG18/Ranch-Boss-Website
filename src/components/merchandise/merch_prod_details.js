@@ -203,7 +203,7 @@ const MerchProdDetails = ({productInfo}) => {
                         <p className="text-[0.8rem] m-0 p-0">{productInfo?.description}</p>
                     </div>
                     <div className="w-full flex items-center justify-start flex-row gap-2">
-                        <div className="text-[1.5rem] min-h-8 w-[calc(100%-1rem)] rounded-[10px]
+                        <div className="text-[1.5rem] min-h-8 w-[calc(100%-1rem)] 
                         flex flex-col items-start justify-center">
                             <span>$ {productInfo?.price}</span>
                         </div>

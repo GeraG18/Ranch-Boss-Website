@@ -36,12 +36,12 @@ function NextStep({actionVideo, reviewVideo}){
                         {t('nextStep')}</div>
                     <div className="w-full flex flex-col gap-4 items-center justify-center lg:flex-row">
                         <Link href="/find-a-dealer" className="w-56 cursor-pointer relative text-white border-none backdrop-saturate-50 backdrop-blur-sm bg-white/20 text-[1rem] select-none
-                        motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 py-3 px-[2.6rem] rounded-[10px]
+                        motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 py-3 px-[2.6rem] 
                         flex items-center justify-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase">
                             {t('findADealer')}
                         </Link>
                         <div className="w-56 cursor-pointer relative text-white border-none backdrop-saturate-50 backdrop-blur-sm bg-white/20 text-[1rem] select-none
-                        motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 py-3 px-[2.6rem] rounded-[10px]
+                        motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 py-3 px-[2.6rem] 
                         flex items-center justify-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase" onClick={() => setShowModal(true)}>
                             {t('viewVideo')}
                         </div>

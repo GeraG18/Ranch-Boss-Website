@@ -37,7 +37,7 @@ const SideMenuFeatures = ({standardFeatures}) => {
                     <Fragment key={category}>
                         <li className="p-0 border border-[#f3f3f3]">
                             <div onClick={()=>showOrHideCheckBox(category)} className="py-3 px-4 cursor-pointer font-bold flex
-                            items-center justify-center bg-[#f3f3f3] rounded-[10px]">
+                            items-center justify-center bg-[#f3f3f3] ">
                                 <span className="w-full uppercase flex items-center">
                                     {formatCamelCaseToNormalCase(category)}
                                 </span>

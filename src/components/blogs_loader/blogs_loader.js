@@ -531,7 +531,7 @@ function BlogsLoader({blogEditParams = false}){
                             </button>
                         </div>
                         <div className="relative z-30 w-full min-h-16 flex-wrap p-2 flex flex-row gap-1 border
-                        border-[#d5d5d5] rounded-[10px]">
+                        border-[#d5d5d5] ">
                             {
                                 blogContent.tags.length === 0 &&
                                 <span className="text-[#77787b]">There's no tags listed in here</span>

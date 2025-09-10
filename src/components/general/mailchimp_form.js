@@ -70,11 +70,11 @@ const MailchimpForm = () => {
             </div>
             <div className="flex h-8 w-full font-['lora'] text-[1rem]">
                 <input aria-label='email for subscription to Horizon offers, news and more' 
-                    className="border-none rounded-l-[10px] rounded-r-none bg-white outline-hidden pl-[0.4rem] 
+                    className="border-none rounded-r-none bg-white outline-hidden pl-[0.4rem] 
                     font-['lora'] text-[0.9rem] w-full"
                     type="email" name="EMAIL" placeholder={mcT('emailInputPlaceholder')} required 
                     onChange={(e) => setEmail(e.target.value)} value={email}/>
-                <button className="rounded-r-[10px] cursor-pointer color-white bg-primary-color
+                <button className="cursor-pointer color-white bg-primary-color
                     w-10 border-none material-symbols-outlined notranslate  text-white" 
                     onClick={onSubmit}>
                     chevron_right

@@ -10,7 +10,7 @@ const LocationItem = ({id, name, address, schedule, phoneNumber, directionUrl}) 
         // id, name, address, schedule, phoneNumber, directionUrl
         <div className="p-2 motion-safe:transition-all motion-reduce:transition-none will-change-auto 
         motion-safe:duration-400 font-['lora'] bg-[#f3f3f3] flex flex-col h-80 lg:bg-transparent">
-            <div className="flex flex-none flex-row h-8 w-8 justify-center items-center text-[1rem] rounded-[10px]
+            <div className="flex flex-none flex-row h-8 w-8 justify-center items-center text-[1rem] 
             border border-[#d5d5d5] text-[#4d4d4d] bg-transparent ">
                 {id} 
             </div>
@@ -29,7 +29,7 @@ const LocationItem = ({id, name, address, schedule, phoneNumber, directionUrl}) 
                 {fT('phoneLabelAlt')}: {phoneNumber}
             </a>
             <a href={directionUrl} target="_blank" className="cursor-pointer relative text-white flex-none border-none
-            uppercase bg-primary-color text-[1rem] select-none py-[0.45rem] px-4 flex justify-center items-center rounded-[10px]
+            uppercase bg-primary-color text-[1rem] select-none py-[0.45rem] px-4 flex justify-center items-center 
             lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium">
                 {fT('getDirections')}
             </a>

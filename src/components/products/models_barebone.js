@@ -31,7 +31,7 @@ function ModelsBarebone() {
                 <div className="mx-2 w-[calc(100%-1rem)] font-bold text-[1.5rem]
                 max-w-full line-clamp-2 bg-[rgba(119,120,123,0.3)] text-transparent h-22 ">
                 </div>
-                <div className="w-[calc(100%-2rem)] mt-1 h-6 text-black font-bold mx-4 mb-2 bg-[rgba(119,120,123,0.3)]  rounded-[10px]">
+                <div className="w-[calc(100%-2rem)] mt-1 h-6 text-black font-bold mx-4 mb-2 bg-[rgba(119,120,123,0.3)]  ">
                 </div>
                 <div className="my-2 mx-1 w-[calc(100%-1rem)] h-[3px] bg-[#77787b] flex-none self-center"></div>
                 <div className="mx-3 w-[calc(100%-2rem)] flex gap-2 flex-col justify-center items-center text-[rgba(119,120,123,0.3)] ">

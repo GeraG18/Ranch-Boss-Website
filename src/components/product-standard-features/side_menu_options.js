@@ -38,7 +38,7 @@ const SideMenuOptions = ({options}) => {
                         <li className="p-0 border border-[#f3f3f3]">
                             <div onClick={()=>showOrHideCheckBox(category)} 
                             className="py-3 px-4 cursor-pointer font-bold flex
-                            items-center justify-center bg-[#f3f3f3]  rounded-[10px]">
+                            items-center justify-center bg-[#f3f3f3]  ">
                                 <span className="w-full uppercase flex items-center">
                                     {formatCamelCaseToNormalCase(category)}
                                 </span>
@@ -57,7 +57,7 @@ const SideMenuOptions = ({options}) => {
                                                     className={`my-2 flex ${typeof options[category][categorySection] === 'string' ? "flex-row" : "flex-col"}`}>
                                                     {
                                                         Array.isArray(options[category]) ?
-                                                        <div className="my-[2px] ml-4px-1 py-2 pr-4 flex flex-row gap-2 lg:hover:bg-[#eeeff0] lg:rounded-[10px]">
+                                                        <div className="my-[2px] ml-4px-1 py-2 pr-4 flex flex-row gap-2 lg:hover:bg-[#eeeff0] lg:">
                                                             <span key={category+categorySection+'objcode'} className="w-fit lg:flex-none font-medium text-[#4d4d4d] uppercase flex items-center justify-start ">
                                                                 {options[category][categorySection]['code']}
                                                             </span>
@@ -95,7 +95,7 @@ const SideMenuOptions = ({options}) => {
                                                             {
                                                                 Object.keys(options[category][categorySection]).map((subitem) => (
                                                                     <div key={'options_'+category+categorySection+subitem} 
-                                                                        className="my-[2px] ml-4px-1 py-2 pr-4 flex flex-row gap-2 lg:hover:bg-[#eeeff0] lg:rounded-[10px]">
+                                                                        className="my-[2px] ml-4px-1 py-2 pr-4 flex flex-row gap-2 lg:hover:bg-[#eeeff0] lg:">
                                                                         <span key={category+categorySection+subitem+'objcode'} className="w-fit lg:flex-none font-medium text-[#4d4d4d] uppercase flex items-center justify-start ">
                                                                             {options[category][categorySection][subitem]['code']}
                                                                         </span>

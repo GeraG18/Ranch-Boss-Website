@@ -207,7 +207,7 @@ function BlogContent ({title, body, mediaQuery = "max-w-screen-lg "}){
                         <input className="mt-4 border border-[#d5d5d5] bg-transparent h-8 text-[1rem] outline-hidden p-0 pl-[0.2rem]" 
                         type="email" name="EMAIL" placeholder={fT('emailPlaceholder')} aria-label={fT('emailPlaceholder')} required 
                         onChange={(e) => setEmail(e.target.value)} value={email}/>
-                        <button onClick={onSubmit} className="text-[1rem] cursor-pointer relative rounded-[10px]
+                        <button onClick={onSubmit} className="text-[1rem] cursor-pointer relative 
                         h-9
                         mt-4 text-white border-none bg-primary-color select-none motion-safe:transition-all 
                         motion-reduce:transition-none will-change-auto motion-safe:duration-400 uppercase">{fT('subscribe')}</button>

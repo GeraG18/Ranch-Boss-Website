@@ -19,7 +19,7 @@ const MerchandiseItem = ({name, keyName, description, price, image}) => {
                     text-ellipsis px-2 my-2 font-bold">{name}</span>
                     <span className="uppercase w-[calc(100%-1rem)] whitespace-nowrap overflow-hidden
                     text-ellipsis px-2 text-[0.8rem] my-1">{description}</span>
-                    <div className="text-[1.25rem] min-h-8 mx-2 w-[calc(100%-1rem)] rounded-[10px]
+                    <div className="text-[1.25rem] min-h-8 mx-2 w-[calc(100%-1rem)] 
                     flex flex-col items-start justify-center">
                         <span>$ {price}</span>
                     </div>

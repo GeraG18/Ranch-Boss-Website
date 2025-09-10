@@ -13,7 +13,7 @@ function ResourcesItem({title="example title", description="example description"
     //#region view
     return (
         <Link href={url} className="w-full flex gap-2 flex-col justify-around items-center cursor-pointer 
-            overflow-hidden shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] font-['lora'] rounded-[10px]
+            overflow-hidden shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] font-['lora'] 
             bg-[radial-gradient(circle,rgba(55,62,62,0)_50%,rgba(55,62,62,0.03)_74%,rgba(55,62,62,0.06)_100%)]">
             <div className="h-full w-auto flex flex-col items-center justify-center">
                 <div className="aspect-16/10 w-full flex items-center justify-center">

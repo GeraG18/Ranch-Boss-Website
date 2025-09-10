@@ -61,23 +61,14 @@ const ImageViewerAlt = (params) => {
     return(
         <div className={`${params.orientation === 'portrait' ? 'aspect-3/4' : 'aspect-21/9'} w-full object-fill !flex items-center! relative 
             justify-center! image ${params.className || ''} overflow-hidden`}>
-            <div className={`w-full h-full flex items-center justify-center ${params.orientation === 'portrait' ? 'rotate-90' : 'rotate-0'}`}>
+            <div className={`w-full h-full flex items-center justify-center`}>
                 {
                     (imgLoading || imgError) &&
-                    <>
-                        {
-                            (params.category || (t('dovetail').replace(' ','').toLowerCase())) === (t('dovetail').replace(' ','').toLowerCase()) &&
-                            <DovetailBedIcon width="90%" color={params.shadowColor || "rgba(0,0,0,0.3)"}/>
-                        }
-                        {
-                            (params.category || (t('dovetail').replace(' ','').toLowerCase())) === (t('flatbed').replace(' ','').toLowerCase()) &&
-                            <FlatdeckBedIcon width="90%" color={params.shadowColor || "rgba(0,0,0,0.3)"}/>
-                        }
-                        {
-                            (params.category || (t('dovetail').replace(' ','').toLowerCase())) === (t('service').replace(' ','').toLowerCase()) &&
-                            <ServiceBedIcon width="90%" color={params.shadowColor || "rgba(0,0,0,0.3)"}/>
-                        }
-                    </>
+                    <div className="bg-white border border-secondary-color/50 text-secondary-color/50 w-full h-full flex items-center justify-center">
+                        <span className="material-symbols-outlined notranslate h-6 w-6 flex items-center justify-center" >
+                            hide_image
+                        </span>
+                    </div>
                 }
             </div>
             {

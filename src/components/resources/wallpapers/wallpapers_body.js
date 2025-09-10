@@ -62,7 +62,7 @@ const WallpapersBody = ({lang}) => {
                                 value={email} onChange={(e) => {setEmail(e.target.value)}} aria-label="Username Input"/>
                         </div>
                         <button type="submit"
-                            className="w-full text-[1rem] cursor-pointer text-white bg-primary-color select-none border-none rounded-[10px]
+                            className="w-full text-[1rem] cursor-pointer text-white bg-primary-color select-none border-none 
                             motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 
                             py-3 px-4 pointer-events-auto lg:w-auto lg:px-10 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase"
                         >{t('button')}</button>

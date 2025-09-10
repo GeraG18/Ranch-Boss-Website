@@ -131,7 +131,7 @@ function NavBar({showRouteBar = false, isStatic=false}){
                             </span>
                         }
                         {/* <img width="200" height="40" className="h-fit lg:mr-4" src="/logos/bed_boss_white_logo.png" alt="horizon trailers logo"/> */}
-                        <RbLogoVerticalWeathered className="text-secondary-color-20 lg:hover:text-primary-light-color h-16"/>
+                        <RbLogoVerticalWeathered className="text-secondary-color-20 lg:hover:text-secondary-color h-16"/>
                     </CustomLink>
                     <span className="material-icons notranslate  aspect-square flex-none flex items-center justify-center text-[1.75rem] text-transparent 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto lg:hidden! h-6 w-6" >

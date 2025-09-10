@@ -53,16 +53,7 @@ function MainCarousel() {
           <p className="m-0 p-0 font-['lora'] font-semibold max-w-3/4 text-secondary-color-20 text-shadow">
             {t('description')}
           </p>
-          {/* <Link href='/products' className="font-['oswald'] cursor-pointer relative mt-5 text-secondary-color-20 text-[1rem] select-none
-            motion-safe:transition-all motion-safe:duration-300 motion-reduce:transition-none will-change-auto py-2.5 px-6
-              lg:px-10 bg-transparent border-2 border-secondary-color-20 font-medium lg:hover:text-secondary-color lg:hover:border-secondary-color uppercase
-              flex flex-row items-center justify-center gap-2 text-shadow">
-            {t('button')}
-            <span className="material-symbols-outlined notranslate h-6 w-6 flex items-center justify-center" >
-              east
-            </span>
-          </Link> */}
-          <Link href="/products" className="col-span-full self-center justify-self-center uppercase font-['oswald'] font-medium no-underline text-secondary-color-20 bg-transparent px-10 py-3 bg-[length:200%_100%]
+          <Link href="/products" className="col-span-full self-center justify-self-center uppercase font-['oswald'] font-medium no-underline text-secondary-color-20 bg-transparent px-10 py-2 bg-[length:200%_100%]
             border-2 border-secondary-color-20  
             bg-gradient-to-r from-transparent from-50% to-secondary-color-20 to-50% motion-safe:transition-all duration-500 motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 
             lg:hover:text-tertiary-color lg:hover:text-shadow-none! lg:hover:bg-secondary-color-20 lg:hover:bg-[-100%_100%] flex flex-row items-center justify-center gap-2 text-shadow">

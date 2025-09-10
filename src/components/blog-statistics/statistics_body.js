@@ -20,7 +20,7 @@ const StatisticsBody = () => {
                         <Link 
                             key={blog.slug} 
                             href={`/blog/details/${blog.slug}`}
-                            className="flex flex-row items-center w-full h-12 rounded-[10px]
+                            className="flex flex-row items-center w-full h-12 
                             border border-[#f3f3f3] p-1 group lg:hover:border-primary-color"
                         >
                             <span className="w-full font-semibold lg:group-hover:text-primary-color">

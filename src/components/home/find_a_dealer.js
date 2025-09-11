@@ -19,7 +19,7 @@ function FindADealer(){
                 <p style={{wordWrap: "break-word",}} className="font-['lora'] font-semibold text-[1rem] text-center flex items-center self-center justify-self-center m-0 col-span-full row-start-2 lg:w-3/5 h-32 lg:h-18">
                     {t('description')}
                 </p>
-                <Link href="/find-a-dealer" className="col-span-full self-center justify-self-center inline-block font-['oswald'] font-medium no-underline text-white bg-secondary-color px-10 py-3 bg-[length:200%_100%] bg-gradient-to-r from-secondary-color from-50% to-tertiary-color to-50% motion-safe:transition-all duration-500 motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white lg:hover:bg-tertiary-color lg:hover:bg-[-100%_100%]">
+                <Link href="/find-a-dealer" className="cursor-pointer uppercase col-span-full self-center justify-self-center inline-block font-['oswald'] font-medium no-underline text-white bg-secondary-color px-10 py-3 bg-[length:200%_100%] bg-gradient-to-r from-secondary-color from-50% to-tertiary-color to-50% motion-safe:transition-all duration-500 motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white lg:hover:bg-tertiary-color lg:hover:bg-[-100%_100%]">
                     {t('button')}
                 </Link>
             </div>

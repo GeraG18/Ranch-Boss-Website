@@ -1,5 +1,5 @@
 import { setInsecureCookie } from "@/services/cookie-service";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -10,6 +10,8 @@ const LanguageSwitcher = () => {
     const pathname = usePathname();
     const searchParams = useSearchParams();
     const params = new URLSearchParams(searchParams);
+
+    const t = useTranslations('PagesTitles');
 
     let langRef = useRef(null);
     let dictionary = ['en', 'es']
@@ -59,7 +61,7 @@ const LanguageSwitcher = () => {
                     className="" 
                 />
                 {/* <span className="group-hover:text-primary-light-color hidden lg:block w-6 uppercase">{locale}</span> */}
-                <span className="group-hover:text-secondary-color hidden lg:block w-6 uppercase">LANGUAGE</span>
+                <span className="group-hover:text-secondary-color hidden lg:block w-6 uppercase">{t("language")}</span>
             </div>       
             <div style={{opacity: isOpen ? 1 : 0, pointerEvents: isOpen ? 'auto' : 'none'}}
                 className="bg-white absolute w-40 min-h-[6] top-[1.6rem] right-0 z-[9800] py-3 px-2 flex flex-col gap-1 items-start border border-[#e5e7eb]

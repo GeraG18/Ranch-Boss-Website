@@ -9,6 +9,7 @@
     {
         "id":"AVSTBS01",
         "name":"ARMOR-VAULT CAJA DE CAMIONETA DE SERVICIO",
+        "notes":"Las imágenes pueden no coincidir con las especificaciones del producto.",
         "category":"SERVICIO",
         "subcategory":1,
         "props":{
@@ -92,6 +93,7 @@
         "name":"ARMOR-DECK CAJA DE CAMIONETA DE PLATAFORMA PREMIUM",
         "category":"PLATAFORMA",
         "subcategory":1,
+        "status": "Disponible hasta xd",
         "props":{
             "type": [
                 "COLA DE MILANO"
@@ -119,6 +121,8 @@
         "name":"ARMOR-CLAD CAJA DE CAMIONETA CON COLA DE MILANO",
         "category":"COLA DE MILANO",
         "subcategory":1,
+        "notes":"Las imágenes pueden no coincidir con las especificaciones del producto.",
+        "status": "Disponible hasta xdddddddddd",
         "props":{
             "type": [
                 "PLATAFORMA"

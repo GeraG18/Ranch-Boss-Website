@@ -63,19 +63,18 @@ const MailchimpForm = () => {
 
             <div className="flex h-8 w-full font-['lora'] text-[1rem]">
                 <input aria-label='first name for subscription to Horizon offers, news and more' 
-                    className="border-none bg-white w-full outline-hidden pl-[0.4rem] 
-                    font-['lora'] text-[0.9rem]"
+                    className="border border-r-none border-secondary-color-20/50 rounded-r-none bg-white/20 outline-hidden pl-[0.4rem] 
+                    font-['lora'] text-[0.9rem] w-full text-white placeholder:text-white/50! placeholder:text-sm!"
                     type="text" name="TEXT" placeholder={mcT('nameInputPlaceholder')} required 
                     onChange={(e) => setName(e.target.value)} value={name}/>
             </div>
             <div className="flex h-8 w-full font-['lora'] text-[1rem]">
                 <input aria-label='email for subscription to Horizon offers, news and more' 
-                    className="border-none rounded-r-none bg-white outline-hidden pl-[0.4rem] 
-                    font-['lora'] text-[0.9rem] w-full"
+                    className="border border-r-none border-secondary-color-20/50 rounded-r-none bg-white/20 outline-hidden pl-[0.4rem] 
+                    font-['lora'] text-[0.9rem] w-full text-white placeholder:text-white/50! placeholder:text-sm!"
                     type="email" name="EMAIL" placeholder={mcT('emailInputPlaceholder')} required 
                     onChange={(e) => setEmail(e.target.value)} value={email}/>
-                <button className="cursor-pointer color-white bg-primary-color
-                    w-10 border-none material-symbols-outlined notranslate  text-white" 
+                <button className="material-symbols-outlined notranslate cursor-pointer col-span-full self-center justify-self-center inline-block font-['oswald'] font-medium no-underline text-white bg-secondary-color px-2 h-full bg-[length:200%_100%] bg-gradient-to-r from-secondary-color from-50% to-tertiary-color to-50% motion-safe:transition-all duration-500 motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white lg:hover:bg-tertiary-color lg:hover:bg-[-100%_100%]" 
                     onClick={onSubmit}>
                     chevron_right
                 </button>

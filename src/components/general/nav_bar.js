@@ -9,6 +9,7 @@ import { useAlertsProvider } from "../../context/alert_context";
 import PlaceIcon from "../icons/place_icon";
 import WrenchIcon from "../icons/wrench_icon";
 import ProductsDesktopMenu from "./products_desktop_menu";
+import HybridMenu from "./hybrid_menu/hybrid_menu";
 import DropdownMenu from "./dropdown_menu";
 import SearchInput from "./search_input";
 // import LanguageSwitcher from "@/components/general/language_switcher";
@@ -111,8 +112,8 @@ function NavBar({showRouteBar = false, isStatic=false}){
                             {isDesktopMenuOpen === 'COMPANY' ? 'expand_less' : 'expand_more'}
                         </span> 
                     </div>
-                    
-                    <span onClick={() => setIsMobileMenuOpen((prev) => !prev)} className="material-icons notranslate  aspect-square flex-none flex items-center justify-center text-[1.75rem] text-secondary-color-20 
+                    {/* onClick={() => setIsMobileMenuOpen((prev) => !prev)} */}
+                    <span onClick={(e) => {manageClickEvent("SUPPORT",SupportMenu[locale], e)}} className="material-icons notranslate  aspect-square flex-none flex items-center justify-center text-[1.75rem] text-secondary-color-20 
                         motion-safe:transition-all motion-reduce:transition-none will-change-auto lg:hidden! h-6 w-6" 
                         style={{transform:`rotate(${isMobileMenuOpen ? "90" : "0"}deg)`}}>
                         menu
@@ -134,7 +135,7 @@ function NavBar({showRouteBar = false, isStatic=false}){
                         <RbLogoVerticalWeathered className="text-secondary-color-20 lg:hover:text-secondary-color h-16"/>
                     </CustomLink>
                     <span className="material-icons notranslate  aspect-square flex-none flex items-center justify-center text-[1.75rem] text-transparent 
-                        motion-safe:transition-all motion-reduce:transition-none will-change-auto lg:hidden! h-6 w-6" >
+                        motion-safe:transition-all motion-reduce:transition-none will-change-auto lg:hidden! h-6 w-6 pointer-events-none opacity-0" >
                         menu
                     </span>
 
@@ -221,13 +222,14 @@ function NavBar({showRouteBar = false, isStatic=false}){
                     </span> 
                 </div>
             </div> */}
-            <ProductsDesktopMenu isSticky={isSticky} 
+            <HybridMenu isOpen={isDesktopMenuOpen} isOpenCallback={ (res) => setIsDesktopMenuOpen('') }/>
+            {/* <ProductsDesktopMenu isSticky={isSticky} 
                 isOpen={isDesktopMenuOpen === 'PRODUCTS'} isOpenCallback={ (res) => setIsDesktopMenuOpen('') }/>
             <DropdownMenu isSticky={isSticky} menu={selectedMenuData} isShowing={isDesktopMenuOpen !== '' && isDesktopMenuOpen !== 'PRODUCTS'} 
                 xPos={xPos} isOpenCallback={ (res) => {setIsDesktopMenuOpen(''); router.refresh()} }/>
             <NavbarMobileMenu showMenu={isMobileMenuOpen} isSticky={isSticky}
                 menuList={{CompanyMenu, SupportMenu, FinancingMenu, }} 
-                isOpenCallback={(res) => setIsMobileMenuOpen(res)}/>
+                isOpenCallback={(res) => setIsMobileMenuOpen(res)}/> */}
         </div>
     );
     //#endregion

@@ -23,13 +23,9 @@ const Header = ({
                 {t('filters')}
             </button>
             
-            {/* Contador de resultados */}
-            <span className="w-[calc(50%-0.5rem)] flex-none text-[1rem] font-semibold text-end lg:w-52 lg:text-start">
-                {resultsText}
-            </span>
             
             {/* Selector de segmento para desktop */}
-            <div className="hidden items-center w-full max-w-full overflow-hidden pb-1 z-60 lg:flex lg:pb-0 direction-rtl">
+            <div className="hidden items-center w-full max-w-full overflow-hidden pb-1 z-60 lg:flex lg:pb-0 *direction-rtl">
                 <div className="items-center max-w-full overflow-x-auto overflow-y-hidden gap-4 flex direction-ltr">
                     {segmentOptions.map(({ label, value }) => (
                     <button
@@ -44,6 +40,11 @@ const Header = ({
                     ))}
                 </div>
             </div>
+
+            {/* Contador de resultados */}
+            <span className="w-[calc(50%-0.5rem)] flex-none text-[1rem] font-semibold text-end lg:w-52 text-tertiary-color/80">
+                {resultsText}
+            </span>
             
             {/* Selector de segmento para móvil */}
             <div className="w-full lg:hidden">

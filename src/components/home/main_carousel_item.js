@@ -27,7 +27,7 @@ const MainCarouselItem = ({src}) => {
             <div className="absolute z-100 w-full h-full top-0 left-0 content-[''] text-transparent bg-tertiary-dark-color/50"/> 
             
             <Image className="motion-safe:transition-all motion-safe:duration-300 
-                motion-reduce:transition-none will-change-auto saturate-50 grayscale-60 brightness-90"
+                motion-reduce:transition-none will-change-auto saturate-50 grayscale-60"
                 alt='Get your next quality trailer by Horizon Trailers'
                 priority={true}
                 src={src}

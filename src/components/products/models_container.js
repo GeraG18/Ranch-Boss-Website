@@ -91,7 +91,7 @@ export default function ModelsContainer() {
             />
 
             {/* Main Content */}
-            <div className="flex items-start justify-center relative h-auto overflow-x-hidden mx-4 max-w-screen-lg  z-100 xl:mx-auto font-['lora']">
+            <div className="flex items-start justify-center relative h-auto overflow-x-hidden mx-4 max-w-screen-lg z-100 lg:mx-auto font-['lora']">
                 {/* Desktop Filters */}
                 <div className="top-0 left-0 hidden justify-end items-start w-fit z-100 relative lg:flex flex-col">
                     {

@@ -19,16 +19,15 @@ const currentPage = ({currentPage, totalPages, onChange}) => {
             return value
         }
     }
-
+//! AQUI ME QUEDE
     return (
         <div className="w-full select-none flex flex-row justify-end items-start my-8 gap-2 lg:gap-4 lg:w-auto">
             {
-                currentPage !== 1 &&
-                <button className="flex flex-row h-8 w-18 justify-center items-center text-[1rem] 
-                    border border-[#d5d5d5] text-[#4d4d4d] bg-transparent cursor-pointer
-                    lg:hover:border-secondary-color lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium lg:hover:text-white
-                    motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                    motion-safe:duration-400" 
+                true /*currentPage !== 1*/ &&
+                <button className="col-span-full self-center justify-self-center uppercase font-['oswald'] font-medium no-underline text-gray-4000 bg-transparent px-10 py-2 bg-[length:200%_100%]
+            border-2 border-gray-400 
+            bg-gradient-to-r from-transparent from-50% to-secondary-gray-400 to-50% motion-safe:transition-all duration-500 motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 
+            lg:hover:text-tertiary-color lg:hover:text-shadow-none! lg:hover:bg-gray-4000 lg:hover:bg-[-100%_100%] flex flex-row items-center justify-center gap-2" 
                     onClick={()=>onChange(minus(currentPage))}><span className="material-symbols-outlined notranslate ">chevron_left</span> {fT('prev')}</button>
             }
             {

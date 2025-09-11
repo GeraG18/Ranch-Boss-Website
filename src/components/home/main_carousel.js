@@ -39,8 +39,8 @@ function MainCarousel() {
   
   //#region view
   return (
-    <div className="w-full flex relative overflow-hidden items-center justify-start bg-black h-160 lg:h-176 z-50">
-      <div className="mx-4 max-w-screen-lg  h-fit select-none z-100 lg:w-full xl:mx-auto relative">
+    <div className="w-full flex relative overflow-hidden items-center justify-center bg-black h-160 lg:h-176 z-50">
+      <div className="mx-4 max-w-screen-lg h-fit select-none z-100 lg:w-full xl:mx-auto relative">
         <div className="z-30 relative text-[#f2f2f2] py-2 text-center col-start-2 col-end-4 row-start-2 row-end-4 flex flex-col gap-4 items-center justify-center">
           <div>
             {
@@ -68,7 +68,7 @@ function MainCarousel() {
         <div className="z-50 mx-4 max-w-screen-lg  lg:w-full xl:mx-auto flex flex-col justify-start gap-0 select-none">
           {
             imagesArr.map((image, index) => (
-              <span className="relative font-['lora'] px-2 text-secondary-color-20 cursor-pointer before:content-[''] before:h-full before:w-0.5 before:bg-secondary-color-20
+              <span className="relative font-['lora'] px-2 text-secondary-color-20 !cursor-pointer before:content-[''] before:h-full before:w-0.5 before:bg-secondary-color-20
               before:absolute before:left-0 before:top-0 before:z-10" 
                 style={{opacity: (imageNum === index ? 1 : 0.5),}}
                 onClick={() => { sliderRef.slickGoTo(index) }}

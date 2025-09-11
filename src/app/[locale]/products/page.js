@@ -12,7 +12,6 @@ export default async function Products({ params, searchParams }) {
     return(
         <ProductsContext>
             <NavBar/>
-            <PageSpacer showingTopbar={true} showingRoutebar={true}/>
             <ProductsContainer />
         </ProductsContext>
     );

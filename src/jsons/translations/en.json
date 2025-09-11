@@ -1,6 +1,9 @@
 {
   "__Words": "Palabras generales",
   "PagesTitles": {
+    "close": "Close",
+    "return": "Return",
+    "language": "Language",
     "dovetail": "Dovetail",
     "flatbed": "Flatbed",
     "service": "Service",

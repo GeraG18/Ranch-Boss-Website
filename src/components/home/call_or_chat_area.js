@@ -33,24 +33,26 @@ function CallOrChatArea(){
     //#region view
     return(
         <div className="py-8">
-            <div className="bg-white flex flex-col-reverse lg:flex-row gap-6 lg:gap-0 p-6 justify-center items-center mx-4 max-w-screen-lg z-80
+            <div className="bg-white flex flex-col-reverse lg:flex-row gap-6 lg:gap-0 p-4 justify-center items-center *mx-4 max-w-screen-lg z-80
                 lg:w-full lg:mx-auto w-full">
-                <div className="w-full flex flex-col items-center lg:items-start justify-center gap-4 lg:gap-x-10 lg:gap-y-0 h-100">
-                   {
+                <div className="w-full flex flex-col items-center lg:items-start justify-center gap-4 h-100">
+                    <div className="flex flex-col gap-x-2">
+                    {
                         t.rich('titleAlt', {
                             blue: (chunks) => <h1 className="font-['oswald'] font-medium uppercase text-[1.75rem] leading-8 lg:text-[2.5rem] lg:leading-[2.75rem] h-auto text-primary-color">{chunks}</h1>,
                             orange: (chunks) => <h1 className="font-['oswald'] font-medium uppercase text-[1.75rem] leading-8 lg:text-[2.5rem] lg:leading-[2.75rem] h-auto text-secondary-color">{chunks}</h1>,
                         })
                     }
+                    </div>
                     <p className="font-['lora'] font-semibold h-full">
                         {t('description')}
                     </p>
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-col lg:flex-row gap-4 w-full">
                         <Link href="tel:+19154558537" className="col-span-full self-center justify-self-center 
                             font-['oswald'] font-medium no-underline text-white bg-secondary-color 
                             px-4 py-3 bg-[length:200%_100%] bg-gradient-to-r from-secondary-color from-50% 
                             to-tertiary-color to-50% motion-safe:transition-all duration-500 !grid !grid-cols-[1fr_auto] items-center
-                            motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white gap-2 w-[13.5rem]
+                            motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white gap-2 w-full lg:w-[13rem]
                             lg:hover:bg-tertiary-color lg:hover:bg-[-100%_100%]">
                             <div className="flex flex-col text-[0.875rem]">
                                 <span className="font-bold group-hover:text-primary-color 
@@ -67,7 +69,7 @@ function CallOrChatArea(){
                             font-['oswald'] font-medium no-underline text-white bg-secondary-color 
                             px-4 py-3 bg-[length:200%_100%] bg-gradient-to-r from-secondary-color from-50% 
                             to-tertiary-color to-50% motion-safe:transition-all duration-500 grid grid-cols-[1fr_auto] items-center
-                            motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white gap-2 w-[13rem]
+                            motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white gap-2 w-full lg:w-[13rem]
                             lg:hover:bg-tertiary-color lg:hover:bg-[-100%_100%]">
                             <div className="flex flex-col text-[0.875rem]">
                                 <span className="font-bold group-hover:text-primary-color

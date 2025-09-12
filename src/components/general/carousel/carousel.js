@@ -38,25 +38,23 @@ const Carousel = (props) => {
                 (slides || []).length > 1 &&
                 <>
                     <button onClick={() => emblaApi.scrollPrev()}
-                        className="cursor-pointer absolute z-200 w-8 h-14 backdrop-saturate-50 backdrop-blur-sm
-                        bg-white/20 font-bold text-[18px] motion-safe:transition-all motion-reduce:transition-none 
-                        will-change-auto motion-safe:duration-600 select-none text-white py-[1.6rem]
-                        px-4 flex items-center justify-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
-                        left-0 lg:left-4 lg:border-none border border-white/20 border-l-0 rounded-r-[6px] lg:rounded-[6px]"
+                        className="absolute z-200 left-0 lg:left-4 col-span-full self-center justify-self-center uppercase font-['oswald'] font-medium no-underline text-secondary-color-20 bg-transparent h-10 w-10 bg-[length:200%_100%]
+                        border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% to-secondary-color to-50% motion-safe:transition-all duration-500 motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 
+                        lg:hover:text-secondary-color-20 lg:hover:text-shadow-none! lg:hover:bg-secondary-color lg:hover:border-secondary-color lg:hover:bg-[-100%_100%] flex flex-row items-center 
+                        justify-center gap-2 cursor-pointer select-none"
                     >
                         <span className="material-symbols-outlined notranslate">
-                            chevron_left
+                            west
                         </span>
                     </button>
                     <button onClick={() => emblaApi.scrollNext()}
-                        className="cursor-pointer absolute z-200 w-8 h-14 backdrop-saturate-50 backdrop-blur-sm
-                        bg-white/20 font-bold text-[18px] motion-safe:transition-all motion-reduce:transition-none 
-                        will-change-auto motion-safe:duration-600 select-none text-white py-[1.6rem]
-                        px-4 flex items-center justify-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium
-                        right-0 lg:right-4 lg:border-none border border-white/20 border-r-0 rounded-l-[6px] lg:rounded-[6px]"
+                        className="absolute z-200 right-0 lg:right-4 col-span-full self-center justify-self-center uppercase font-['oswald'] font-medium no-underline text-secondary-color-20 bg-transparent h-10 w-10 bg-[length:200%_100%]
+                        border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% to-secondary-color to-50% motion-safe:transition-all duration-500 motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 
+                        lg:hover:text-secondary-color-20 lg:hover:text-shadow-none! lg:hover:bg-secondary-color lg:hover:border-secondary-color lg:hover:bg-[-100%_100%] flex flex-row items-center 
+                        justify-center gap-2 cursor-pointer select-none"
                     >
                         <span className="material-symbols-outlined notranslate " >
-                            chevron_right
+                            east
                         </span>
                     </button>
                 </>

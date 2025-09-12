@@ -6,7 +6,7 @@
                 "buttons": [
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Strength <span style='color:#fff'>and Structure</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -16,7 +16,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>Storage <span style='color:#6897d8'>Versatility</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -25,7 +25,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Lighting <span style='color:#fff'>and Safety</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",
@@ -187,9 +187,10 @@
         "descriptions": {
             "firstBlock": {
                 "description": "Delivers durability and functionality with a reinforced steel frame, practical rear tray, and advanced lighting, ideal for heavy-duty applications.",
-                "buttons": [{
+                "buttons": [
+                    {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Heavy-Duty <span style='color:#fff'>Foundation</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -199,7 +200,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>Functional <span style='color:#6897d8'>Bed Design</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -208,7 +209,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Lighting <span style='color:#fff'>and Electrical</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",
@@ -364,9 +365,10 @@
         "descriptions": {
             "firstBlock": {
                 "description": "Combines robust construction, integrated toolboxes, and advanced lighting to create a versatile, durable work platform.",
-                "buttons": [{
+                "buttons": [
+                    {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Reinforced <span style='color:#fff'>Construction</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -376,7 +378,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>YOUR PERFECT <span style='color:#6897d8'>DUMP TRAILER SOLUTION</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -385,7 +387,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Optimized <span style='color:#fff'>Storage</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",
@@ -546,9 +548,10 @@
         "descriptions": {
             "firstBlock": {
                 "description": "Offers premium strength, accessible storage, and reliable lighting for professional hauling and field service.",
-                "buttons": [{
+                "buttons": [
+                    {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Structural <span style='color:#fff'>Durability</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -558,7 +561,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>Integrated <span style='color:#6897d8'>Utility</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -567,7 +570,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Electrical <span style='color:#fff'>Reliability</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",
@@ -729,9 +732,10 @@
         "descriptions": {
             "firstBlock": {
                 "description": "Delivers reliable performance with a diamond plate deck, integrated storage, and advanced electrical features for professional use.",
-                "buttons": [{
+                "buttons": [
+                    {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Built <span style='color:#fff'>for Strength</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -741,7 +745,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>Practical <span style='color:#6897d8'>Utility</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -750,7 +754,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Safety <span style='color:#fff'>and Visibility</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",

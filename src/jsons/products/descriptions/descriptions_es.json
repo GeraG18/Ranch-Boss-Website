@@ -6,7 +6,7 @@
                 "buttons": [
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Resistencia <span style='color:#fff'>y Estructura</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -16,7 +16,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>Versatilidad de <span style='color:#6897d8'>Almacenamiento</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -25,7 +25,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Iluminación <span style='color:#fff'>y Seguridad</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",
@@ -190,7 +190,7 @@
                 "buttons": [
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Base <span style='color:#fff'>de Alta Resistencia</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -200,7 +200,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>Diseño Funcional de <span style='color:#6897d8'>Plataforma</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -209,7 +209,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Iluminación <span style='color:#fff'>y Eléctrica</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",
@@ -368,7 +368,7 @@
                 "buttons": [
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Construcción <span style='color:#fff'>Reforzada</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -378,7 +378,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>YOUR PERFECT <span style='color:#6897d8'>DUMP TRAILER SOLUTION</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -387,7 +387,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Almacenamiento <span style='color:#fff'>Optimizado</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",
@@ -551,7 +551,7 @@
                 "buttons": [
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Durabilidad <span style='color:#fff'>Estructural</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -561,7 +561,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>Utilidad <span style='color:#6897d8'>Integrada</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -570,7 +570,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Fiabilidad <span style='color:#fff'>Eléctrica</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",
@@ -735,7 +735,7 @@
                 "buttons": [
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:40%; text-align:start;'>Diseñado <span style='color:#fff'>para Resistencia</span> </span>",
+                        "text": "Button 1",
                         "redirection": "block1",
                         "imageStyle": {
                             "right": "-5rem",
@@ -745,7 +745,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#fff'>Utilidad <span style='color:#6897d8'>Práctica</span> </span>",
+                        "text": "Button 2",
                         "redirection": "block2",
                         "imageStyle": {
                             "bottom": "-4rem",
@@ -754,7 +754,7 @@
                     },
                     {
                         "image": "",
-                        "text": "<span style='color:#6897d8; width:60%; text-align:start;'>Seguridad <span style='color:#fff'>y Visibilidad</span> </span>",
+                        "text": "Button 3",
                         "redirection": "block3",
                         "imageStyle": {
                             "bottom": "-2rem",

@@ -117,12 +117,23 @@ function ModelFilters({isShowing}){
   return (
     <div className={`p-0 w-full overflow-hidden font-['lora'] ${isShowing ? "lg:w-[20rem] py-2 px-4" : "w-0 p-0"}`}>
       <div className="flex flex-col justify-center items-center p-0 select-none">
-        <div className="hidden h-9 my-4 justify-center items-center lg:flex gap-1 text-primary-color">
-          {/* <img src="/Images/filters.webp" alt="filters icon" className="p-1 left-[3.5%]" />  */}
+        {/* <div className="hidden h-9 m-4 justify-center items-center lg:flex gap-1 text-primary-color">
           <span className="material-symbols-outlined notranslate h-8 w-8 !text-[2rem] flex items-center justify-center" >
             page_info
           </span>
           <span className="font-['oswald'] uppercase text-[1rem] font-medium">{t('filters')}</span>
+        </div> */}
+        <div className="m-3 w-full flex flex-col items-center justify-center z-10">
+          <span className="px-4 font-['lora'] font-semibold h-6 text-primary-color text-sm flex items-center justify-center">
+            <span className="material-symbols-outlined notranslate h-6 w-6 !text-[1.5rem] flex items-center justify-center" >
+              page_info
+            </span>
+            <span className="font-['oswald'] uppercase text-[1.25rem] font-medium">{t('filters')}</span>
+          </span>
+          <div className="my-2 mx-1 w-full h-1 flex-none self-center
+          flex flex-row gap-2">
+              <div className="bg-transparent w-full h-[2px]" />
+          </div>
         </div>
 
         <ul className="w-full inline-flex gap-2 flex-col font-bold bg-white

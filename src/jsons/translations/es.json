@@ -100,6 +100,7 @@
     "search":"Buscar",
     "catTrailer": "<white>Remolques tipo</white> <orange>{category}</orange>",
     "goCatTrailer": "Ir a remolques tipo {category}",
+    "goToSection": "Ir a la sección",
     "openPdf": "Abrir archivo PDF",
     "dryWeightsPdf": "PDF de pesos secos",
     "notAvailableForNow":"No disponible por ahora",

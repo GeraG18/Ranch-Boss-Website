@@ -67,7 +67,7 @@ const ProductsProvider = ({ children }) => {
         return filtersData;
     }, [products]);
     const selectedFilters = useMemo(() => {
-        const fCategories = ['model', 'type', 'cargoCapacity', 'deckWidth', 'gvwr', 'lengths'];
+        const fCategories = Object.keys(availableFilters)//['model', 'type', 'cargoCapacity', 'deckWidth', 'gvwr', 'lengths'];
         let filters = {};
         fCategories.forEach((category) => {
             const opt = searchParams.getAll(category).filter((item) => {
@@ -84,7 +84,7 @@ const ProductsProvider = ({ children }) => {
         setActualPage(parseInt(pNumber || 1, 10))
 
         return (filters)
-    }, [searchParams, stringifiedProducts])
+    }, [searchParams, stringifiedProducts,availableFilters])
     const [paginatedModels, totalResults, totalPages, filtered] = useMemo(() => {
         const filtered = products.filter(product => {
             const matchesFilters = Object.entries(filters).every(([key, values]) => {

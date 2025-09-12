@@ -100,6 +100,7 @@
     "search":"Search",
     "catTrailer": "<orange>{category}</orange> <white>Trailer</white>",
     "goCatTrailer": "Go to {category} trailers",
+    "goToSection": "Go to section",
     "openPdf": "Open PDF File",
     "dryWeightsPdf": "Dry Weights PDF",
     "notAvailableForNow":"Not available for now",

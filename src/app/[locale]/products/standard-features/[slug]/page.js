@@ -77,13 +77,12 @@ export default async function Page({ params, searchParams }) {
     return(
         <>
             <NavBar/>
-            <PageSpacer showingTopbar={true} showingRoutebar={true}/>
             <FABChat/>
             <ThreeModelViewer 
                 item={product} 
                 fullModelsList={ProductsList[locale]}
             />
-            <NotesBlock notes={product.notes}/>
+            {/* <NotesBlock notes={product.notes}/> */}
             {
                 product.descriptions && (
                     <>

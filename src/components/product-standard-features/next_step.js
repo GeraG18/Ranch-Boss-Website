@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link"
 import VideoPlayer from "../general/video_player";
 import { useTranslations } from "next-intl";
+import ImageViewerAlt from "../general/image_viewer_alt";
 
 function NextStep({actionVideo, reviewVideo}){
 
@@ -29,25 +30,34 @@ function NextStep({actionVideo, reviewVideo}){
     //#region view
     return(
         <>
-            <div className="bg-[#181818] text-white font-['lora']">
-                <div className="flex gap-8 flex-col py-8 px-4 justify-center items-center lg:px-0
-                lg:h-[250px] mx-4 max-w-screen-lg  h-fit z-100 xl:mx-auto xl:w-full">
-                    <div className="font-['lora'] font-bold text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">
+            <div className="relative h-[16rem] overflow-hidden flex items-center justify-center flex-col">
+                <div className="absolute z-30 flex flex-col gap-8 items-center justify-center -mb-8">
+                    <div className="font-['oswald'] text-white font-medium text-[1.75rem] leading-10 flex items-center justify-center text-center col-start-1 col-end-4 row-start-1 lg:text-[2rem] lg:leading-12 uppercase">
                         {t('nextStep')}</div>
                     <div className="w-full flex flex-col gap-4 items-center justify-center lg:flex-row">
-                        <Link href="/find-a-dealer" className="w-56 cursor-pointer relative text-white border-none backdrop-saturate-50 backdrop-blur-sm bg-white/20 text-[1rem] select-none
-                        motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 py-3 px-[2.6rem] 
-                        flex items-center justify-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase">
+                        <Link href="/find-a-dealer" className="w-56 cursor-pointer uppercase flex items-center justify-center font-['oswald'] 
+                            font-medium no-underline text-white bg-secondary-color bg-[length:200%_100%] bg-gradient-to-r
+                            from-secondary-color from-50% to-tertiary-color to-50% motion-safe:transition-all duration-500 py-3 px-[2.6rem] 
+                            motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white lg:hover:bg-tertiary-color 
+                            lg:hover:bg-[-100%_100%]">
                             {t('findADealer')}
                         </Link>
-                        <div className="w-56 cursor-pointer relative text-white border-none backdrop-saturate-50 backdrop-blur-sm bg-white/20 text-[1rem] select-none
-                        motion-safe:transition-all motion-reduce:transition-none will-change-auto motion-safe:duration-300 py-3 px-[2.6rem] 
-                        flex items-center justify-center lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase" onClick={() => setShowModal(true)}>
+                        <div className="w-56 cursor-pointer uppercase flex items-center justify-center font-['oswald'] 
+                            font-medium no-underline text-white bg-secondary-color bg-[length:200%_100%] bg-gradient-to-r
+                            from-secondary-color from-50% to-tertiary-color to-50% motion-safe:transition-all duration-500 py-3 px-[2.6rem] 
+                            motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white lg:hover:bg-tertiary-color 
+                            lg:hover:bg-[-100%_100%]" onClick={() => setShowModal(true)}>
                             {t('viewVideo')}
                         </div>
 
                     </div>
                 </div>
+                <div className="absolute top-0 left-0 w-full h-full bg-primary-color/80 z-20" />
+                <ImageViewerAlt className="!h-[full w-full shadow-md
+                    motion-reduce:transition-none will-change-auto0 grayscale-100 brightness-140" 
+                    orientation="portrait" src="/Images/background_slogan.webp" 
+                    alt="Landscape of the slogan"
+                />
             </div>
 
             {/* MODAL */}
@@ -70,6 +80,14 @@ function NextStep({actionVideo, reviewVideo}){
                                 {t('videoPlayer')}
                             </span>
                             <div className="w-full flex gap-4 items-center justify-end flex-row">
+                                {/* 
+                                    w-full cursor-pointer uppercase flex items-center justify-center font-['oswald'] 
+                                    font-medium no-underline text-white bg-secondary-color bg-[length:200%_100%] bg-gradient-to-r
+                                    from-secondary-color from-50% to-tertiary-color to-50% motion-safe:transition-all duration-500 py-3 px-[2.6rem] 
+                                    motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white lg:hover:bg-tertiary-color 
+                                    lg:hover:bg-[-100%_100%]
+                                    !AQUI ME QUEDE
+                                */}
                                 <button className={`cursor-pointer relative text-white border-none w-full
                                 h-10 uppercase flex items-center justify-center text-[0.85rem]
                                 select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto
@@ -103,9 +121,11 @@ function NextStep({actionVideo, reviewVideo}){
                         motion-safe:duration-300 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium h-10 w-[70%] py-2 px-6 lg:hidden uppercase"
                         href={video} target="_blank" rel="noopener noreferrer">{t('viewYt')}</a>
                     </div>
-                    <Link href="/find-a-dealer" className="cursor-pointer relative px-4 text-white h-full *border-none flex items-center justify-center
-                    bg-primary-color text-[1rem] select-none motion-safe:transition-all motion-reduce:transition-none will-change-auto py-2 border-t border-t-[#b93b0d]
-                        motion-safe:duration-300 lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium uppercase">
+                    <Link href="/find-a-dealer" className="w-full cursor-pointer uppercase flex items-center justify-center font-['oswald'] 
+                            font-medium no-underline text-white bg-secondary-color bg-[length:200%_100%] bg-gradient-to-r
+                            from-secondary-color from-50% to-tertiary-color to-50% motion-safe:transition-all duration-500 py-3 px-[2.6rem] 
+                            motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-white lg:hover:bg-tertiary-color 
+                            lg:hover:bg-[-100%_100%]">
                         {t('interestedInThisTrailer')}
                     </Link>
                 </div>

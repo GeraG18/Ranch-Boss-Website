@@ -146,27 +146,27 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
         <>
             <SideMenu isOpened={activateMenu}
                 item={item} menuStatusReceiver={(val) => {setActivateMenu(val)}}/>
-            <div className="relative overflow-hidden font-['lora'] select-none flex flex-col items-center justify-center">
+            <div className="relative overflow-hidden font-['lora'] select-none flex flex-col items-center justify-center pt-32 pb-16">
                 <ModelSelectorModal category={item.category} showModal={isModalOpen} selectedList={selectedModels} modelsList={availableModels} closeModal={modalHandler}/>
-                <div className="mt-6 flex gap-[2px] flex-col items-center justify-center">
+                <div className="font-['oswald'] mt-6 flex gap-[2px] flex-col items-start justify-center lg:w-full max-w-screen-lg mx-4 lg:mx-auto relative">
                     <h1 
-                        className="z-50 text-white uppercase max-w-screen-lg  text-center 
-                        lg:text-[2.25rem] lg:leading-[2.8rem] w-[calc(100%-2rem)] lg:w-full mx-4 
-                        font-bold text-[1.5rem] leading-8 font-['lora']"
+                        className="z-50 text-white uppercase w-full
+                        lg:text-[2.5rem] lg:leading-[2.8rem] lg:w-full
+                        font-bold text-[1.5rem] leading-8"
                     >
                         {item.seo.h1Tag || item.name}
                     </h1>
-                    <h2 className="m-0 z-50 text-white font-bold text-[1.25rem]
+                    <h2 className="m-0 z-50 text-white font-bold text-[0.875rem] lg:text-[1.25rem] w-full
                     uppercase">{t('dynCatTrailer', {category: item?.category})}</h2>
                 </div>
                 <div className={`w-full relative overflow-hidden select-none flex flex-col items-center justify-center ${item.status ? "[&_figure]:blur-xs lg:[&_figure]:blur-[0.5rem] [&_figure]:pointer-events-none" : ""}`}>
                     {
                         item.status &&
-                        <div className="md:absolute font-['lora'] text-[white] *font-semibold shadow-lg
-                            backdrop-saturate-50 backdrop-blur-sm bg-primary-color/70 **mx-4
+                        <div className="mt-3 md:mt-0 md:absolute font-['lora'] text-[white] *font-semibold shadow-lg
+                            backdrop-saturate-50 backdrop-blur-sm bg-secondary-color/80 rotate-[1.5deg]
                             min-h-6 min-w-6 p-0.5 w-full flex items-center justify-center text-center
-                            motion-safe:transition-all motion-reduce:transition-none mb-1 text-[1.5rem]
-                            top-[70%] whitespace-nowrap my-0 mx-8 overflow-hidden
+                            motion-safe:transition-all motion-reduce:transition-none mb-1 font-semibold
+                            top-[60%] whitespace-nowrap my-0 mx-8 overflow-hidden pointer-events-none
                             h-15 will-change-auto motion-safe:duration-300 group z-40 uppercase"
                         >
                            <ElementorText text={item.status}/>
@@ -219,10 +219,29 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                                         loop: true,
                                     }}
                                 />
+                                {
+                                    item.notes && (
+                                        <div className="absolute font-['lora'] text-white my-2 bottom-2 shadow-xl m-4
+                                            bg-tertiary-color pb-3 min-h-6 min-w-6 p-1 flex after:content-[''] after:absolute
+                                            after:bottom-1.5 after:w-[98%] after:h-[2px] after:bg-secondary-color
+                                            cursor-help motion-safe:transition-all motion-reduce:transition-none text-sm
+                                            will-change-auto motion-safe:duration-300 group z-[35] items-start justify-center">
+                                            <span className="flex-none material-icons notranslate *underline *underline-offset-2 *decoration-secondary-color">
+                                                warning_amber
+                                            </span>
+                                            <span className="overflow-hidden m-0 w-fit h-fit ml-1 p-1 uppercase font-['oswald']">
+                                                {t('notes')}:
+                                            </span>
+                                            <p className='overflow-hidden m-0 w-fit h-fit ml-1 p-1'>
+                                                {item.notes}
+                                            </p>
+                                        </div>
+                                    )
+                                }
                             </div>
                             :
                             <div className="flex items-center justify-center relative z-20 aspect-video h-[40vh] 
-                            self-center justify-self-center w-auto lg:h-[55vh]">
+                            self-center justify-self-center w-full lg:h-[45vh]">
                                 <ImageViewer shadowColor="rgba(0,0,0,0.45)" category={item.category.toLowerCase().replace(' ','')}/>
                             </div>
                         }
@@ -238,7 +257,6 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                             <span>{t('loading')}</span>
                         </div>
                     }
-
                 </div>
                 <div className="h-auto font-[1rem] text-white z-50 hidden lg:grid grid-cols-1 gap-1 flex-nowrap my-2 mx-12 w-[calc(100%-6rem)] max-w-(--breakpoint-md)">
                     <div className="flex flex-row flex-nowrap w-full">
@@ -247,7 +265,8 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                                 <Fragment key={varName}>
                                 {
                                     (formatedProps[varName].trim() !== '' && varName !== 'type') &&
-                                    <span className="w-24 text-center grow flex justify-center items-center uppercase font-semibold px-4">
+                                    <span className="w-24 text-center grow flex justify-center items-center uppercase font-semibold px-4
+                                    font-['oswald']">
                                         {formatCamelCaseToNormalCase(kT(varName))}:
                                     </span>
                                 }        
@@ -255,7 +274,7 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                             ))
                         }
                     </div>
-                    <div className="w-full col-span-full z-50 h-[3px] bg-[#77787b]"></div>
+                    <div className="w-full col-span-full z-50 h-0.5 bg-secondary-color"></div>
                     <div className="flex flex-row flex-nowrap w-full">
                         {
                             Object.keys(formatedProps).map((varName) => (
@@ -275,13 +294,15 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                 <div className="w-[calc(100%-2rem)] lg:w-auto h-auto my-8 mx-4 flex flex-wrap gap-4 justify-center items-center
                 z-50 lg:mx-16">
                     {
-                        item.standardFeatures && (
-                            <button className="cursor-pointer relative text-white border-none w-[calc(50%-1rem)]
-                            h-10 uppercase flex items-center justify-center backdrop-saturate-50
-                            backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
-                            motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                            motion-safe:duration-300 lg:text-[1rem]
-                            lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                        item.standardFeatures && ( 
+                            <button className="flex group-hover:flex w-[calc(50%-1rem)] lg:w-[16rem] h-10  
+                                self-center justify-self-center uppercase font-['oswald'] font-medium 
+                                no-underline text-secondary-color-20 bg-transparent bg-[length:200%_100%]
+                                border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% 
+                                to-secondary-color-20 to-50% motion-safe:transition-all duration-500 
+                                motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-tertiary-color 
+                                lg:hover:text-shadow-none! lg:hover:bg-secondary-color-20 lg:hover:bg-[-100%_100%] 
+                                flex-row items-center justify-center gap-2 text-shadow cursor-pointer" 
                                 name="standardFeaturesButton"
                                 onClick={() => setActivateMenu('standard-features')}>
                                 {t('standardFeatures')}
@@ -290,12 +311,14 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                     }
                     {
                         item.options && (
-                            <button className="cursor-pointer relative text-white border-none w-[calc(50%-1rem)]
-                            h-10 uppercase flex items-center justify-center backdrop-saturate-50
-                            backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
-                            motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                            motion-safe:duration-300 lg:text-[1rem]
-                            lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                            <button className="flex group-hover:flex w-[calc(50%-1rem)] lg:w-[16rem] h-10  
+                                self-center justify-self-center uppercase font-['oswald'] font-medium 
+                                no-underline text-secondary-color-20 bg-transparent bg-[length:200%_100%]
+                                border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% 
+                                to-secondary-color-20 to-50% motion-safe:transition-all duration-500 
+                                motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-tertiary-color 
+                                lg:hover:text-shadow-none! lg:hover:bg-secondary-color-20 lg:hover:bg-[-100%_100%] 
+                                flex-row items-center justify-center gap-2 text-shadow cursor-pointer" 
                                 name="optionsButton"
                                 onClick={() => setActivateMenu('options')}>
                                 {t('options')}
@@ -305,22 +328,27 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                     {
                         (item.standardFeatures && item.options && !item.status) && (
                            <>
-                                <button className="cursor-pointer relative text-white border-none w-[calc(50%-1rem)]
-                                h-10 uppercase flex items-center justify-center backdrop-saturate-50
-                                backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
-                                motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                                motion-safe:duration-300 lg:text-[1rem]
-                                lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                                <button className="flex group-hover:flex w-[calc(50%-1rem)] lg:w-[16rem] h-10  
+                                self-center justify-self-center uppercase font-['oswald'] font-medium 
+                                no-underline text-secondary-color-20 bg-transparent bg-[length:200%_100%]
+                                border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% 
+                                to-secondary-color-20 to-50% motion-safe:transition-all duration-500 
+                                motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-tertiary-color 
+                                lg:hover:text-shadow-none! lg:hover:bg-secondary-color-20 lg:hover:bg-[-100%_100%] 
+                                flex-row items-center justify-center gap-2 text-shadow cursor-pointer" 
                                     name="compareButton"
                                     onClick={() =>{setIsModalOpen(true)}}>
                                     {t('compare')}
                                 </button>
-                                {/* <Link className="cursor-pointer relative text-white border-none w-[calc(50%-1rem)]
-                                h-10 uppercase flex items-center justify-center backdrop-saturate-50
-                                backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
-                                motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                                motion-safe:duration-300 lg:text-[1rem]
-                                lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" href={`/products/configure/${item.id}`}>
+                                {/* <Link className="flex group-hover:flex w-[calc(50%-1rem)] lg:w-[16rem] h-10  
+                                self-center justify-self-center uppercase font-['oswald'] font-medium 
+                                no-underline text-secondary-color-20 bg-transparent bg-[length:200%_100%]
+                                border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% 
+                                to-secondary-color-20 to-50% motion-safe:transition-all duration-500 
+                                motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-tertiary-color 
+                                lg:hover:text-shadow-none! lg:hover:bg-secondary-color-20 lg:hover:bg-[-100%_100%] 
+                                flex-row items-center justify-center gap-2 text-shadow cursor-pointer" 
+                                href={`/products/configure/${item.id}`}>
                                     {t('configure')}
                                 </Link> */}
                            </>
@@ -328,24 +356,29 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                     }
                     {
                         item?.brochure &&
-                        <button className="cursor-pointer relative text-white border-none w-[calc(50%-1rem)]
-                        h-10 uppercase flex items-center justify-center backdrop-saturate-50
-                        backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
-                        motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                        motion-safe:duration-300 lg:text-[1rem]
-                        lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" onClick={() => openPdfViewer(item.brochure, true)}
+                        <button className="flex group-hover:flex w-[calc(50%-1rem)] lg:w-[16rem] h-10  
+                                self-center justify-self-center uppercase font-['oswald'] font-medium 
+                                no-underline text-secondary-color-20 bg-transparent bg-[length:200%_100%]
+                                border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% 
+                                to-secondary-color-20 to-50% motion-safe:transition-all duration-500 
+                                motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-tertiary-color 
+                                lg:hover:text-shadow-none! lg:hover:bg-secondary-color-20 lg:hover:bg-[-100%_100%] 
+                                flex-row items-center justify-center gap-2 text-shadow cursor-pointer" 
+                                onClick={() => openPdfViewer(item.brochure, true)}
                             name="brochureButton">
                             {t('brochure')}
                         </button>
                     }
                     {
                         (item.models && item.models.src && item.models.src.trim() !== '') &&
-                        <button className="cursor-pointer relative text-white border-none w-10
-                        h-10 uppercase flex items-center justify-center backdrop-saturate-50
-                        backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
-                        motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                        motion-safe:duration-300 lg:text-[1rem]
-                        lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                        <button className="flex group-hover:flex w-10 h-10  
+                                self-center justify-self-center uppercase font-['oswald'] font-medium 
+                                no-underline text-secondary-color-20 bg-transparent bg-[length:200%_100%]
+                                border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% 
+                                to-secondary-color-20 to-50% motion-safe:transition-all duration-500 
+                                motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-tertiary-color 
+                                lg:hover:text-shadow-none! lg:hover:bg-secondary-color-20 lg:hover:bg-[-100%_100%] 
+                                flex-row items-center justify-center gap-2 text-shadow cursor-pointer" 
                             name="3dModel"
                             onClick={() =>{ setModelLoading(true); setSwitchToModel((prev) => !prev)}}>
                                 <span className="material-symbols-outlined notranslate ">
@@ -355,12 +388,14 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                     }
                     {
                         (switchToModel) &&
-                        <button className="cursor-pointer relative text-white border-none w-[calc(50%-1rem)]
-                        h-10 uppercase flex items-center justify-center backdrop-saturate-50
-                        backdrop-blur-sm bg-white/20 text-[0.85rem] select-none 
-                        motion-safe:transition-all motion-reduce:transition-none will-change-auto 
-                        motion-safe:duration-300 lg:text-[1rem]
-                        lg:w-[16rem] lg:hover:bg-gradient-to-b lg:hover:from-secondary-color lg:hover:to-primary-color font-medium" 
+                        <button className="flex group-hover:flex w-[calc(50%-1rem)] lg:w-[16rem] h-10  
+                                self-center justify-self-center uppercase font-['oswald'] font-medium 
+                                no-underline text-secondary-color-20 bg-transparent bg-[length:200%_100%]
+                                border-2 border-secondary-color-20 bg-gradient-to-r from-transparent from-50% 
+                                to-secondary-color-20 to-50% motion-safe:transition-all duration-500 
+                                motion-safe:ease-[cubic-bezier(0.19,1,0.22,1)] delay-50 lg:hover:text-tertiary-color 
+                                lg:hover:text-shadow-none! lg:hover:bg-secondary-color-20 lg:hover:bg-[-100%_100%] 
+                                flex-row items-center justify-center gap-2 text-shadow cursor-pointer" 
                             name="3dModel"
                             onClick={() =>{ startAR() }}>
                                 <span className="material-symbols-outlined notranslate ">
@@ -370,11 +405,13 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                         </button>
                     }
                 </div>
-                <img className="absolute top-0 w-full h-full aspect-video z-1" src="/Images/product-specs-bg.webp" alt="background" />
+                <div className="absolute z-3 w-full h-full top-0 left-0 content-[''] text-transparent bg-gradient-to-b from-transparent from-90% to-white"/> 
+                <div className="absolute z-2 w-full h-full top-0 left-0 content-[''] text-transparent bg-tertiary-dark-color/70"/> 
+                <img className="absolute top-0 w-full h-full aspect-video z-1" src="/Images/prod-specs-bg-edited.webp" alt="background" />
             </div>
-            <div className="h-auto font-[1.25rem] z-50 text-black justify-center items-center
+            <div className="h-full font-[1.25rem] z-50 text-black justify-center items-center
             my-8 mx-4 grid grid-cols-2 gap-4 sm:grid-cols-2 lg:hidden font-['lora']">
-                <span className="col-span-full w-full text-center font-['lora'] text-[1.5rem] font-bold uppercase">
+                <span className="col-span-full w-full text-center font-['oswald'] text-[1.5rem] font-bold uppercase">
                     {t('specsOfThisModel')}
                 </span>
                 {
@@ -382,15 +419,15 @@ const ThreeModelViewer = ({item, isMenuShowing, showingMenu, selectedItemChange,
                         <Fragment key={varName}>
                         {
                             (formatedProps[varName].trim() !== '' && varName !== 'type') &&
-                            <div className="flex shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] 
+                            <div className="shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-2
                             bg-[radial-gradient(circle,rgba(55,62,62,0)_50%,rgba(55,62,62,0.03)_74%,rgba(55,62,62,0.06)_100%)]
-                            gap-1 items-center justify-center flex-col w-full min-h-[2.2rem] z-50">
-                                <span className="text-[0.75rem] w-full flex text-[#a2a2a2] justify-center items-center 
-                                uppercase pt-2 px-4" >
+                            gap-1 items-center justify-center grid grid-cols-1 grid-rows-[auto_1fr] w-full h-full z-50">
+                                <span className="font-['oswald'] w-full flex justify-start items-center uppercase font-medium
+                                    text-tertiary-dark-color/50" >
                                     {formatCamelCaseToNormalCase(kT(varName))}:
                                 </span>
-                                <p className="text-[0.85rem] w-full flex text-black justify-center items-center 
-                                uppercase pb-2 px-4 text-start font-bold m-0">
+                                <p className="w-full h-full flex justify-start items-center text-primary-color uppercase 
+                                    font-semibold m-0">
                                     {formatedProps[varName]}
                                 </p>
                             </div>
